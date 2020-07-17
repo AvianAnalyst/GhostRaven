@@ -1,0 +1,7 @@
+ac_1_a_parameter: "yearly"
+ac_1_status: ", planned"
+ac_1_origination: "shared"
+ac_1_a_implementation: "GCC"
+ac_1_a_implementation_additional: |
+
+  This paragraph is only true in GCC

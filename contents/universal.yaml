@@ -1,0 +1,7 @@
+ac_1_role: "John Doe"
+ac_1_a_parameter: "At least {{ac_1_a_parameter}}"
+ac_1_status: "implemented{{ac_1_status}}"
+ac_1_origination: "{{ac_1_origination}}"
+ac_1_a_implementation: |
+  This is what is true across environments.
+  This is true in {{ac_1_a_implementation}}. But nowhere else.{{ac_1_a_implementation_additional}}
