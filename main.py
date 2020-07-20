@@ -1,18 +1,35 @@
-# todo: write library to generate checkbox xml
+# TODO: convert yaml to lists
 # todo: write argparse to run from commandline with flags
 import re
-from collections import defaultdict
-from logging import warn, warning
-from typing import Tuple
-
 import docx
 import yaml
+from collections import defaultdict
+from logging import warning
+from docx.oxml.shared import qn
 
 
 class SSPBuilder:
+    checked_box = '☒'
+    unchecked_box = '☐'
+    status_template = 'Implementation Status (check all that apply):\n' \
+                      '{{implemented}} Implemented\n' \
+                      '{{partial}} Partially implemented\n' \
+                      '{{planned}} Planned\n' \
+                      '{{alt}} Alternative implementation\n' \
+                      '{{na}} Not applicable'
+    uninheritable_origination_template = 'Control Origination(check all that apply):\n' \
+                                         '{{corp}} Service Provider Corporate\n' \
+                                         '{{sys}} Service Provider System Specific\n' \
+                                         '{{hybrid}} Service Provider Hybrid (Corporate and System Specific)'
+    inheritable_origination_template = f'{uninheritable_origination_template}\n' \
+                                       f'{{cust_configured}} Configured by Customer (Customer System Specific)\n' \
+                                       f'{{cust_provided}} Provided by Customer (Customer System Specific)\n' \
+                                       f'{{shared}} Shared (Service Provider and Customer Responsibility)\n' \
+                                       f'{{inherited}} from pre-existing FedRAMP Authorization for {{auth}}, {{date}}'
+
     def __init__(self, env = None):
         while not env:
-            env = input('What environment?')
+            env = input('What environment?\n')
 
         with open('contents/universal.yaml') as f:
             self.universal_contents = yaml.full_load(f)
@@ -30,10 +47,25 @@ class SSPBuilder:
         self.undefined_keys = defaultdict(lambda: 0)
 
     def _replace_text(self, match, content):
+        key = match.group(0).strip('{}')
         try:
-            return content[match.group(0).strip('{}')]
+            if 'status!' in key:
+                key = key[7:]
+                return self.build_status_string(self.contents[key], SSPBuilder.status_template)
+            elif 'origination!' in key:
+                key = key[12:]
+                if '+!' in key:
+                    key = key[2:]
+                    return self.build_status_string(self.contents[key], SSPBuilder.inheritable_origination_template)
+                else:
+                    return self.build_status_string(self.contents[key], SSPBuilder.uninheritable_origination_template)
+
+            else:
+                return content[key]
+
         except KeyError:
-            self.undefined_keys[match.group(0).strip('{}')] += 1
+            self.undefined_keys[key] += 1
+            warning(key)
             return '' # hides mistakes made
 
     def build_ssp(self):
@@ -51,6 +83,15 @@ class SSPBuilder:
                 f.write(log)
             warning("There were some keys referenced that weren't defined. Please view output/error_log.txt for more information.")
 
+    def build_status_string(self, true_options, template):
+        options = defaultdict(lambda: SSPBuilder.unchecked_box)
+        for option in true_options:
+            options[option] = SSPBuilder.checked_box
+
+        finished_cell_contents = re.sub(r'{{(.+?)}}', lambda m: self._replace_text(m, options), template)
+        return finished_cell_contents
+
+
 
 
 gcc_builder = SSPBuilder('gcc')
@@ -58,9 +99,6 @@ dod_builder = SSPBuilder('dod')
 
 gcc_builder.build_ssp()
 dod_builder.build_ssp()
-
-print(gcc_builder.contents)
-print(dod_builder.contents)
 
 gcc_builder.save('output/gcc_output.docx')
 dod_builder.save('output/dod_output.docx')

@@ -5,3 +5,5 @@ ac_1_a_implementation: "GCC"
 ac_1_a_implementation_additional: |
 
   This paragraph is only true in GCC
+ac_2_role: "jane smith"
+ac_2_origination: "inherited"
