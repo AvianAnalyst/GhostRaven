@@ -2,3 +2,4 @@
 ~$*.docx
 output/
 *.tmp
+__pycache__/

@@ -1,3 +1,5 @@
+# TODO: factor out yaml interpreter class
+# TODO: write tests
 # TODO: convert yaml to lists
 # todo: write argparse to run from commandline with flags
 import re
@@ -5,27 +7,27 @@ import docx
 import yaml
 from collections import defaultdict
 from logging import warning
-from docx.oxml.shared import qn
+
+CHECKED_BOX = '☒'
+UNCHECKED_BOX = '☐'
+STATUS_TEMPLATE = 'Implementation Status (check all that apply):\n' \
+                  '{{implemented}} Implemented\n' \
+                  '{{partial}} Partially implemented\n' \
+                  '{{planned}} Planned\n' \
+                  '{{alt}} Alternative implementation\n' \
+                  '{{na}} Not applicable'
+UNINHERITABLE_STATUS_TEMPLATE = 'Control Origination(check all that apply):\n' \
+                                     '{{corp}} Service Provider Corporate\n' \
+                                     '{{sys}} Service Provider System Specific\n' \
+                                     '{{hybrid}} Service Provider Hybrid (Corporate and System Specific)'
+INHERITABLE_STATUS_TEMPLATE = f'{UNINHERITABLE_STATUS_TEMPLATE}\n' \
+                                   f'{{cust_configured}} Configured by Customer (Customer System Specific)\n' \
+                                   f'{{cust_provided}} Provided by Customer (Customer System Specific)\n' \
+                                   f'{{shared}} Shared (Service Provider and Customer Responsibility)\n' \
+                                   f'{{inherited}} from pre-existing FedRAMP Authorization for {{auth}}, {{date}}'
 
 
 class SSPBuilder:
-    checked_box = '☒'
-    unchecked_box = '☐'
-    status_template = 'Implementation Status (check all that apply):\n' \
-                      '{{implemented}} Implemented\n' \
-                      '{{partial}} Partially implemented\n' \
-                      '{{planned}} Planned\n' \
-                      '{{alt}} Alternative implementation\n' \
-                      '{{na}} Not applicable'
-    uninheritable_origination_template = 'Control Origination(check all that apply):\n' \
-                                         '{{corp}} Service Provider Corporate\n' \
-                                         '{{sys}} Service Provider System Specific\n' \
-                                         '{{hybrid}} Service Provider Hybrid (Corporate and System Specific)'
-    inheritable_origination_template = f'{uninheritable_origination_template}\n' \
-                                       f'{{cust_configured}} Configured by Customer (Customer System Specific)\n' \
-                                       f'{{cust_provided}} Provided by Customer (Customer System Specific)\n' \
-                                       f'{{shared}} Shared (Service Provider and Customer Responsibility)\n' \
-                                       f'{{inherited}} from pre-existing FedRAMP Authorization for {{auth}}, {{date}}'
 
     def __init__(self, env = None):
         while not env:
