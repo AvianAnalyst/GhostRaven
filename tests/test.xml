@@ -1,0 +1,55 @@
+<D20Rules game-system="D&amp;D4E">
+    <RulesElement name="Half-Drow" type="Race" internal-id="ID_TK_RACE_1" source="Homebrew" revision-date="7/30/2020 00:00:00 AM">
+        <Prereqs> ~HALF_DROW </Prereqs>
+        <Flavor> The offspring of a human and a drow. </Flavor>
+        <specific name="Size"> Medium </specific>
+        <specific name="Speed"> 6 squares </specific>
+        <specific name="Characteristics"> Wild, agile, adaptable, resented, mysterious, self-reliant. </specific>
+        <specific name="Physical Qualities"> They look like dweebs </specific>
+        <specific name="Playing"> be awesome </specific>
+        <specific name="Vision"> Darkvision </specific>
+        <specific name="Average Height"> 5'4"-6'0" </specific>
+        <specific name="Average Weight"> 120-190 lb. </specific>
+        <specific name="Ability Scores"> +2 Charisma, +2 to one score of your choice </specific>
+        <specific name="Languages"> Common, Elven, Deep Speech </specific>
+        <specific name="Skill Bonuses"> +2 Intimidate, +2 Stealth </specific>
+        <specific name="Male Names"> </specific>
+        <specific name="Female Names">  </specific>
+        <specific name="Short Description"> Half Drow, half human, idk what else to write here </specific>
+        <specific name="Racial Traits"> ID_FMP_RACIAL_TRAIT_3482, ID_FMP_RACIAL_TRAIT_30 </specific>
+
+        <rules>
+            <grant name="ID_INTERNAL_GRANTS_HALFDROW" type="Grants" />
+            <statadd name="Speed" value="+6" />
+            <textstring name="Average Height" value="5'4&quot;-6'0&quot;" />
+            <textstring name="Average Weight" value="120-190 lb." />
+            <textstring name="Size" value="Medium" />
+            <select type="Race Ability Bonus" number="1" />
+        </rules>
+    </RulesElement>
+
+
+
+    <RulesElement name="Half-Drow" type="Grants" internal-id="ID_INTERNAL_GRANTS_HALFDROW" source="Homebrew">
+        <specific name="_SupportsID"> ID_CK_RACE_1 </specific>
+        <rules>
+            <grant name="ID_INTERNAL_SIZE_MEDIUM" type="Size" />
+            <grant name="ID_INTERNAL_VISION_DARKVISION" type="Vision" />
+            <grant name="ID_FMP_RACIAL_TRAIT_3482" type="Racial Trait" />
+            <grant name="ID_FMP_RACIAL_TRAIT_30" type="Racial Trait" />
+            <grant name="ID_FMP_RACIAL_TRAIT_565" type="Racial Trait" />
+            <grant name="ID_INTERNAL_RACE_ABILITY_BONUS_CHARISMA" type="Race Ability Bonus" />
+            <grant name="ID_FMP_LANGUAGE_1" type="Language" />
+            <grant name="ID_FMP_LANGUAGE_4" type="Language" />
+            <grant name="ID_FMP_LANGUAGE_18" type="Language" />
+            <grant name="ID_INTERNAL_RACIAL_TRAIT_INTIMIDATE_BONUS" type="Racial Trait" />
+            <grant name="ID_INTERNAL_RACIAL_TRAIT_STEALTH_BONUS" type="Racial Trait" />
+            <grant name="ID_INTERNAL_COUNTSASRACE_DROW" type="Racial Trait" />
+        </rules>
+    </RulesElement>
+
+    <RulesElement internal-id="ID_INTERNAL_GENDER_ENBY" name="Non-Binary" type="Gender" source="Core" />
+    <RulesElement internal-id="ID_INTERNAL_GENDER_NA" name="None" type="Gender" source="Core" />
+
+
+</D20Rules>

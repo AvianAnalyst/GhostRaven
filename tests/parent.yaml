@@ -1,0 +1,7 @@
+basic_string_replacement: "this is universal.{{env_specific}}"
+implemented_status_string:
+  - "implementation"
+  - "env_specific_implemented_status"
+implemented_alt_status_string:
+  - "implementation"
+  - "environment_specific_implemented_alt_status"
