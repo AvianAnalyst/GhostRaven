@@ -5,3 +5,6 @@ implemented_status_string:
 implemented_alt_status_string:
   - "implementation"
   - "environment_specific_implemented_alt_status"
+service_provider_specific:
+  - "uninheritable_origination"
+  - "environment_specific_origination_status"

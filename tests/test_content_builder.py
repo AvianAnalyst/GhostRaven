@@ -64,3 +64,15 @@ def test_fills_multiple_selection_implementation_status_strings_correctly():
 
     assert contents.contents['implemented_alt_status_string'] == expected
 
+def test_uninheritable_origination_checkboxes():
+    expected = 'Control Origination(check all that apply):\n' \
+               '☐ Service Provider Corporate\n' \
+               '☒ Service Provider System Specific\n' \
+               '☐ Service Provider Hybrid (Corporate and System Specific)'
+    with open('parent.yaml', 'r') as f:
+        contents = ContentBuilder(f)
+
+    with open('child.yaml', 'r') as f:
+        contents.add_contents(f)
+
+    assert contents.contents['service_provider_specific'] == expected

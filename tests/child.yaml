@@ -4,3 +4,5 @@ env_specific_implemented_status:
 environment_specific_implemented_alt_status:
   - "implemented"
   - "alt"
+environment_specific_origination_status:
+  - "sys"
