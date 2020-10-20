@@ -1,13 +1,13 @@
-ac_1_role: "John Doe"
-ac_1_a_parameter: "At least {{ac_1_a_parameter}}"
-ac_1_status: "implemented{{ac_1_status}}"
-ac_1_origination: "{{ac_1_origination}}"
-ac_1_a_implementation: |
-  This is what is False  across environments.
-  This is true in {{ac_1_a_implementation}}. But nowhere else.{{ac_1_a_implementation_additional}}
-ac_2_role: "{{ac_2_role}}"
-ac_2_a_parameter: "At least daily"
-ac_2_status: "implemented"
-ac_2_origination: "{{ac_2_origination}}"
-ac_2_a_implementation: |
-  This is what is true across environments.
+pl_4_role: "{{pl_4_role}}O365 Trust Program Manager"
+pl_4_parameter: "{{pl_4_parameter}}"
+pl_4_status:
+  - "implementation"
+  - "pl_4_status"
+pl_4_origination:
+  - "inheritable_origination"
+  - "pl_4_origination"
+pl_4_a_implementation: "{{pl_4_a_implementation}}O365:\nThe office 365 Rules of Behavior describes Microsoft user responsibilities and establishes expected behavior when using Office 365 DoD and other Microsoft systems. All Microsoft users, including employees, vendors, and contractors are required to follow the rules of behavior, which are outlined in the Office 365 Rules of Behavior. The agreements are put in place to protect trade secrets, sensitive, or business confidential information and assets.\n The Non-Disclosure Agreement (NDA) and Employee Handbook include statements regarding information and asset protection responsibilities. They also describe the penalties for the violation of these responsibilities.\nOffice 365 service team administrators are provided with all of these documents as part of annual security awareness training. Completion of the training constitutes employee acknowledgement and understanding of these documents. Additionally, the training ends with a test to verify the user’s understanding; passing the test is required and results are tracked by Office 365."
+pl_4_b_implementation: "Customer Responsibility:\nGovernment customers are responsible for ensuring that government customer users acknowledge and sign the government customer's rules of behavior for Office 365.{{pl_4_b_implementation}}\nO365:\nAll full-time employees and contingent staff must sign appropriate agreements to acknowledge the terms and conditions of their employment and their understanding and acceptance of the Microsoft corporate employment policies. All Office 365 staff are required to sign confidentiality and non-disclosure agreements (NDA), as well as the Microsoft Employee Handbook, at the time of hire as a condition for employment.\nA signed confirmation from Microsoft users indicating understanding and agreement of the NDA is required of all staff upon hire to Microsoft.\nOffice 365 service team administrators are provided with all of these documents as part of annual security awareness training. Completion of the training constitutes employee acknowledgement and understanding of these documents, and is used in place of a signature. Additionally, the training ends with a test to verify the user’s understanding; passing the test is required and results are tracked by Office 365."
+pl_4_c_implementation: "Customer Responsibility:\n{{pl_4_c_customer_responsibility}}\nO365:\nMicrosoft and Office 365 review and update the Employee Handbook, the NDA, and the Office 365 Rules of Behavior {{pl_4_c_implementation}}."
+pl_4_d_implementation: "{{pl_4_d_implementation}}O365:\nAfter revisions, the revised document is included in annual security awareness training."
+pl_4_ext_implementation: "{{pl_4_ext_implementation}}"

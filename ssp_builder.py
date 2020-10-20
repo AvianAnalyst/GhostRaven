@@ -11,30 +11,19 @@ from logging import warning
 
 class SSPBuilder:
 
-    def __init__(self, env = None):
-        self.contents['ac_1_status'] = self.contents['ac_1_status'].split(', ')
-
-        self.template = docx.Document('template.docx')
+    def __init__(self, env, contents: dict):
+        if env == 'dod':
+            self.template = docx.Document('dod_template.docx')
+        else:
+            self.template = docx.Document('template.docx')
+        self.contents = contents
 
         self.undefined_keys = defaultdict(lambda: 0)
 
     def _replace_text(self, match, content):
         key = match.group(0).strip('{}')
         try:
-            if 'status!' in key:
-                key = key[7:]
-                return self.build_status_string(self.contents[key], STATUS_TEMPLATE)
-            elif 'origination!' in key:
-                key = key[12:]
-                if '+!' in key:
-                    key = key[2:]
-                    return self.build_status_string(self.contents[key], INHERITABLE_STATUS_TEMPLATE)
-                else:
-                    return self.build_status_string(self.contents[key], UNINHERITABLE_STATUS_TEMPLATE)
-
-            else:
-                return content[key]
-
+            return content[key]
         except KeyError:
             self.undefined_keys[key] += 1
             warning(key)
@@ -58,12 +47,3 @@ class SSPBuilder:
 
 
 
-gcc_builder = SSPBuilder('gcc')
-dod_builder = SSPBuilder('dod')
-
-
-gcc_builder.build_ssp()
-dod_builder.build_ssp()
-
-gcc_builder.save('output/gcc_output.docx')
-dod_builder.save('output/dod_output.docx')

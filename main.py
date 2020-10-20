@@ -2,20 +2,34 @@ from content_builder import ContentBuilder
 from ssp_builder import SSPBuilder
 
 
-with open('universal.yaml') as f:
-    document_contents = ContentBuilder(f)
-
-""" 
-If there were a 'dod' on top of gcch, it would be added here. The yaml would look like: 
-some_key: "{{dod_key}} And the dod add on here"
-"""
-
-with open('gcch.yaml') as f:
-    document_contents.add_contents(f)
+with open('contents/universal.yaml') as f:
+    mt_document_contents = ContentBuilder(f)
+with open('contents/mt.yaml') as f:
+    mt_document_contents.add_contents(f)
 
 
-dod_ssp = SSPBuilder(document_contents.contents)
+with open('contents/universal.yaml') as f:
+    gcch_document_contents = ContentBuilder(f)
+with open('contents/gcch.yaml') as f:
+    gcch_document_contents.add_contents(f)
 
-dod_ssp.build_ssp()
 
-dod_ssp.save()
+with open('contents/universal.yaml') as f:
+    dod_document_contents = ContentBuilder(f)
+with open('contents/addendum.yaml') as f:
+    dod_document_contents.add_contents(f)
+with open('contents/gcch.yaml') as f:
+    dod_document_contents.add_contents(f)
+
+mt_builder = SSPBuilder('mt', mt_document_contents.contents)
+gcch_builder = SSPBuilder('gcch', gcch_document_contents.contents)
+dod_builder = SSPBuilder('dod', dod_document_contents.contents)
+
+
+mt_builder.build_ssp()
+gcch_builder.build_ssp()
+dod_builder.build_ssp()
+
+mt_builder.save('output/mt_output.docx')
+gcch_builder.save('output/gcch_output.docx')
+dod_builder.save('output/dod_output.docx')

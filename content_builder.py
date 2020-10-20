@@ -21,11 +21,11 @@ UNINHERITABLE_ORIGINATION_TEMPLATE = 'Control Origination(check all that apply):
                                 '{{sys}} Service Provider System Specific\n' \
                                 '{{hybrid}} Service Provider Hybrid (Corporate and System Specific)'
 
-INHERITABLE_ORIGINATION_TEMPLATE = f'{UNINHERITABLE_ORIGINATION_TEMPLATE}\n' \
-                              f'{{cust_configured}} Configured by Customer (Customer System Specific)\n' \
-                              f'{{cust_provided}} Provided by Customer (Customer System Specific)\n' \
-                              f'{{shared}} Shared (Service Provider and Customer Responsibility)\n' \
-                              f'{{inherited}} from pre-existing FedRAMP Authorization for {{auth}}, {{date}}'
+INHERITABLE_ORIGINATION_TEMPLATE = f'{UNINHERITABLE_ORIGINATION_TEMPLATE}\n' + \
+                              '{{cust_configured}} Configured by Customer (Customer System Specific)\n' \
+                              '{{cust_provided}} Provided by Customer (Customer System Specific)\n' \
+                              '{{shared}} Shared (Service Provider and Customer Responsibility)\n' \
+                              '{{inherited}} from pre-existing FedRAMP Authorization for {{auth}}, {{date}}'
 
 CHECKBOX_TEMPLATES = {
     'implementation': IMPLEMENTATION_STATUS_TEMPLATE,
@@ -88,11 +88,3 @@ class ContentBuilder:
 
         finished_cell_contents = re.sub(r'{{(.+?)}}', lambda m: self._combine_strings(m, options), template)
         self.contents[key] = finished_cell_contents
-
-
-# if __main__ == "__main__":
-#     with open('tests/parent.yaml') as f:
-#         test = ContentBuilder(f)
-#
-#     with open('tests/child.yaml') as f:
-#         test.add_contents(f)

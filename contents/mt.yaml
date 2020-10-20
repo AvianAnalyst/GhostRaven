@@ -1,0 +1,13 @@
+pl_4_role: ""
+pl_4_parameter: "At least every three (3) years"
+pl_4_status:
+  - "implemented"
+pl_4_origination:
+  - "sys"
+  - "cust_provided"
+pl_4_a_implementation: "Customer Responsibility:\nGovernment customers are responsible for ensuring that government customer users acknowledge and sign the government customer's rules of behavior for Office 365 MT. Non-government customers may not be required to have rules of behavior.\n"
+pl_4_b_implementation: "Non-government customers may not be required to have rules of behavior."
+pl_4_c_customer_responsibility: "Government customers are responsible for reviewing and updating their rules of behavior at least every three years."
+pl_4_c_implementation: "at least every three years"
+pl_4_d_implementation: "Customer Responsibility:\nGovernment customers are responsible for requiring individuals to read and re-sign the rules of behavior when the rules of behavior are revised or updated.\n"
+pl_4_ext_implementation: ""
