@@ -85,6 +85,10 @@ class ContentBuilder:
         options = defaultdict(lambda: UNCHECKED_BOX)
         for option in true_options:
             options[option] = CHECKED_BOX
+        if true_options[-1] == 'mt':
+            template = re.sub('{auth}', 'mt_auth_number', 'mt_auth_date')
+        elif true_options[-1] == 'gcch':
+            template = re.sub('{auth}', 'mt_auth_number', 'mt_auth_date')
 
         finished_cell_contents = re.sub(r'{{(.+?)}}', lambda m: self._combine_strings(m, options), template)
         self.contents[key] = finished_cell_contents

@@ -5,6 +5,7 @@ pl_4_status:
 pl_4_origination:
   - "sys"
   - "cust_provided"
+  - "MT_auth"
 pl_4_a_implementation: "Customer Responsibility:\nGovernment customers are responsible for ensuring that government customer users acknowledge and sign the government customer's rules of behavior for Office 365 MT. Non-government customers may not be required to have rules of behavior.\n"
 pl_4_b_implementation: "Non-government customers may not be required to have rules of behavior."
 pl_4_c_customer_responsibility: "Government customers are responsible for reviewing and updating their rules of behavior at least every three years."
