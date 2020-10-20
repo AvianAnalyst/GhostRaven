@@ -1,4 +1,0 @@
-env_specific: "{{env_specific}}\nhere is an addendum paragraph"
-env_specific_status:
-  - "implementation"
-  - "env_specific_status"
