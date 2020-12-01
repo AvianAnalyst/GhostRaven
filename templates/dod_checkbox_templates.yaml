@@ -1,0 +1,18 @@
+status: |
+  Implementation Status (check all that apply):
+  {{implemented}} Implemented
+  {{partial}} Partially implemented
+  {{planned}} Planned
+  {{alt}} Alternative implementation
+  {{na}} Not applicable
+
+origination: |
+  Control Origination (check all that apply):
+  {{corp}} Service Provider Corporate
+  {{sys}} Service Provider System Specific
+  {{hybrid}} Service Provider Hybrid (Corporate and System Specific)
+  {{cust_configured}} Configured by Customer (Customer System Specific)
+  {{cust_provided}} Provided by Customer (Customer System Specific)
+  {{shared}} Shared (Service Provider and Customer Responsibility)
+  {{inherited}} Inherited from pre-existing FedRAMP Authorization for Azure Government (F163087869), 9/25/2017
+  {{na}} Not Applicable
