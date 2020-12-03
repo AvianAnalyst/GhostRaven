@@ -1,5 +1,4 @@
 # Universal Controls
-
 ac_1_role: |
  Customer Administrator, O365 Trust Program Manager, Program Manager
 ac_1_a_parameter: |
@@ -19,7 +18,6 @@ ac_1_b_implementation: |
  {{ac_1_b_implementation}}
 ac_1_ext_implementation: |
  {{ac_1_ext_implementation}}
-
 ac_2_role: |
  Customer Administrator, O365 Trust Program Manager, Program Manager
 ac_2_a_parameter: |
@@ -60,7 +58,6 @@ ac_2_k_implementation: |
  {{ac_2_k_implementation}}
 ac_2_ext_implementation: |
  {{ac_2_ext_implementation}}
-
 ac_2_1_role: |
  Customer Administrator, O365 Security Manager, O365 Trust Program Manager, Program Manager
 ac_2_1_status:
@@ -71,7 +68,6 @@ ac_2_1_origination:
  - "cust_provided"
 ac_2_1_implementation: |
  {{ac_2_1_implementation}}
-
 ac_2_2_role: |
  Customer Administrator, None – Not Applicable
 ac_2_2_1_parameter: |
@@ -86,7 +82,6 @@ ac_2_2_origination:
  - "cust_provided"
 ac_2_2_implementation: |
  {{ac_2_2_implementation}}
-
 ac_2_3_role: |
  Customer Administrator, O365 Security Manager, O365 Trust Program Manager, Service Engineer Operations
 ac_2_3_parameter: |
@@ -99,7 +94,6 @@ ac_2_3_origination:
  - "cust_provided"
 ac_2_3_implementation: |
  {{ac_2_3_implementation}}
-
 ac_2_4_role: |
  Customer Administrator, O365 Security Manager, O365 Trust Program Manager, Service Engineer Operations
 ac_2_4_parameter: |
@@ -113,7 +107,6 @@ ac_2_4_origination:
  - "inherited"
 ac_2_4_implementation: |
  {{ac_2_4_implementation}}
-
 ac_2_5_role: |
  Customer Administrator, O365 Trust Program Manager, Service Engineer Operations
 ac_2_5_parameter: |
@@ -126,7 +119,6 @@ ac_2_5_origination:
  - "cust_provided"
 ac_2_5_implementation: |
  {{ac_2_5_implementation}}
-
 ac_2_7_role: |
  Customer Administrator, O365 Security Manager, O365 Trust Program Manager
 ac_2_7_parameter: |
@@ -143,7 +135,6 @@ ac_2_7_b_implementation: |
  {{ac_2_7_b_implementation}}
 ac_2_7_c_implementation: |
  {{ac_2_7_c_implementation}}
-
 ac_2_9_role: |
  Customer Administrator, O365 Security Manager, O365 Trust Program Manager
 ac_2_9_parameter: |
@@ -158,7 +149,6 @@ ac_2_9_origination:
  - "cust_provided"
 ac_2_9_implementation: |
  {{ac_2_9_implementation}}
-
 ac_2_10_role: |
  Customer Administrator, O365 Security Manager, O365 Trust Program Manager
 ac_2_10_status:
@@ -169,7 +159,6 @@ ac_2_10_origination:
  - "cust_provided"
 ac_2_10_implementation: |
  {{ac_2_10_implementation}}
-
 ac_2_11_role: |
  Customer Administrator, O365 Security Manager, O365 Trust Program Manager
 ac_2_11_1_parameter: |
@@ -183,7 +172,6 @@ ac_2_11_origination:
  - "cust_configured"
 ac_2_11_implementation: |
  {{ac_2_11_implementation}}
-
 ac_2_12_role: |
  Customer Administrator, O365 Security Manager, O365 Trust Program Manager
 ac_2_12_a_parameter: |
@@ -199,7 +187,6 @@ ac_2_12_a_implementation: |
  {{ac_2_12_a_implementation}}
 ac_2_12_b_implementation: |
  {{ac_2_12_b_implementation}}
-
 ac_2_13_role: |
  O365 Security Manager, O365 Trust Program Manager
 ac_2_13_parameter: |
@@ -211,7 +198,6 @@ ac_2_13_origination:
  - "cust_provided"
 ac_2_13_implementation: |
  {{ac_2_13_implementation}}
-
 ac_3_role: |
  Customer Administrator, O365 Security Manager, O365 Trust Program Manager, Service Engineer Operations
 ac_3_status:
@@ -224,7 +210,6 @@ ac_3_implementation: |
  {{ac_3_implementation}}
 ac_3_ext_implementation: |
  {{ac_3_ext_implementation}}
-
 ac_3_4_role: |
  {{ac_3_4_role}}
 ac_3_4_parameter: |
@@ -243,7 +228,6 @@ ac_3_4_d_implementation: |
  {{ac_3_4_d_implementation}}
 ac_3_4_e_implementation: |
  {{ac_3_4_e_implementation}}
-
 ac_3_9_role: |
  {{ac_3_9_role}}
 ac_3_9_a_parameter: |
@@ -260,7 +244,6 @@ ac_3_9_b_implementation: |
  {{ac_3_9_b_implementation}}
 ac_3_9_ext_implementation: |
  {{ac_3_9_ext_implementation}}
-
 ac_4_role: |
  Customer Administrator, Service Engineer Operations
 ac_4_parameter: |
@@ -273,7 +256,6 @@ ac_4_origination:
  - "cust_provided"
 ac_4_implementation: |
  {{ac_4_implementation}}
-
 ac_4_8_role: |
  Customer Administrator, Service Engineer Operations
 ac_4_8_1_parameter: |
@@ -288,7 +270,6 @@ ac_4_8_origination:
  - "cust_provided"
 ac_4_8_implementation: |
  {{ac_4_8_implementation}}
-
 ac_4_12_role: |
  {{ac_4_12_role}}
 ac_4_12_parameter: |
@@ -299,7 +280,6 @@ ac_4_12_origination:
  -
 ac_4_12_implementation: |
  {{ac_4_12_implementation}}
-
 ac_4_15_role: |
  {{ac_4_15_role}}
 ac_4_15_1_parameter: |
@@ -312,7 +292,6 @@ ac_4_15_origination:
  -
 ac_4_15_implementation: |
  {{ac_4_15_implementation}}
-
 ac_4_17_role: |
  {{ac_4_17_role}}
 ac_4_17_parameter: |
@@ -323,7 +302,6 @@ ac_4_17_origination:
  -
 ac_4_17_implementation: |
  {{ac_4_17_implementation}}
-
 ac_4_18_role: |
  {{ac_4_18_role}}
 ac_4_18_parameter: |
@@ -334,7 +312,6 @@ ac_4_18_origination:
  -
 ac_4_18_implementation: |
  {{ac_4_18_implementation}}
-
 ac_4_21_role: |
  Service Engineer Operations
 ac_4_21_1_parameter: |
@@ -348,7 +325,6 @@ ac_4_21_origination:
 ac_4_21_implementation: |
  O365:
  Office 365 separates all information flows logically using user session encryption. TLS 1.2 ensures the confidentiality and integrity of each flow; only the intended recipient can decrypt information. Additionally, each Office 365 customer is placed in a separate Organizational Unit (OU) within Active Directory. Customer content within Office 365 is always tied to the customer’s specific OU and Office 365 will only grant access to the data if there is a valid ticket from AAD authorizing access to the OU and the specific data. For a detailed discussion of how Office 365 separates flows and tenant data, please see Tenant Isolation in Office 365.
-
 ac_5_role: |
  Customer Administrator, Program Manager
 ac_5_parameter: |
@@ -367,7 +343,6 @@ ac_5_b_implementation: |
 ac_5_c_implementation: |
  O365:
  Access authorization to support separation of duties is implemented through authorized role membership. Role membership is managed using account management tools.
-
 ac_6_role: |
  Customer Administrator, Program Manager, Service Engineer Operations
 ac_6_status:
@@ -377,7 +352,6 @@ ac_6_origination:
  - "cust_provided"
 ac_6_implementation: |
  {{ac_6_implementation}}
-
 ac_6_1_role: |
  Program Manager, Service Engineer Operations
 ac_6_1_parameter: |
@@ -390,7 +364,6 @@ ac_6_1_origination:
  - "cust_provided"
 ac_6_1_implementation: |
  {{ac_6_1_implementation}}
-
 ac_6_2_role: |
  Program Manager
 ac_6_2_parameter: |
@@ -402,7 +375,6 @@ ac_6_2_origination:
  - "cust_provided"
 ac_6_2_implementation: |
  {{ac_6_2_implementation}}
-
 ac_6_3_role: |
  Program Manager
 ac_6_3_1_parameter: |
@@ -416,7 +388,6 @@ ac_6_3_origination:
  - "cust_provided"
 ac_6_3_implementation: |
  {{ac_6_3_implementation}}
-
 ac_6_5_role: |
  Customer Administrator, O365 Security Manager, O365 Trust Program Manager, Service Engineer Operations
 ac_6_5_parameter: |
@@ -428,7 +399,6 @@ ac_6_5_origination:
  - "cust_provided"
 ac_6_5_implementation: |
  {{ac_6_5_implementation}}
-
 ac_6_7_role: |
  Customer Administrator, O365 Security Manager, O365 Trust Program Manager, Service Engineer Operations
 ac_6_7_1_parameter: |
@@ -444,7 +414,6 @@ ac_6_7_a_implementation: |
  {{ac_6_7_a_implementation}}
 ac_6_7_b_implementation: |
  {{ac_6_7_b_implementation}}
-
 ac_6_8_role: |
  Customer Administrator, O365 Security Manager, O365 Trust Program Manager, Service Engineer Operations
 ac_6_8_parameter: |
@@ -456,7 +425,6 @@ ac_6_8_origination:
  - "cust_provided"
 ac_6_8_implementation: |
  {{ac_6_8_implementation}}
-
 ac_6_9_role: |
  Service Engineer Operations, O365 Security Manager, O365 Trust Program Manager, Customer Administrator
 ac_6_9_status:
@@ -466,7 +434,6 @@ ac_6_9_origination:
  - "shared"
 ac_6_9_implementation: |
  {{ac_6_9_implementation}}
-
 ac_6_10_role: |
  Customer Administrator, O365 Security Manager, O365 Trust Program Manager, Service Engineer Operations
 ac_6_10_status:
@@ -475,7 +442,6 @@ ac_6_10_origination:
  - "sys"
 ac_6_10_implementation: |
  Office 365 does not have non-privileged users on the system. Office 365 prevents non-privileged users from accessing privileged functions. Customers do not have access to any functionality related to Office 365 safeguards/countermeasures.
-
 ac_7_role: |
  Customer Administrator, O365 Security Manager, O365 Trust Program Manager
 ac_7_a_1_parameter: |
@@ -495,7 +461,6 @@ ac_7_a_implementation: |
  {{ac_7_a_implementation}}
 ac_7_b_implementation: |
  {{ac_7_b_implementation}}
-
 ac_7_2_role: |
  Customer Administrator, O365 Security Manager, O365 Trust Program Manager
 ac_7_2_1_parameter: |
@@ -512,9 +477,7 @@ ac_7_2_origination:
 ac_7_2_implementation: |
  O365:
  There are no mobile devices within the Office 365 boundary. Azure Government is responsible for preventing the physical connection of mobile devices to Office 365 servers.
-
  The prevention of mobile devices connecting to Office 365 is inherited from Azure Government, which has a FedRAMP P-ATO (F1603087869). Azure Government does not issue or allow connectivity via mobile devices to Azure Government, and systems within the Azure Government information system do not contain wireless networking capabilities.
-
 ac_8_role: |
  Customer Administrator, O365 Security Manager, O365 Trust Program Manager, Service Engineer Operations
 ac_8_a_parameter: |
@@ -532,7 +495,6 @@ ac_8_b_implementation: |
  {{ac_8_b_implementation}}
 ac_8_c_implementation: |
  {{ac_8_c_implementation}}
-
 ac_8_r_role: |
  Service Engineer Operations, O365 Security Manager
 ac_8_r_status:
@@ -546,7 +508,6 @@ ac_8_r_2_implementation: |
  {{ac_8_r_2_implementation}}
 ac_8_r_3_implementation: |
  {{ac_8_r_3_implementation}}
-
 ac_10_role: |
  O365 Security Manager, Service Engineer Operations
 ac_10_1_parameter: |
@@ -560,7 +521,6 @@ ac_10_origination:
  - "inherited"
 ac_10_implementation: |
  {{ac_10_implementation}}
-
 ac_11_role: |
  Customer Administrator, O365 Security Manager, O365 Trust Program Manager, Program Manager
 ac_11_a_parameter: |
@@ -577,7 +537,6 @@ ac_11_b_implementation: |
  {{ac_11_b_implementation}}
 ac_11_ext_implementation: |
  {{ac_11_ext_implementation}}
-
 ac_11_1_role: |
  O365 Security Manager
 ac_11_1_status:
@@ -587,7 +546,6 @@ ac_11_1_origination:
  - "cust_provided"
 ac_11_1_implementation: |
  {{ac_11_1_implementation}}
-
 ac_12_role: |
  O365 Security Manager, O365 Trust Program Manager, Program Manager
 ac_12_parameter: |
@@ -599,7 +557,6 @@ ac_12_origination:
  - "inherited"
 ac_12_implementation: |
  {{ac_12_implementation}}
-
 ac_12_1_role: |
  O365 Security Manager, O365 Trust Program Manager, Program Manager
 ac_12_1_a_1_parameter: |
@@ -614,7 +571,6 @@ ac_12_1_a_implementation: |
  {{ac_12_1_a_implementation}}
 ac_12_1_b_implementation: |
  {{ac_12_1_b_implementation}}
-
 ac_14_role: |
  O365 Security Manager, O365 Trust Program Manager, Service Engineer Operations
 ac_14_a_parameter: |
@@ -628,7 +584,6 @@ ac_14_a_implementation: |
  {{ac_14_a_implementation}}
 ac_14_b_implementation: |
  {{ac_14_b_implementation}}
-
 ac_16_role: |
  {{ac_16_role}}
 ac_16_a_1_parameter: |
@@ -653,7 +608,6 @@ ac_16_c_implementation: |
  {{ac_16_c_implementation}}
 ac_16_d_implementation: |
  {{ac_16_d_implementation}}
-
 ac_16_3_role: |
  {{ac_16_3_role}}
 ac_16_3_1_parameter: |
@@ -666,7 +620,6 @@ ac_16_3_origination:
  -
 ac_16_3_implementation: |
  {{ac_16_3_implementation}}
-
 ac_16_6_role: |
  {{ac_16_6_role}}
 ac_16_6_1_parameter: |
@@ -681,7 +634,6 @@ ac_16_6_origination:
  -
 ac_16_6_implementation: |
  {{ac_16_6_implementation}}
-
 ac_17_role: |
  Customer Administrator, O365 Security Manager, O365 Trust Program Manager, Program Manager, Service Engineer Operations
 ac_17_status:
@@ -694,7 +646,6 @@ ac_17_a_implementation: |
  {{ac_17_a_implementation}}
 ac_17_b_implementation: |
  {{ac_17_b_implementation}}
-
 ac_17_1_role: |
  O365 Security Manager, O365 Trust Program Manager
 ac_17_1_status:
@@ -705,7 +656,6 @@ ac_17_1_origination:
  - "inherited"
 ac_17_1_implementation: |
  {{ac_17_1_implementation}}
-
 ac_17_2_role: |
  O365 Security Manager, O365 Trust Program Manager
 ac_17_2_status:
@@ -715,7 +665,6 @@ ac_17_2_origination:
  - "cust_provided"
 ac_17_2_implementation: |
  {{ac_17_2_implementation}}
-
 ac_17_3_role: |
  O365 Security Manager, O365 Trust Program Manager
 ac_17_3_parameter: |
@@ -728,7 +677,6 @@ ac_17_3_origination:
  - "inherited"
 ac_17_3_implementation: |
  {{ac_17_3_implementation}}
-
 ac_17_4_role: |
  O365 Security Manager, O365 Trust Program Manager
 ac_17_4_a_parameter: |
@@ -741,7 +689,6 @@ ac_17_4_a_implementation: |
  {{ac_17_4_a_implementation}}
 ac_17_4_b_implementation: |
  {{ac_17_4_b_implementation}}
-
 ac_17_6_role: |
  {{ac_17_6_role}}
 ac_17_6_status:
@@ -750,7 +697,6 @@ ac_17_6_origination:
  -
 ac_17_6_implementation: |
  {{ac_17_6_implementation}}
-
 ac_17_9_role: |
  O365 Security Manager, O365 Trust Program Manager
 ac_17_9_parameter: |
@@ -762,7 +708,6 @@ ac_17_9_origination:
  - "inherited"
 ac_17_9_implementation: |
  {{ac_17_9_implementation}}
-
 ac_18_role: |
  {{ac_18_role}}
 ac_18_status:
@@ -773,7 +718,6 @@ ac_18_a_implementation: |
  {{ac_18_a_implementation}}
 ac_18_b_implementation: |
  {{ac_18_b_implementation}}
-
 ac_18_1_role: |
  {{ac_18_1_role}}
 ac_18_1_parameter: |
@@ -786,7 +730,6 @@ ac_18_1_origination:
  - "inherited"
 ac_18_1_implementation: |
  {{ac_18_1_implementation}}
-
 ac_18_3_role: |
  {{ac_18_3_role}}
 ac_18_3_status:
@@ -795,7 +738,6 @@ ac_18_3_origination:
  -
 ac_18_3_implementation: |
  {{ac_18_3_implementation}}
-
 ac_18_4_role: |
  {{ac_18_4_role}}
 ac_18_4_status:
@@ -804,7 +746,6 @@ ac_18_4_origination:
  - "inherited"
 ac_18_4_implementation: |
  {{ac_18_4_implementation}}
-
 ac_18_5_role: |
  {{ac_18_5_role}}
 ac_18_5_status:
@@ -813,7 +754,6 @@ ac_18_5_origination:
  - "inherited"
 ac_18_5_implementation: |
   {{ac_18_5_implementation}}
-
 ac_19_role: |
  {{ac_19_role}}
 ac_19_status:
@@ -828,7 +768,6 @@ ac_19_b_implementation: |
  {{ac_19_b_implementation}}
 ac_19_ext_implementation: |
  {{ac_19_ext_implementation}}
-
 ac_19_5_role: |
  {{ac_19_5_role}}
 ac_19_5_1_parameter: |
@@ -845,7 +784,6 @@ ac_19_5_implementation: |
  {{ac_19_5_implementation}}
 ac_19_5_ext_implementation: |
  {{ac_19_5_ext_implementation}}
-
 ac_20_role: |
  Customer Administrator, Azure, O365 Trust Program Manager
 ac_20_status:
@@ -860,7 +798,6 @@ ac_20_b_implementation: |
  {{ac_20_b_implementation}}
 ac_20_ext_implementation: |
  {{ac_20_ext_implementation}}
-
 ac_20_1_role: |
  Customer Administrator, O365 Trust Program Manager
 ac_20_1_status:
@@ -873,7 +810,6 @@ ac_20_1_a_implementation: |
 ac_20_1_b_implementation: |
  O365:
  All personnel accessing the environment via Microsoft-issued external information systems (laptops, desktops, etc.) agree to maintain their remote computer in a secure manner, in accordance with organizational security policies and procedures. Microsoft IT (MSIT) is responsible for enforcing compliance with organizational security policies and procedures.
-
 ac_20_2_role: |
  O365 Security Manager, O365 Trust Program Manager
 ac_20_2_parameter: |
@@ -885,7 +821,6 @@ ac_20_2_origination:
  - "cust_provided"
 ac_20_2_implementation: |
  {{ac_20_2_implementation}}
-
 ac_20_3_role: |
  {{ac_20_3_role}}
 ac_20_3_status:
@@ -896,7 +831,6 @@ ac_20_3_implementation: |
  {{ac_20_3_implementation}}
 ac_20_3_ext_implementation: |
  {{ac_20_3_ext_implementation}}
-
 ac_21_role: |
  Customer Administrator
 ac_21_a_parameter: |
@@ -911,7 +845,6 @@ ac_21_a_implementation: |
  {{ac_21_a_implementation}}
 ac_21_b_implementation: |
  {{ac_21_b_implementation}}
-
 ac_22_role: |
  CELA
 ac_22_d_parameter: |
@@ -936,7 +869,6 @@ ac_22_d_implementation: |
  Additionally, all publicly available white papers are updated and reviewed by the Marketing and Communications team on a quarterly basis.
 
  If any nonpublic information is identified as part of reviews, the O365 incident response process is followed to investigated and remediate the issue.
-
 ac_23_role: |
  {{ac_23_role}}
 ac_23_1_parameter: |
@@ -951,7 +883,6 @@ ac_23_implementation: |
  {{ac_23_implementation}}
 ac_23_ext_implementation: |
  {{ac_23_ext_implementation}}
-
 ap_1_role: |
  {{ap_1_role}}
 ap_1_status:
@@ -960,7 +891,6 @@ ap_1_origination:
  -
 ap_1_implementation: |
  {{ap_1_implementation}}
-
 ap_2_role: |
  {{ap_2_role}}
 ap_2_status:
@@ -969,7 +899,6 @@ ap_2_origination:
  -
 ap_2_implementation: |
  {{ap_2_implementation}}
-
 ar_1_role: |
   {{ar_1_role}}
 ar_1_c_parameter: |
@@ -994,7 +923,6 @@ ar_1_f_implementation: |
   {{ar_1_f_implementation}}
 ar_1_ext_implementation: |
   {{ar_1_ext_implementation}}
-
 ar_2_p_role: |
   {{ar_2_p_role}}
 ar_2_p_status:
@@ -1005,7 +933,6 @@ ar_a_implementation: |
   {{ar_a_implementation}}
 ar_b_implementation: |
   {{ar_b_implementation}}
-
 ar_3_role: |
   {{ar_3_role}}
 ar_3_status:
@@ -1018,7 +945,6 @@ ar_3_b_implementation: |
   {{ar_3_b_implementation}}
 ar_3_ext_implementation: |
   {{ar_3_ext_implementation}}
-
 ar_4_role: |
   {{ar_4_role}}
 ar_4_parameter: |
@@ -1029,7 +955,6 @@ ar_4_origination:
   -
 ar_4_implementation: |
   {{ar_4_implementation}}
-
 ar_5_role: |
   {{ar_5_role}}
 ar_5_b_parameter: |
@@ -1048,7 +973,6 @@ ar_5_c_implementation: |
   {{ar_5_c_implementation}}
 ar_5_ext_implementation: |
   {{ar_5_ext_implementation}}
-
 ar_6_role: |
   {{ar_6_role}}
 ar_6_status:
@@ -1057,7 +981,6 @@ ar_6_origination:
   -
 ar_6_p_implementation: |
   {{ar_6_p_implementation}}
-
 ar_7_role: |
   {{ar_7_role}}
 ar_7_status:
@@ -1066,7 +989,6 @@ ar_7_origination:
   -
 ar_7_implementation: |
   {{ar_7_implementation}}
-
 ar_8_role: |
   {{ar_8_role}}
 ar_8_status:
@@ -1079,7 +1001,6 @@ ar_8_b_implementation: |
   {{ar_8_b_implementation}}
 ar_8_c_implementation: |
   {{ar_8_c_implementation}}
-
 at_1_role: |
  Customer Administrator, O365 Trust Program Manager
 at_1_a_parameter: |
@@ -1109,7 +1030,6 @@ at_1_b_implementation: |
  Part 2:
  O365:
  The Office 365 SOPs are reviewed and updated at least annually or whenever a significant change occurs.
-
 at_2_role: |
  Customer Administrator, O365 Trust Program Manager, Program Manager
 at_2_c_parameter: |
@@ -1131,7 +1051,6 @@ at_2_c_implementation: |
  Office 365 has implemented the security training control by requiring all staff, including managers, senior executives, and contractors, to take security and privacy awareness training at least annually after their initial training. Non-operational personnel, anyone that is involved in development and quality assurance, are also required to take the mandatory training. In addition, training related to the system being accessed, along with associated procedures, may be required.
 at_2_ext_implementation: |
  {{at_2_ext_implementation}}
-
 at_2_2_role: |
  Customer Administrator, O365 Trust Program Manager, Program Manager
 at_2_2_status:
@@ -1141,7 +1060,6 @@ at_2_2_origination:
  - "shared"
 at_2_2_implementation: |
  {{at_2_2_implementation}}
-
 at_3_role: |
  Customer Administrator, O365 Trust Program Manager, Program Manager
 at_3_c_parameter: |
@@ -1160,7 +1078,6 @@ at_3_c_implementation: |
  {{at_3_c_implementation}}
 at_3_ext_implementation: |
  {{at_3_ext_implementation}}
-
 at_3_2_role: |
  {{at_3_2_role}}
 at_3_2_1_parameter: |
@@ -1173,7 +1090,6 @@ at_3_2_origination:
  -
 at_3_2_implementation: |
  {{at_3_2_implementation}}
-
 at_3_3_role: |
  Customer Administrator, O365 Trust Program Manager, Program Manager
 at_3_3_status:
@@ -1187,7 +1103,6 @@ at_3_3_implementation: |
  O365:
  Role-based training is offered to full-time employees, vendors, and contingent staff, and as defined as appropriate for Microsoft personnel based on their role within the organization.
  The most common practical exercise conducted within Office 365 is job shadowing, also known as on-the-job training..
-
 at_3_4_role: |
  Customer Administrator, O365 Trust Program Manager, Program Manager
 at_3_4_parameter: |
@@ -1200,7 +1115,6 @@ at_3_4_origination:
  - "shared"
 at_3_4_implementation: |
  {{at_3_4_implementation}}
-
 at_4_role: |
  O365 Trust Program Manager
 at_4_b_parameter: |
@@ -1216,8 +1130,6 @@ at_4_a_implementation: |
 at_4_b_implementation: |
  O365:
  Office 365 utilizes corporate training tools to retain employee training records for basic security awareness and specific information system security training for at least 5 years.
-
-
 au_1_role: |
  Customer Administrator, O365 Trust Program Manager
 au_1_a_parameter: |
@@ -1235,15 +1147,12 @@ au_1_a_implementation: |
 au_1_b_implementation: |
  Customer Responsibility:
  Government customers are responsible for developing and maintaining appropriate Audit and Accountability policies that govern auditing activities for their organization and users.
-
  Part 1:
  O365:
  The Office 365 Information Security Policy is reviewed and updated at least annually.
-
  Part 2:
  O365:
  The Office 365 (SOPs) are reviewed and updated at least annually or whenever a significant change occurs.
-
 au_2_role: |
  Customer Administrator, O365 Security Manager, O365 Trust Program Manager, Service Engineer Operations
 au_2_a_parameter: |
@@ -1267,7 +1176,6 @@ au_2_c_implementation: |
  For teams on PilotFish or Azure PaaS, The Azure CDOC team has developed a set of auditable events which incorporates identified vulnerabilities, business requirements, and security standards.
 au_2_d_implementation: |
  {{au_2_d_implementation}}
-
 au_2_3_role: |
  O365 Security Manager, O365 Trust Program Manager, Service Engineer Operations
 au_2_3_parameter: |
@@ -1281,7 +1189,6 @@ au_2_3_implementation: |
  The list of auditable events is maintained and reviewed at least annually by Office 365 Security team. For application-specific events, reviews and updates are considered at service reviews, or in the planning phases of feature milestones. Additionally, the list will be reviewed and updated whenever changes in the threat environment are communicated to Office 365 by the JAB.
 
  For teams using PilotFish and Azure PaaS, the list of auditable events is maintained and reviewed at least annually by the Azure CDOC and updated by PilotFish deployment as needed. For application-specific events, reviews and updates are considered at service reviews, or in the planning phases of feature milestones. Additionally, the list will be reviewed and updated whenever changes in the threat environment are communicated to Azure by the JAB.
-
 au_3_role: |
  O365 Security Manager, O365 Trust Program Manager, Service Engineer Operations
 au_3_status:
@@ -1291,7 +1198,6 @@ au_3_origination:
  - "cust_provided"
 au_3_implementation: |
  {{au_3_implementation}}
-
 au_3_1_role: |
  O365 Security Manager, O365 Trust Program Manager, Service Engineer Operations
 au_3_1_parameter: |
@@ -1312,7 +1218,6 @@ au_3_1_implementation: |
  o	Detail information – defined per event type
  • Source & Target Hostname – as relevant/appropriate for event type
  • Source & Target network addresses and protocols – as relevant/appropriate for event type
-
 au_3_2_role: |
  O365 Security Manager, O365 Trust Program Manager, Service Engineer Operations
 au_3_2_parameter: |
@@ -1324,7 +1229,6 @@ au_3_2_origination:
  - "cust_configured"
 au_3_2_implementation: |
  {{au_3_2_implementation}}
-
 au_4_role: |
  Service Engineer Operations
 au_4_parameter: |
@@ -1337,7 +1241,6 @@ au_4_origination:
  - "inherited"
 au_4_implementation: |
  {{au_4_implementation}}
-
 au_4_1_role: |
  {{au_4_1_role}}
 au_4_1_parameter: |
@@ -1348,7 +1251,6 @@ au_4_1_origination:
  -
 au_4_1_implementation: |
  {{au_4_1_implementation}}
-
 au_5_role: |
  O365 Security Manager, O365 Trust Program Manager, Service Engineer Operations
 au_5_a_parameter: |
@@ -1364,8 +1266,6 @@ au_5_a_implementation: |
  {{au_5_a_implementation}}
 au_5_b_implementation: |
  {{au_5_b_implementation}}
-
-
 au_5_1_role: |
  O365 Security Manager, O365 Trust Program Manager, Service Engineer Operations
 au_5_1_1_parameter: |
@@ -1381,7 +1281,6 @@ au_5_1_origination:
  - "cust_configured"
 au_5_1_implementation: |
  {{au_5_1_implementation}}
-
 au_5_2_role: |
  O365 Security Manager, O365 Trust Program Manager, Service Engineer Operations
 au_5_2_1_parameter: |
@@ -1397,7 +1296,6 @@ au_5_2_origination:
  - "cust_configured"
 au_5_2_implementation: |
  {{au_5_2_implementation}}
-
 au_6_role: |
  O365 Security Manager, O365 Trust Program Manager, Service Engineer Operations
 au_6_a_1_parameter: |
@@ -1416,7 +1314,6 @@ au_6_a_implementation: |
 au_6_b_implementation: |
  O365:
  Service teams report and escalate findings to the Office 365 Security team when appropriate, who in turn follow the process defined in the Office 365 Security Incident Response Plan. The Office 365 Security Incident Response team acts as the designee of the ISSM or ISSO.
-
 au_6_1_role: |
  Customer Administrator, O365 Security Manager, O365 Trust Program Manager, Service Engineer Operations
 au_6_1_status:
@@ -1426,7 +1323,6 @@ au_6_1_origination:
  - "cust_provided"
 au_6_1_implementation: |
  {{au_6_1_implementation}}
-
 au_6_3_role: |
  O365 Security Manager, O365 Trust Program Manager, Service Engineer Operations
 au_6_3_status:
@@ -1436,7 +1332,6 @@ au_6_3_origination:
  - "cust_provided"
 au_6_3_implementation: |
  {{au_6_3_implementation}}
-
 au_6_4_role: |
  O365 Security Manager, O365 Trust Program Manager, Service Engineer Operations
 au_6_4_status:
@@ -1446,7 +1341,6 @@ au_6_4_origination:
  - "cust_configured"
 au_6_4_implementation: |
  {{au_6_4_implementation}}
-
 au_6_5_role: |
  O365 Security Manager, O365 Trust Program Manager, Service Engineer Operations
 au_6_5_parameter: |
@@ -1458,7 +1352,6 @@ au_6_5_origination:
  - "cust_configured"
 au_6_5_implementation: |
  {{au_6_5_implementation}}
-
 au_6_6_role: |
  Azure, O365 Security Manager
 au_6_6_status:
@@ -1468,7 +1361,6 @@ au_6_6_origination:
  - "inherited"
 au_6_6_implementation: |
  {{au_6_6_implementation}}
-
 au_6_7_role: |
  O365 Security Manager, O365 Trust Program Manager, Service Engineer Operations
 au_6_7_parameter: |
@@ -1480,7 +1372,6 @@ au_6_7_origination:
  - "cust_configured"
 au_6_7_implementation: |
  {{au_6_7_implementation}}
-
 au_6_10_role: |
  O365 Security Manager, O365 Trust Program Manager, Service Engineer Operations
 au_6_10_status:
@@ -1490,7 +1381,6 @@ au_6_10_origination:
  - "cust_configured"
 au_6_10_implementation: |
  {{au_6_10_implementation}}
-
 au_7_role: |
  O365 Security Manager, O365 Trust Program Manager, Service Engineer Operations
 au_7_status:
@@ -1502,7 +1392,6 @@ au_7_a_implementation: |
  {{au_7_a_implementation}}
 au_7_b_implementation: |
  {{au_7_b_implementation}}
-
 au_7_1_role: |
  O365 Security Manager, O365 Trust Program Manager, Service Engineer Operations
 au_7_1_parameter: |
@@ -1514,7 +1403,6 @@ au_7_1_origination:
  - "cust_provided"
 au_7_1_implementation: |
  {{au_7_1_implementation}}
-
 au_7_2_role: |
  {{au_7_2_role}}
 au_7_2_parameter: |
@@ -1525,7 +1413,6 @@ au_7_2_origination:
  -
 au_7_2_implementation: |
  {{au_7_2_implementation}}
-
 au_8_role: |
  Azure, Service Engineer Operations
 au_8_b_parameter: |
@@ -1539,7 +1426,6 @@ au_8_a_implementation: |
  {{au_8_a_implementation}}
 au_8_b_implementation: |
  {{au_8_b_implementation}}
-
 au_8_1_role: |
  Azure, Customer Administrator
 au_8_1_a_1_parameter: |
@@ -1559,7 +1445,6 @@ au_8_1_a_implementation: |
 au_8_1_b_implementation: |
  O365:
  All Office 365 servers synchronize the internal system clocks to the authoritative time source every hour and update the time if it is off by 1 millisecond or more.
-
 au_8_1_r_role: |
  Azure, Customer Administrator
 au_8_1_a_1_r_parameter: |
@@ -1577,7 +1462,6 @@ au_8_1_r_1_implementation: |
  {{au_8_1_r_1_implementation}}
 au_8_1_r_2_implementation: |
  {{au_8_1_r_2_implementation}}
-
 au_9_role: |
  Service Engineer Operations
 au_9_status:
@@ -1587,7 +1471,6 @@ au_9_origination:
  - "cust_provided"
 au_9_implementation: |
  {{au_9_implementation}}
-
 au_9_2_role: |
  O365 Security Manager, O365 Trust Program Manager, Service Engineer Operations
 au_9_2_parameter: |
@@ -1599,7 +1482,6 @@ au_9_2_origination:
  - "cust_provided"
 au_9_2_implementation: |
  {{au_9_2_implementation}}
-
 au_9_3_role: |
  {{au_9_3_role}}
 au_9_3_status:
@@ -1609,7 +1491,6 @@ au_9_3_origination:
  - "cust_provided"
 au_9_3_implementation: |
  {{au_9_3_implementation}}
-
 au_9_4_role: |
  O365 Security Manager, O365 Trust Program Manager
 au_9_4_parameter: |
@@ -1621,7 +1502,6 @@ au_9_4_origination:
  - "cust_provided"
 au_9_4_implementation: |
  {{au_9_4_implementation}}
-
 au_10_role: |
  {{au_10_role}}
 au_10_parameter: |
@@ -1633,7 +1513,6 @@ au_10_origination:
  - "cust_provided"
 au_10_implementation: |
  {{au_10_implementation}}
-
 au_10_1_role: |
  {{au_10_1_role}}
 au_10_1_parameter: |
@@ -1646,7 +1525,6 @@ au_10_1_a_implementation: |
  {{au_10_1_a_implementation}}
 au_10_1_b_implementation: |
  {{au_10_1_b_implementation}}
-
 au_11_role: |
  O365 Security Manager, O365 Trust Program Manager
 au_11_parameter: |
@@ -1658,7 +1536,6 @@ au_11_origination:
  - "cust_provided"
 au_11_implementation: |
  {{au_11_implementation}}
-
 au_12_role: |
  O365 Security Manager, Service Engineer Operations
 au_12_a_parameter: |
@@ -1681,7 +1558,6 @@ au_12_b_implementation: |
  Audit records are captured in a repository service, which allows for the record generation and reporting capabilities for the auditable events identified in AU-2 and AU-3. These capabilities also allow for the review of audit logs, should information contained within warrant a review.
 au_12_c_implementation: |
  {{au_12_c_implementation}}
-
 au_12_1_role: |
  {{au_12_1_role}}
 au_12_1_1_parameter: |
@@ -1696,7 +1572,6 @@ au_12_1_origination:
  - "inherited"
 au_12_1_implementation: |
  {{au_12_1_implementation}}
-
 au_12_3_role: |
  {{au_12_3_role}}
 au_12_3_1_parameter: |
@@ -1714,7 +1589,6 @@ au_12_3_origination:
  - "cust_provided"
 au_12_3_implementation: |
  {{au_12_3_implementation}}
-
 au_16_2_role: |
  {{au_16_2_role}}
 au_16_2_1_parameter: |
@@ -1727,7 +1601,6 @@ au_16_2_origination:
  -
 au_16_2_implementation: |
  {{au_16_2_implementation}}
-
 ca_1_role: |
  Office 365 Trust Program Manager
 ca_1_a_parameter: |
@@ -1744,7 +1617,6 @@ ca_1_a_implementation: |
  Part 1:
  O365:
  The "Office 365 Information Security Policy" provides the overarching security guidance for Office 365 policies. This document addresses the purpose, scope, roles, responsibilities, compliance requirements, and required coordination among the various Microsoft organizations providing some level of support for the security of Office 365. The policy is distributed to all personnel providing support for Office 365 via SharePoint.
-
  Part 2:
  O365:
  The Office 365 Information Security Policy contains policies that must be met in the delivery and operation of Office 365. Standards and procedures to facilitate execution of these policies are documented in the Active Framework Controls, Office 365 SOPs, and service team-specific SOPs. These standards and procedures act as adjuncts to the security policy and provide implementation level requirements and details to carry out specific operational tasks. A detailed mapping of Office 365 Standards and Procedures to each control is available for review. The SOPs are distributed to roles providing support for Office 365 via SharePoint.
@@ -1752,11 +1624,9 @@ ca_1_b_implementation: |
  Part 1:
  O365:
  The "Office 365 Information Security Policy" is reviewed and updated at least annually by the Office 365 Trust team
-
  Part 2:
  O365:
  The Office 365 SOPs are reviewed and updated at least annually or whenever a significant change occurs.
-
 ca_2_role: |
  O365 Trust Program Manager
 ca_2_b_parameter: |
@@ -1771,11 +1641,9 @@ ca_2_a_implementation: |
  Part 1:
  O365:
  The Security Assessment Plan (SAP) is developed by a 3PAO-certified independent assessor for Office 365. Office 365 requires that the SAP include the security controls and enhancements under assessment, the assessment procedures, and an explanation of the assessment environment, team, and roles and responsibilities. The SAP is then reviewed and approved by Office 365, followed by a security assessment performed by the independent assessor. The SAP will be based on NIST SP 800-53A.
-
  Part 2:
  O365:
  See CA-02(a)(1)
-
  Part 3:
  O365:
  See CA-02(a)(1)
@@ -1787,7 +1655,6 @@ ca_2_c_implementation: |
 ca_2_d_implementation: |
  O365:
  Office 365 provides the SAR to Authorizing Officials (including the FedRAMP PMO), together with the rest of the authorization and accreditation package for an authorization decision.
-
 ca_2_1_role: |
  O365 Trust Program Manager
 ca_2_1_parameter: |
@@ -1799,7 +1666,6 @@ ca_2_1_origination:
 ca_2_1_implementation: |
  O365:
  Microsoft employs a FedRAMP-approved 3PAO as an independent assessor to conduct a security control assessment of Office 365 and its components.
-
 ca_2_2_role: |
  O365 Trust Program Manager
 ca_2_2_1_parameter: |
@@ -1817,7 +1683,6 @@ ca_2_2_origination:
 ca_2_2_implementation: |
  O365:
  The Office 365 Security team performs announced security control assessments at least annually. These assessments include in-depth monitoring, vulnerability scanning, insider threat assessment, malicious user testing through Red Team exercises, and performance/load testing.
-
 ca_2_3_role: |
  O365 Trust Program Manager
 ca_2_3_1_parameter: |
@@ -1833,7 +1698,6 @@ ca_2_3_origination:
 ca_2_3_implementation: |
  O365:
  Office 365 will accept the results of an assessment performed by a 3PAO when that assessment meets the conditions of a P-ATO in the FedRAMP Secure Repository.
-
 ca_3_table13_3_sys_name_1: |
  Cosmos
 ca_3_table13_3_connects_to_1: |
@@ -1877,7 +1741,6 @@ ca_3_table13_3_agreement_name_date_4: |
  {{ca_3_table13_3_agreement_name_date_4}}
 ca_3_table13_3_connection_description_4: |
  {{ca_3_table13_3_connection_description_4}}
-
 ca_3_role: |
  Customer Administrator, O365 Trust Program Manager
 ca_3_c_parameter: |
@@ -1897,7 +1760,6 @@ ca_3_b_implementation: |
  Office 365 Trust is responsible for developing and maintaining MOUs, ISAs, SLAs, and T&C documents for Office 365. These documents include the interface characteristics, security requirements and the nature of the information being communicated with third parties.
 ca_3_c_implementation: |
  {{ca_3_c_implementation}}
-
 ca_3_1_role: |
  {{ca_3_1_role}}
 ca_3_1_1_parameter: |
@@ -1910,7 +1772,6 @@ ca_3_1_origination:
  -
 ca_3_1_implementation: |
  {{ca_3_1_implementation}}
-
 ca_3_3_role: |
  O365 Trust Program Manager
 ca_3_3_1_parameter: |
@@ -1925,10 +1786,8 @@ ca_3_3_origination:
 ca_3_3_implementation: |
  Customer Responsibility:
  Customers are responsible for routing their internet traffic through a TIC. This can be accomplished by restricting access to the government customer’s ADFS to only traffic originating on the government customer’s internal network. This will force government customers attempting to connect to Office 365 to VPN into the customer’s network or directly be on the network at the time of authentication. If the government customer has implemented a TIC on their network, traffic to Office 365 will then be routed through this TIC. For more information, see the following TechNet article: http://technet.microsoft.com/en-us/library/hh526961(v=ws.10).aspx
-
  O365:
  All Office 365 systems connect to external networks only through managed boundary protection devices (routers, firewalls).
-
 ca_3_5_role: |
  O365 Trust Program Manager
 ca_3_5_1_parameter: |
@@ -1941,7 +1800,6 @@ ca_3_5_origination:
  - "sys"
 ca_3_5_implementation: |
  {{ca_3_5_implementation}}
-
 ca_5_role: |
  O365 Trust Program Manager
 ca_5_b_parameter: |
@@ -1958,7 +1816,6 @@ ca_5_a_implementation: |
 ca_5_b_implementation: |
  O365:
  Office 365 Trust updates the POA&Ms which include a list of the vulnerabilities and risks discovered during internal and third party assessment activities and security control monitoring on a monthly basis as part of the Office 365 ConMon process.
-
 ca_6_role: |
  O365 Trust Program Manager
 ca_6_c_parameter: |
@@ -1979,7 +1836,6 @@ ca_6_c_implementation: |
 ca_6_ext_implementation: |
  O365:
  Microsoft provides customers with a Privacy Impact Assessment (PIA), as part of the Office 365 C&A packets, which details the safeguards in place related to collection and usage of personally identifiable information (PII).
-
 ca_7_role: |
  O365 Trust Program Manager
 ca_7_a_parameter: |
@@ -2017,7 +1873,6 @@ ca_7_f_implementation: |
 ca_7_g_implementation: |
  O365:
  Any new deficiencies that are identified from the security control assessments are documented in the POA&M. The POA&M is continuously updated and used to report on the security state of the information system as part of monthly Office 365 operational service readiness reviews. POA&M updates are provided to customers monthly.
-
 ca_7_r_role: |
  {{ca_7_r_role}}
 ca_7_r_status:
@@ -2030,7 +1885,6 @@ ca_7_r_2_implementation: |
  {{ca_7_r_2_implementation}}
 ca_7_r_3_implementation: |
  {{ca_7_r_3_implementation}}
-
 ca_7_1_role: |
  O365 Trust Program Manager
 ca_7_1_parameter: |
@@ -2042,7 +1896,6 @@ ca_7_1_origination:
 ca_7_1_implementation: |
  O365:
  Office 365 security team is continuously scanning environments and sending scan results to service teams. 3PAOs review and validate continuous monitoring efforts as part of the SAR.
-
 ca_7_3_role: |
  O365 Trust Program Manager
 ca_7_3_status:
@@ -2054,7 +1907,6 @@ ca_7_3_implementation: |
  Office 365 Security has automated reporting to compare scan results over time. These reports are updated daily and are available to authorized personnel on the Office 365 Patching and Vulnerability Compliance (PAVC) dashboard.
 
  Office 365 receives information system security alerts, advisories, and directives from a number of external communications including US-CERT, Customer incident reports, Microsoft OSSC C+AI Security Operations Center (SOC) and MSRC. Trend analysis is used to determine if changes need to be made to the overall continuous monitoring strategy
-
 ca_8_role: |
  O365 Trust Program Manager
 ca_8_1_parameter: |
@@ -2072,7 +1924,6 @@ ca_8_implementation: |
  The penetration testing plan will be documented in the SAP and results will be included in the SAR.
 
  Additionally, an independent penetration testing team within Microsoft’s security organization conducts annual unannounced penetration testing. Tests may be coordinated with Office 365 management personnel in order to mitigate risk to the availability. Office 365 management personnel do not notify operational/technical personnel in these cases.
-
 ca_8_1_role: |
  O365 Trust Program Manager
 ca_8_1_status:
@@ -2082,7 +1933,6 @@ ca_8_1_origination:
 ca_8_1_implementation: |
  O365:
  As part of the Office 365 FedRAMP assessment, a 3PAO certified independent auditor will perform penetration testing consistent with FedRAMP requirements. The penetration testing plan will be documented in the SAP and results will be included in the SAR.
-
 ca_9_role: |
  O365 Trust Program Manager
 ca_9_a_parameter: |
@@ -2098,7 +1948,6 @@ ca_9_a_implementation: |
 ca_9_b_implementation: |
  O365:
  Interface characteristics, security requirements, and nature of information being communicated is documented for each internal connection in table 13-3 “CA-3 Authorized Connections” and the data flow diagram provided in Section 10 of this SSP.
-
 ca_9_1_role: |
  {{ca_9_1_role}}
 ca_9_1_status:
@@ -2107,7 +1956,6 @@ ca_9_1_origination:
  -
 ca_9_1_implementation: |
  {{ca_9_1_implementation}}
-
 cm_1_role: |
   O365 Trust Program Manager
 cm_1_a_parameter: |
@@ -2121,7 +1969,6 @@ cm_1_status:
 cm_1_origination:
   - "sys"
   - "cust_provided"
-
 cm_1_a_implementation: |
   Customer Responsibility:
   Government customers are responsible for developing and maintaining appropriate Configuration Management policies that govern configuration management activities for their organization and users.
@@ -2139,7 +1986,6 @@ cm_1_b_implementation: |
   Part 2:
   O365:
   The Office 365 SOPs are reviewed and updated at least annually or whenever a significant change occurs.
-
 cm_2_role: |
   Azure, Service Engineer Operations
 cm_2_status:
@@ -2154,7 +2000,6 @@ cm_2_implementation: |
   Loki, CIA, CII, IS, {{cm_2_implementation}}OSI, SCS, SUE, and some Bing teams inherit the Azure VM OS images. Azure is responsible for developing, documenting and maintaining under configuration control these images at least annually, as described in the Azure SSP.
   SFB, SPO, and MSTeams apply baseline configurations using configuration scripts. These service teams develop, document, and maintain these configuration scripts under configuration control in version control tools.
   AFS, WAC, and some Bing teams, baseline images are managed in PilotFish, which updates images and maintains them under configuration control.
-
 cm_2_1_role: |
   Azure, Service Engineer Operations
 cm_2_1_a_parameter: |
@@ -2175,7 +2020,6 @@ cm_2_1_b_implementation: |
   See CM-02(1)(a)
 cm_2_1_c_implementation: |
   Office 365 reviews and updates the baseline configuration based on new security configurations or changes to existing security configurations. Any change made to IPAK baseline configurations are reviewed by the Azure Change Advisory Board (CAB), and the service teams for each of their own baseline configurations.
-
 cm_2_2_role: |
   Azure, Service Engineer Operations
 cm_2_2_status:
@@ -2186,7 +2030,6 @@ cm_2_2_origination:
 cm_2_2_implementation: |
   O365:
   IPAK images and VM OS images are provided by Azure. Azure is responsible for developing, documenting and maintaining under configuration control of these images as described in the Azure SSP. Version control and ticketing tools are used to manage the maintenance of OS images for at least 6 months to support rollback capability.
-
 cm_2_3_role: |
   Azure, Service Engineer Operations
 cm_2_3_parameter: |
@@ -2199,7 +2042,6 @@ cm_2_3_origination:
 cm_2_3_implementation: |
   O365:
   IPAK images and VM OS images are provided by Azure. Azure is responsible for developing, documenting and maintaining configuration control of these images as described in the Azure SSP. Version control and ticketing tools are used to manage the maintenance of OS images for at least 6 months to support rollback capability.
-
 cm_2_7_role: |
   O365 Trust Program Manager
 cm_2_7_a_1_parameter: |
@@ -2218,7 +2060,6 @@ cm_2_7_a_implementation: |
 cm_2_7_b_implementation: |
   O365:
   See part a.
-
 cm_3_role: |
   O365 Security Manager, Service Engineer Operations
 cm_3_e_parameter: |
@@ -2254,7 +2095,6 @@ cm_3_f_implementation: |
 cm_3_g_implementation: |
   O365
   The Change Advisory Board (CAB) and its members are chartered to formally "Approve" or "Deny" changes prior to implementation. Configuration and code changes follows a common system development process which includes provisions for oversight and approval. The CAB convenes as needed to support changes to the environment.
-
   If a quorum for the CAB exists, the change process begins with an RFC, which documents:
   • What is being changed
   • Where the change is to be implemented
@@ -2268,7 +2108,6 @@ cm_3_g_implementation: |
   Further details of the change management process are detailed in the service team-specific change management SOP.
 
   Any major changes to or developments of Office 365 that may affect its services to the federal government and associated service consumers will be communicated via the FedRAMP major change process
-
 cm_3_1_role: |
   O365 Security Manager, Service Engineer Operations
 cm_3_1_b_parameter: |
@@ -2299,7 +2138,6 @@ cm_3_1_e_implementation: |
 cm_3_1_f_implementation: |
   O365:
   Ticketing tools or source control automatically notify service team managers and relevant service team personnel when a change has successfully deployed.
-
 cm_3_2_role: |
   O365 Security Manager, Service Engineer Operations
 cm_3_2_status:
@@ -2309,7 +2147,6 @@ cm_3_2_origination:
 cm_3_2_implementation: |
   O365:
   Office 365 tests and validates proposed system changes prior to deployment in a separate development environment. Ticketing tools or source control are used to document the results of testing and validation.
-
 cm_3_4_role: |
   O365 Security Manager, Service Engineer Operations
 cm_3_4_parameter: |
@@ -2321,7 +2158,6 @@ cm_3_4_origination:
 cm_3_4_implementation: |
   O365:
   The Change Advisory Board (CAB) and its members, which includes representatives from Office 365 Security, are chartered to formally "Approve" or "Deny" all changes prior to implementation. Configuration and code changes follows a common system development process which includes provisions for oversight and approval. The CAB convenes as needed to support changes to the environment.
-
 cm_3_6_role: |
   {{cm_3_6_role}}O365 Security Manager, Service Engineer Operations
 cm_3_6_parameter: |
@@ -2333,7 +2169,6 @@ cm_3_6_origination:
 cm_3_6_implementation: |
   O365:
   Office 365 has a configuration management standard in place to manage cryptographic mechanisms. Cryptography changes follow the standard security review process described in CM-3(4). Microsoft Office 365 maintains a Security Review process for approving changes in the Office 365 environment that have a security impact or are outside the established baselines. Changes made to cryptography are not implemented unless approved via the security review process including approval by Crypto Board.
-
 cm_4_role: |
   O365 Security Manager, Service Engineer Operations
 cm_4_status:
@@ -2343,7 +2178,6 @@ cm_4_origination:
 cm_4_implementation: |
   O365:
   Service teams are required by the “Office 365 Configuration Management Plan” to assess potential security impact of all changes when reviewing changes for approval. Service team personnel are trained to assess both obviously security-related changes (changes to the configurable security-related parameters of Office 365, registry settings, account, file, and directory settings (i.e., permissions), and settings for services, ports, protocols, and remote connections) as well as possible broader impact to security architecture.
-
 cm_4_1_role: |
   O365 Security Manager, Service Engineer Operations
 cm_4_1_status:
@@ -2353,16 +2187,13 @@ cm_4_1_origination:
 cm_4_1_implementation: |
   O365:
   Service teams test and validate changes in a separate development environment prior to deployment. Changes are assessed for security impacts, flaws, weaknesses, incompatibility, or intentional malice. Ticketing tools or source control are used to document the results of testing and analysis. {{cm_4_1_implementation}}
-
 cm_4_2_role: |
-
 cm_4_2_status:
   -
 cm_4_2_origination:
   -
 cm_4_2_implementation: |
   {{cm_4_2_implementation}}
-
 cm_5_role: |
   Azure, O365 Security Manager, Program Manager
 cm_5_status:
@@ -2378,7 +2209,6 @@ cm_5_implementation: |
   Physical access control is inherited from as documented in the PE control family.
   Physical access to servers and net devices is restricted to authorized personnel through the physical access protections discussed in the PE control family. Changes to servers are made by admins who have access to a particular server.
   Physical access to network devices is enforced by physical protection mechanisms in the datacenters. Access lists for physical access are owned and managed by Datacenter Services.
-
 cm_5_1_role: |
   O365 Security Manager
 cm_5_1_status:
@@ -2389,7 +2219,6 @@ cm_5_1_implementation: |
   O365:
   Service teams use Active Directory (AD), Azure Active Directory (AAD), Torus and JIT tooling to control access to change functions. AD and AAD accounts define the access that is available and JIT elevation provides an added layer of access control by providing a time limited permission elevation when users need to access those accounts. AD and JIT tools are automated, and actions taken (account creation, change, disabling, removal for AD; account elevation for JIT tools) are automatically audited.
   For teams that use Torus, only pre-approved changes are allowed to the information system. The ability to implement these pre-approved changes is access-restricted to the appropriate security groups. Any commandlet run in Torus is logged per auditing requirements defined by the security team.
-
 cm_5_2_role: |
   O365 Security Manager
 cm_5_2_1_parameter: |
@@ -2403,7 +2232,6 @@ cm_5_2_origination:
 cm_5_2_implementation: |
   O365:
   Office 365 develops new code bases at least every 30 days and as part of the continuous monitoring process and pushed out to the servers. Office 365 develops, applies, and controls baseline configurations and changes to baseline configurations following the change and release process. This process ensures that no unauthorized changes are made to baselines. When a change is made to a baseline configuration, all servers with that baseline configuration are redeployed. This ensures that all servers of a particular role are deployed identically. If an attacker were to compromise and change the configuration of an individual server, any anomalous behavior would be detected using Office 365 auditing and monitoring processes. Additionally, any changes made by the attacker would be overwritten upon the next deployment.
-
 cm_5_3_role: |
   O365 Security Manager, Program Manager, Service Engineer Operations
 cm_5_3_parameter: |
@@ -2420,7 +2248,6 @@ cm_5_3_implementation: |
   •	Strong configuration management controls and processes ensure that only approved changes are made to the system.
   •	Strong least privilege controls limit personnel who have permissions to perform break/fix troubleshooting.
   •	Personnel responsible for break/fix troubleshooting are authenticated via multi-factor authentication and undergo background screening.
-
 cm_5_5_role: |
   O365 Security Manager, Program Manager
 cm_5_5_b_parameter: |
@@ -2432,7 +2259,6 @@ cm_5_5_origination:
 cm_5_5_a_implementation: |
   {{cm_5_5_a_implementation}}
 cm_5_5_b_implementation: |
-
 cm_5_6_role: |
   {{cm_5_6_role}}
 cm_5_6_status:
@@ -2441,7 +2267,6 @@ cm_5_6_origination:
   -
 cm_5_6_implementation: |
   {{cm_5_6_implementation}}
-
 cm_6_role: |
   Azure, Service Engineer Operations
 cm_6_a_1_parameter: |
@@ -2466,7 +2291,6 @@ cm_6_c_implementation: |
   All components of the information system are configured based on their role; all components with the same role have the same configuration. In the unlikely event that an exception/deviation is required, service teams would log configuration changes into ticketing tools and follow the regular change approval process.
 cm_6_d_implementation: |
   {{cm_6_d_implementation}}
-
 cm_6_1_role: |
   Azure, Service Engineer Operations
 cm_6_1_parameter: |
@@ -2480,7 +2304,6 @@ cm_6_1_implementation: |
   O365:
   The Office 365 service teams use Active Directory Group Policy Objects (GPOs) and/or Desired State Configuration (DSC) scripts as an automated mechanism to centrally manage, apply, and verify security configuration settings for servers and virtual machines.
   Service teams using Azure rely on Azure to centrally provision machines and apply changes. These service teams use Source Depot and Azure Resource Manager (WARM) as automated mechanisms to centrally manage, apply, and verify security configuration settings for Azure virtual machine images.
-
 cm_6_2_role: |
   Azure, O365 Security Manager, Service Engineer Operations
 cm_6_2_1_parameter: |
@@ -2493,7 +2316,6 @@ cm_6_2_origination:
   - "sys"
 cm_6_2_implementation: |
   {{cm_6_2_implementation}}
-
 cm_7_role: |
   O365 Security Manager, Service Engineer Operations
 cm_7_parameter: |
@@ -2508,7 +2330,6 @@ cm_7_a_implementation: |
 cm_7_b_implementation: |
   O365:
   Office 365 prohibits and restricts the use of specific ports, protocols, and services defined in the USGCB and “O365 Ports Protocols and Services Blacklist” which is integrated into the Office 365 change management process.
-
 cm_7_1_role: |
   O365 Security Manager, Service Engineer Operations
 cm_7_1_a_parameter: |
@@ -2525,7 +2346,6 @@ cm_7_1_a_implementation: |
 cm_7_1_b_implementation: |
   O365:
   Office 365 disables specific ports, protocols, and services defined in the “O365 Ports Protocols and Services Blacklist”.
-
 cm_7_2_role: |
   O365 Trust Program Manager
 cm_7_2_parameter: |
@@ -2552,7 +2372,6 @@ cm_7_2_implementation: |
   •	Office 365 logs all executed software and performs blacklist detection. If needed, ad-hoc reports can be run to determine if and where software was executed.
   Additionally, Office 365 has implemented blacklist detections.
   Office 365 has adopted this alternative implementation as an operational requirement as documented in POA&M ITAR-059.
-
 cm_7_5_role: |
   O365 Security Manager, Service Engineer Operations
 cm_7_5_a_parameter: |
@@ -2570,7 +2389,6 @@ cm_7_5_b_implementation: |
   {{cm_7_5_b_implementation}}
 cm_7_5_c_implementation: |
   {{cm_7_5_c_implementation}}
-
 cm_8_role: |
   O365 Security Manager, Service Engineer Operations
 cm_8_a_4_parameter: |
@@ -2591,7 +2409,6 @@ cm_8_a_implementation: |
 cm_8_b_implementation: |
   O365:
   Service teams review and update their inventory on a monthly basis and provide that inventory to Office 365 Trust.
-
 cm_8_1_role: |
   O365 Security Manager, Service Engineer Operations
 cm_8_1_status:
@@ -2601,7 +2418,6 @@ cm_8_1_origination:
 cm_8_1_implementation: |
   O365:
   Service teams are responsible for maintaining inventories as part of component installations, removals, and information system updates. The updates to inventory are reflected in the monthly list each service team delivers to Office 365 Trust.
-
 cm_8_2_role: |
   Azure, O365 Security Manager, Service Engineer Operations
 cm_8_2_status:
@@ -2610,7 +2426,6 @@ cm_8_2_origination:
  - "{{cm_8_2_origination}}"
 cm_8_2_implementation: |
   {{cm_8_2_implementation}}
-
 cm_8_3_role: |
   Azure
 cm_8_3_a_parameter: |
@@ -2627,7 +2442,6 @@ cm_8_3_a_implementation: |
 cm_8_3_b_implementation: |
   O365:
   See part a.
-
 cm_8_4_role: |
   O365 Security Manager, Service Engineer Operations
 cm_8_4_parameter: |
@@ -2639,7 +2453,6 @@ cm_8_4_origination:
 cm_8_4_implementation: |
   O365:
   Inventory information includes the service team responsible for each component of the information system. Each service team designates one or more individuals or roles responsible for administering that team’s components as designated asset owners.
-
 cm_8_5_role: |
   Azure, O365 Security Manager, Service Engineer Operations
 cm_8_5_status:
@@ -2649,7 +2462,6 @@ cm_8_5_origination:
   - "inherited"
 cm_8_5_implementation: |
   {{cm_8_5_implementation}}
-
 cm_9_role: |
  O365 Trust Program Manager, Program Manager
 cm_9_status:
@@ -2668,7 +2480,6 @@ cm_9_c_implementation: |
 cm_9_d_implementation: |
   365:
   Office 365 has a system-wide configuration management plan titled "Office 365 Configuration Management Plan". Each service team complies with this configuration management plan. The plan is reviewed at least annually, is maintained by Office 365 Trust, and is stored on Office 365 Trust SharePoint, which has functionality to protect against unauthorized disclosure and modification via RBAC.
-
 cm_10_role: |
   O365 Trust Program Manager, Program Manager
 cm_10_status:
@@ -2687,7 +2498,6 @@ cm_10_b_implementation: |
 cm_10_c_implementation: |
   O365:
   Office 365 does not allow peer-to-peer file sharing. If the need arises to install a peer-to-peer file sharing application manager, Corporate External and Legal Affairs (CELA) and Microsoft Information Security approval is required.
-
 cm_10_1_role: |
   O365 Trust Program Manager, Program Manager
 cm_10_1_parameter: |
@@ -2702,7 +2512,6 @@ cm_10_1_implementation: |
   • All software (including tools and utilities) installed within Office 365 must be approved by the appropriate stakeholders prior to being released into production.
   • Prior to deployment in Office 365, all software must be tested in a manner suitable to Microsoft to evaluate its impact on system performance, stability (failure and recovery characteristics) and security state (security controls work as expected and the product does not contain malicious code).
   • Software submitted for approval must have a legitimate business purpose.
-
 cm_11_role: |
   O365 Trust Program Manager, Program Manager
 cm_11_a_parameter: |
@@ -2723,7 +2532,6 @@ cm_11_b_implementation: |
 cm_11_c_implementation: |
   O365:
   Office 365 monitors compliance continuously for the baseline.
-
 cm_11_1_role: |
   O365 Trust Program Manager, Program Manager
 cm_11_1_parameter: |
@@ -2735,7 +2543,6 @@ cm_11_1_origination:
 cm_11_1_implementation: |
   O365:
   Office 365 monitors compliance continuously for baselines and software installations are captured in audit logs. If the unauthorized installation of software is detected, Office 365 Security or service team incident response personnel are notified.
-
 cp_1_role: |
  BCM, Program Manager
 cp_1_a_1_parameter: |
@@ -2759,7 +2566,6 @@ cp_1_b_implementation: |
  Part 2:
  O365:
  The Office 365 SOP are reviewed and updated annually or whenever a significant change occurs by the service teams and Office 365 Trust.
-
 cp_2_role: |
  BCM, BCM Engineer, Program Manager
 cp_2_a_6_parameter: |
@@ -2804,7 +2610,6 @@ cp_2_f_implementation: |
 cp_2_g_implementation: |
  O365:
  Office 365 protects the contingency plan from unauthorized disclosure and modification by using access controls within SharePoint. Training and NDAs protect against the disclosure of information by support personnel.
-
 cp_2_1_role: |
  BCM, Program Manager
 cp_2_1_status:
@@ -2815,7 +2620,6 @@ cp_2_1_implementation: |
  O365:
  Office 365 coordinates contingency plan development with organizational elements responsible for related plans. For service teams under the Office 365 organization, BCP documents have been developed separately for each service team. The BCP address the dependencies with other service teams as well as any dependencies outside of Office 365 such as Azure. O365 Business Continuity Management (BCM) is responsible for coordinating between service teams and with external dependencies.
  Service teams that are outside the Office 365 organization but maintain resources within the Office 365 boundary are required to meet the requirements of this control but might vary in approach. For example, AFS falls under the Azure organization and they align to a unified ISCP for all of Azure rather than maintain their own plan.
-
 cp_2_2_role: |
  BCM, Program Manager
 cp_2_2_status:
@@ -2825,7 +2629,6 @@ cp_2_2_origination:
 cp_2_2_implementation: |
  O365:
  All service teams include capacity planning as a key feature of their datacenter models and data replication plans to ensure that there is necessary capacity for information processing, telecommunications, and environmental support.
-
 cp_2_3_role: |
  BCM, Program Manager
 cp_2_3_parameter: |
@@ -2837,7 +2640,6 @@ cp_2_3_origination:
 cp_2_3_implementation: |
  O365:
  All Office 365 service teams establish recovery time objectives (RTO) for essential Office 365 missions and business functions and document those objectives in a BIA, as part of the Business Continuity Management (BCM) process.
-
 cp_2_4_role: |
  BCM, Program Manager
 cp_2_4_parameter: |
@@ -2849,7 +2651,6 @@ cp_2_4_origination:
 cp_2_4_implementation: |
  O365:
  All Office 365 service teams establish recovery time objectives (RTO) for essential Office 365 missions and business functions and document those objectives in a BIA) as part of the Business Continuity Management (BCM) process. Recovery agreements are in accordance with the recovery time objectives within each service team’s Business Impact Analysis.
-
 cp_2_5_role: |
  Azure, BCM, {{cp_2_5_role}}Program Manager
 cp_2_5_status:
@@ -2859,7 +2660,6 @@ cp_2_5_origination:
  - "inherited"
 cp_2_5_implementation: |
  {{cp_2_5_implementation}}
-
 cp_2_8_role: |
  BCM, Program Manager
 cp_2_8_status:
@@ -2869,7 +2669,6 @@ cp_2_8_origination:
 cp_2_8_implementation: |
  O365:
  All Office 365 service teams identify critical information system assets for Office 365 services and document those assets in a Dependency Analysis as part of the Business Continuity Management (BCM) process.
-
 cp_3_role: |
  BCM, Program Manager
 cp_3_a_parameter: |
@@ -2888,7 +2687,6 @@ cp_3_b_implementation: |
  Contingency training will also be conducted as needed when required by information system changes.
 cp_3_c_implementation: |
  Contingency refresher training is provided at least annually.
-
 cp_3_1_role: |
  BCM, Program Manager
 cp_3_1_status:
@@ -2899,7 +2697,6 @@ cp_3_1_implementation: |
  O365:
  Office 365 trains personnel in their contingency roles and responsibilities through their O365 Business Continuity Management (BCM) Training & Awareness program within 10 days of assuming a contingency role or responsibility. For all new service team personnel with contingency responsibilities, this training is incorporated into onboarding training. The Office 365 BCM Training & Awareness program incorporates tabletop exercises and functional failover tests to maximize plan accuracy and facilitate effective response to incidents.
  Business Continuity groups within each service team are responsible for conducting functional exercises for their team. Related plans are identified in each service team’s business continuity plan. Office 365 BCM coordinates organizational elements responsible for these related plans as required to effectively test the plan’s effectiveness and reliability.
-
 cp_4_role: |
  BCM, Service Engineer Operations
 cp_4_a_1_parameter: |
@@ -2919,7 +2716,6 @@ cp_4_b_implementation: |
 cp_4_c_implementation: |
  O365:
  Each service team, in coordination with O365 BCM, reviews the contingency plan test/exercise results and initiates corrective actions. The contingency plan document is updated to include the lessons learned and any necessary procedural changes/enhancements to the plan.
-
 cp_4_1_role: |
  BCM, Program Manager
 cp_4_1_status:
@@ -2929,7 +2725,6 @@ cp_4_1_origination:
 cp_4_1_implementation: |
  O365:
  Business Continuity groups within each service team are responsible for conducting functional exercises for their team. Related plans are identified in each service team’s BCP. Office 365 BCM coordinates organizational elements responsible for these related plans as required to effectively test the plan’s effectiveness and reliability.
-
 cp_4_2_role: |
  BCM, Program Manager
 cp_4_2_status:
@@ -2940,7 +2735,6 @@ cp_4_2_a_implementation: |
  {{cp_4_2_a_implementation}}
 cp_4_2_b_implementation: |
  {{cp_4_2_b_implementation}}
-
 cp_6_role: |
  Azure, Program Manager
 cp_6_status:
@@ -2955,7 +2749,6 @@ cp_6_b_implementation: |
  O365:
  Office 365 alternate storage sites are managed by Azure Government, which is an accredited federal system under FedRAMP. Alternate storage sites have physical security safeguards equivalent to that of the primary site.
  All storage sites have logical safeguards equivalent to that of the primary storage site.
-
 cp_6_1_role: |
  Azure, Program Manager
 cp_6_1_status:
@@ -2966,7 +2759,6 @@ cp_6_1_origination:
 cp_6_1_implementation: |
  O365:
  Each Office 365 service team has identified an alternate storage site that is separated from the primary storage site so as not to be susceptible to the same hazards. Office 365 services operate in Active/Active configurations utilizing geographically distributed Azure Government datacenters. The alternate storage site(s) for each service is the same as the alternate processing site(s) for that service. The data center pairs are carefully chosen to provide geographically diverse data centers.
-
 cp_6_2_role: |
  Azure, Program Manager
 cp_6_2_status:
@@ -2977,7 +2769,6 @@ cp_6_2_origination:
 cp_6_2_implementation: |
  O365:
  Office 365 establishes alternate storage sites including necessary agreements to permit the storage and recovery of backup information. Active alternate sites are in place for each of the service teams. All alternate sites are active sites leveraging near real-time data replication. Each alternate site is redundant and managed by Azure Government. The recovery agreements with Azure Government are in accordance with the recovery time objectives established within the service teams’ Business Impact Analysis.
-
 cp_6_3_role: |
  Azure, Program Manager
 cp_6_3_status:
@@ -2989,7 +2780,6 @@ cp_6_3_implementation: |
  O365:
  Office 365 has evaluated alternative storage sites to identify potential accessibility problems to the alternate storage site in the event of an area-wide disruption or disaster. An area-wide disruption or disaster would not affect the Office 365 alternate storage sites since they are located in geographically separated regions for each system.
  The identification and mitigation of potential accessibility problems to the alternate storage site is inherited from Azure. Azure provides support for the secure storage and retrieval of system data. Azure manages all Microsoft datacenters and has Emergency Management Teams (EMT) in place to discuss with all team members any accessibility problems in the event of area-wide disruption or disaster and, details explicit mitigation actions. Area-wide disruption or disaster at the primary site would not affect the Microsoft Azure secondary storage site since they are located in geographically separated regions for each system. Microsoft Azure personnel are located in Puget Sound, working remotely; therefore, the accessibility issues are not applicable to Microsoft Azure.
-
 cp_7_role: |
  Azure, Program Manager
 cp_7_a_1_parameter: |
@@ -3007,7 +2797,6 @@ cp_7_b_implementation: |
  {{cp_7_b_implementation}}
 cp_7_c_implementation: |
  {{cp_7_c_implementation}}
-
 cp_7_1_role: |
  Azure, Program Manager
 cp_7_1_status:
@@ -3018,7 +2807,6 @@ cp_7_1_origination:
 cp_7_1_implementation: |
  O365:
  The alternate processing sites for each Office 365 service team are separated as to not be susceptible to the same hazards, as detailed in the BCP applicable to each system. Office 365 services operate in Active/Active configurations utilizing geographically distributed Azure Government datacenters. The data center pairs are carefully chosen to provide geographically diverse data centers.
-
 cp_7_2_role: |
  Program Manager
 cp_7_2_status:
@@ -3028,7 +2816,6 @@ cp_7_2_origination:
 cp_7_2_implementation: |
  O365:
  After evaluating the geographical distribution of the alternate sites, Office 365 personnel have determined that an area-wide disruption or disaster would not affect the respective Office 365 alternate processing sites since they are located in different regions of the United States for each system.
-
 cp_7_3_role: |
  Program Manager
 cp_7_3_status:
@@ -3038,8 +2825,6 @@ cp_7_3_origination:
 cp_7_3_implementation: |
  O365:
  Office 365 service teams utilize Active-Active clustering in alternate processing site agreements in accordance with the organization’s availability requirements. Recovery Time Objectives (RTO) are established for services and are detailed as part of the Business Continuity Management (BCM) process. These RTOs serve as the alternate processing site agreements which determine the priority-of-service provisions for each Office 365 service.
-
-
 cp_7_4_role: |
  Azure
 cp_7_4_status:
@@ -3051,8 +2836,6 @@ cp_7_4_implementation: |
  O365:
  Office 365 alternate processing sites are managed by Azure Government, which is an accredited federal system under FedRAMP. Office 365 ensures that equipment and supplies, required to resume operations, are available at the alternate site, or contracts are in place to support delivery to the site in time to support the time period for resumption defined in each service team’s Business Impact Analysis.
  Because each site is operationally active, both the primary and the alternate site contain identical equipment to support ongoing production of the system due to a disruption at the other location. The recovery agreements with Azure Government are in accordance with the recovery time objectives established within each service team’s Business Continuity Plan.
-
-
 cp_8_role: |
  Azure
 cp_8_1_parameter: |
@@ -3065,7 +2848,6 @@ cp_8_origination:
  - "inherited"
 cp_8_implementation: |
  {{cp_8_implementation}}
-
 cp_8_1_role: |
  Azure
 cp_8_1_status:
@@ -3076,7 +2858,6 @@ cp_8_1_a_implementation: |
  {{cp_8_1_a_implementation}}
 cp_8_1_b_implementation: |
  {{cp_8_1_b_implementation}}
-
 cp_8_2_role: |
  Azure
 cp_8_2_status:
@@ -3085,7 +2866,6 @@ cp_8_2_origination:
  - "inherited"
 cp_8_2_implementation: |
  {{cp_8_2_implementation}}
-
 cp_8_3_role: |
  Azure
 cp_8_3_status:
@@ -3094,7 +2874,6 @@ cp_8_3_origination:
  - "inherited"
 cp_8_3_implementation: |
  {{cp_8_3_implementation}}
-
 cp_8_4_role: |
  Azure
 cp_8_4_c_parameter: |
@@ -3109,7 +2888,6 @@ cp_8_4_b_implementation: |
  {{cp_8_4_b_implementation}}
 cp_8_4_c_implementation: |
  {{cp_8_4_c_implementation}}
-
 cp_9_role: |
   Azure, Service Engineer Operations
 cp_9_a_parameter: |
@@ -3161,7 +2939,6 @@ cp_9_d_implementation: |
  {{cp_9_d_implementation}}
 cp_9_ext_implementation: |
  {{cp_9_ext_implementation}}
-
 cp_9_1_role: |
  Azure, Service Engineer Operations
 cp_9_1_parameter: |
@@ -3172,7 +2949,6 @@ cp_9_1_origination:
  - "sys"
 cp_9_1_implementation: |
  {{cp_9_1_implementation}}
-
 cp_9_2_role: |
  Azure, Service Engineer Operations
 cp_9_2_status:
@@ -3184,7 +2960,6 @@ cp_9_2_implementation: |
  O365:
  User level information is stored in Azure Storage. Office 365 uses geo-replication to provide redundancy to alternate geographic locations. Data durability is obtained by synchronously replicating data across multiple databases in different datacenters. Restoration tests are performed for all backup data owned by Office 365.
  The use of Azure Storage is inherited from Azure Government.
-
 cp_9_3_role: |
  Service Engineer Operations
 cp_9_3_parameter: |
@@ -3196,7 +2971,6 @@ cp_9_3_origination:
 cp_9_3_implementation: |
  O365:
  Office 365 has defined critical information system software and other security-related information as source code, builds, customer content, and access control data. This critical functionality and data is replicated and stored across at least two data centers.
-
 cp_9_5_role: |
  Service Engineer Operations
 cp_9_5_parameter: |
@@ -3208,7 +2982,6 @@ cp_9_5_origination:
 cp_9_5_implementation: |
  O365:
  Office 365 establishes alternate storage sites at geographically distributed datacenters. Data durability is obtained by synchronously replicating data across different databases in the same datacenter and across multiple datacenters. Disaster Recovery is achieved by asynchronous replication to a data center in a different geographical region.
-
 cp_10_role: |
  Azure, Service Engineer Operations
 cp_10_status:
@@ -3218,7 +2991,6 @@ cp_10_origination:
  - "inherited"
 cp_10_implementation: |
  {{cp_10_implementation}}
-
 cp_10_2_role: |
  Service Engineer Operations
 cp_10_2_status:
@@ -3228,12 +3000,10 @@ cp_10_2_origination:
 cp_10_2_implementation: |
  O365:
  Office 365 does not use transaction-based systems.
-
 cp_10_4_role: |
  Azure, Service Engineer Operations, Service Engineer Operations (GCC High)
 cp_10_4_parameter: |
  Time period consistent with the restoration time-periods defined in the service provider and organization SLA
-
 cp_10_4_status:
  - "implemented"
 cp_10_4_origination:
@@ -3241,7 +3011,6 @@ cp_10_4_origination:
  - "inherited"
 cp_10_4_implementation: |
  {{cp_10_4_implementation}}
-
 di_1_role: |
   {{di_1_role}}
 di_1_c_parameter: |
@@ -3258,7 +3027,6 @@ di_1_c_implementation: |
  {{di_1_c_implementation}}
 di_1_d_implementation: |
  {{di_1_d_implementation}}
-
 di_1_1_role: |
  {{di_1_1_role}}
 di_1_1_status:
@@ -3267,7 +3035,6 @@ di_1_1_origination:
  -
 di_1_1_implementation: |
  {{di_1_1_implementation}}
-
 di_1_2_role: |
  {{di_1_2_role}}
 di_1_2_parameter: |
@@ -3278,7 +3045,6 @@ di_1_2_origination:
  -
 di_1_2_implementation: |
  {{di_1_2_implementation}}
-
 dm_1_role: |
  {{dm_1_role}}
 dm_1_c_parameter: |
@@ -3293,7 +3059,6 @@ dm_1_b_implementation: |
  {{dm_1_b_implementation}}
 dm_1_c_implementation: |
  {{dm_1_c_implementation}}
-
 dm_2_role: |
  {{dm_2_role}}
 dm_2_a_parameter: |
@@ -3310,7 +3075,6 @@ dm_2_b_implementation: |
  {{dm_2_b_implementation}}
 dm_2_c_implementation: |
  {{dm_2_c_implementation}}
-
 dm_2_1_role: |
  {{dm_2_1_role}}
 dm_2_1_status:
@@ -3319,7 +3083,6 @@ dm_2_1_origination:
  -
 dm_2_1_implementation: |
  {{dm_2_1_implementation}}
-
 dm_3_role: |
  {{dm_3_role}}
 dm_3_status:
@@ -3330,7 +3093,6 @@ dm_3_a_implementation: |
  {{dm_3_a_implementation}}
 dm_3_b_implementation: |
  {{dm_3_b_implementation}}
-
 dm_3_1_role: |
  {{dm_3_1_role}}
 dm_3_1_status:
@@ -3339,7 +3101,6 @@ dm_3_1_origination:
  -
 dm_3_1_implementation: |
  {{dm_3_1_implementation}}
-
 gr_1_a_implementation: |
  {{gr_1_a_implementation}}
 gr_1_b_implementation: |
@@ -3350,19 +3111,16 @@ gr_1_d_implementation: |
  {{gr_1_d_implementation}}
 gr_1_x_implementation: |
  {{gr_1_x_implementation}}
-
 gr_2_a_implementation: |
  {{gr_2_a_implementation}}
 gr_2_b_implementation: |
  {{gr_2_b_implementation}}
 gr_2_c_implementation: |
  {{gr_2_c_implementation}}
-
 gr_3_a_implementation: |
  {{gr_3_a_implementation}}
 gr_3_b_implementation: |
  {{gr_3_b_implementation}}
-
 gr_4_a_implementation: |
  {{gr_4_a_implementation}}
 gr_4_b_implementation: |
@@ -3371,12 +3129,10 @@ gr_4_c_implementation: |
  {{gr_4_c_implementation}}
 gr_4_d_implementation: |
  {{gr_4_d_implementation}}
-
 gr_5_a_implementation: |
  {{gr_5_a_implementation}}
 gr_5_b_implementation: |
  {{gr_5_b_implementation}}
-
 gr_6_role: |
  {{gr_6_role}}
 gr_6_a_implementation: |
@@ -3385,32 +3141,26 @@ gr_6_b_implementation: |
  {{gr_6_b_implementation}}
 gr_6_c_implementation: |
  {{gr_6_c_implementation}}
-
 gr_7_role: |
  {{gr_7_role}}
 gr_7_implementation: |
  {{gr_7_implementation}}
-
 gr_8_role: |
  {{gr_8_role}}
 gr_8_implementation: |
  {{gr_8_implementation}}
-
 gr_9_role: |
  {{gr_9_role}}
 gr_9_implementation: |
  {{gr_9_implementation}}
-
 gr_10_role: |
  {{gr_10_role}}
 gr_10_implementation: |
  {{gr_10_implementation}}
-
 gr_11_role: |
  {{gr_11_role}}
 gr_11_implementation: |
  {{gr_11_implementation}}
-
 gr_12_role: |
  {{gr_12_role}}
 gr_12_a_implementation: |
@@ -3421,12 +3171,10 @@ gr_12_c_implementation: |
  {{gr_12_c_implementation}}
 gr_12_d_implementation: |
  {{gr_12_d_implementation}}
-
 gr_13_role: |
  {{gr_13_role}}
 gr_13_implementation: |
  {{gr_13_implementation}}
-
 gr_14_role: |
  {{gr_14_role}}
 gr_14_a_implementation: |
@@ -3437,12 +3185,10 @@ gr_14_c_implementation: |
  {{gr_14_c_implementation}}
 gr_14_d_implementation: |
  {{gr_14_d_implementation}}
-
 gr_15_role: |
  {{gr_15_role}}
 gr_15_implementation: |
  {{gr_15_implementation}}
-
 gr_16_a_implementation: |
  {{gr_16_a_implementation}}
 gr_16_b_implementation: |
@@ -3451,16 +3197,12 @@ gr_16_c_implementation: |
  {{gr_16_c_implementation}}
 gr_16_d_implementation: |
  {{gr_16_d_implementation}}
-
 gr_17_implementation: |
  {{gr_17_implementation}}
-
 gr_18_implementation: |
  {{gr_18_implementation}}
-
 gr_19_implementation: |
  {{gr_19_implementation}}
-
 ia_1_role: |
   O365 Trust Program Manager
 ia_1_a_parameter: |
@@ -3487,7 +3229,6 @@ ia_1_b_implementation: |
   Part 2:
   O365:
   The Office 365 SOP are reviewed and updated annually or whenever a significant change occurs
-
 ia_2_role: |
   Customer Administrator, O365 Security Manager, Service Engineer Operations
 ia_2_status:
@@ -3497,7 +3238,6 @@ ia_2_origination:
   - "cust_provided"
 ia_2_implementation: |
   {{ia_2_implementation}}
-
 ia_2_1_role: |
   Customer Administrator, O365 Security Manager, Service Engineer Operations
 ia_2_1_status:
@@ -3508,8 +3248,6 @@ ia_2_1_origination:
   - "inherited"
 ia_2_1_implementation: |
   {{ia_2_1_implementation}}
-
-
 ia_2_2_role: |
   Customer Administrator, Service Engineer Operations
 ia_2_2_status:
@@ -3519,7 +3257,6 @@ ia_2_2_origination:
   - "cust_provided"
 ia_2_2_implementation: |
   {{ia_2_2_implementation}}
-
 ia_2_3_role: |
   Office 365 Security Manager
 ia_2_3_status:
@@ -3528,7 +3265,6 @@ ia_2_3_origination:
   - "sys"
 ia_2_3_implementation: |
   There is no local access to the Office 365 environment. Office 365 personnel do not have physical access to Office 365 servers, and Azure personnel do not have logical access to Office 365 servers. Events which might require local access in other environments usually result in replacement of hardware in the Office 365 environment.
-
 ia_2_4_role: |
   O365 Security Manager
 ia_2_4_status:
@@ -3537,7 +3273,6 @@ ia_2_4_origination:
   - "sys"
 ia_2_4_implementation: |
   As general practice, there is no local access to the Office 365 environment. Office 365 personnel do not have physical access to Office 365 servers, and Azure personnel do not have logical access to Office 365 servers. Events which might require local access in other environments usually result in replacement of hardware in the Office 365 environment. If local access is needed, it is only granted following the incident response process.
-
 ia_2_5_role: |
   O365 Security Manager
 ia_2_5_status:
@@ -3551,7 +3286,6 @@ ia_2_5_implementation: |
   Government customers are responsible for uniquely identifying individuals using group authenticators.
   O365:
   Office 365 does not use shared accounts. Individual service engineers are assigned into a security group, and in order to use these credentials, a user must go through multifactor authentication to uniquely identify their credentials.
-
 ia_2_6_role: |
   {{ia_2_6_role}}
 ia_2_6_status:
@@ -3560,7 +3294,6 @@ ia_2_6_origination:
  -
 ia_2_6_implementation: |
   {{ia_2_6_implementation}}
-
 ia_2_7_role: |
   {{ia_2_7_role}}
 ia_2_7_status:
@@ -3569,7 +3302,6 @@ ia_2_7_origination:
  -
 ia_2_7_implementation: |
   {{ia_2_7_implementation}}
-
 ia_2_8_role: |
   O365 Security Manager, Service Engineer Operations
 ia_2_8_status:
@@ -3580,7 +3312,6 @@ ia_2_8_origination:
   - "inherited"
 ia_2_8_implementation: |
   {{ia_2_8_implementation}}
-
 ia_2_9_role: |
   {{ia_2_9_role}}O365 Security Manager, Service Engineer Operations
 ia_2_9_status:
@@ -3590,7 +3321,6 @@ ia_2_9_origination:
   - "cust_provided"
 ia_2_9_implementation: |
   {{ia_2_9_implementation}}
-
 ia_2_11_role: |
   Azure, O365 Security Manager, Service Engineer Operations
 ia_2_11_parameter: |
@@ -3603,7 +3333,6 @@ ia_2_11_origination:
   - "inherited"
 ia_2_11_implementation: |
   {{ia_2_11_implementation}}
-
 ia_2_12_role: |
   Customer Administrator
 ia_2_12_status:
@@ -3615,8 +3344,6 @@ ia_2_12_implementation: |
   Government customers using ADFS are responsible for accepting and electronically verifying Personal Identity Verification (PIV) credentials for government customer users.
   O365:
   Office 365 does not utilize Personal Identity Verification (PIV) credentials for service team administrators. PIV cards are not available to Office 365 service team personnel. As such this control is not applicable to Office 365 service team personnel.
-
-
 ia_3_role: |
   Service Engineer Operations
 ia_3_1_parameter: |
@@ -3631,7 +3358,6 @@ ia_3_origination:
   - "inherited"
 ia_3_implementation: |
   {{ia_3_implementation}}
-
 ia_3_1_role: |
   {{ia_3_1_role}}
 ia_3_1_status:
@@ -3640,7 +3366,6 @@ ia_3_1_origination:
  -
 ia_3_1_implementation: |
   {{ia_3_1_implementation}}
-
 ia_4_role: |
   Customer Administrator, O365 Security Manager, Program Manager
 ia_4_a_parameter: |
@@ -3666,7 +3391,6 @@ ia_4_e_implementation: |
   {{ia_4_e_implementation}}
 ia_4_ext_implementation: |
   {{ia_4_ext_implementation}}
-
 ia_4_3_role: |
   {{ia_4_3_role}}
 ia_4_3_status:
@@ -3675,7 +3399,6 @@ ia_4_3_origination:
  -
 ia_4_3_implementation: |
   {{ia_4_3_implementation}}
-
 ia_4_4_role: |
   MSIT
 ia_4_4_parameter: |
@@ -3686,7 +3409,6 @@ ia_4_4_origination:
   - "sys"
 ia_4_4_implementation: |
   {{ia_4_4_implementation}}
-
 ia_5_role: |
   Customer Administrator, MSIT, Service Engineer Operations
 ia_5_g_parameter: |
@@ -3717,7 +3439,6 @@ ia_5_i_implementation: |
   {{ia_5_i_implementation}}
 ia_5_j_implementation: |
   {{ia_5_j_implementation}}
-
 ia_5_1_role: |
   Service Engineer Operations
 ia_5_1_a_parameter: |
@@ -3747,7 +3468,6 @@ ia_5_1_e_implementation: |
   {{ia_5_1_e_implementation}}
 ia_5_1_f_implementation: |
   {{ia_5_1_f_implementation}}
-
 ia_5_2_role: |
   Customer Administrator, O365 Security Manager, Service Engineer Operations
 ia_5_2_status:
@@ -3765,7 +3485,6 @@ ia_5_2_c_implementation: |
 ia_5_2_d_implementation: |
   O365:
   Office 365 domain controllers cache revocation data and make it available to Office 365 servers if the primary revocation lists are unavailable.
-
 ia_5_3_role: |
  MSIT
 ia_5_3_1_parameter: |
@@ -3783,7 +3502,6 @@ ia_5_3_origination:
   - "cust_provided"
 ia_5_3_implementation: |
   {{ia_5_3_implementation}}
-
 ia_5_4_role: |
   MSIT
 ia_5_4_parameter: |
@@ -3795,7 +3513,6 @@ ia_5_4_origination:
   - "cust_provided"
 ia_5_4_implementation: |
   {{ia_5_4_implementation}}
-
 ia_5_6_role: |
   O365 Security Manager
 ia_5_6_status:
@@ -3805,7 +3522,6 @@ ia_5_6_origination:
   - "cust_provided"
 ia_5_6_implementation: |
   {{ia_5_6_implementation}}
-
 ia_5_7_role: |
   Service Engineer Operations
 ia_5_7_status:
@@ -3815,7 +3531,6 @@ ia_5_7_origination:
   - "cust_provided"
 ia_5_7_implementation: |
   {{ia_5_7_implementation}}
-
 ia_5_8_role: |
   Service Engineer Operations
 ia_5_8_parameter: |
@@ -3833,8 +3548,6 @@ ia_5_8_implementation: |
   Office 365 uses multifactor authentication for network access by Office 365 personnel through the use of IAL, AAL, FAL level 3 and FIPS 140-2 validated YubiKeys or approved IAL, AAL, FAL level 3and FIPS 140-2 validated TPM modules.
   All Microsoft users connect to the system via ORAS or Azure managed Terminal Services Gateways (TSGs) as described in AC-17; the TSGs require the user to present a certificate bound to the card (something you have) with a PIN (something you know). This ensures that personnel use different authenticators when accessing the two systems and prevents an attacker from gaining access to both systems if one set of authenticators is compromised. Authenticators are environment-specific; an authenticator configured for access to one Office 365 environment cannot be used to grant access to a different Office 365 environment.
   Office 365 mitigates the risk of compromise presented by individuals having multiple accounts by establishing single sign-on through central account management and account provisioning for the Office 365 environment. Office 365 domain accounts are provisioned for remote access to the Office 365 environment. Compromise is further mitigated through the use of two-factor authentication using Office 365 issued YubiKeys and PINs.
-
-
 ia_5_11_role: |
   MSIT
 ia_5_11_parameter: |
@@ -3849,7 +3562,6 @@ ia_5_11_implementation: |
   Office 365 government and non-government customers utilizing hardware token-based authentication are responsible for employing mechanisms that satisfy their token quality requirements.
   O365:
   Office 365 uses multifactor authentication for network access by Office 365 personnel through the use of IAL, AAL, FAL level 3 and FIPS 140-2 validated YubiKeys or approved IAL, AAL, FAL level 3 and FIPS 140-2 validated TPM modules.
-
 ia_5_13_role: |
   Service Engineer Operations
 ia_5_13_parameter: |
@@ -3861,7 +3573,6 @@ ia_5_13_origination:
   - "cust_provided"
 ia_5_13_implementation: |
   {{ia_5_13_implementation}}
-
 ia_6_role: |
   None – Automated
 ia_6_status:
@@ -3871,7 +3582,6 @@ ia_6_origination:
 ia_6_implementation: |
   O365:
   Office 365 implements authenticator feedback through the use of the built-in operating system security controls that protect passwords when authenticating to system components. Passwords are obfuscated during the login process. No feedback is provided during the authentication process that could lead to potential exploitation by unauthorized users.
-
 ia_7_role: |
   O365 Security Manager
 ia_7_status:
@@ -3881,7 +3591,6 @@ ia_7_origination:
   - "cust_provided"
 ia_7_implementation: |
   {{ia_7_implementation}}
-
 ia_8_role: |
   Customer Administrator
 ia_8_status:
@@ -3890,7 +3599,6 @@ ia_8_origination:
  - "cust_provided"
 ia_8_implementation: |
   {{ia_8_implementation}}
-
 ia_8_1_role: |
   Customer Administrator
 ia_8_1_status:
@@ -3902,7 +3610,6 @@ ia_8_1_implementation: |
   Government customers using ADFS are responsible for accepting and electronically verifying Personal Identity Verification (PIV) credentials.
   O365:
   Office 365 does not utilize Personal Identity Verification (PIV) credentials for service team administrators. PIV cards are not available to Office 365 service team personnel. Government customers are permitted to federate their accounts and are therefore responsible for implementing authentication access control systems that accept and electronically verify PIV credentials issued to other federal agencies.
-
 ia_8_2_role: |
   Customer Administrator
 ia_8_2_status:
@@ -3914,7 +3621,6 @@ ia_8_2_implementation: |
   Government customers using ADFS are responsible for accepting and electronically verifying FICAM-approved third-party credentials. Government customers are permitted to federate their accounts and are therefore responsible for implementing authentication mechanisms that accept only FICAM-approved third-party credentials.
   O365:
   Office 365 does not utilize or support FICAM-approved third-party credentials for service team users. If government customers decide to allow access to non-organizational users, they must authenticate using FICAM-approved third-party credentials. Government customers are responsible for ensuring that approved third-party credentials meet or exceed the set of minimum federal government-wide technical, security, privacy, and organizational requirements.
-
 ia_8_3_role: |
   Customer Administrator
 ia_8_3_parameter: |
@@ -3928,7 +3634,6 @@ ia_8_3_implementation: |
   Government customers using ADFS are responsible for employing only FICAM-approved information system components to accept third-party credentials.
   O365:
   Office 365 does not utilize or support FICAM-approved third-party credentials for service team administrators. If government customers decide to allow access to non-organizational users, they must accept only FICAM-approved third-party credentials using FICAM-approved information system components. Government customers are permitted to federate their accounts and are therefore responsible for ensuring that approved third-party credentials meet or exceed the set of minimum federal government-wide technical, security, privacy, and organizational requirements.
-
 ia_8_4_role: |
   Customer Administrator
 ia_8_4_status:
@@ -3940,8 +3645,6 @@ ia_8_4_implementation: |
   Government customers using ADFS are responsible for conforming to FICAM-issued profiles.
   O365:
   Office 365 does not utilize or support FICAM-approved third-party credentials for service team administrators. If government customers decide to allow access to non-organizational users, they must accept only FICAM-approved third-party credentials using FICAM-issued implementation profiles of approved authentication protocols.
-
-
 ip_1_role: |
  {{ip_1_role}}
 ip_1_status:
@@ -3956,7 +3659,6 @@ ip_1_c_implementation: |
  {{ip_1_c_implementation}}
 ip_1_d_implementation: |
  {{ip_1_d_implementation}}
-
 ip_1_1_role: |
  {{ip_1_1_role}}
 ip_1_1_status:
@@ -3965,7 +3667,6 @@ ip_1_1_origination:
  -
 ip_1_1_implementation: |
  {{ip_1_1_implementation}}
-
 ip_2_role: |
  {{ip_2_role}}
 ip_2_status:
@@ -3982,7 +3683,6 @@ ip_2_d_implementation: |
  {{ip_2_d_implementation}}
 ip_2_ext_implementation: |
  {{ip_2_ext_implementation}}
-
 ip_3_role: |
  {{ip_3_role}}
 ip_3_status:
@@ -3993,7 +3693,6 @@ ip_3_a_implementation: |
  {{ip_3_a_implementation}}
 ip_3_b_implementation: |
  {{ip_3_b_implementation}}
-
 ip_4_role: |
  {{ip_4_role}}
 ip_4_status:
@@ -4002,7 +3701,6 @@ ip_4_origination:
  -
 ip_4_implementation: |
  {{ip_4_implementation}}
-
 ip_4_1_role: |
  {{ip_4_1_role}}
 ip_4_1_parameter: |
@@ -4013,8 +3711,6 @@ ip_4_1_origination:
  -
 ip_4_1_implementation: |
  {{ip_4_1_implementation}}
-
-
 ir_1_role: |
  {{ir_1_role}}BCM, O365 Trust Program Manager
 ir_1_a_parameter: |
@@ -4031,7 +3727,6 @@ ir_1_a_implementation: |
  {{ir_1_a_implementation}}
 ir_1_b_implementation: |
  {{ir_1_b_implementation}}
-
 ir_2_role: |
  O365 Security Manager, Program Manager
 ir_2_a_parameter: |
@@ -4051,7 +3746,6 @@ ir_2_b_implementation: |
 ir_2_c_implementation: |
  O365:
  Office 365 personnel with security-relevant roles receive refresher training on incident response annually as part of their regular security awareness training. Annual training is both initial training for new personnel and refresher training for current personnel.
-
 ir_2_1_role: |
  BCM, O365 Security Manager, O365 Trust Program Manager
 ir_2_1_status:
@@ -4064,7 +3758,6 @@ ir_2_1_implementation: |
  As part of the service team-specific incident management procedures, each team provides additional information and training to provide an understanding of the team’s distinct responsibilities and accountabilities in support of incident management.
  The incident response team uses job shadowing of live-incidents due to the centralized nature of the incident response function in Office 365 and the availability of job-shadowing within the incident response team. Office 365 considers job shadowing of live incidents a preferred and more effective alternative to simulated training mechanisms. On the job training provides a more thorough and realistic incident response training environment by indoctrinating all stakeholders with the incident response procedures in real time.
  The Office 365 SIR team is responsible for incorporating lessons learned from ongoing incident handling activities into procedures, training, and tests and exercises.
-
 ir_2_2_role: |
  BCM, O365 Trust Program Manager
 ir_2_2_status:
@@ -4075,8 +3768,6 @@ ir_2_2_origination:
 ir_2_2_implementation: |
  O365:
  The Office 365 Security Incident & Response (SIR) team uses job shadowing of live-incidents due to the centralized nature of the incident response function in Office 365 and the availability of job-shadowing within the incident response team. On the job training provides a more thorough and realistic incident response training environment by indoctrinating all stakeholders with the incident response procedures in real time. Office 365 Infrastructure considers job shadowing of live incidents a preferred and more effective alternative to automated training mechanisms.
-
-
 ir_3_role: |
  BCM, O365 Security Manager, Program Manager
 ir_3_1_parameter: |
@@ -4090,8 +3781,6 @@ ir_3_origination:
 ir_3_implementation: |
  O365:
  Office 365 tests incident response capabilities by conducting red-team penetration testing and incorporating real time incident response activities of the environment, which includes all service teams, at least every six (6) months .  The results of the penetration test include an assessment of incident response effectiveness and are documented by the penetration testing team.
-
-
 ir_3_2_role: |
  BCM, O365 Security Manager, Program Manager
 ir_3_2_status:
@@ -4101,8 +3790,6 @@ ir_3_2_origination:
 ir_3_2_implementation: |
  O365:
  The Office 365 Security Incident & Response (SIR) team is responsible for coordinating incident handling activities with contingency planning activities managed by the Business Continuity Management team. If incidents or incident response tests trigger contingency plan activation criteria, contingency plans are followed in coordination with the incident response plan.
-
-
 ir_4_role: |
  BCM, O365 Security Manager, Program Manager
 ir_4_status:
@@ -4119,8 +3806,6 @@ ir_4_b_implementation: |
 ir_4_c_implementation: |
  O365:
  The Office 365 SIR team is responsible for incorporating lessons learned from ongoing incident handling activities into procedures, training, and tests and exercises. A post-mortem of identified security incidents is conducted by Office 365 SIR team. Any identified remediation items, including those impacting procedures, training, and tests and exercises, are tracked to resolution by the team manager.
-
-
 ir_4_1_role: |
  O365 Security Manager, Service Engineer Operations
 ir_4_1_status:
@@ -4131,8 +3816,6 @@ ir_4_1_implementation: |
  O365:
  The Office 365 Security Incident & Response (SIR) team wiki provides information about incident response processes to Office 365 service teams.
  Additionally, battlecards and ticketing tools are used by the Office 365 SIR team for documenting and tracking the stages of the incident response process. Tickets are generated through automated processes, based on Office 365 Policy and criteria defined in Office 365 SIR’s team wiki.
-
-
 ir_4_2_role: |
  BCM, O365 Security Manager, Program Manager
 ir_4_2_parameter: |
@@ -4145,8 +3828,6 @@ ir_4_2_implementation: |
  O365:
  Administrative personnel are able to access network, data storage, and computing devices within the system and change their configuration (e.g. update firewall rules, restrict network access, remove users) as required during the incident response process.
  The Azure C+AI Security Operations Center (SOC) team maintains the capability to dynamically reconfigure information system components as outlined in the Rapid Containment Protocol section of the C+AI Security Operations Center (SOC) Runbook. C+AI Security Operations Center (SOC) team capabilities include the ability to disable accounts, change ACLs and quarantine assets if determined necessary in an incident response scenario. The C+AI Security Operations Center (SOC) team has the ability to make on-the-fly changes to the environment as needed according to the Rapid Containment Protocol.
-
-
 ir_4_3_role: |
  BCM, O365 Security Manager, Program Manager{{ir_4_3_role}}
 ir_4_3_1_parameter: |
@@ -4158,13 +3839,10 @@ ir_4_3_status:
 ir_4_3_origination:
  - "sys"
  - "cust_configured"
-
 ir_4_3_implementation: |
  {{ir_4_3_implementation}}
-
 ir_4_3_ext_implementation: |
  {{ir_4_3_ext_implementation}}
-
 ir_4_4_role: |
  BCM, O365 Security Manager, Program Manager{{ir_4_4_role}}
 ir_4_4_status:
@@ -4174,7 +3852,6 @@ ir_4_4_origination:
  - "cust_configured"
 ir_4_4_implementation: |
  {{ir_4_4_implementation}}
-
 ir_4_6_role: |
  BCM, O365 Security Manager, Program Manager{{ir_4_6_role}}
 ir_4_6_status:
@@ -4205,7 +3882,6 @@ ir_4_6_implementation: |
  •	Failed login
  •	Possible compromised account
  •	Highly privileged service account monitoring
-
 ir_4_7_role: |
  {{ir_4_7_role}}
 ir_4_7_parameter: |
@@ -4216,7 +3892,6 @@ ir_4_7_origination:
  -
 ir_4_7_implementation: |
  {{ir_4_7_implementation}}
-
 ir_4_8_role: |
  BCM, O365 Security Manager, Program Manager{{ir_4_8_role}}
 ir_4_8_1_parameter: |
@@ -4236,7 +3911,6 @@ ir_4_8_implementation: |
  The Office 365 Security Incident Response Plan identifies information appropriate to correlate and share with US-CERT and incident handling teams for affected customers to achieve a wider perspective on incident awareness. Office 365 coordinates with these other organizations to correlate and share this information.
  The Azure C+AI Security Operations Center (SOC) team coordinates and leverages various sources for incident awareness such as US-Cert/DoD Cert, MSRC, Adobe, CISCO, CVE, and Qualys. The C+AI Security Operations Center (SOC) team utilizes a Microsoft incident reporting website (http://cert.microsoft.com) that is based on the US CERT Incident Reporting System (https://forms.us-cert.gov/report/).
  For effective incident responses, the C+AI Operations Center (SOC) Team coordinates with major applications and the Threat Intelligence committee in order to collaborate and share relevant and critical incident handling information that have a cross organization impacts.
-
 ir_5_role: |
  O365 Security Manager, Service Engineer Operations
 ir_5_status:
@@ -4245,7 +3919,6 @@ ir_5_origination:
  - "sys"
 ir_5_implementation: |
  {{ir_5_implementation}}
-
 ir_5_1_role: |
  O365 Security Manager, Service Engineer Operations
 ir_5_1_status:
@@ -4256,8 +3929,6 @@ ir_5_1_implementation: |
  O365:
  Office 365 tracks and documents security incidents using ticketing tools. Service teams notify the Office 365 Security Incident & Response (SIR) team of possible security incidents using ticketing tools. Likewise, if the Office 365 SIR team identifies a possible incident by themselves, they open a ticket. If the incident is categorized as a security incident, the Office 365 SIR team tracks and documents the security incident response process using a ticket.
  Office 365 uses automated monitoring and ticketing tools to assist in the tracking of security incidents and in the collection and analysis of incident information.
-
-
 ir_6_role: |
  BCM, O365 Security Manager, Service Engineer Operations{{ir_6_role}}
 ir_6_a_parameter: |
@@ -4272,7 +3943,6 @@ ir_6_a_implementation: |
  {{ir_6_a_implementation}}
 ir_6_b_implementation: |
  {{ir_6_b_implementation}}
-
 ir_6_1_role: |
  Service Engineer Operations
 ir_6_1_status:
@@ -4282,8 +3952,6 @@ ir_6_1_origination:
 ir_6_1_implementation: |
  O365:
  The Office 365 Security Incident & Response (SIR) team uses ticketing tools as an automated mechanism to assist in the reporting of security incidents. A ticketing tool tracks the time elapsed and phases of the incident response process, helping to assure that incidents are reported in the timeframes required by IR-06 part b.
-
-
 ir_6_2_role: |
  {{ir_6_2_role}}
 ir_6_2_status:
@@ -4292,7 +3960,6 @@ ir_6_2_origination:
  -
 ir_6_2_implementation: |
  {{ir_6_2_implementation}}
-
 ir_7_role: |
  O365 Security Manager, Service Engineer Operations
 ir_7_status:
@@ -4309,8 +3976,6 @@ ir_7_implementation: |
  • List of sample security incidents
  • Who to contact in the event of a security incident
  The contact information includes 24/7 on-call information, so there is always a resource available should Office 365 service teams need advice or assistance.
-
-
 ir_7_1_role: |
  O365 Security Manager, Service Engineer Operations
 ir_7_1_status:
@@ -4328,8 +3993,6 @@ ir_7_1_implementation: |
  • Who to contact in the event of a security incident
  The contact information includes 24/7 on-call information, so there is always a resource available should Office 365 service teams need advice or assistance.
  In the event that an incident impacted the availability of the Office 365 service, the current status and regular updates would be posted on the customer's Office 365 Service Health Dashboard, which is accessible via the customer’s administrative portal. For more information on the Office 365 Service Health Dashboard, visit: https://docs.microsoft.com/en-us/office365/enterprise/view-service-health
-
-
 ir_7_2_role: |
  BCM, Program Manager
 ir_7_2_status:
@@ -4342,7 +4005,6 @@ ir_7_2_a_implementation: |
 ir_7_2_b_implementation: |
  O365:
  The Office 365 SIR team coordinates with peer teams inside MSIT and Azure as required for incidents internal to Microsoft. Coordination with third party entities is addressed in the ISAs with those groups for incidents that may cross organizational boundaries. The Office 365 SIR team coordinates with customers as required consistent with the reporting timeframes outlined. All coordinated incidents are tracked by the Office 365 SIR team.
-
 ir_8_role: |
  BCM, Program Manager
 ir_8_a_8_parameter: |
@@ -4395,7 +4057,6 @@ ir_8_e_implementation: |
  In addition to notifying incident response personnel within Office 365 of changes to the incident response plan, FedRAMP personnel are also notified and the updated incident response plan is posted in a location accessible to customers.
 ir_8_f_implementation: |
  {{ir_8_f_implementation}}
-
 ir_9_role: |
  BCM, Customer Administrator, Program Manager
 ir_9_b_parameter: |
@@ -4435,7 +4096,6 @@ ir_9_f_implementation: |
  Government customers are responsible for developing and following procedures outlined in their Information Spillage Policy supported by the self-service features provided in Office 365.
  O365:
  See part a.
-
 ir_9_1_role: |
  O365 Security Manager
 ir_9_1_parameter: |
@@ -4452,8 +4112,6 @@ ir_9_1_implementation: |
  O365:
  Self-service tools provided to customer administrators are available to them for use in an information spillage response.
  Microsoft Support Services can be leveraged to assist a customer with activities, such as development of customer-specific procedures, policy implementation with regards to spillage and legal hold, modification of existing procedures to leverage the Office 365 self-service tools, and providing government "cleared" resources for spillage activities. Microsoft Support Services, by default, does not have any permissions within the Office 365 service.
-
-
 ir_9_2_role: |
   BCM, O365 Security Manager
 ir_9_2_parameter: |
@@ -4466,7 +4124,6 @@ ir_9_2_origination:
  - "cust_provided"
 ir_9_2_implementation: |
  {{ir_9_2_implementation}}
-
 ir_9_3_role: |
  BCM, Program Manager
 ir_9_3_parameter: |
@@ -4482,7 +4139,6 @@ ir_9_3_implementation: |
  Government customers are responsible for managing the status of their deployments during the information spillage event using the self-service features provided in Office 365.
  O365:
  Customer administrators utilizing Microsoft Support Services will not affect the ability of Office 365 administrators to carry out their assigned tasks.
-
 ir_9_4_role: |
  BCM, Program Manager
 ir_9_4_parameter: |
@@ -4498,8 +4154,6 @@ ir_9_4_implementation: |
  Government customers are responsible for developing and following procedures outlined in their Information Spillage Policy, supported by the self-service features provided in Office 365.
  O365:
  Office 365 service team administrators are required to take security awareness training and privileged access training annually. This training prepares them for exposure to information outside their assigned access authorization.
-
-
 ir_10_role: |
  {{ir_10_role}}
 ir_10_status:
@@ -4508,7 +4162,6 @@ ir_10_origination:
  -
 ir_10_implementation: |
  {{ir_10_implementation}}
-
 ma_1_role: |
  {{ma_1_role}}
 ma_1_a_parameter: |
@@ -4527,7 +4180,6 @@ ma_1_b_implementation: |
  {{ma_1_b_implementation}}
 ma_1_ext_implementation: |
  {{ma_1_ext_implementation}}
-
 ma_2_role: |
  Azure
 ma_2_c_parameter: |
@@ -4550,7 +4202,6 @@ ma_2_e_implementation: |
  {{ma_2_e_implementation}}
 ma_2_f_implementation: |
  {{ma_2_f_implementation}}
-
 ma_2_2_role: |
  Azure
 ma_2_2_status:
@@ -4561,7 +4212,6 @@ ma_2_2_a_implementation: |
  {{ma_2_2_a_implementation}}
 ma_2_2_b_implementation: |
  {{ma_2_2_b_implementation}}
-
 ma_3_role: |
  Azure
 ma_3_status:
@@ -4571,7 +4221,6 @@ ma_3_origination:
  - "inherited"
 ma_3_implementation: |
  {{ma_3_implementation}}
-
 ma_3_1_role: |
  Azure
 ma_3_1_status:
@@ -4580,7 +4229,6 @@ ma_3_1_origination:
  - "inherited"
 ma_3_1_implementation: |
  {{ma_3_1_implementation}}
-
 ma_3_2_role: |
  Azure
 ma_3_2_status:
@@ -4589,7 +4237,6 @@ ma_3_2_origination:
  - "inherited"
 ma_3_2_implementation: |
  {{ma_3_2_implementation}}
-
 ma_3_3_role: |
  Azure
 ma_3_3_d_parameter: |
@@ -4606,7 +4253,6 @@ ma_3_3_c_implementation: |
  {{ma_3_3_c_implementation}}
 ma_3_3_d_implementation: |
  {{ma_3_3_d_implementation}}
-
 ma_4_role: |
  Program Manager
 ma_4_status:
@@ -4628,7 +4274,6 @@ ma_4_d_implementation: |
 ma_4_e_implementation: |
  O365:
  Service team personnel are trained as part of annual security training to terminate sessions when their work is completed. In addition, the remote access terminal server gateways are configured to disconnect network connections after 15 minutes of inactivity.
-
 ma_4_2_role: |
  Program Manager
 ma_4_2_status:
@@ -4638,7 +4283,6 @@ ma_4_2_origination:
  - "inherited"
 ma_4_2_implementation: |
  {{ma_4_2_implementation}}
-
 ma_4_3_role: |
  {{ma_4_3_role}}
 ma_4_3_status:
@@ -4650,7 +4294,6 @@ ma_4_3_a_implementation: |
  {{ma_4_3_a_implementation}}
 ma_4_3_b_implementation: |
  {{ma_4_3_b_implementation}}
-
 ma_4_6_role: |
  {{ma_4_6_role}}
 ma_4_6_status:
@@ -4660,7 +4303,6 @@ ma_4_6_origination:
  - "inherited"
 ma_4_6_implementation: |
  {{ma_4_6_implementation}}
-
 ma_5_role: |
  Azure
 ma_5_status:
@@ -4673,7 +4315,6 @@ ma_5_b_implementation: |
  {{ma_5_b_implementation}}
 ma_5_c_implementation: |
  {{ma_5_c_implementation}}
-
 ma_5_1_role: |
  Azure
 ma_5_1_status:
@@ -4684,7 +4325,6 @@ ma_5_1_a_implementation: |
  {{ma_5_1_a_implementation}}
 ma_5_1_b_implementation: |
  {{ma_5_1_b_implementation}}
-
 ma_6_role: |
  Azure
 ma_6_1_parameter: |
@@ -4697,7 +4337,6 @@ ma_6_origination:
  - "inherited"
 ma_6_implementation: |
  {{ma_6_implementation}}
-
 mp_1_role: |
  Azure
 mp_1_a_parameter: |
@@ -4717,11 +4356,9 @@ mp_1_b_implementation: |
  Part 1:
  O365:
  The Office 365 Information Security Policy is reviewed, updated and approved at least annually.
-
  Part 2:
  O365:
  The Microsoft Enterprise Online Services Data Taxonomy (aka Asset Classification Standard) and Office 365 Data Handling Standard are reviewed and approved at least annually or whenever a significant change occurs.
-
 mp_2_role: |
  Azure
 mp_2_1_parameter: |
@@ -4734,7 +4371,6 @@ mp_2_origination:
  -
 mp_2_implementation: |
  {{mp_2_implementation}}
-
 mp_3_role: |
  Azure
 mp_3_b_1_parameter: |
@@ -4749,7 +4385,6 @@ mp_3_a_implementation: |
  {{mp_3_a_implementation}}
 mp_3_b_implementation: |
  {{mp_3_b_implementation}}
-
 mp_4_role: |
  Azure
 mp_4_a_1_parameter: |
@@ -4764,7 +4399,6 @@ mp_4_a_implementation: |
  {{mp_4_a_implementation}}
 mp_4_b_implementation: |
  {{mp_4_b_implementation}}
-
 mp_5_role: |
  Azure
 mp_5_a_1_parameter: |
@@ -4783,7 +4417,6 @@ mp_5_c_implementation: |
  {{mp_5_c_implementation}}
 mp_5_d_implementation: |
  {{mp_5_d_implementation}}
-
 mp_5_4_role: |
  Azure
 mp_5_4_status:
@@ -4792,7 +4425,6 @@ mp_5_4_origination:
  - "inherited"
 mp_5_4_implementation: |
  {{mp_5_4_implementation}}
-
 mp_6_role: |
  Azure
 mp_6_a_1_parameter: |
@@ -4807,7 +4439,6 @@ mp_6_a_implementation: |
  {{mp_6_a_implementation}}
 mp_6_b_implementation: |
  {{mp_6_b_implementation}}
-
 mp_6_1_role: |
  Azure
 mp_6_1_status:
@@ -4816,7 +4447,6 @@ mp_6_1_origination:
  -
 mp_6_1_implementation: |
  {{mp_6_1_implementation}}
-
 mp_6_2_role: |
  Azure
 mp_6_2_parameter: |
@@ -4827,7 +4457,6 @@ mp_6_2_origination:
  - "inherited"
 mp_6_2_implementation: |
  {{mp_6_2_implementation}}
-
 mp_6_3_role: |
  Azure
 mp_6_3_parameter: |
@@ -4838,7 +4467,6 @@ mp_6_3_origination:
  - "inherited"
 mp_6_3_implementation: |
  {{mp_6_3_implementation}}
-
 mp_6_8_role: |
  {{mp_6_8_role}}
 mp_6_8_1_parameter: |
@@ -4851,7 +4479,6 @@ mp_6_8_origination:
  -
 mp_6_8_implementation: |
  {{mp_6_8_implementation}}
-
 mp_7_role: |
  Azure
 mp_7_1_parameter: |
@@ -4868,7 +4495,6 @@ mp_7_origination:
  - "inherited"
 mp_7_implementation: |
  {{mp_7_implementation}}
-
 mp_7_1_role: |
  Azure
 mp_7_1_status:
@@ -4877,7 +4503,6 @@ mp_7_1_origination:
  - "inherited"
 mp_7_1_implementation: |
  {{mp_7_1_implementation}}
-
 mp_8_3_role: |
  {{mp_8_3_role}}
 mp_8_3_parameter: |
@@ -4888,7 +4513,6 @@ mp_8_3_origination:
  - "inherited"
 mp_8_3_implementation: |
  {{mp_8_3_implementation}}
-
 pe_1_role: |
  Azure
 pe_1_a_parameter: |
@@ -4905,7 +4529,6 @@ pe_1_a_implementation: |
  {{pe_1_a_implementation}}
 pe_1_b_implementation: |
  {{pe_1_b_implementation}}
-
 pe_2_role: |
  Azure
 pe_2_c_parameter: |
@@ -4922,7 +4545,6 @@ pe_2_c_implementation: |
  {{pe_2_c_implementation}}
 pe_2_d_implementation: |
  {{pe_2_d_implementation}}
-
 pe_2_1_role: |
  {{pe_2_1_role}}
 pe_2_1_status:
@@ -4931,7 +4553,6 @@ pe_2_1_origination:
  -
 pe_2_1_implementation: |
  {{pe_2_1_implementation}}
-
 pe_3_role: |
  Azure
 pe_3_a_1_parameter: |
@@ -4968,7 +4589,6 @@ pe_3_f_implementation: |
  {{pe_3_f_implementation}}
 pe_3_g_implementation: |
  {{pe_3_g_implementation}}
-
 pe_3_1_role: |
  Azure
 pe_3_1_parameter: |
@@ -4979,7 +4599,6 @@ pe_3_1_origination:
  -
 pe_3_1_implementation: |
  {{pe_3_1_implementation}}
-
 pe_4_role: |
  Azure
 pe_4_1_parameter: |
@@ -4992,7 +4611,6 @@ pe_4_origination:
  - "inherited"
 pe_4_implementation: |
  {{pe_4_implementation}}
-
 pe_5_role: |
  Azure
 pe_5_status:
@@ -5001,7 +4619,6 @@ pe_5_origination:
  - "inherited"
 pe_5_implementation: |
  {{pe_5_implementation}}
-
 pe_6_role: |
  Azure
 pe_6_b_1_parameter: |
@@ -5018,7 +4635,6 @@ pe_6_b_implementation: |
  {{pe_6_b_implementation}}
 pe_6_c_implementation: |
  {{pe_6_c_implementation}}
-
 pe_6_1_role: |
  Azure
 pe_6_1_status:
@@ -5027,7 +4643,6 @@ pe_6_1_origination:
  - "inherited"
 pe_6_1_implementation: |
  {{pe_6_1_implementation}}
-
 pe_6_4_role: |
  Azure
 pe_6_4_parameter: |
@@ -5038,7 +4653,6 @@ pe_6_4_origination:
  - "inherited"
 pe_6_4_implementation: |
  {{pe_6_4_implementation}}
-
 pe_8_role: |
  Azure
 pe_8_a_parameter: |
@@ -5053,7 +4667,6 @@ pe_8_a_implementation: |
  {{pe_8_a_implementation}}
 pe_8_b_implementation: |
  {{pe_8_b_implementation}}
-
 pe_8_1_role: |
  Azure
 pe_8_1_status:
@@ -5062,7 +4675,6 @@ pe_8_1_origination:
  - "inherited"
 pe_8_1_implementation: |
  {{pe_8_1_implementation}}
-
 pe_9_role: |
  Azure
 pe_9_status:
@@ -5071,7 +4683,6 @@ pe_9_origination:
  - "inherited"
 pe_9_implementation: |
  {{pe_9_implementation}}
-
 pe_10_role: |
  Azure
 pe_10_b_parameter: |
@@ -5086,7 +4697,6 @@ pe_10_b_implementation: |
  {{pe_10_b_implementation}}
 pe_10_c_implementation: |
  {{pe_10_c_implementation}}
-
 pe_11_role: |
  Azure
 pe_11_parameter: |
@@ -5097,7 +4707,6 @@ pe_11_origination:
  - "inherited"
 pe_11_implementation: |
  {{pe_11_implementation}}
-
 pe_11_1_role: |
  Azure
 pe_11_1_status:
@@ -5106,7 +4715,6 @@ pe_11_1_origination:
  - "inherited"
 pe_11_1_implementation: |
  {{pe_11_implementation}}
-
 pe_12_role: |
  Azure
 pe_12_status:
@@ -5115,7 +4723,6 @@ pe_12_origination:
  - "inherited"
 pe_12_implementation: |
  {{pe_12_implementation}}
-
 pe_13_role: |
  Azure
 pe_13_status:
@@ -5124,7 +4731,6 @@ pe_13_origination:
  - "inherited"
 pe_13_implementation: |
  {{pe_13_implementation}}
-
 pe_13_1_role: |
  Azure
 pe_13_1_1_parameter: |
@@ -5137,7 +4743,6 @@ pe_13_1_origination:
  - "inherited"
 pe_13_1_implementation: |
  {{pe_13_1_implementation}}
-
 pe_13_2_role: |
  Azure
 pe_13_2_1_parameter: |
@@ -5150,7 +4755,6 @@ pe_13_2_origination:
  - "inherited"
 pe_13_2_implementation: |
  {{pe_13_2_implementation}}
-
 pe_13_3_role: |
  Azure
 pe_13_3_status:
@@ -5159,7 +4763,6 @@ pe_13_3_origination:
  - "inherited"
 pe_13_3_implementation: |
  {{pe_13_3_implementation}}
-
 pe_14_role: |
  Azure
 pe_14_a_parameter: |
@@ -5174,7 +4777,6 @@ pe_14_a_implementation: |
  {{pe_14_a_implementation}}
 pe_14_b_implementation: |
  {{pe_14_b_implementation}}
-
 pe_14_2_role: |
  Azure
 pe_14_2_status:
@@ -5183,7 +4785,6 @@ pe_14_2_origination:
  - "inherited"
 pe_14_2_implementation: |
  {{pe_14_2_implementation}}
-
 pe_15_role: |
  Azure
 pe_15_status:
@@ -5192,7 +4793,6 @@ pe_15_origination:
  - "inherited"
 pe_15_implementation: |
  {{pe_15_implementation}}
-
 pe_15_1_role: |
  Azure
 pe_15_1_parameter: |
@@ -5203,7 +4803,6 @@ pe_15_1_origination:
  - "inherited"
 pe_15_1_implementation: |
  {{pe_15_1_implementation}}
-
 pe_16_role: |
  Azure
 pe_16_parameter: |
@@ -5214,7 +4813,6 @@ pe_16_origination:
  - "inherited"
 pe_16_implementation: |
  {{pe_16_implementation}}
-
 pe_17_role: |
  Azure
 pe_17_a_parameter: |
@@ -5229,7 +4827,6 @@ pe_17_b_implementation: |
  {{pe_17_b_implementation}}
 pe_17_c_implementation: |
  {{pe_17_c_implementation}}
-
 pe_18_role: |
  Azure
 pe_18_parameter: |
@@ -5265,7 +4862,6 @@ pl_1_b_implementation: |
   The Office 365 SOPs are reviewed and updated at least annually or whenever a significant change occurs.
 pl_1_ext_implementation: |
   {{pl_1_ext_implementation}}
-
 pl_2_role: |
   O365 Trust Program Manager
 pl_2_b_parameter: |
@@ -5297,7 +4893,6 @@ pl_2_e_implementation: |
   The SSP is posted on the internal Office 365 SharePoint and protected using SharePoint’s built-in confidentiality and integrity protection mechanisms.
 pl_2_ext_implementation: |
   {{pl_2_ext_implementation}}
-
 pl_2_3_role: |
   O365 Trust Program Manager
 pl_2_3_parameter: |
@@ -5310,8 +4905,6 @@ pl_2_3_implementation: |
   O365:
   Office 365 establishes coordination requirements among organizations in order to determine if security-related activities are going to affect Office 365.
   Office 365 plans and coordinates security-related activities to ensure they do not adversely affect operations. Key operating personnel from each service team assist with change control board and policy reviews that relate to security activities. Individuals assigned to these roles understand the significance of the ongoing security-related activities (security assessments, audits, system hardware and software maintenance, vulnerability scanning and patching, security certifications, and testing exercises), the potential impact on the system, and understanding what is required to support such activities. If activities involve Azure, they are included in planning as well.
-
-
 pl_4_role: |
   {{pl_4_role}}O365 Trust Program Manager
 pl_4_parameter: |
@@ -5337,7 +4930,6 @@ pl_4_d_implementation: |
   After revisions, the revised document is included in annual security awareness training.
 pl_4_ext_implementation: |
   {{pl_4_ext_implementation}}
-
 pl_4_1_role: |
   O365 Trust Program Manager
 pl_4_1_status:
@@ -5347,7 +4939,6 @@ pl_4_1_origination:
 pl_4_1_implementation: |
   O365:
   In accordance with the Rules of Behavior, Office 365 personnel are expected to follow Microsoft Corporate, External, and Legal Affairs (CELA) guidelines for the use of social media and networking sites.
-
 pl_8_role: |
   O365 Trust Program Manager
 pl_8_b_parameter: |
@@ -5369,7 +4960,6 @@ pl_8_b_implementation: |
 pl_8_c_implementation: |
   O365:
   Office 365 updates this SSP and all Office 365 procurement/acquisition procedures whenever the information security architecture changes.
-
 pl_8_1_role: |
   {{pl_8_1_role}}
 pl_8_1_a_parameter: |
@@ -5384,7 +4974,6 @@ pl_8_1_a_implementation: |
   {{pl_8_1_a_implementation}}
 pl_8_1_b_implementation: |
   {{pl_8_1_b_implementation}}
-
 pm_1_role: |
  {{pm_1_role}}
 pm_1_parameter: |
@@ -5401,7 +4990,6 @@ pm_1_c_p_implementation: |
  {{pm_1_c_p_implementation}}
 pm_1_d_implementation: |
  {{pm_1_d_implementation}}
-
 pm_2_role: |
  {{pm_2_role}}
 pm_2_status:
@@ -5410,7 +4998,6 @@ pm_2_origination:
  -
 pm_2_implementation: |
  {{pm_2_implementation}}
-
 pm_3_role: |
  {{pm_3_role}}
 pm_3_status:
@@ -5423,7 +5010,6 @@ pm_3_b_implementation: |
  {{pm_3_b_implementation}}
 pm_3_c_implementation: |
  {{pm_3_c_implementation}}
-
 pm_5_role: |
  {{pm_5_role}}
 pm_5_status:
@@ -5432,7 +5018,6 @@ pm_5_origination:
  -
 pm_5_implementation: |
  {{pm_5_implementation}}
-
 pm_7_role: |
  {{pm_7_role}}
 pm_7_status:
@@ -5441,7 +5026,6 @@ pm_7_origination:
  -
 pm_7_implementation: |
  {{pm_7_implementation}}
-
 pm_9_role: |
  {{pm_9_role}}
 pm_9_c_parameter: |
@@ -5458,21 +5042,20 @@ pm_9_c_implementation: |
  {{pm_9_c_implementation}}
 pm_9_ext_implementation: |
  {{pm_9_ext_implementation}}
-
 pm_10_role: |
  {{pm_10_role}}
 pm_10_status:
  -
 pm_10_origination:
  -
+pm_10_a_implementation: |
+ {{pm_10_a_implementation}}
 pm_10_b_implementation: |
  {{pm_10_b_implementation}}
 pm_10_c_implementation: |
  {{pm_10_c_implementation}}
 pm_10_ext_implementation: |
  {{pm_10_ext_implementation}}
-
-
 pm_11_role: |
  {{pm_11_role}}
 pm_11_status:
@@ -5485,7 +5068,6 @@ pm_11_b_implementation: |
  {{pm_11_b_implementation}}
 pm_11_ext_implementation: |
  {{pm_11_ext_implementation}}
-
 pm_12_role: |
  {{pm_12_role}}
 pm_12_status:
@@ -5494,7 +5076,6 @@ pm_12_origination:
  -
 pm_12_implementation: |
  {{pm_12_implementation}
-
 pm_14_role: |
  {{pm_14_role}}
 pm_14_status:
@@ -5507,7 +5088,6 @@ pm_14_b_implementation: |
  {{pm_14_b_implementation}}
 pm_14_ext_implementation: |
  {{pm_14_ext_implementation}}
-
 pm_15_role: |
  {{pm_15_role}}
 pm_15_status:
@@ -5550,7 +5130,6 @@ ps_1_b_implementation: |
  The Office 365 GCC SOPs are reviewed and updated at least annually or whenever a significant change occurs.
 ps_1_ext_implementation: |
  {{ps_1_ext_implementation}}
-
 ps_2_role: |
  {{ps_2_role}}O365 Trust Program Manager
 ps_2_c_parameter: |
@@ -5568,7 +5147,6 @@ ps_2_c_implementation: |
  {{ps_2_c_implementation}}
 ps_2_ext_implementation: |
  {{ps_2_ext_implementation}}
-
 ps_3_role: |
  {{ps_3_role}}O365 Trust Program Manager
 ps_3_b_parameter: |
@@ -5584,7 +5162,6 @@ ps_3_b_implementation: |
  {{ps_3_b_implementation}}
 ps_3_ext_implementation: |
  {{ps_3_ext_implementation}}
-
 ps_3_3_role: |
  {{ps_3_3_role}}O365 Trust Program Manager
 ps_3_3_b_parameter: |
@@ -5598,7 +5175,6 @@ ps_3_3_a_implementation: |
  {{ps_3_3_a_implementation}}
 ps_3_3_b_implementation: |
  {{ps_3_3_b_implementation}}
-
 ps_4_role: |
  Azure, Human Resources, Program Manager
 ps_4_a_parameter: |
@@ -5628,7 +5204,6 @@ ps_4_f_implementation: |
  Office 365 government customers are responsible for notifying the proper personnel upon termination of their organizational users consistent with their internal policies and guidelines.
  O365:
  When a person’s employment with Microsoft is terminated the employee’s manager is notified within 24 hours.
-
 ps_4_1_role: |
  {{ps_4_1_role}}
 ps_4_1_status:
@@ -5639,7 +5214,6 @@ ps_4_1_a_implementation: |
  {{ps_4_1_a_implementation}}
 ps_4_1_b_implementation: |
  {{ps_4_1_b_implementation}}
-
 ps_4_2_role: |
  Azure, Human Resources, Program Manager
 ps_4_2_parameter: |
@@ -5653,7 +5227,6 @@ ps_4_2_implementation: |
  Government customers are responsible for employing automated mechanisms to notify customer-defined personnel/roles upon termination of a customer employee.
  O365:
  Microsoft HR ensures personnel termination is handled appropriately. On the last day of employment, the employee is terminated from the HR system via a Termination Transaction ticket entered in HeadTrax and approved by the HR Assistant or Business Administrator. Once the transaction has been keyed in and approved, Microsoft Accounts and Security teams are notified and access to information systems is disabled.
-
 ps_5_role: |
  {{ps_5_role}}Program Manager
 ps_5_b_1_parameter: |
@@ -5686,7 +5259,6 @@ ps_5_d_implementation: |
  Microsoft Human Resources is responsible for ensuring personnel transfer is initiated within 24 hours for personnel who are reassigned or transferred to other positions within the organization. Microsoft defines the transfer or reassignment actions to implement through the use of the Human Resources Information System (HRIS), which is managed by Microsoft Human Resources. When an employee transfers to a position within a different cost center, an HRIS transfer transaction is keyed into the HRIS system. A change to the employee's manager in the HRIS will result in an immediate change to the expiration dates for an employee's system access eligibilities in IDM. All eligibilities will expire after 5 days unless the eligibilities are approved by the employee's new manager. When an employee's direct manager is changed, IDM sends a notification to the employee that their eligibility is about to expire (in 5 days). To retain the eligibility, the employee must submit a new "Request Access" form for the eligibility in IDM. Once the employee submits a new Request Access form, the employee's new direct manager is notified by IDM and required to approve the eligibility request.
 ps_5_ext_implementation: |
  {{ps_5_ext_implementation}}
-
 ps_6_role: |
  Program Manager
 ps_6_b_parameter: |
@@ -5704,7 +5276,6 @@ ps_6_b_implementation: |
  {{ps_6_b_implementation}}
 ps_6_c_implementation: |
  {{ps_6_c_implementation}}
-
 ps_6_3_role: |
  {{ps_6_3_role}}
 ps_6_3_status:
@@ -5715,7 +5286,6 @@ ps_6_3_a_implementation: |
  {{ps_6_3_a_implementation}}
 ps_6_3_b_implementation: |
  {{ps_6_3_b_implementation}}
-
 ps_7_role: |
  O365 Trust Program Manager, Program Manager
 ps_7_d_1_parameter: |
@@ -5737,7 +5307,6 @@ ps_7_d_implementation: |
  {{ps_7_d_implementation}}
 ps_7_e_implementation: |
  {{ps_7_e_implementation}}
-
 ps_8_role: |
  Human Resources, O365 Trust Program Manager, Program Manager
 ps_8_b_1_parameter: |
@@ -5754,7 +5323,6 @@ ps_8_b_implementation: |
  {{ps_8_b_implementation}}
 ps_8_ext_implementation: |
  {{ps_8_ext_implementation}}
-
 ra_1_role: |
  {{ra_1_role}}O365 Trust Program Manager
 ra_1_a_parameter: |
@@ -5783,7 +5351,6 @@ ra_1_b_implementation: |
  The Office 365 SOPs are reviewed and updated at least annually or whenever a significant change occurs by O365 Trust.
 ra_1_ext_implementation: |
  {{ra_1_ext_implementation}}
-
 ra_2_role: |
  Customer Administrator, O365 Trust Program Manager
 ra_2_status:
@@ -5806,7 +5373,6 @@ ra_2_c_implementation: |
  Microsoft has provided the FIPS 199 Security categorization assessment in the Office 365 security authorization package for the review and approval of customer agencies that may leverage the Office 365 Security Authorization Package.
 ra_2_ext_implementation: |
  {{ra_2_ext_implementation}}
-
 ra_3_role: |
  {{ra_3_role}}O365 Trust Program Manager
 ra_3_b_parameter: |
@@ -5843,7 +5409,6 @@ ra_3_e_implementation: |
  Office 365 Trust ensures that a risk assessment is conducted at least annually, or whenever there are significant changes to the information system or environment of operation (including the identification of new threats and vulnerabilities), or other conditions that may impact the security state of the system. The assessments follow the process described in part a of this control.
 ra_3_ext_implementation: |
  {{ra_3_ext_implementation}}
-
 ra_5_role: |
  O365 Security Manager
 ra_5_a_parameter: |
@@ -5870,7 +5435,6 @@ ra_5_d_implementation: |
 ra_5_e_implementation: |
  O365:
  Office 365 Security provides a reporting interface to allow authorized Office 365 personnel to see the details of vulnerabilities associated with the environment. The reporting interface provides high-level / technical reports (covering information such as servers, vulnerabilities, CVE IDs, breakdowns of vulnerable hosts, and remediation steps, etc.). Vulnerability reporting to government customers is accomplished through continuous monitoring reporting processes identified in CA-7.
-
 ra_5_1_role: |
  O365 Security Manager
 ra_5_1_status:
@@ -5879,7 +5443,6 @@ ra_5_1_origination:
  - "sys"
 ra_5_1_implementation: |
  {{ra_5_1_implementation}}
-
 ra_5_2_role: |
  O365 Security Manager
 ra_5_2_parameter: |
@@ -5890,7 +5453,6 @@ ra_5_2_origination:
  - "sys"
 ra_5_2_implementation: |
  {{ra_5_2_implementation}}
-
 ra_5_3_role: |
  O365 Security Manager
 ra_5_3_status:
@@ -5899,7 +5461,6 @@ ra_5_3_origination:
  - "sys"
 ra_5_3_implementation: |
  {{ra_5_3_implementation}}
-
 ra_5_4_role: |
  O365 Security Manager
 ra_5_4_parameter: |
@@ -5910,7 +5471,6 @@ ra_5_4_origination:
  - "sys"
 ra_5_4_implementation: |
  {{ra_5_4_implementation}}
-
 ra_5_5_role: |
  O365 Security Manager
 ra_5_5_1_parameter: |
@@ -5925,7 +5485,6 @@ ra_5_5_implementation: |
  O365:
  Office 365 uses vulnerability scanning tools that are configured with privileged access credentials for all system components and for all operating system and database scanning activities.
  Vulnerability scans of operating systems, web applications, and databases are conducted using vulnerability scanning tools with applicable web application and database plugins enabled or specialized tools where appropriate.
-
 ra_5_6_role: |
  O365 Security Manager, Service Engineer Operations
 ra_5_6_status:
@@ -5935,7 +5494,6 @@ ra_5_6_origination:
 ra_5_6_implementation: |
  O365:
  Office 365 Security has automated reporting to compare scan results over time. These reports are updated daily and are available to authorized personnel on the Office 365 Patching and Vulnerability Compliance (PAVC) dashboard.
-
 ra_5_8_role: |
  O365 Security Manager
 ra_5_8_status:
@@ -5945,7 +5503,6 @@ ra_5_8_origination:
 ra_5_8_implementation: |
  O365:
  Office 365 Security Incident Response (SIR) is responsible for reviewing newly identified high findings and determining if they have been previously exploited; this determination includes reviews of audit logs as determined necessary by Office 365 Security Operations.
-
 ra_5_10_role: |
  O365 Security Manager
 ra_5_10_status:
@@ -5955,7 +5512,6 @@ ra_5_10_origination:
 ra_5_10_implementation: |
  O365:
  Office 365 Security Incident Response (SIR) is responsible for reviewing newly identified high findings and determining if they could have possibly been exploited; this determination includes reviews of audit logs as determined necessary by Office 365 Security Operations. This process involves using scan data for vulnerability exploitation exercises, including vulnerabilities that have multi-hop attack vectors.
-
 sa_1_role: |
  O365 Trust Program Manager
 sa_1_a_parameter: |
@@ -5971,13 +5527,11 @@ sa_1_origination:
 sa_1_a_implementation: |
  O365:
  The Office 365 Information Security Policy provides the overarching security guidance for Office 365 . This document addresses the purpose, scope, roles, responsibilities, compliance requirements, and required coordination among the various Microsoft organizations providing some level of support for the security of Office 365. The Office 365 Information Security Policy is distributed to roles providing support for system and services acquisition via SharePoint.
-
  Part 2:
  O365:
   Standards and procedures to facilitate execution of these policies are documented in the Active Framework Controls, Office 365 SOPs, and service team-specific SOPs. These standards and procedures act as adjuncts to the security policy and provide implementation level requirements and details to carry out specific operational tasks. A detailed mapping of Office 365 Standards and Procedures to each control is available for review. Office 365 SOPs are distributed to roles providing support for system and services acquisition via SharePoint.
 sa_1_b_implementation: |
  {{sa_1_b_implementation}}
-
 sa_2_role: |
  {{sa_2_role}}
 sa_2_status:
@@ -5996,7 +5550,6 @@ sa_2_c_implementation: |
  Office 365 and each service team undergo a yearly budgeting process, which includes a line item for information security along with future capacity and security projections. This helps manage resources needed for new and existing activities and ensures adequate allocation of resources to protect the information system.
 sa_2_ext_implementation: |
  {{sa_2_ext_implementation}}
-
 sa_3_role: |
  Developer, O365 Trust Program Manager, Program Manager, Tester
 sa_3_a_parameter: |
@@ -6015,7 +5568,6 @@ sa_3_c_implementation: |
  Office 365 defines security roles and responsibilities and identifies individuals with these roles and responsibilities.
 sa_3_d_implementation: |
  {{sa_3_d_implementation}}
-
 sa_4_role: |
  Customer Administrator, O365 Trust Program Manager
 sa_4_status:
@@ -6044,7 +5596,6 @@ sa_4_g_implementation: |
  See part (a).
 sa_4_ext_implementation: |
  {{sa_4_ext_implementation}}
-
 sa_4_1_role: |
  O365 Trust Program Manager, Program Manager
 sa_4_1_status:
@@ -6053,7 +5604,6 @@ sa_4_1_origination:
  -
 sa_4_1_implementation: |
  {{sa_4_1_implementation}}
-
 sa_4_2_role: |
  O365 Trust Program Manager, Program Manager
 sa_4_2_1_parameter: |
@@ -6066,7 +5616,6 @@ sa_4_2_origination:
  - "sys"
 sa_4_2_implementation: |
  {{sa_4_2_implementation}}
-
 sa_4_7_role: |
  {{sa_4_7_role}}
 sa_4_7_status:
@@ -6077,7 +5626,6 @@ sa_4_7_implementation: |
  {{sa_4_7_implementation}}
 sa_4_7_ext_implementation: |
  {{sa_4_7_ext_implementation}}
-
 sa_4_8_role: |
  O365 Trust Program Manager, Program Manager
 sa_4_8_parameter: |
@@ -6089,7 +5637,6 @@ sa_4_8_origination:
 sa_4_8_implementation: |
  O365:
  Office 365 continuously monitors its own control effectiveness, see CA-7. Service teams only utilize information system components owned and operated by Office 365 or Azure, both of which have continuous monitoring plans developed and implemented.
-
 sa_4_9_role: |
  O365 Trust Program Manager, Program Manager
 sa_4_9_status:
@@ -6099,7 +5646,6 @@ sa_4_9_origination:
 sa_4_9_implementation: |
  O365:
  Office 365 includes as part of the design phase the identification of the functions, ports, protocols, and services intended for organizational use in accordance with CA-8.
-
 sa_4_10_role: |
  O365 Trust Program Manager, Program Manager
 sa_4_10_status:
@@ -6109,7 +5655,6 @@ sa_4_10_origination:
 sa_4_10_implementation: |
  O365:
  Office 365 does not implement PIV requirements for Government customers. As such, this control is not applicable.
-
 sa_5_role: |
  Azure, O365 Security Manager, Service Engineer Operations
 sa_5_c_parameter: |
@@ -6134,7 +5679,6 @@ sa_5_d_implementation: |
  {{sa_5_d_implementation}}
 sa_5_e_implementation: |
  {{sa_5_e_implementation}}
-
 sa_8_role: |
  Developer, Program Manager, Tester
 sa_8_status:
@@ -6143,7 +5687,6 @@ sa_8_origination:
  - "corp"
 sa_8_implementation: |
  {{sa_8_implementation}}
-
 sa_9_role: |
  {{sa_9_role}}
 sa_9_a_parameter: |
@@ -6164,7 +5707,6 @@ sa_9_c_implementation: |
  Office 365 compliance monitoring processes, methods and techniques are applied to customer content and access control data and are documented in ISAs and executed by Office 365 Trust.
 sa_9_ext_implementation: |
  {{sa_9_ext_implementation}}
-
 sa_9_1_role: |
  Service Engineer Operations, Office 365 Security Manager
 sa_9_1_1_b_parameter: |
@@ -6179,7 +5721,6 @@ sa_9_1_a_implementation: |
 sa_9_1_b_implementation: |
  O365:
  No acquisition or outsourcing of dedicated information security services is planned, but Office 365 will follow the FedRAMP change management process as part of continuous monitoring.
-
 sa_9_1_req_role: |
  {{sa_9_1_req_role}}
 sa_9_1_req_status:
@@ -6188,7 +5729,6 @@ sa_9_1_req_origination:
  -
 sa_9_1_req_implementation: |
  {{sa_9_1_req_implementation}}
-
 sa_9_2_role: |
  O365 Security Manager, Service Engineer Operations
 sa_9_2_parameter: |
@@ -6200,7 +5740,6 @@ sa_9_2_origination:
 sa_9_2_implementation: |
  O365:
  As part of the process of establishing a connection to an external information system, Office 365 requires the system to provide information about the functions, ports, protocols and other services required for the use of such services.
-
 sa_9_4_role: |
  Azure, O365 Security Manager, Service Engineer Operations
 sa_9_4_1_parameter: |
@@ -6213,7 +5752,6 @@ sa_9_4_origination:
  - "sys"
 sa_9_4_implementation: |
  {{sa_9_4_implementation}}
-
 sa_9_5_role: |
  {{sa_9_5_role}}
 sa_9_5_1_parameter: |
@@ -6229,7 +5767,6 @@ sa_9_5_origination:
  - "inherited"
 sa_9_5_implementation: |
  {{sa_9_5_implementation}}
-
 sa_10_role: |
  Developer, O365 Trust Program Manager, Program Manager, Tester
 sa_10_a_parameter: |
@@ -6257,7 +5794,6 @@ sa_10_d_implementation: |
 sa_10_e_implementation: |
  O365:
  Office 365 developers track security flaws and flaw resolution during the development process using ticketing tools. Any identified flaws, whether discovered by a human or by the automated tools described in SA-03 part a, have a corresponding bug opened in a ticketing tool. The resolution of the flaw is then documented and tracked using the bug. A summary of identified flaws and their resolution is provided to engineering team management and Office 365 Trust.
-
 sa_10_1_role: |
  Developer, O365 Trust Program Manager, Program Manager, Tester
 sa_10_1_status:
@@ -6267,7 +5803,6 @@ sa_10_1_origination:
 sa_10_1_implementation: |
  O365:
  Office 365 has determined that solutions to fully meet this control pose unacceptable risks to system availability. A complete discussion of these risks and the mitigating controls in place are documented in SI-07
-
 sa_11_role: |
  {{sa_11_role}}
 sa_11_b_1_parameter: |
@@ -6306,7 +5841,6 @@ sa_11_e_implementation: |
  Flaws identified during testing are remediated prior to release. The results of the security tests are documented in tickets opened in ticketing tools. Remediation work and successful retesting is documented in the same ticket.
 sa_11_ext_implementation: |
  {{sa_11_ext_implementation}}
-
 sa_11_1_role: |
  Developer, Tester
 sa_11_1_status:
@@ -6316,7 +5850,6 @@ sa_11_1_origination:
 sa_11_1_implementation: |
  O365:
  Code reviews are performed, including use of the automated static code analysis tools. The results of the code analysis and reviews are documented in the ticketing tools.
-
 sa_11_2_role: |
  Developer, Tester
 sa_11_2_status:
@@ -6333,7 +5866,6 @@ sa_11_2_implementation: |
  Testing at the release phase is performed on the as-built system. Vulnerabilities found at the release testing phase are tracked and remediated.
 
  Threat analysis of the as-built system is performed as part of the Office 365 risk management process.
-
 sa_11_5_role: |
  {{sa_11_5_role}}
 sa_11_5_status:
@@ -6344,7 +5876,6 @@ sa_11_5_implementation: |
  {{sa_11_5_implementation}}
 sa_11_5_ext_implementation: |
  {{sa_11_5_ext_implementation}}
-
 sa_11_8_role: |
  Developer, Tester
 sa_11_8_status:
@@ -6354,7 +5885,6 @@ sa_11_8_origination:
 sa_11_8_implementation: |
  O365:
  Code reviews are performed, including use of the automated dynamic code analysis tools. The results of the code analysis and reviews are documented in the ticketing tools.
-
 sa_12_role: |
  Azure, O365 Trust Program Manager, Program Manager
 sa_12_parameter: |
@@ -6366,7 +5896,6 @@ sa_12_origination:
  - "inherited"
 sa_12_implementation: |
  {{sa_12_implementation}}
-
 sa_15_role: |
  O365 Trust Program Manager, Program Manager
 sa_15_b_1_parameter: |
@@ -6381,14 +5910,11 @@ sa_15_a_implementation: |
  O365:
  All development in Microsoft Office 365 must follow the SDL process detailed in SA-03 for all engineering and development projects. The SDL process includes the following:
  Addressing security requirements: The Requirements phase of the SDL includes the project inception—when the organization considers security and privacy at a foundational level—and a cost analysis—when determining if development and support costs for improving security and privacy are consistent with business needs.
-
  Identifying standards and tools/documents tools and configurations: The Implementation phase is when the organization creates the documentation and tools the customer uses to make informed decisions about how to deploy the software securely. To this end, the Implementation phase is when the organization establishes development best practices to detect and remove security and privacy issues early in the development cycle.
-
  Documents, manages, and ensures the integrity of changes: During the Verification phase, the organization ensures that the code meets the security and privacy tenets established in the previous phases. This is done through security and privacy testing, and a security push—which is a team-wide focus on threat model updates, code review, testing, and thorough documentation review and edit. A public release privacy review is also completed during the Verification phase.
 sa_15_b_implementation: |
  O365:
  Microsoft Office 365 reviews the SDL process on an ongoing basis to ensure that the process, standards, and tools selected and employed provide sufficient security for all systems and software developed and released by Microsoft.
-
 sa_15_9_role: |
  {{sa_15_9_role}}
 sa_15_9_status:
@@ -6399,7 +5925,6 @@ sa_15_9_implementation: |
  {{sa_15_9_implementation}}
 sa_15_9_ext_implementation: |
  {{sa_15_9_ext_implementation}}
-
 sa_16_role: |
 sa_16_parameter: |
 sa_16_status:
@@ -6407,7 +5932,6 @@ sa_16_status:
 sa_16_origination:
  -
 sa_16_implementation: |
-
 sa_17_role: |
  {{sa_17_role}}
 sa_17_status:
@@ -6427,7 +5951,6 @@ sa_17_c_implementation: |
  Through security and privacy risk assessments including threat modeling and penetration testing, development of new systems and components are evaluated for their adoption to existing security mechanisms. All new network devices introduced into the system must undergo the network acceptance process that verifies the configuration of the device in accordance to Office 365 Networking standards before the device goes live on the network.
 sa_17_ext_implementation: |
  {{sa_17_ext_implementation}}
-
 sa_19_role: |
  {{sa_19_role}}
 sa_19_status:
@@ -6438,7 +5961,6 @@ sa_19_a_implementation: |
  {{sa_19_a_implementation}}
 sa_19_b_implementation: |
  {{sa_19_b_implementation}}
-
 sa_21_role: |
  {{sa_21_role}}
 sa_21_parameter: |
@@ -6455,7 +5977,6 @@ sa_21_a_implementation: |
  {{sa_21_a_implementation}}
 sa_21_b_implementation: |
  {{sa_21_b_implementation}}
-
 sc_1_role: |
  Service Engineer Operations
 sc_1_a_parameter: |
@@ -6477,7 +5998,6 @@ sc_1_a_implementation: |
  The Office 365 Information Security Policy contains policies that must be met in the delivery and operation of Office 365 MT. Standards and procedures to facilitate execution of these policies are documented in the Active Framework Controls, Office 365 SOPs, and service team-specific SOPs. These standards and procedures act as adjuncts to the security policy and provide implementation level requirements and details to carry out specific operational tasks. A detailed mapping of Office 365 Standards and Procedures to each control is compiled. Office 365 SOPs are distributed to roles providing support for system and communications protection via SharePoint.
 sc_1_b_implementation: |
  {{sc_1_b_implementation}}
-
 sc_2_role: |
  Customer Administrator, Service Engineer Operations
 sc_2_status:
@@ -6491,10 +6011,8 @@ sc_2_implementation: |
  •	Customer Administration – This group is where administrators from the customer side have the ability to customize the experience and configurations for the customer users of Office 365 for their specific organization. Other limited configuration options are provided as a part of the Office 365 service which is restricted to customer administrators. These interfaces are specifically restricted to customer administrators.
  •	Customer User Level Access – This role is strictly for providing access to the Office 365 service for functions used by the customer users, for example for customer users to access Exchange Online.
  Office 365 employs customer-facing software for use by customers, and administrative OS functions to be carried out by Office 365 service team administrators. AD restrictions are put into place to prevent a customer user from being able to access any customer administration or Office 365 administrative backend functions. Customer users, customer administrators, and Office 365 administrators are completely segregated from each other and are not able to access resources outside of their respective designated roles.
-
 sc_2_ext_implementation: |
  {{sc_2_ext_implementation}}
-
 sc_3_role: |
  Service Engineer Operations, O365 Security Manager
 sc_3_status:
@@ -6505,7 +6023,6 @@ sc_3_origination:
  - "inherited"
 sc_3_implementation: |
  {{sc_3_implementation}}
-
 sc_4_role: |
  Customer Administrator, MSIT, O365 Security Manager
 sc_4_status:
@@ -6515,7 +6032,6 @@ sc_4_origination:
  - "cust_provided"
 sc_4_implementation: |
  {{sc_4_implementation}}
-
 sc_5_role: |
  Azure
 sc_5_1_parameter: |
@@ -6532,7 +6048,6 @@ sc_5_implementation: |
  Azure implements OneDDOS for the Office 365 service teams as defense against single point and distributed network flooding denial of service attacks. Individual service teams request OneDDOS deployment from Azure.
  OneDDOS is a solution for network-wide, non-intrusive reporting, anomaly detection and intelligent mitigation. Using flow data, SNMP and BGP updates, OneDDOS learns normal traffic and routing behavior across hundreds of routers and thousands of interfaces, and correlates the traffic patterns with the topology data to build logical data models. This information enables network and security operations staff to detect and mitigate threats to availability, improve network/service performance and make better investment decisions concerning capacity planning, service offerings and traffic management.
  In addition, service teams use redundant server implementation within each data center as well as mirrored active/active data centers to enhance availability of services. The Microsoft Security Development Lifecycle requires planning for software/logic-based denial of service attacks and minimizing their potential effects.
-
 sc_6_role: |
  Azure, Service Engineer Operations
 sc_6_1_parameter: |
@@ -6548,7 +6063,6 @@ sc_6_origination:
  - "inherited"
 sc_6_implementation: |
  {{sc_6_implementation}}
-
 sc_7_role: |
  Customer Administrator, Azure, O365 Security Manager, Service Engineer Operations
 sc_7_b_parameter: |
@@ -6568,7 +6082,6 @@ sc_7_c_implementation: |
  O365:
  Office 365 connects to external networks or information systems only through Azure’s managed networks. The network interfaces provide boundary protection using tiered ACLs and are arranged in accordance with organizational security architecture. Pre-approved communications are described by Azure as follows:
  The ingress ACL applies to network traffic as it enters a subnet; the point of implementation of the ACL is the gateway interface(s) of the subnet. Ingress ACLs permitting network traffic to cross between different properties, environments, or AD domains are more restrictive that ACLs permitting network traffic within the same property, environment, and AD domain; these restrictions are labeled accordingly.
-
 sc_7_3_role: |
  Azure, O365 Security Manager
 sc_7_3_status:
@@ -6580,7 +6093,6 @@ sc_7_3_implementation: |
  O365:
  All inbound and outbound traffic is controlled and monitored through a limited number of network access points at the boundary and at key points within the system. Service team connections into the environment are restricted and controlled through ORAS or Azure managed Terminal Services Gateways (TSGs), or remote administration services. Each service team has one or more groups of TSGs behind a load balancer to limit the access points for administration traffic, and customer traffic passes through a load balancer as well. All entry points are monitored and generate audit logs and alerts in real time.
  Azure is responsible for managing network connections between Office 365 and external networks and enforces restrictions on Office 365’s behalf.
-
 sc_7_4_role: |
  Azure, O365 Security Manager
 sc_7_4_e_parameter: |
@@ -6606,7 +6118,6 @@ sc_7_4_e_implementation: |
  O365:
  Exceptions to traffic flow policy are reviewed by service teams at least as part of the data flow diagram review process managed by Office 365 Trust.
  After traffic flow policy review, any rules that are determined to be no longer needed to support an explicit mission/business need are removed. Requests for removal follow the same process as requests to add rules.
-
 sc_7_5_role: |
  Azure, O365 Security Manager
 sc_7_5_status:
@@ -6617,7 +6128,6 @@ sc_7_5_origination:
 sc_7_5_implementation: |
  O365:
  Office 365 has implemented a deny-by-default policy and only allows connections by exception. This policy is enforced by Azure-implemented network ACL rules on devices in the boundary.
-
 sc_7_7_role: |
  O365 Security Manager
 sc_7_7_status:
@@ -6627,7 +6137,6 @@ sc_7_7_origination:
 sc_7_7_implementation: |
  O365:
  Office 365 does not allow VPN connections into the environment. All administrative remote access to Office 365 is terminated at the Terminal Server Gateways (TSGs). Access to the TSGs is remote; there is no VPN network connectivity between the remote device and Office 365 networks. The remote device only has access to a remote desktop session terminated at the TSG and therefore there is no capability to bridge the connection to an external network.
-
 sc_7_8_role: |
  Azure, O365 Security Manager
 sc_7_8_1_parameter: |
@@ -6643,7 +6152,6 @@ sc_7_8_implementation: |
  O365:
  Office 365 routes all communication with external networks through a limited number of load-balanced access points at the boundary as described in SC-07(3).
  Azure is responsible for managing network connections between Office 365 and external networks and enforces restrictions on Office 365’s behalf.
-
 sc_7_10_role: |
  Customer Administrator, O365 Security Manager, Service Engineer Operations
 sc_7_10_status:
@@ -6659,7 +6167,6 @@ sc_7_10_implementation: |
  Office 365 monitors for and protects against mining of system data and customer content. All access to Office 365 occurs through remote access to the ORAS or Azure managed Terminal Services Gateways (TSG). The Office 365 Security team monitors remote access for any large data exfiltration through the TSGs. O365 Security uses a robust security monitoring and alerting tool to ingest logs from hosts and other networking infrastructure in the environment, compare these logs to an extensive ruleset, and alert Security personnel when a match is found between the two. Service teams also employ HostIDS to further monitor for data exfiltration at the host level.
  In addition, access to the system is limited to a small number of Office 365 cleared service team administrators. Office 365 cleared service team administrators have taken role-based access training and security awareness training and have been background screened.
  If Office 365 becomes aware of any unlawful access to any customer content stored in its equipment or in its facilities, or unauthorized access to such equipment or facilities resulting in loss, disclosure, or alteration of customer content (each considered a security incident), Office 365 will: (a) notify the affected customer of the security incident; (b) investigate the security incident and provide the customer with information about the security incident; and (c) take reasonable steps to mitigate the effects and to minimize any damage resulting from the security incident.
-
 sc_7_11_role: |
  {{sc_7_11_role}}
 sc_7_11_1_parameter: |
@@ -6672,7 +6179,6 @@ sc_7_11_origination:
  -
 sc_7_11_implementation: |
  {{sc_7_11_implementation}}
-
 sc_7_12_role: |
  Customer Administrator, O365 Security Manager, Service Engineer Operations
 sc_7_12_1_parameter: |
@@ -6688,7 +6194,6 @@ sc_7_12_implementation: |
  O365:
  All Windows machines within Office 365 implement host-based boundary protection using Windows Firewall. Office 365 Security PAVC scanning mechanisms ensure the Windows Firewall is enabled.
  All servers also have Microsoft Forefront Endpoint Protection (FEP), Microsoft Endpoint Protection (MEP), System Center Endpoint Protection (SCEP), or Windows Defender installed. FEP, SCEP, MEP, or Windows Defender provide an additional mechanism that verifies the Windows firewall is enabled and will alert if it is not. Each service team is responsible for installing and managing these antivirus solutions. These antivirus solutions are technical solutions that operate continuously.
-
 sc_7_13_role: |
  Azure, O365 Trust Program Manager
 sc_7_13_parameter: |
@@ -6702,7 +6207,6 @@ sc_7_13_implementation: |
  O365:
  Office 365 isolates security tools/mechanisms from the rest of Office 365 by implementing physically separate subnetworks with managed interfaces to other components of the system. Examples of isolated components include: automated NRT security monitoring and alerting tools, PAVC, ORAS or Azure managed Terminal Services Gateway (TSGs), and Incident management systems.
  Microsoft Azure has implemented multiple mechanisms for isolating the customer environment, infrastructure components and administrative tools. These mechanisms include VLAN isolation, VM-Switch/HostOS to isolate VMS from one another, unique keys for each storage account, and Administrative/diagnostic tools.
-
 sc_7_14_role: |
  {{sc_7_14_role}}
 sc_7_14_parameter: |
@@ -6713,7 +6217,6 @@ sc_7_14_origination:
  -
 sc_7_14_implementation: |
  {{sc_7_14_implementation}}
-
 sc_7_18_role: |
  Azure, O365 Security Manager
 sc_7_18_status:
@@ -6722,7 +6225,6 @@ sc_7_18_origination:
  - "inherited"
 sc_7_18_implementation: |
  {{sc_7_18_implementation}}
-
 sc_7_20_role: |
  Azure, O365 Trust Program Manager, O365 Security Manager
 sc_7_20_parameter: |
@@ -6740,8 +6242,6 @@ sc_7_20_implementation: |
  •	Removal from load balancer rotation
  •	VLAN isolation
  Any of these actions can be performed in real-time as required.
-
-
 sc_7_21_role: |
  Azure, O365 Trust Program Manager, O365 Security Manager
 sc_7_21_1_parameter: |
@@ -6756,7 +6256,6 @@ sc_7_21_origination:
 sc_7_21_implementation: |
  O365:
  The various service teams within Microsoft Office 365 are segregated from each other using Azure Infrastructure managed boundary protection devices (for bare metal hardware) or logical isolation mechanisms (for virtual machines). These mechanisms include VLAN segmentation, ACL restrictions, and encrypted communications.
-
 sc_8_role: |
  Customer Administrator, Azure, O365 Security Manager, Service Engineer Operations
 sc_8_parameter: |
@@ -6769,7 +6268,6 @@ sc_8_origination:
  - "inherited"
 sc_8_implementation: |
  {{sc_8_implementation}}
-
 sc_8_1_role: |
  Customer Administrator, Azure, O365 Security Manager, Service Engineer Operations
 sc_8_1_1_parameter: |
@@ -6789,7 +6287,6 @@ sc_8_1_implementation: |
  Connections to interconnected systems are made using strictly enforced FIPS validated TLS 1.2 protocols.
  Remote access connections from Office 365 service team administrators are made using strictly enforced FIPS validated TLS 1.2 protocols.
  Office 365 DoD's FIPS 140-2 encryption modules used for transmitted information are certified by NIST via certificates 1892, 1893, 1894, 1895, 1896, 1897, 1898, 1899, 2351, 2352, 2353, 2354, 2355, 2356, 2357, 2931, 2932, 2933, 2934, 2935, 2936, 2937, 2938.
-
 sc_8_2_role: |
  {{sc_8_2_role}}
 sc_8_2_parameter: |
@@ -6802,7 +6299,6 @@ sc_8_2_implementation: |
  {{sc_8_2_implementation}}
 sc_8_2_ext_implementation: |
  {{sc_8_2_ext_implementation}}
-
 sc_10_role: |
  O365 Security Manager, Service Engineer Operations
 sc_10_parameter: |
@@ -6815,7 +6311,6 @@ sc_10_origination:
 sc_10_implementation: |
  O365:
  Office 365 terminates the network connection associated with a communications session after 10 minutes of inactivity. For teams using Azure managed Terminal Services Gateways, this is inherited from Azure.
-
 sc_12_role: |
  Customer Administrator, O365 Security Manager, Service Engineer Operations
 sc_12_parameter: |
@@ -6827,7 +6322,6 @@ sc_12_origination:
  - "cust_provided"
 sc_12_implementation: |
  {{sc_12_implementation}}
-
 sc_12_1_role: |
  O365 Security Manager, Service Engineer Operations
 sc_12_1_status:
@@ -6841,7 +6335,6 @@ sc_12_1_implementation: |
  O365:
  If an Office 365 administrator loses his or her YubiKey, he or she follows standard corporate processes to obtain a new one. The new YubiKey will be associated with the same account, ensuring that no information is lost. Office 365 service teams store their Storage Account Keys within a secure Secret Store, which tracks and monitors access to secrets. This ensures that the Storage Account Key will never be lost.
  The use of cryptography within the Office 365 environment is employed with remote access sessions of users and link encryption for inter- Office 365 datacenter traffic. As such, data loss due to loss of keys by users is not a concern to Azure Infrastructure and is further mitigated through the geo-redundant mirroring of services in Office 365.
-
 sc_12_2_role: |
  Customer Administrator
 sc_12_2_parameter: |
@@ -6852,7 +6345,6 @@ sc_12_2_origination:
  - "cust_provided"
 sc_12_2_implementation: |
  {{sc_12_2_implementation}}
-
 sc_12_3_role: |
  O365 Security Manager, Service Engineer Operations
 sc_12_3_parameter: |
@@ -6868,7 +6360,6 @@ sc_12_3_implementation: |
  Office 365 produces, controls and distributes asymmetric cryptographic keys using approved PKI Class 3 certificates. Asymmetric key generation is initiated within Central Admin in the capacity forest where the corresponding certificate will be validated. A public-private key pair is generated by Central Admin. The private key is immediately encrypted and stored in the Central Admin secret store; it is never transmitted outside the boundary and the Central Admin secret store will not allow the private key to be viewed or exported. The Central Admin secret store will only allow the private key to be used to sign requests via API. The corresponding public key is placed in a CER file, which is sent to CertDojo via a FIPS 140-2 validated TLS internal network connection. CertDojo then signs the public key with its root certificate and returns the signed public key for distribution.
  SCS, SPO:
  Office 365 produces, controls and distributes asymmetric cryptographic keys using approved PKI Class 3 certificates. Signed certificates are obtained from CertDojo. Specifically, key generation is initiated on the SPO Crypto Server in Corpnet. The public key is sent to CertDojo, which then in turn creates the public key CER file. The CER file is then copied to the server over a secured internal network. Once the CER file is received, the PFX (complete key) file is created by combining the private key with the CER file. The PFX file is copied over secure networks to Grid Secrets or Azure KeyVault within the SPO environment, to be installed. Once installation is complete the PFX key is then deleted from all servers involved in key creation.
-
 sc_13_role: |
  Customer Administrator, O365 Security Manager, Service Engineer Operations
 sc_13_parameter: |
@@ -6880,7 +6371,6 @@ sc_13_origination:
  - "cust_provided"
 sc_13_implementation: |
  {{sc_13_implementation}}
-
 sc_15_role: |
  O365 Security Manager, Service Engineer Operations
 sc_15_a_parameter: |
@@ -6893,7 +6383,6 @@ sc_15_a_implementation: |
  {{sc_15_a_implementation}}
 sc_15_b_implementation: |
  {{sc_15_b_implementation}}
-
 sc_15_r_role: |
  Service Engineer Operations, O365 Security Manager
 sc_15_r_status:
@@ -6903,7 +6392,6 @@ sc_15_r_origination:
  - "cust_provided"
 sc_15_r_implementation: |
  {{sc_15_r_implementation}}
-
 sc_17_role: |
  Customer Administrator, O365 Security Manager, Service Engineer Operations
 sc_17_parameter: |
@@ -6918,7 +6406,6 @@ sc_17_implementation: |
  Government customers are responsible for having a process in place to check the validity of the Office 365 Web sites prior to signing on by reviewing the digital certificate on the site to ensure they are the Office 365 Web sites. If government customers are using USGCB baselines, supported web browsers will enforce this review automatically by default and prevent connections if the digital certificate is invalid.
  O365:
  Microsoft’s corporate Public Key Infrastructure (PKI) has been established to provide a variety of digital certificate services to support operations for Office 365 and for the Microsoft Corporation. Microsoft corporate PKI functions as the Certificate Authority and Registration Authority and provides directory services to manage keys and certificates. These functions are conducted in accordance with the Public Key Infrastructure Operational Security Standard, which is a component of the Microsoft PKI Requirements.
-
 sc_18_role: |
  Developer, Program Manager, Tester
 sc_18_status:
@@ -6934,7 +6421,6 @@ sc_18_b_implementation: |
 sc_18_c_implementation: |
  O365:
  Office 365 authorizes, monitors, and controls the use of mobile code developed by the service teams, Office 365 authorizes, monitors, and controls the use of mobile code developed by the service teams.
-
 sc_18_3_role: |
  {{sc_18_3_role}}
 sc_18_3_parameter: |
@@ -6945,20 +6431,18 @@ sc_18_3_origination:
  -
 sc_18_3_implementation: |
  {{sc_18_3_implementation}}
-
 sc_18_4_role: |
  {{sc_18_4_role}}
-sc_18_4_a_parameter: |
- {{sc_18_4_a_parameter}}
-sc_18_4_b_parameter: |
- {{sc_18_4_b_parameter}}
+sc_18_4_1_parameter: |
+ {{sc_18_4_1_parameter}}
+sc_18_4_2_parameter: |
+ {{sc_18_4_2_parameter}}
 sc_18_4_status:
  -
 sc_18_4_origination:
  -
 sc_18_4_implementation: |
  {{sc_18_4_implementation}}
-
 sc_19_role: |
  Customer Administrator, Service Engineer Operations
 sc_19_status:
@@ -6970,7 +6454,6 @@ sc_19_a_implementation: |
  {{sc_19_a_implementation}}
 sc_19_b_implementation: |
  {{sc_19_b_implementation}}
-
 sc_20_role: |
  None – Not Applicable
 sc_20_status:
@@ -6983,7 +6466,6 @@ sc_20_a_implementation: |
 sc_20_b_implementation: |
  O365:
  OMB Memorandum 08-23 specifies that DNS providers must take certain actions to protect .gov domains. Microsoft does not resolve .gov domain names for Federal users, so this control is not applicable.
-
 sc_21_role: |
  None – Not Applicable
 sc_21_status:
@@ -6992,7 +6474,6 @@ sc_21_origination:
  - "inherited"
 sc_21_implementation: |
  sc_21_implementation
-
 sc_22_role: |
  Azure, Service Engineer Operations
 sc_22_status:
@@ -7004,7 +6485,6 @@ sc_22_implementation: |
  Office 365 inherits DNS servers from Azure Government . Microsoft Azure DNS shared services, as reflected in the boundary, provide name and address resolution. Fault tolerance is built into the service through redundancy at multiple levels (multiple DNS server clusters and multiple servers per cluster) and deployment at multiple Microsoft Azure datacenter facilities which are geographically separated. DNS shared services also leverages network controls to restrict type of hosts that can access an authoritative DNS server in a particular role.
  The implementation incorporates a hierarchy of secondary/primary DNS servers. Static DNS zone/records are replicated/pulled from central source either acting as Primary DNS or a SQL server to the associated secondary servers. Data from these primary sources are backed up and monitored with the security incident and event management tool.
  Additionally, the Microsoft Azure DNS servers that are providing external accessible authoritative DNS are deployed on completely different hardware versus the DNS servers that are being used for recursive resolution.
-
 sc_23_role: |
  Customer Administrator, Azure, O365 Security Manager, Service Engineer Operations
 sc_23_status:
@@ -7015,7 +6495,6 @@ sc_23_origination:
  - "inherited"
 sc_23_implementation: |
  {{sc_23_implementation}}
-
 sc_23_1_role: |
  Customer Administrator, Azure, O365 Security Manager{{sc_23_1_role}}
 sc_23_1_status:
@@ -7025,7 +6504,6 @@ sc_23_1_origination:
  - "cust_provided"
 sc_23_1_implementation: |
  {{sc_23_1_implementation}}
-
 sc_23_3_role: |
  {{sc_23_3_role}}
 sc_23_3_parameter: |
@@ -7036,7 +6514,6 @@ sc_23_3_origination:
  -
 sc_23_3_implementation: |
  {{sc_23_3_implementation}}
-
 sc_23_5_role: |
  {{sc_23_5_role}}
 sc_23_5_parameter: |
@@ -7047,7 +6524,6 @@ sc_23_5_origination:
  -
 sc_23_5_implementation: |
  {{sc_23_5_implementation}}
-
 sc_24_role: |
  Customer Administrator, Azure, O365 Security Manager, Service Engineer Operations
 sc_24_1_parameter: |
@@ -7063,7 +6539,6 @@ sc_24_origination:
  - "cust_provided"
 sc_24_implementation: |
  {{sc_24_implementation}}
-
 sc_28_role: |
  Azure, O365 Security Manager
 sc_28_1_parameter: |
@@ -7076,7 +6551,6 @@ sc_28_origination:
  - "sys"
 sc_28_implementation: |
  {{sc_28_implementation}}
-
 sc_28_1_role: |
  Customer Administrator, O365 Security Manager
 sc_28_1_1_parameter: |
@@ -7089,7 +6563,6 @@ sc_28_1_origination:
  - "sys"
 sc_28_1_implementation: |
  {{sc_28_1_implementation}}
-
 sc_39_role: |
  O365 Security Manager
 sc_39_status:
@@ -7099,8 +6572,6 @@ sc_39_origination:
 sc_39_implementation: |
  O365:
  For Office 365 servers running Windows OS, Windows maintains a separate execution domain for each executing process by assigning a private virtual address space to each process. See the following TechNet article for more information: http://technet.microsoft.com/en-ca/aa366785%28v=vs.90%29
-
-
 se_1_role: |
  {{se_1_role}}
 se_1_a_parameter: |
@@ -7115,7 +6586,6 @@ se_1_a_implementation: |
  {{se_1_a_implementation}}
 se_1_b_implementation: |
  {{se_1_b_implementation}}
-
 se_2_role: |
  {{se_2_role}}
 se_2_status:
@@ -7126,7 +6596,6 @@ se_2_a_implementation: |
  {{se_2_a_implementation}}
 se_2_b_implementation: |
  {{se_2_b_implementation}}
-
 si_1_role: |
  Customer Administrator, O365 Security Manager, Service Engineer Operations
 si_1_a_parameter: |
@@ -7150,11 +6619,9 @@ si_1_b_implementation: |
  Part 1:
  O365:
  The Office 365 Information Security Policy is reviewed and updated at least annually.
-
  Part 2:
  O365:
  The Office 365 SOPs are reviewed and updated at least annually or whenever a significant change occurs.
-
 si_2_role: |
  Customer Administrator, Azure, O365 Security Manager, Service Engineer Operations
 si_2_c_parameter: |
@@ -7174,7 +6641,6 @@ si_2_c_implementation: |
 si_2_d_implementation: |
  O365:
  The flaw remediation process follows the standard configuration management process, which includes testing, reviews, flaw remediation, and approvals of changes before they are installed in the production environment. The configuration management process is documented in the CM family of controls.
-
 si_2_1_role: |
  Customer Administrator, O365 Security Manager, Service Engineer Operations
 si_2_1_status:
@@ -7184,7 +6650,6 @@ si_2_1_origination:
  - "cust_provided"
 si_2_1_implementation: |
  {{si_2_1_implementation}}
-
 si_2_2_role: |
  O365 Security Manager
 si_2_2_parameter: |
@@ -7196,7 +6661,6 @@ si_2_2_origination:
  -  "cust_provided"
 si_2_2_implementation: |
  {{si_2_2_implementation}}
-
 si_2_3_role: |
  O365 Security Manager, O365 Trust Program Manager
 si_2_3_b_parameter: |
@@ -7212,7 +6676,6 @@ si_2_3_a_implementation: |
 si_2_3_b_implementation: |
  O365:
  Office 365 uses the PAVC process to continuously track and correct information system flaws as detailed in RA-5. The benchmarks are to remediate high risk flaws within 30 days of discovery, moderate risk flaws within 90 days of discovery and low risks flaws within 180 days of discovery.
-
 si_2_6_role: |
  {{si_2_6_role}}
 si_2_6_b_parameter: |
@@ -7223,7 +6686,6 @@ si_2_6_origination:
  -
 si_2_6_implementation: |
  {{si_2_6_implementation}}
-
 si_3_role: |
  Customer Administrator, O365 Security Manager, Service Engineer Operations
 si_3_c_1_1_parameter: |
@@ -7248,8 +6710,6 @@ si_3_c_implementation: |
 si_3_d_implementation: |
  O365:
  When anti-malware tools detect malware, they block the malware and an alert is generated and sent to Office 365 service team personnel, Office 365 Security, and/or Azure. The receiving personnel initiate the Incident Response process. Incidents are tracked and resolved, and postmortem analysis is performed, as discussed in the Office 365 Security Incident Response Plan.
-
-
 si_3_1_role: |
  O365 Security Manager, Service Engineer Operations
 si_3_1_status:
@@ -7264,7 +6724,6 @@ si_3_1_implementation: |
   • Automatic scans of the environment
   • Alerting, cleaning, and mitigation of detected malware
   • Centralized management of the anti-malware environment by Azure or Service Team Operations
-
 si_3_2_role: |
  O365 Security Manager, Service Engineer Operations
 si_3_2_status:
@@ -7274,7 +6733,6 @@ si_3_2_origination:
 si_3_2_implementation: |
  O365:
  Automatic download and application of signature updates occurs at least daily from the vendor's virus definition site, and is centrally managed by the appropriate anti-malware tool for each service team.
-
 si_3_7_role: |
  O365 Security Manager, Service Engineer Operations
 si_3_7_status:
@@ -7284,8 +6742,6 @@ si_3_7_origination:
 si_3_7_implementation: |
  O365:
  Office 365 utilizes System Center Endpoint Protection (SCEP) or Microsoft Endpoint Protection (MEP) to detect malicious code on Windows systems. In addition to signature-based detection mechanisms, SCEP also utilizes behavior monitoring, network inspection, and heuristics in order to detect malicious code that may be missed by signature-based methods.
-
-
 si_3_10_role: |
  {{si_3_10_role}}
 si_3_10_a_parameter: |
@@ -7298,7 +6754,6 @@ si_3_10_a_implementation: |
  {{si_3_10_a_implementation}}
 si_3_10_b_implementation: |
  {{si_3_10_b_implementation}}
-
 si_4_role: |
  Azure, O365 Security Manager, Service Engineer Operations
 si_4_a_1_parameter: |
@@ -7321,7 +6776,6 @@ si_4_a_implementation: |
  Part 1:
  O365:
  Service teams have deployed Near Real Time monitoring solutions that generate all real-time alerts and audit logs from both SCOM and repository. All the service team-specific monitoring requirements beyond the base set defined in Office 365 Security Auditing SOP for Office 365 are integrated into a SCOM pack. In addition, service teams upload their logs to a repository service, where they are aggregated and processed. The uploader service generates reports using automated security alerting tools. These automated security alerting tools assist in identifying normal usage of the system and deviations from that normal range. Additionally, they examine records to confirm that the system is functioning in an optimal, resilient, and secure state. Unusual activity is flagged and alerted in Near Real Time, repository also aggregates logs for further review. Any log event that indicates a potential security violation must be immediately brought to the attention of Office 365 Security.
-
  Part 2:
  O365:
  Local connections are disallowed by policy within Office. No personnel have local access. Azure performs network monitoring and detection of unauthorized connections in accordance with their security policy. Remote authentication failures are logged and stored within a repository service.
@@ -7338,7 +6792,6 @@ si_4_f_implementation: |
  {{si_4_f_implementation}}
 si_4_g_implementation: |
  {{si_4_g_implementation}}
-
 si_4_1_role: |
  O365 Security Manager, Service Engineer Operations
 si_4_1_status:
@@ -7350,7 +6803,6 @@ si_4_1_implementation: |
  All servers upload logs to a repository service for aggregation and analysis. Consolidated reports are generated from this data using the automated security alerting tools as described AU-6 and AU-7, and cover system-wide intrusion detections.
 
  For teams using PilotFish, audit logs are uploaded to a repository service for aggregation and analysis. Reports are generated from this data using Pilotfish/K-9 as described AU-6 and AU-7. These reports are available daily and as needed.
-
 si_4_2_role: |
  O365 Security Manager, Service Engineer Operations
 si_4_2_status:
@@ -7359,7 +6811,6 @@ si_4_2_origination:
  - "sys"
 si_4_2_implementation: |
  {{si_4_2_implementation}}
-
 si_4_4_role: |
  Azure, O365 Security Manager, Service Engineer Operations
 si_4_4_parameter: |
@@ -7372,7 +6823,6 @@ si_4_4_origination:
 si_4_4_implementation: |
  O365:
  Azure monitors for unusual traffic patterns using OneDDOS. In addition, service teams monitor for denial of service attacks by monitoring the following key health metrics: CPU usage, network connections, disk input/output operations per second (IOPS), and disk space usage. Office 365 service teams also monitor and review web server (e.g. IIS) logs and other application logs (as applicable) for unusual or unauthorized activities or conditions. Any unapproved connections detected through auditing or alerting will be triaged using security incident response processes.
-
 si_4_5_role: |
  O365 Security Manager, Service Engineer Operations
 si_4_5_1_parameter: |
@@ -7385,7 +6835,6 @@ si_4_5_origination:
  - "sys"
 si_4_5_implementation: |
  {{si_4_5_implementation}}
-
 si_4_11_role: |
  O365 Security Manager, Service Engineer Operations
 si_4_11_parameter: |
@@ -7397,7 +6846,6 @@ si_4_11_origination:
  - "inherited"
 si_4_11_implementation: |
  {{si_4_11_implementation}}
-
 si_4_12_role: |
  {{si_4_12_role}}
 si_4_12_parameter: |
@@ -7408,7 +6856,6 @@ si_4_12_origination:
  -
 si_4_12_implementation: |
  {{si_4_12_implementation}}
-
 si_4_14_role: |
  Azure, O365 Security Manager, Service Engineer Operations
 si_4_14_status:
@@ -7418,7 +6865,6 @@ si_4_14_origination:
 si_4_14_implementation: |
  O365:
  Azure regularly monitors for rogue wireless signals on a quarterly basis as discussed in AC-18.
-
 si_4_16_role: |
  O365 Security Manager, Service Engineer Operations
 si_4_16_status:
@@ -7427,7 +6873,6 @@ si_4_16_origination:
  - "sys"
 si_4_16_implementation: |
  {{si_4_16_implementation}}
-
 si_4_18_role: |
  O365 Security Manager, Service Engineer Operations
 si_4_18_parameter: |
@@ -7439,7 +6884,6 @@ si_4_18_origination:
  - "inherited"
 si_4_18_implementation: |
  {{si_4_18_implementation}}
-
 si_4_19_role: |
  MSIT, O365 Security Manager, Service Engineer Operations
 si_4_19_1_parameter: |
@@ -7452,7 +6896,6 @@ si_4_19_origination:
  -
 si_4_19_implementation: |
  {{si_4_19_implementation}}
-
 si_4_20_role: |
  Customer Administrator, MSIT, O365 Security Manager, Service Engineer Operations
 si_4_20_parameter: |
@@ -7463,7 +6906,6 @@ si_4_20_origination:
  -
 si_4_20_implementation: |
  {{si_4_20_implementation}}
-
 si_4_22_role: |
  Azure, O365 Security Manager, Service Engineer Operations
 si_4_22_1_parameter: |
@@ -7478,7 +6920,6 @@ si_4_22_origination:
  - "inherited"
 si_4_22_implementation: |
  {{si_4_22_implementation}}
-
 si_4_23_role: |
  O365 Security Manager, Service Engineer Operations
 si_4_23_1_parameter: |
@@ -7492,7 +6933,6 @@ si_4_23_origination:
 si_4_23_implementation: |
  O365:
  All Windows hosts within Office 365 have Windows Event Logging enabled. If this functionality is turned off or unsuccessful, an alert will be generated through NRT Security Monitoring, the automated security alerting tools and audit log repository service, and the alert will be investigated as a security incident.
-
 si_4_24_role: |
  O365 Security Manager, Service Engineer Operations
 si_4_24_status:
@@ -7502,7 +6942,6 @@ si_4_24_origination:
  - "cust_provided"
 si_4_24_implementation: |
  {{si_4_24_implementation}}
-
 si_5_role: |
  O365 Security Manager, Service Engineer Operations
 si_5_a_parameter: |
@@ -7525,15 +6964,12 @@ si_5_c_implementation: |
  O365:
  Security alerts, advisories, and directives are disseminated to Office 365 Service Team Operations and Security Manager personnel and any additional entities requested by the customer.
 si_5_d_implementation: |
-
  O365:
  When security updates are identified from the above information sources, they are initially reviewed by Office 365 Service Team Engineering personnel. Qualified updates are pushed through monthly/emergency triage meetings to appropriate service groups who are responsible for patching servers appropriately and verify that servers are operational. Security remediation will be implemented as follows:
  •	Remediation for High Risk vulnerabilities will be implemented within 30 days of the vulnerability mitigation being released by the vendor.
  •	Remediation for Medium Risk vulnerabilities will be implemented within 90 days of vulnerability the vulnerability mitigation being released by the vendor.
 
  In the event where patching during the timeframe is infeasible, service groups may request exceptions, which are very limited and reviewed on a case-by-case basis. Exceptions and risks identified during the course of vulnerability remediation are tracked in Archer for stakeholder and Office 365 Security review. Office 365 Security also verifies degree of compliance using vulnerability scanners deployed in Office 365.
-
-
 si_5_1_role: |
  O365 Security Manager, Service Engineer Operations
 si_5_1_status:
@@ -7543,7 +6979,6 @@ si_5_1_origination:
  - "cust_provided"
 si_5_1_implementation: |
  {{si_5_1_implementation}}
-
 si_6_role: |
  O365 Security Manager, Service Engineer Operations
 si_6_a_parameter: |
@@ -7570,7 +7005,6 @@ si_6_c_implementation: |
 si_6_d_implementation: |
  O365:
  See SI-6(c)
-
 si_7_role: |
  Azure, O365 Security Manager, Service Engineer Operations
 si_7_parameter: |
@@ -7586,7 +7020,6 @@ si_7_implementation: |
  For teams on PilotFish, integrity verification mechanisms are inherited from PilotFish. Integrity checks are performed against PilotFish signatures. If system integrity is compromised, PilotFish will attempt to repair the image. If unsuccessful, it will redeploy a healthy image.
 
  Additionally, AppLocker detects unauthorized changes to software and information. If an unauthorized change is detected, a Sev 1 alert is raised and sent to Office 365 Security.
-
  Office 365 has determined that solutions to fully meet this control pose unacceptable risks to system availability. However, the following compensating controls are in place to achieve integrity verification control objectives:
  •	Strong configuration management controls and processes ensuring that only reviewed and approved changes are made to the system.
  •	Standardized deployment processes that ensure that server roles are configured reliably and consistently across the service.  There is no manual configuration and thus no risk of accidental deviations.
@@ -7597,7 +7030,6 @@ si_7_implementation: |
  •	Office 365 performs a manual reconciliation of its software inventory against software identified by scanning and discrepancies are investigated.
 
  Firmware integrity verification mechanisms are inherited from Azure Government from pre-existing FedRAMP Authorization. Microsoft Azure components have a set of runners, which leverage information captured by Geneva Monitoring to run automated tests for checking the health of the components. Runners are configured to automatically generate alerts if any discrepancies are identified. Azure also utilizes Qualys for integrity scanning along with Azure Security Monitoring (ASM) to reduce the risk of tampering on software components and devices within the Microsoft Azure operating environment. ASM works as an extension of the Microsoft Azure monitoring system which has components that observe, analyze and report on security events in Microsoft Azure operating environment. It complements the Azure security model by examining constraints that should remain valid at all times, including configuration settings. Azure uses the Network Automation tool to notify the Azure Networking team on unauthorized changes to network devices on a continuous basis.
-
 si_7_1_role: |
  Azure, O365 Security Manager, O365 Trust Program Manager
 si_7_1_1_parameter: |
@@ -7606,7 +7038,6 @@ si_7_1_2_parameter: |
  At startup, at deployment, and continuously
 si_7_1_3_parameter: |
  {{si_7_1_3_parameter}}
-
 si_7_1_status:
  - "implemented"
 si_7_1_origination:
@@ -7621,7 +7052,6 @@ si_7_1_implementation: |
 
  Azure reassesses the integrity of software and information by monitoring of events reported via Windows Resource Protection (WRP). Network devices are monitored via the Network Automation tool on at least a monthly basis. Both WRP and Network Automation tool are continuously scanning (real-time) the environment for changes in the environment that would constitute a change in the integrity of software in the system.
  Please reference SI-07 for further details.
-
 si_7_2_role: |
  Azure, O365 Security Manager, O365 Trust Program Manager
 si_7_2_parameter: |
@@ -7634,7 +7064,6 @@ si_7_2_origination:
  - "inherited"
 si_7_2_implementation: |
  {{si_7_2_implementation}}
-
 si_7_5_role: |
  Azure, O365 Security Manager, O365 Trust Program Manager
 si_7_5_parameter: |
@@ -7646,7 +7075,6 @@ si_7_5_origination:
  - "cust_provided"
 si_7_5_implementation: |
  {{si_7_5_implementation}}
-
 si_7_6_role: |
  {{si_7_6_role}}
 si_7_6_status:
@@ -7655,7 +7083,6 @@ si_7_6_origination:
  -
 si_7_6_ext_implementation: |
  {{si_7_6_ext_implementation}}
-
 si_7_7_role: |
  Azure, O365 Security Manager, O365 Trust Program Manager
 si_7_7_parameter: |
@@ -7666,7 +7093,6 @@ si_7_7_origination:
  - "inherited"
 si_7_7_implementation: |
  {{si_7_7_implementation}}
-
 si_7_14_role: |
  Azure, O365 Security Manager, O365 Trust Program Manager
 si_7_14_status:
@@ -7678,7 +7104,6 @@ si_7_14_a_implementation: |
 si_7_14_b_implementation: |
  O365:
  There are no exceptions to this within Office 365. See part a.
-
 si_8_role: |
  Service Engineer Operations
 si_8_status:
@@ -7688,12 +7113,10 @@ si_8_origination:
 si_8_a_implementation: |
  O365:
  IP provides spam protection mechanisms for all Office 365 customers for external incoming email. This filtering solution provides enterprise-class reliability for messaging security and management, and protects against spam and malware. All inbound Internet email traffic is routed through IP, where each message is evaluated against predefined rules.
-
  The IP system builds spam lists internally and consumes spam lists from Spamhaus (http://www.spamhaus.org/) to prevent known spam offenders from getting messages through the system and into customer mailboxes. All external incoming email must pass through the spam filtering system.
 si_8_b_implementation: |
  O365:
  Internal spam lists are updated by automated processes on an ongoing basis. Externally-provided spam lists are updated whenever updates are available from Spamhaus, which is checked multiple times per day.
-
 si_8_1_role: |
  Service Engineer Operations
 si_8_1_status:
@@ -7703,7 +7126,6 @@ si_8_1_origination:
 si_8_1_implementation: |
  O365:
  IP provides a centrally managed spam protection mechanism for all Office 365 customers for external incoming email. This filtering solution protects against spam and malware. All inbound Internet email traffic is routed through IP, where each message is evaluated against predefined rules.
-
 si_8_2_role: |
  Service Engineer Operations
 si_8_2_status:
@@ -7713,7 +7135,6 @@ si_8_2_origination:
 si_8_2_implementation: |
  O365:
  Internal spam lists are updated by spam analysts and automated processes on an ongoing basis. Externally-provided spam lists are updated whenever updates are available from Spamhaus, which is checked multiple times per day.
-
 si_10_role: |
  Developer, Program Manager, Tester
 si_10_parameter: |
@@ -7734,7 +7155,6 @@ si_10_implementation: |
  Office 365 host servers require that information that is input to be in the form of machine-recognizable language in specific syntax or format, or the information will be rejected.
 
  In addition, Office 365 leverages the intrusion detection/prevention service provided by Azure, OneDDOS, to validate incoming DNS requests. OneDDOS provides the ability to identify malformed DNS requests and will alert and respond to malicious requests.
-
 si_10_3_role: |
  {{si_10_3_role}}
 si_10_3_status:
@@ -7743,7 +7163,6 @@ si_10_3_origination:
  -
 si_10_3_implementation: |
  {{si_10_3_implementation}}
-
 si_11_role: |
  Developer, Program Manager, Tester
 si_11_b_parameter: |
@@ -7758,7 +7177,6 @@ si_11_a_implementation: |
 si_11_b_implementation: |
  O365:
  See SI-11(a)
-
 si_12_role: |
  Customer Administrator, Program Manager, Service Engineer Operations
 si_12_status:
@@ -7769,14 +7187,12 @@ si_12_origination:
 si_12_implementation: |
  Customer Responsibility:
  Customers are responsible for complying with all applicable federal laws, Executive Orders, directives, policies, regulations, standards, and operational requirements in their retention and handling of data within the Office 365 information system.
-
  O365:
  Office 365 owned assets are retained as appropriate based on retention requirements set by Corporate Records Management and an asset’s classification, or based on contractual requirements. Microsoft guarantees retention of tenant data for 30 days after termination and all information is permanently deleted 90 days after termination of service. The classification of assets is included in the Office 365 asset inventory. Corporate Records Management’s Microsoft Documentation Retention Policy describes which Microsoft documents must be kept and for how long.
 
  Additionally, Office 365 has a comprehensive framework to comply with FedRAMP, SOC I, SOC II, HIPAA, ISO27001, EUMC, and other regulations as necessary. As part of this framework, Office 365 maintains ongoing continuous monitoring programs to assure compliance in post-production deployments.
 si_12_ext_implementation: |
  {{si_12_ext_implementation}}
-
 si_16_role: |
  Program Manager, Service Engineer Operations
 si_16_1_parameter: |
@@ -7792,7 +7208,6 @@ si_16_implementation: |
  •	http://technet.microsoft.com/en-us/library/aa366553.aspx
  •	http://technet.microsoft.com/en-us/library/bb457155.aspx
  •	http://technet.microsoft.com/en-us/library/cc771361%28v=WS.10%29.aspx
-
 tr_1_role: |
  {{tr_1_role}}
 tr_1_status:
@@ -7805,7 +7220,6 @@ tr_1_b_implementation: |
  {{tr_1_b_implementation}}
 tr_1_c_implementation: |
  {{tr_1_c_implementation}}
-
 tr_2_role: |
  {{tr_2_role}}
 tr_2_status:
@@ -7818,7 +7232,6 @@ tr_2_b_implementation: |
  {{tr_2_b_implementation}}
 tr_2_c_implementation: |
  {{tr_2_c_implementation}}
-
 tr_2_1_role: |
  {{tr_2_1_role}}
 tr_2_1_status:
@@ -7827,7 +7240,6 @@ tr_2_1_origination:
  -
 tr_2_1_implementation: |
  {{tr_2_1_implementation}}
-
 tr_3_role: |
  {{tr_3_role}}
 tr_3_status:
@@ -7838,7 +7250,6 @@ tr_3_a_implementation: |
  {{tr_3_a_implementation}}
 tr_3_b_implementation: |
  {{tr_3_b_implementation}}
-
 ul_1_role: |
  {{ul_1_role}}
 ul_1_status:
@@ -7849,7 +7260,6 @@ ul_1_implementation: |
  {{ul_1_implementation}}
 ul_1_ext_implementation: |
  {{ul_1_ext_implementation}}
-
 ul_2_role: |
  {{ul_2_role}}
 ul_2_status:
