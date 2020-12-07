@@ -4689,6 +4689,7 @@ pm_10_status:
  -
 pm_10_origination:
  -
+pm_10_a_implementation: |
 pm_10_b_implementation: |
 pm_10_c_implementation: |
 pm_10_ext_implementation: |
@@ -5908,8 +5909,8 @@ sc_18_3_origination:
  -
 sc_18_3_implementation: |
 sc_18_4_role: |
-sc_18_4_a_parameter: |
-sc_18_4_b_parameter: |
+sc_18_4_1_parameter: |
+sc_18_4_2_parameter: |
 sc_18_4_status:
  -
 sc_18_4_origination:
