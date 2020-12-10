@@ -45,11 +45,16 @@ ac_2_origination:
 ac_2_a_implementation: |
  Customer Responsibility:
  All customers, including government and non-government customers, are responsible for identifying the account types for their organization in compliance with their organizational policies.  Government and non-government customers using ADFS will configure their account types in their existing Active Directory infrastructure or they will configure account types in AAD. Non-government customers not using ADFS will configure account types in AAD via SUE.
+
  For more information on managing customer account types via the Office 365 Admin Center, see the following link: http://technet.microsoft.com/en-us/library/office-365-user-account-management.aspx
+
  Guest access to SFB meetings, if enabled, allows anyone with a meeting invite to access the meeting lobby; this method of guest access is considered session access as no account is assigned to the guest user. The meeting organizer is responsible for establishing the identity of lobby participants before granting them access to the meeting. Government customers are responsible for disabling guest access to SFB meetings to remain compliant with FedRAMP standards as advised in “Office 365 Complementary Federal User Entity Control” .For more information, see the following TechNet article: http://technet.microsoft.com/en-US/library/gg398648.aspx
+
  Non-government customers are responsible for determining if the use of guest access to SFB meetings should be allowed for their organization. This setting can be configured by government and non-government customers. For more information, see the following TechNet article: http://technet.microsoft.com/en-US/library/gg398648.aspx
 
+
  SharePoint Online guest invitations allow external users to access an organization’s SharePoint Online site(s). Government and non-government customers are responsible for determining if the use of guest access to SharePoint Online, as an account type, should be allowed for their organization. Government customers are responsible for disabling guest access to SharePoint Online to remain compliant with FedRAMP standards as advised in "Office 365 MT Government Compliance Considerations ". The setting to allow or disallow guest access to SharePoint Online can be configured by government and non-government customers.
+
  For more information, see the following Office 365 help article: http://office.microsoft.com/en-us/office365-sharepoint-online-small-business-help/manage-sharing-with-external-users-HA102849862.aspx
  O365:
  Office 365 has identified and selected three categories of accounts to support organizational missions/business functions: Service Team, Customer, and Service.
@@ -60,12 +65,15 @@ ac_2_a_implementation: |
 ac_2_b_implementation: |
  Customer Responsibility:
  All customers, including government and non-government customers, are responsible for assigning account managers for the account types identified in part a of this control.
+
  O365:
  Office 365 assigns account managers to each role type using account management tools such as IDM, IDWeb, and MyAccess.  These tools include workflows that enforce business rules.
 ac_2_c_implementation: |
  Customer Responsibility:
  All customers, including government and non-government customers, are responsible for establishing conditions for group/role membership for their organization in compliance with their organizational policies. Government and non-government customers using ADFS will configure their groups/roles in their existing Active Directory infrastructure. Non-government customers not using ADFS will configure groups in AAD via SUE.
+
  For more information on managing customer groups/roles in AAD via the SUE portal, see the following link: http://technet.microsoft.com/en-us/library/office-365-user-account-management.aspx
+
  O365:
  Service teams establish conditions for group/role membership by defining and enforcing conditions for each group/role in account management tools. In addition, service teams use JIT Tools to enforce additional, more granular conditions for privilege escalation and approval for interactive sessions.
 
@@ -73,10 +81,13 @@ ac_2_c_implementation: |
 ac_2_d_implementation: |
  Customer Responsibility:
  Government and non-government customers using ADFS are responsible for identifying organizationally authorized users and specifying access privileges for those users using their existing Active Directory (AD) infrastructure. These users authenticate to customer-owned ADFS servers which utilize the customer AD infrastructure to identify, authenticate, and apply permissions to that user's session. The customer's ADFS server then communicates that identification/authentication and the associated permissions to AAD via SAML 2.0 ticket.
+
  For more information on managing user accounts in AD, see TechNet article #754661: http://technet.microsoft.com/en-us/library/cc754661.aspx
 
  Non-government customers not using ADFS will manage user accounts in AAD via SUE. For these customers, AAD is responsible for identifying organizationally authorized users and will enforce the access privileges defined by the customer.
+
  For more information on managing customer user identifiers and specifying access privileges in AAD via the SUE portal, see the following link: http://technet.microsoft.com/en-us/library/office-365-user-account-management.aspx
+
  O365:
  RBAC is used to identify and control the access privileges of each service team personnel. Access privileges vary depending on the role that a specified service team personnel will assume within the service team. Access privileges are defined in account management tools and enforced by Active Directory. In addition, service teams use JIT Tools to enforce additional, more granular conditions for privilege escalation and approval for interactive sessions.
 
@@ -84,35 +95,46 @@ ac_2_d_implementation: |
 ac_2_e_implementation: |
  Customer Responsibility:
  All customers, including government and non-government customers, are responsible for requiring appropriate approvals for requests to establish organizational accounts in compliance with their organizational policies. Government and non-government customers using ADFS will manage their accounts in their existing Active Directory infrastructure. Non-government customers not using ADFS will manage their accounts in AAD via SUE.
+
  For more information on managing customer accounts via the SUE portal, see the following link: http://technet.microsoft.com/en-us/library/office-365-user-account-management.aspx
+
  O365:
  In order to gain access to the production environment, service team personnel must first request access via the account management tools; access to the production environment is provided via security group membership. Approval to establish the account from the service team’s management is required for a service team administrator to be added to the appropriate security group. These approvals are tracked and enforced by account management tools.
 ac_2_f_implementation: |
  Customer Responsibility:
  Government customers are responsible for establishing, activating, modifying, disabling, and removing organizational accounts in accordance with their procedures using their AD infrastructure. Government users authenticate to government-owned ADFS servers which utilize the government AD infrastructure to identify, authenticate, and apply permissions to that user's session. The government ADFS server then communicates that identification/authentication, and the associated permissions to AAD via SAML2.0 ticket.
+
  For more information on managing user accounts in Active DirectoryAD, see TechNet article #754661: http://technet.microsoft.com/en-us/library/cc754661.aspx
 
  Non-government customers using ADFS establish, activate, modify, disable, and remove organizational accounts following the same procedures outlined for government customers. Non-government customers not using ADFS manage user accounts in AAD via SUE.
+
  For more information on managing customer accounts via the SUE portal, see the following link: http://technet.microsoft.com/en-us/library/office-365-user-account-management.aspx
+
  O365:
  Account changes are managed through account management tools in accordance with Office 365 SOP. The Office 365 Information Security Policy and rules have been defined in account management tools which provide an automated workflow that allows service teams to track account requests, approvals, creations, modifications, and deletions. Service team managers are responsible for approving account lifecycle events in account management tools, ensuring that Office 365 establishes, activates, modifies, disables, and removes accounts appropriately.
 ac_2_g_implementation: |
  Customer Responsibility:
  Government and non-government customers using ADFS are responsible for monitoring the use of information system accounts managed by their AD. See AU-2, AU-3, AU-6, and SI-4 for more details about these responsibilities.
+
  O365:
  Office 365 monitors the use of information system accounts in accordance with the AU family of security controls. Office 365 records the auditable events defined in AU-2 with the content defined in AU-3 and monitors those records in accordance with the control descriptions for AU-6 and SI-4.
 ac_2_h_implementation: |
  Customer Responsibility:
  Government and non-government customers are responsible for implementing processes to notify customer account managers when accounts are no longer required, when users are terminated or transferred, or when individual information system usage or need-to-know changes.
+
  Part 1,2,3:
  O365:
  Office 365 uses automated workflowaccount management tools that allow service teams to track the account management process through account request, approval, creation, modification, and deletion. As changes occur, the corresponding account manager is notified of the changes that require their approval. Information system usage and need-to-know are mapped to the roles defined by each service team. When an employee is transferred or their employment is terminated, the account management tools will automatically revoke the associated account's access to the privileges mapped to their previous role.
 ac_2_i_implementation: |
  Customer Responsibility:
  Government customers are responsible for managing organizational user accounts by granting access to Office 365 based on: a valid access authorization; intended system usage; and other attributes as required by the organization or associated missions/business functions using their AD infrastructure. Government users authenticate to government owned ADFS servers which utilize the government AD infrastructure to identify, authenticate, and apply permissions to that user’s session. The government ADFS server then communicates that identification/authentication, and the associated permissions to AAD via SAML2.0 ticket.
+
  For more information on managing user accounts in AD, see TechNet article #754661: http://technet.microsoft.com/en-us/library/cc754661.aspx
+
  Non-government customers can manage organizational user accounts by granting access to Office 365 based on: a valid access authorization; intended system usage; and other attributes as required by the organization or associated missions/business functions following the same procedures outlined for government customers, or they can elect to manage user accounts in AAD via SUE.
+
  For more information on managing customer accounts via the SUE portal, see the following link: http://technet.microsoft.com/en-us/library/office-365-user-account-management.aspx
+
  Part 1,2,3:
  O365:
  Office 365 Membership in security groups that give access to the system is given only to those in specific roles that require system access. Service team managers are responsible for approving group membership. The managers validate that the user requires access to the production environment to fulfill their duties and support Office 365. Access is granted based on this valid access authorization and documented intended systems usage consistent with the permission type and conditions for group membership.
@@ -121,15 +143,19 @@ ac_2_i_implementation: |
 ac_2_j_implementation: |
  Customer Responsibility:
  Office 365 Customers are responsible for reviewing the accounts of their organization’s users in compliance with their organizational policies. Office 365 allows two methods for customers to manage/review their user accounts: ADFS and SUE.
+
  ADFS: Government and non-government customers using ADFS manage user accounts in their own customer-owned and controlled AD forests. These customers should review their AD accounts as required by their internal policies (at least annually to comply with FedRAMP requirements). If customers disable or remove users in their Active Directory during this review, those users will immediately no longer have access to Office 365 MT.
  For more information on managing user accounts in AD, see TechNet article #754661: http://technet.microsoft.com/en-us/library/cc754661.aspx
+
  SUE: Non-government customers not using ADFS may manage accounts in Azure Active Directory via the Suite User Experience (SUE) portal. Customers are responsible for logging into the portal and reviewing the Office 365 MT accounts of their users compliant with their organizational policies. Disabling or removing users in the SUE portal revokes access to Office 365 MT for the affected users.
  For more information on managing user accounts via the SUE portal, see TechNet article “office 365 user account management”: http://technet.microsoft.com/en-us/library/office-365-user-account-management.aspx
+
  O365:
  The Office 365 service teams review service team administrator accounts at least monthly.
 ac_2_k_implementation: |
  Customer Responsibility:
  If government or non-government customers allow the use of shared customer accounts, they are responsible for reissuing shared account credentials when individuals are removed from or leave the group. Government and non-government customers using ADFS will reissue credentials using their ADFS infrastructure. Non-government customers not using ADFS will reissue credentials in AAD via SUE.
+
  O365:
  Office 365 does not allow the use of shared/group user accounts. Individual service engineers are assigned into a security group, and in order to use these credentials, a user must go through multifactor authentication to uniquely identify their credentials.
 ac_2_ext_implementation: |
@@ -141,10 +167,13 @@ ac_2_1_origination:
 ac_2_1_implementation: |
  Customer Responsibility:
  Government customers are responsible for automatically terminating temporary and emergency government customer accounts, in compliance with their organizational policies, using their Active Directory (AD) infrastructure (no more than 30 days for FedRAMP compliance). Government customers using ADFS are responsible for employing their Active Directory (AD) infrastructure as automated mechanisms to support their organizational user accounts. Government users authenticate to government managed ADFS servers which utilize the government AD infrastructure to identify, authenticate, and apply permissions to that user’s session. The government ADFS server then communicates that identification/authentication and the associated permissions to AAD via SAML2.0 ticket.
+
  For information regarding how to manage user accounts in AD, see TechNet article #754661: http://technet.microsoft.com/en-us/library/cc754661.aspx
 
  Non-government customers can employ AD as an automated mechanism following the same procedures outlined for government customers, or they can elect to manage user accounts in AAD via SUE. For customers not using ADFS, AAD is employed as an automated mechanism to support their organizational user accounts.
+
  For more information on managing customer accounts via the SUE portal, see the following link: http://technet.microsoft.com/en-us/library/office-365-user-account-management.aspx.
+
  O365:
  IDM is an automated workflow management tool that allows service teams to manage service team administrator and service accounts through account request, approval, creation, modification, and deletion. IDM integrates with Microsoft Online Directory Service (MSODS) to provide identity synchronization, certificate management, service team administrator password resets and service team administrator provisioning from a single interface. Service team managers are responsible for approving requests in IDM.
 
@@ -154,7 +183,7 @@ ac_2_1_implementation: |
 ac_2_2_role: |
 ac_2_2_1_parameter: |
 ac_2_2_2_parameter: |
- 24 hours from last use
+ Or temporary and emergency accounts: 24 hours from last use
 ac_2_2_status:
  -
 ac_2_2_origination:
@@ -162,10 +191,13 @@ ac_2_2_origination:
 ac_2_2_implementation: |
  Customer Responsibility:
  Government customers are responsible for automatically terminating temporary and emergency government customer accounts, in compliance with their organizational policies, using their Active Directory (AD) infrastructure (within 24 hours for FedRAMP compliance). Government users authenticate to government managed ADFS servers which utilize the government AD infrastructure to identify, authenticate, and apply permissions to that user’s session. The government ADFS server then communicates that identification/authentication and the associated permissions to AAD via SAML2.0 ticket.
+
  For information regarding how to manage user accounts in AD, see TechNet article #754661: http://technet.microsoft.com/en-us/library/cc754661.aspx.
 
  Non-government customers can manage terminating temporary and emergency accounts following the same procedures outlined for government customers, or they can elect to manage user accounts in AAD via SUE. For customers using AAD the process for terminating temporary and emergency accounts will be manual.
+
  For more information on managing accounts via the SUE portal, see the following link: http://technet.microsoft.com/en-us/library/office-365-user-account-management.aspx
+
  O365:
  Office 365 prohibits the use of temporary and emergency accounts. All local guest accounts are disabled by service team engineers. All account requests go through the standard account management processes.
 ac_2_3_role: |
@@ -177,10 +209,13 @@ ac_2_3_origination:
 ac_2_3_implementation: |
  Customer Responsibility:
  Government customers are responsible for automatically disabling inactive government customer accounts, in compliance with their organizational policies, using their Active Directory (AD) infrastructure (no more than 35 days for DISA SRG compliance). Government users authenticate to government owned ADFS servers which utilize the government AD infrastructure to identify, authenticate, and apply permissions to that user’s session. The government ADFS server then communicates that identification/authentication and the associated permissions to AAD via SAML2.0 ticket.
+
  For information regarding how to manage user accounts in AD, see TechNet article #754661: http://technet.microsoft.com/en-us/library/cc754661.aspx
 
  Non-government customers can manage disabling inactive accounts following the same procedures outlined for government customers, or they can elect to manage user accounts in AAD via SUE. For customers using AAD, the process for disabling inactive accounts will be manual.
+
  For more information on disabling inactive accounts via the SUE portal, see the following link: http://technet.microsoft.com/en-us/library/office-365-user-account-management.aspx
+
  O365:
  Service team personnel accounts are automatically disabled after no more than 35 days of inactivity.
 ac_2_4_role: |
@@ -192,10 +227,13 @@ ac_2_4_origination:
 ac_2_4_implementation: |
  Customer Responsibility:
  Government customers are responsible for automatically disabling inactive government customer accounts, in compliance with their organizational policies, using their Active Directory (AD) infrastructure (no more than 35 days for DISA SRG compliance). Government users authenticate to government owned ADFS servers which utilize the government AD infrastructure to identify, authenticate, and apply permissions to that user’s session. The government ADFS server then communicates that identification/authentication and the associated permissions to AAD via SAML2.0 ticket.
+
  For information regarding how to manage user accounts in Active Directory, see TechNet article #754661: http://technet.microsoft.com/en-us/library/cc754661.aspx
 
  Non-government customers can audit account creation, modification, disabling, and termination actions as well as notify appropriate individuals for change to their organizational user accounts following the same procedures outlined for government customers, or they can elect to manage user accounts in AAD via SUE. For customers using AAD, audit records of account creation, modification, disabling, and termination will be retained for 90 days; the process for notifying appropriate individuals for change to their organizational user accounts will be manual.
+
  For more information on managing customer accounts via the SUE portal, see the following link: http://technet.microsoft.com/en-us/library/office-365-user-account-management.aspx
+
  O365:
  Office 365 performs automated auditing of privileged service team accounts through account management tools, which provide a record of account creation, modification, disabling, and termination of accounts. A notification is sent to the account manager when accounts are changed or managed in any way.
 
@@ -222,6 +260,7 @@ ac_2_7_origination:
 ac_2_7_a_implementation: |
  Customer Responsibility:
  All customers, including government and non-government customers are responsible for establishing and administering privileged user accounts with a role-based access scheme that organizes Office 365 customer privileges into roles in compliance with their organizational policies.
+
  Government and non-government customers using ADFS will manage their account roles in their existing Active Directory infrastructure. For information regarding how to manage user accounts in Active Directory, see TechNet article #754661: http://technet.microsoft.com/en-us/library/cc754661.aspx
 
  Non-government customers not using ADFS will manage their account roles in AAD via SUE. For more information on managing customer accounts via the SUE portal, see the following link: http://technet.microsoft.com/en-us/library/office-365-user-account-management.aspx
@@ -233,9 +272,11 @@ ac_2_7_a_implementation: |
 ac_2_7_b_implementation: |
  Customer Responsibility:
  Government customers are responsible for tracking and monitoring privileged role assignments, in compliance with their organizational policies, using their Active Directory (AD) infrastructure. Government users authenticate to government owned ADFS servers which utilize the government AD infrastructure to identify, authenticate, and apply permissions to that user’s session. The government ADFS server then communicates that identification/authentication and the associated permissions to AAD via SAML2.0 ticket.
+
  For more information on managing user accounts in Active Directory, see TechNet article #754661: http://technet.microsoft.com/en-us/library/cc754661.aspx
 
  Non-government customers can track and monitor privileged role assignments following the same procedures outlined for government customers, or they can elect to manage user accounts in AAD via SUE. For customers using AAD, audit records of assignment to privileged roles will be retained for 90 days; the process for tracking privileged role assignments will be manual.
+
  For more information on managing customer account role assignments via the SUE portal, see the following link: http://technet.microsoft.com/en-us/library/office-365-user-account-management.aspx
 
  O365:
@@ -284,8 +325,6 @@ ac_2_11_implementation: |
  Customer Responsibility:
  Government and non-government customers using ADFS are responsible for enforcing the appropriate usage and time-based usage restrictions for all customer-controlled accounts.
 
- Non-government customers not using ADFS will manage applicable restrictions in AAD via SUE. For more information on managing customer accounts via the SUE portal, see the following link: http://technet.microsoft.com/en-us/library/office-365-user-account-management.aspx
-
  O365:
  Office 365 requires the use of Torus, an internal Just-In-Time (JIT) access control tool, to access the production environment. Requests for access through Torus must be approved by an eligibility owner and there are limitations to the access granted:
  •	JIT sessions have a default TTL of 4 hours and cannot exceed 24 hours
@@ -333,13 +372,16 @@ ac_3_origination:
 ac_3_implementation: |
  Customer Responsibility:
  Government customers are responsible for enforcing approved authorizations for logical access to the system, in compliance with their organizational policies, using their Active Directory (AD) infrastructure. Government users authenticate to government owned ADFS servers which utilize the government AD infrastructure to identify, authenticate, and apply permissions to that user’s session. The government ADFS server then communicates that identification/authentication and the associated permissions to AAD via SAML2.0 ticket. Once permissions are communicated to AAD, AAD is responsible for enforcing those permissions for the user’s Office 365 session.
+
  For information regarding how to manage user accounts in Active Directory, see TechNet article #754661: http://technet.microsoft.com/en-us/library/cc754661.aspx
 
  Non-government customers can enforce approved authorizations for logical access to the system following the same procedures outlined for government customers, or they can elect to manage user accounts in AAD via SUE. For customers using AAD, AAD is responsible for enforcing the approved authorizations set by the customer in the SUE portal.
 
  For more information on managing customer account privileges via the SUE portal, see the following
+
  O365:
  Office 365 service teams enforce approved authorizations for logical access using role-based access control enforced by AD and Azure Active Directory (AAD). Office 365 uses AD to implement role-based access control (RBAC) via the use of AD groups. For the purposes of this control, the term "security group" references an AD group which is used to enforce RBAC permissions.
+
  Office 365 service teams are responsible for managing security groups in the production domain. Office 365 has three major account types: service team, customer, and service. Service team accounts are used by service team personnel to manage and administer Office 365 Customer accounts are used by customer users to access Office 365. Service accounts are used by various services to authenticate to servers and other services.
 ac_3_ext_implementation: |
 ac_3_4_role: |
@@ -397,6 +439,7 @@ ac_4_8_origination:
 ac_4_8_implementation: |
  Customer Responsibility:
  Government customers and non-government customer using ADFS are responsible for information flow control using security policy filters as a basis for flow control decisions within their ADFS infrastructure and for controlling the information flow into and out of Office 365 MT.
+
  O365:
  Office 365 has current Interconnection Security Agreements (ISA) for all external information systems connected to the application: Azure,  Cosmos, Akamai, and MSIT CorpNet. Office 365 implements information flow control by allowing only connections and communication which are necessary to allow systems to operate, blocking all other ports, protocols and connections by default. This includes intra-service communications as well as connections to external information systems. Access Control Lists (ACLs) are the preferred mechanism to restrict network communications by source and destination networks, protocols, and port numbers. Office 365 manages ACL approvals through the Request For Change (RFC) process (including review and risk acceptance) and the change process, and Azure implements the approved change. Approved mechanisms to implement networked-based ACLs include: ACLs on routers managed by Azure and firewall rules.
 
@@ -440,6 +483,8 @@ ac_4_21_status:
 ac_4_21_origination:
  -
 ac_4_21_implementation: |
+ O365:
+ Office 365 separates all information flows logically using user session encryption. TLS 1.2 ensures the confidentiality and integrity of each flow; only the intended recipient can decrypt information. Additionally, each Office 365 customer is placed in a separate Organizational Unit (OU) within Active Directory. Customer content within Office 365 is always tied to the customer’s specific OU and Office 365 will only grant access to the data if there is a valid ticket from AAD authorizing access to the OU and the specific data. For a detailed discussion of how Office 365 separates flows and tenant data, please see Tenant Isolation in Office 365.
 ac_5_role: |
 ac_5_parameter: |
 ac_5_status:
@@ -449,6 +494,7 @@ ac_5_origination:
 ac_5_a_implementation: |
  Customer Responsibility:
  All customers, including government and non-government customers t customers are responsible for separating duties of their organizational users as necessary, to prevent malevolent activity without collusion in compliance with their organizational policies.
+
  Government and non-government  customers using ADFS will manage their user accounts in their existing Active Directory infrastructure. For information regarding how to manage user accounts in Active Directory, see TechNet article #754661: http://technet.microsoft.com/en-us/library/cc754661.aspx
 
  Non-government customers not using ADFS will manage their user accounts in AAD via SUE. For more information on managing customer accounts via the SUE portal, see the following link: http://technet.microsoft.com/en-us/library/office-365-user-account-management.aspx
@@ -469,6 +515,7 @@ ac_6_origination:
 ac_6_implementation: |
  Customer Responsibility:
  All customers, including government and non-government customers are responsible for employing the concept of least privilege, allowing only authorized accesses for government and non-government customer users (and processes acting on behalf of users) which are necessary to accomplish assigned tasks in accordance with organizational missions and business functions in compliance with their organizational policies.
+
  Government and non-government customers using ADFS will manage their user accounts in their existing Active Directory infrastructure. For information regarding how to manage user account permissions in Active Directory, see TechNet article #754661: http://technet.microsoft.com/en-us/library/cc754661.aspx
 
  Non-government customers not using ADFS will manage their user accounts in AAD via SUE. For more information on managing account permissions via the SUE portal, see the following link: http://technet.microsoft.com/en-us/library/office-365-user-account-management.aspx
@@ -493,11 +540,13 @@ ac_6_1_implementation: |
  For information regarding how to manage user accounts in AD, see TechNet article #754661: http://technet.microsoft.com/en-us/library/cc754661.aspx
 
  Non-government customers can explicitly authorize access to security functions following the same procedures outlined for government customers, or they can elect to manage user accounts in AAD via SUE. For customers using AAD, the customer is responsible for authorizing access to "tenant administration" privileges which are used to manage user accounts and system configuration via the SUE portal.
+
  For more information on managing account privileges via the SUE portal, see the following link: http://technet.microsoft.com/en-us/library/office-365-user-account-management.aspx
 
  O365:
  Service teams employ the concept of least privilege, allowing only pre-authorized accesses for service team administrators (and processes acting on behalf of service team administrators) which are necessary to accomplish assigned tasks in accordance with business functions and organizational need.
  Service owners employ the concept of least privilege for specific duties and information systems (including specific ports, protocols, and services) in accordance with risk assessments as necessary to adequately mitigate risk to operational assets, individuals, and/or other organizations.
+
  All access to the Office 365 system must be explicitly authorized, including the following security related functions: establishing system accounts, configuring access authorizations (i.e., permissions, privileges), setting events to be audited, and system and security administration. Role owners are responsible for reviewing and approving role assignments, and roles are tailored for different job functions such that personnel only have the minimum access required to perform their duties. For some teams, service team accounts by default belong to a security group that only has user-level operating system access to the production environment for that service team--this does not permit access to customer content. Access to any higher level of permissions must be requested through JIT tools and authorized by the on-call approver.
 
  Through the use of this just in time model, Office 365 explicitly authorizes access to security functions.
@@ -510,9 +559,11 @@ ac_6_2_origination:
 ac_6_2_implementation: |
  Customer Responsibility:
  Government customers are responsible for requiring that users of information system accounts/roles with access to government security functions or security-relevant information use non-privileged accounts/roles when accessing other system functions. Government customers are also responsible for auditing any use of privileged accounts/roles for such functions, in compliance with their organizational policies, using their Active Directory (AD) infrastructure. Government users authenticate to government managed ADFS servers which utilize the government AD infrastructure to identify, authenticate, and apply permissions to that user’s session. The government ADFS server then communicates that identification/authentication and the associated permissions to AAD via SAML2.0 ticket.
+
  For information regarding how to manage user accounts in Active Directory see TechNet article #754661: http://technet.microsoft.com/en-us/library/cc754661.aspx
 
  Non-government customers can require that non-government customer users of information system accounts/roles with access to security functions or security-relevant information use non-privileged accounts/roles when accessing other system functions. Non-government customers can also audit any use of privileged non-government customer accounts/roles for such functions following the same procedures outlined for government customers, or they can elect to manage non-government customer user accounts in AAD via SUE. For customers using AAD, the customer is responsible for authorizing access to "tenant administration" privileges which are used to manage user accounts and system configuration via the SUE portal. Customers can elect to create a separate, non-privileged account for their administrative personnel to access other functions of Office 365 MT. AAD audits all actions taken by tenant administration accounts; audit logs are retained for 90 days.
+
  For more information on managing customer account privileges via the SUE portal, see the following link: http://technet.microsoft.com/en-us/library/office-365-user-account-management.aspx
 
  O365:
@@ -574,9 +625,7 @@ ac_6_8_implementation: |
  Government and non-government customers are responsible for enforcing software execution privileges on customer-deployed resources.
 
  O365:
- Software execution at a higher privilege level than users executing the software is not applicable for servers and network devices. Office 365 only permits administrator access to server who by default have code execution privileges. Tools are only accessible by Office 365 administrators; therefore, no read only access is provided. Office 365 administers roles in security group memberships in AAD, AD, and account management tools to prevent support personnel from executing code at higher privilege level than allowed. Access control in AD and AAD inherently disallows software from executing at a higher privilege level than users executing the software.
-
- All service team administrators use just in time elevations (JIT), which allows for more granular restrictions and just-in-time elevation to accomplish tasks at a high privilege level. This access is monitored, audited and notifications to managers occur before privilege is granted.
+ Software execution at a higher privilege level than users executing the software is not applicable for servers and network devices. Office 365 only permits administrator access to server who by default have code execution privileges. Tools are only accessible by Office 365 administrators; therefore, no read only access is provided.
 ac_6_9_role: |
 ac_6_9_status:
  -
@@ -610,6 +659,7 @@ ac_7_origination:
 ac_7_a_implementation: |
  Customer Responsibility:
  Government and non-government customers using ADFS are responsible for enforcing a limited number of consecutive invalid login attempts by a user during a defined time period in compliance with their organizational policies (not more than three attempts in 15 minutes for FedRAMP compliance). These customers will manage their account lockout policies in their existing Active Directory infrastructure. For information regarding account lockout policies, see the following link: http://technet.microsoft.com/en-us/library/hh994563%28v=ws.10%29.aspx
+
  For non-government customers not using ADFS, account lockout policy is defined by Azure Active Directory (AAD). For more information, see the following TechNet article: http://technet.microsoft.com/library/jj943764.aspx
 
  O365:
@@ -638,6 +688,8 @@ ac_8_a_parameter: |
  “You are accessing an information system with U.S. Government data. System usage may be monitored, recorded and subject to audit. Unauthorized use of the system is prohibited and may be subject to criminal and civil penalties. Use of the system indicates consent to monitoring and recording.”
 ac_8_c_1_parameter: |
  See a.
+
+ Mission Owner Guidance: Configure the CSO provided customer logon banner capability and any Mission Owner provided logon capability to mission applications, virtual machines, databases, etc. IAW DoDI 8500.01 Encl. 3, para 9.a.(1)(d) for all privileged and non-privileged customer users that must logon, included in the terms of service
 ac_8_status:
  -
 ac_8_origination:
@@ -650,12 +702,15 @@ ac_8_a_implementation: |
  Part 1,2,3,4:
  O365:
  All service teams include a FISMA warning banner prior to administrative login to all servers. There are two approved messages reviewed by Microsoft Corporate, External, and Legal Affairs (CELA). The first reads:
+
  "You are accessing an information system that may contain U.S. Government data. System usage may be monitored, recorded, and subject to audit. Unauthorized use of the system is prohibited and may be subject to criminal and civil penalties. Use of the system indicates consent to monitoring and recording. Administrative personnel remotely accessing the Office 365 environment:
 
  •	Maintain their remote computer in a secure manner, in accordance with organizational security policies and procedures as defined in Microsoft Remote Connectivity Security Policies.
  •	Only access the Office 365 environment in execution of operational, deployment, and support responsibilities using only administrative applications or tools directly related to performing these responsibilities.
  •	Are advised to not knowingly store, transfer into, or process in the Office 365 environment data exceeding a FIPS 199 Moderate security categorization (FISMA Controlled Unclassified Information)."
+
  An alternate approved wording states:
+
  "You are accessing an information system that may contain U.S. Government data. System usage may be monitored, recorded, and subject to audit. Unauthorized use of the system is prohibited and may be subject to criminal and civil penalties. Use of the system indicates consent to monitoring and recording. Administrative personnel remotely accessing the Office 365 environment:
 
  (1) shall maintain their remote computer in a secure manner, in accordance with organizational security policies and procedures as defined in Microsoft Remote Connectivity Security Policies;
@@ -681,7 +736,7 @@ ac_8_r_origination:
  -
 ac_8_r_1_implementation: |
  O365:
- Office 365 does not display a warning banner on customer interfaces. Based on review of FedRAMP requirements, discussions and confirmation with Office 365 environment process owners, this control is not applicable to the Office 365 environment because Office 365 is a commercial service and customers will be responsible for implementing this control either at the proxy level or at the application/client level for all of their users who access the Office 365 environment
+ Office 365 does not display a warning banner on customer interfaces. Based on review of FedRAMP requirements, discussions and confirmation with Office 365 environment process owners, this control is not applicable to the Office 365 environment because Office 365 is a commercial service and customers will be responsible for implementing this control on their ADFS authentication page. Office 365 MT considers this to be an operational requirement for a commercial service.
 ac_8_r_2_implementation: |
  Customer Responsibility:
  Government and non-government customers are responsible for verifying the notification message or banner on the ADFS login page used to authenticate government customer users to Office 365 MT at an interval consistent with organizational policies.
@@ -783,6 +838,7 @@ ac_14_a_implementation: |
  Guest access to SFB meetings, if enabled, allows anyone with a meeting invite to access the meeting lobby. The meeting organizer is responsible for establishing the identity of lobby participants before granting them access to the meeting.
 
  Government customers are responsible for disabling guest access to SFB meetings to remain compliant with FedRAMP standards as advised in "Office 365 MT Government Compliance Considerations".. This setting can be configured by government and non-government customers.
+
  Non-government customers are responsible for determining if the use of guest access to SFB meetings should be allowed for their organization. This setting can be configured by government and non-government customers. For more information, see the following TechNet article: http://technet.microsoft.com/en-US/library/gg398648.aspx
 
  O365:
@@ -836,8 +892,11 @@ ac_17_origination:
  -
 ac_17_a_implementation: |
  Customer Responsibility:
+
  Government and non-government customers connect to Office 365 via the following allowed methods of remote access: web interface via web browser, email or SFB software client, or PowerShell client. These methods are documented in “Office 365 MT Government Compliance Considerations”.
+
  Government customers are responsible for ensuring that client software is configured to only establish sessions using FIPS 140-2 validated protocols. This can be accomplished by restricting access to the government customer’s ADFS to only internal network traffic. This will force government customers attempting to connect to Office 365 to VPN into the customer’s network or directly be on the network at the time of authentication. When the customer connects (directly or via VPN) to the network it should perform a health inspection that validates USGCB baselines including browser settings to require FIPS 140-2 connections.
+
  For more information about configuring customer ADFS server(s) to only allow connections from customer internal networks, see the following TechNet article: http://technet.microsoft.com/en-us/library/hh526961(v=ws.10).aspx
 
  Non-government customers should adhere to their respective regulatory and internal policies but may not be required to use FIPS 140-2 validated encryption, and Office 365 MT will accept non-FIPS 140-2 validated requests. Because of the need to support customers with out-of-date software, Office 365 MT does not enforce FIPS 140-2 validated encryption for all customers.
@@ -867,6 +926,7 @@ ac_17_1_implementation: |
  Government customers are responsible for employing automated mechanisms to facilitate the monitoring and control of remote access methods, in compliance with their organizational policies, using their Active Directory (AD) infrastructure. Government users authenticate to government owned ADFS servers which utilize the government AD infrastructure to identify, authenticate, and apply permissions to that user’s session. The government ADFS server then communicates that identification/authentication and the associated permissions to AAD via SAML2.0 ticket.
 
  Non-government customers can employ automated mechanisms to facilitate the monitoring and control of remote access methods following the same procedures outlined for government customers, or they can elect to manage user accounts in Azure Active Directory (AAD) via SUE. For customers using AAD, AAD is the automated mechanism used to monitor and control remote access, using the settings defined by the client in the SUE portal. AAD retains audit logs of remote connections for 90 days.
+
  For more information on managing customer accounts via the SUE portal, see the following link:
  http://technet.microsoft.com/en-us/library/office-365-user-account-management.aspx
 
@@ -874,6 +934,7 @@ ac_17_1_implementation: |
  All remote access connections from service team personnel are audited utilizing the access points auditing functionality. The service team monitors the connections for attempted unauthorized use of Office 365 using Near Real Time Alerting tools.
 
  YubiKey two-factor authentication through ORAS or Azure managed Terminal Service Gateways (TSGs) is the only approved method to gain remote administrative access to systems in any Office 365 MT domains.
+
  Logs from remote access points and customer-facing interfaces are uploaded to a repository service and reports are generated from those logs, in conjunction with the NRT Security Monitoring of remote access methods.
 ac_17_2_role: |
 ac_17_2_status:
@@ -883,15 +944,18 @@ ac_17_2_origination:
 ac_17_2_implementation: |
  Customer Responsibility:
  Government customers are responsible for configuring their workstations to support the use of cryptography to protect the confidentiality and integrity of remote access sessions in compliance with organizational policies. Government customers are required to configure workstations to establish FIPS 140-2 validated TLS sessions for remote access in order to retain compliance with FedRAMP requirements. This can be accomplished by restricting access to the government customer’s ADFS to only internal network traffic. This will force government customers attempting to connect to Office 365 to VPN into the customer’s network or directly be on the network at the time of authentication.
+
  When the customer connects (directly or via VPN) to the network it should perform a health inspection that validates USGCB baselines including browser settings to require FIPS 140-2 connections. For more information about configuring customer ADFS server(s) to only allow connections from customer internal networks, see the following TechNet article: http://technet.microsoft.com/en-us/library/hh526961(v=ws.10).aspx
 
  Non-government customers may configure their workstations to support the use of cryptography to protect the confidentiality and integrity of remote access sessions in compliance with organizational policies.
 
  O365:
  Office 365 uses FIPS 140-2-validated cryptography to encrypt Terminal Services Gateway (TSG) connections to protect the confidentiality and integrity of remote access sessions. For teams using Azure managed TSGs, this is inherited from Azure.
+
  FIPS encryption as handled by Microsoft products is further explained in TechNet article cc750357: https://technet.microsoft.com/en-us/library/security/cc750357.aspx
 
  Office 365 's FIPS 140-2 encryption modules used for transmitted information are certified by NIST via certificates 1892, 1893, 1894, 1895, 1896, 1897, 1898, 1899,
+
  The non-inclusion of Windows Server 2012 on the updated list of validated FIPS 140-2 modules is solely due to the significant backlog of work required to update the Security Policy documents and submit Change Letters to NIST CMVP for Microsoft’s many FIPS 140-2 validation certificates. Windows Server 2012 provides and uses the AES_CTR_DRBG algorithm as the default deterministic random bit generator. Note the statement from http://csrc.nist.gov/groups/STM/cmvp/documents/140-1/140val-historical.htm:
 
  “This does not mean that the overall FIPS-140 certificate has been revoked, rather it indicates that the certificate and the documentation posted with it do not accurately reflect how the module can be used in FIPS mode. Agencies may make a risk determination on whether to continue using the modules on this list based on their own assessment of where and when the RNG is used by the module.”
@@ -1070,10 +1134,12 @@ ac_20_1_origination:
 ac_20_1_a_implementation: |
  Customer Responsibility:
  All customers, including government and non-government customers, are responsible for verifying the implementation of organizationally required security controls on customer workstations in compliance with organizational policies.
+
  O365:
  Microsoft will not implement a mechanism to enforce security requirements of hosts accessing the system via the internet. The functionality to support NAP has been deprecated. This is being tracked as an operational requirement in POA&M MT-0115.
 
  Office 365 only allows remote connections via remote desktops. These remote desktop sessions are locked down to only allow very limited and specific access. This access does not allow broad network access into production by the remote machines. The network access is limited to one specific protocol, and traffic is only allowed to specific bastion machines.
+
  Additionally, Office 365 has implemented compensating controls outlined below:
  •	Minimal amount of data can be copied. There is a buffer limit on the clipboard.
  •	Office 365 requires Two-Factor Authentication (2FA).
@@ -1123,6 +1189,7 @@ ac_21_b_implementation: |
  Office 365 employees are not allowed to share Office 365 data or customer content outside the security boundary and thus do not make discretionary sharing decisions.
 ac_22_role: |
 ac_22_d_parameter: |
+ At least quarterly
 ac_22_status:
  -
 ac_22_origination:
@@ -1223,6 +1290,7 @@ at_1_role: |
 at_1_a_parameter: |
  At least annually or whenever a significant change occurs
 at_1_b_1_parameter: |
+ At least annually or whenever a significant change occurs
 at_1_b_2_parameter: |
 at_1_status:
  -
@@ -1230,6 +1298,16 @@ at_1_origination:
  -
 at_1_a_implementation: |
 at_1_b_implementation: |
+ Customer Responsibility:
+ Government customers are responsible for annually updating Awareness and Training policies and procedures.
+
+ Part 1:
+ O365:
+ The Office 365 Information Security Policy is reviewed and updated at least annually by the Office 365 Trust team.
+
+ Part 2:
+ O365:
+ The Office 365 SOPs are reviewed and updated at least annually or whenever a significant change occurs.
 at_2_role: |
 at_2_c_parameter: |
 at_2_status:
@@ -1238,12 +1316,14 @@ at_2_origination:
  -
 at_2_a_implementation: |
  Customer Responsibility:
-  government customers are responsible for providing security awareness training to their employees and vendors as necessary, including training on security awareness training and role-based training, as appropriate per job description. This training shall include requirements that customer users not bypass Office 365 security through actions such as:
+  All customers, including government and non-government customers, are responsible for providing security awareness training to their employees and vendors as necessary, including training on security awareness training and role-based training, as appropriate per job description. This training shall include requirements that customer users not bypass Office 365 security through actions such as:
  1. Improperly forwarding documentation through Exchange Online
- 2. Circumventing, disabling, or downgrading session-level encryption
+ 2. Improperly securing documentation hosted in SharePoint Online
+ 3. Circumventing, disabling, or downgrading session-level encryption
 
  O365:
  Office 365 provides security and privacy awareness training to all information system users (including managers, senior executives, and contractors) as part of initial training for new users. This is accomplished by requiring all staff to take a New Employee Orientation (NEO) security awareness training course, Standards of Business Conduct, within the first 30 days of their employment or transfer into the organization. This training course is facilitated by Core Services Engineering (CSE) and Corporate Security, and encompasses standard business security measures, basic information security, and user actions to maintain security and to respond to suspected security incidents.
+
  In addition, all staff are required to take security and privacy awareness training annually after their initial training. Office 365 has implemented the security training control by requiring all new users (employees and contractors) to take the initial security and privacy awareness training annually. Non-operational personnel, anyone that is involved in development and quality assurance, are also required to take the mandatory training. In addition, training related to the system being accessed, along with associated procedures, may be required. Security training is also required when there is a significant change to the system environment.
 at_2_b_implementation: |
 at_2_c_implementation: |
@@ -1483,6 +1563,7 @@ au_5_1_origination:
 au_5_1_implementation: |
  Customer Responsibility:
  Government and non-government customers using ADFS are responsible for configuring an audit record storage capacity warning for customer-deployed resources including the percentage of storage capacity at which a warning is required; the time period within which the warning must occur; and the personnel, roles, and/or locations to be notified.
+
  Non-government customers not using ADFS do not have responsibility to produce audit records for Office 365.
 
  O365:
@@ -1498,10 +1579,12 @@ au_5_2_origination:
 au_5_2_implementation: |
  Customer Responsibility:
  Government and non-government customers using ADFS are responsible for auditing account creation, modification, disabling, and deletion events for their Active Directory infrastructure as these events also pertain to Office 365 access. For these events, these customers are responsible for providing real-time alerts for audit event failures.
+
  Non-government customers not using ADFS do not have responsibility to produce audit records for Office 365.
 
  O365:
  Audit logs are uploaded to a repository service from all servers in the Office 365 environment.
+
  Office 365 Security requires service teams to analyze information system audit records through the implementation of near real-time monitoring. Each team has implemented alerting within 15 minutes for specific events they have identified as indicators of inappropriate or unusual activity. Tools used for monitoring generate actionable reports that the service teams can use to correct vulnerabilities and improve any weaknesses found. Findings are reported and escalated using standard security incident management channels: ticketing tools are used for tracking, and the Office 365 Security team is engaged when appropriate.
 au_6_role: |
 au_6_a_1_parameter: |
@@ -1516,6 +1599,7 @@ au_6_origination:
 au_6_a_implementation: |
  Customer Responsibility:
  Government and non-government customers using ADFS are responsible for auditing account creation, modification, disabling, and deletion events for their Active Directory infrastructure as these events also pertain to Office 365 access. For these events, these customers are responsible for reviewing and analyzing information system audit records for indications of inappropriate or unusual activity (at least weekly for FedRAMP compliance), and for reporting findings to designated organizational officials. Customers can view these alerts through the Admin Portal.
+
  Non-government customers not using ADFS do not have responsibility to produce audit records for Office 365.
 
  O365:
@@ -1529,6 +1613,7 @@ au_6_1_origination:
 au_6_1_implementation: |
  Customer Responsibility:
  Government and non-government customers using ADFS are responsible for auditing account creation, modification, disabling, and deletion events for their Active Directory infrastructure as these events also pertain to Office 365 access. For these events, these customers are responsible for utilizing automated tools for integrating audit review, analysis, and reporting processes to support organizational processes for investigation and response to suspicious activities.
+
  O365:
  Office 365 Security uses automated security alerting tools to review and analyze the audit logs. Each service team also receives Near Real Time (NRT) alerting on security events through various first party NRT alerting. Reports can be generated from the alerting tools or from an uploader service. Office 365 Security manages both audit monitoring and incident response. The primary objective of the audit monitoring process is to support incident response.
 au_6_3_role: |
@@ -1539,6 +1624,7 @@ au_6_3_origination:
 au_6_3_implementation: |
  Customer Responsibility:
  Government and non-government customers using ADFS are responsible for auditing account creation, modification, disabling, and deletion events for their Active Directory infrastructure as these events also pertain to Office 365 access. For these events, these customers are responsible for analyzing and correlating audit records across different repositories to gain organization-wide situational awareness.
+
  Non-government customers not using ADFS do not have responsibility to produce audit records for Office 365.
 
  O365:
@@ -1553,6 +1639,7 @@ au_6_4_origination:
 au_6_4_implementation: |
  Customer Responsibility:
  Government and non-government customers using ADFS are responsible for auditing account creation, modification, disabling, and deletion events for their Active Directory infrastructure as these events also pertain to Office 365 access. For these events, these government customers are responsible for providing the capability to centrally review and analyze audit records from multiple system components within their Active Directory infrastructure.
+
  Non-government customers not using ADFS do not have responsibility to produce audit records for Office 365.
 
  O365:
@@ -1566,6 +1653,7 @@ au_6_5_origination:
 au_6_5_implementation: |
  Customer Responsibility:
  Government and non-government customers using ADFS are responsible for auditing account creation, modification, disabling, and deletion events for their Active Directory infrastructure as these events also pertain to Office 365 access. For these events, these government customers are responsible for integrating audit record analysis with analysis of data/information collected from other sources to detect suspicious activity.
+
  Non-government customers not using ADFS do not have responsibility to produce audit records for Office 365.
 
  O365:
@@ -1590,6 +1678,7 @@ au_6_7_implementation: |
 
  O365:
  Office 365 specifies the permitted actions for each process, role, or user via role-based Access Control. Security groups are defined in the account management tools; each security group has specified access rights and permitted actions. Users are added to security groups via account management tools.
+
  The security incident management team, responsible for both incident response and monitoring defines the roles and responsibilities for reviewing audit log information in the IR SOP. Only authorized members of the incident response team have access to audit log information. This information is only used to aid in incident response and investigation and is not available to personnel outside the incident response function.
 au_6_10_role: |
 au_6_10_status:
@@ -1610,6 +1699,7 @@ au_7_origination:
 au_7_a_implementation: |
  Customer Responsibility:
  Government and non-government customers using ADFS are responsible for auditing account creation, modification, disabling, and deletion events for their Active Directory infrastructure as these events also pertain to Office 365 access. For these events, these customers are responsible for providing an audit reduction and report generation capability that supports on-demand audit review, analysis, and reporting requirements and after-the-fact investigations of security incidents.
+
  Non-government customers not using ADFS do not have responsibility to produce audit records for Office 365.
 
  O365:
@@ -1617,6 +1707,7 @@ au_7_a_implementation: |
 au_7_b_implementation: |
  Customer Responsibility:
  Government and non-government customers using ADFS are responsible for auditing account creation, modification, disabling, and deletion events for their Active Directory infrastructure as these events also pertain to Office 365 MT access. For these events, these customers are responsible for utilizing audit processing tools that do not change the original audit records or time ordering.
+
  Non-government customers not using ADFS do not have responsibility to produce audit records for Office 365.
 
  O365:
@@ -1652,6 +1743,7 @@ au_8_origination:
 au_8_a_implementation: |
  Customer Responsibility:
  Government and non-government customers using ADFS are responsible for auditing account creation, modification, disabling, and deletion events for their Active Directory infrastructure as these events also pertain to Office 365 access. For these events, these customers are responsible for using internal system clocks to generate time stamps for audit records; by default, Windows uses the internal system clock to generate time stamps for audit records, and this setting is not configurable.
+
  Non-government customers not using ADFS do not have responsibility to produce audit records for Office 365.
 
  O365:
@@ -1659,6 +1751,7 @@ au_8_a_implementation: |
 au_8_b_implementation: |
  Customer Responsibility:
  Government and non-government customers using ADFS are responsible for auditing account creation, modification, disabling, and deletion events for their Active Directory infrastructure as these events also pertain to Office 365 MT access. For these events, these customers are responsible for recording time stamps with audit records that can be mapped to UTC or GMT.
+
  Non-government customers not using ADFS do not have responsibility to produce audit records for Office 365.
 
  O365:
@@ -1675,11 +1768,13 @@ au_8_1_origination:
 au_8_1_a_implementation: |
  Customer Responsibility:
  Government and non-government customers using ADFS are responsible for auditing account creation, modification, disabling, and deletion events for their Active Directory infrastructure as these events also pertain to Office 365 access. For these events, these customers are responsible for synchronizing internal information system clocks at least hourly with http://tf.nist.gov/tf-cgi/servers.cgi in order to comply with FedRAMP requirements. For more information on configuring time sources in Windows, see the following link: http://technet.microsoft.com/en-us/library/cc794823(v=ws.10).aspx
+
  Non-government customers not using ADFS do not have responsibility to produce audit records for Office 365.
 
  O365:
  All Windows servers are joined to an Active Directory domain and configured to receive authenticated time updates from the local domain controller via NTP and synchronize at least hourly. Local domain controllers obtain their time updates from Azure time servers.
  The Azure time servers are NTP Stratum 1-time servers that sync to Global Positioning System (GPS) satellites. Azure manages two different NTP time servers in separate geographic locations. The time servers are geographically dispersed and located in multiple separate Azure-managed datacenters in the CONUS. Azure chooses to use the GPS satellites as the authoritative time source as an alternative to the NIST time hosts.
+
  Teams that use Azure inherit Internal system clock synchronization from Azure, which has a FedRAMP IaaS/PaaS P-ATO (package ID F1209051525).
 au_8_1_b_implementation: |
 au_8_1_r_role: |
@@ -1693,14 +1788,17 @@ au_8_1_r_origination:
 au_8_1_r_1_implementation: |
  Customer Responsibility:
  Government and non-government customers using ADFS are responsible for auditing account creation, modification, disabling, and deletion events for their Active Directory infrastructure as these events also pertain to Office 365 MT access. Customers are responsible for synchronizing internal information system clocks to primary and secondary servers in different geographic regions.
+
  Non-government customers not using ADFS do not have responsibility to produce audit records for Office 365.
 
  O365:
  The Azure time servers are NTP Stratum 1-time servers that sync off of the Global Positioning System (GPS) satellites. Azure manages two different NTP time servers in separate geographic locations. The time servers are geographically dispersed and located in multiple separate Azure-managed datacenters in the CONUS. Azure chooses to use the GPS satellites as the authoritative time source as an alternative to the NIST time hosts.
+
  Teams that rely on Azure inherit Internal system clock synchronization from Azure, which has a FedRAMP IaaS/PaaS P-ATO (package ID F1209051525).
 au_8_1_r_2_implementation: |
  Customer Responsibility:
  Government and non-government customers using ADFS are responsible for auditing account creation, modification, disabling, and deletion events for their Active Directory infrastructure as these events also pertain to Office 365 MT access. Customers are responsible for synchronizing internal information system clocks on non-Windows systems to the Windows Server Domain Controller emulator or to the same time source for that server.
+
  Non-government customers not using ADFS do not have responsibility to produce audit records for Office 365.
 
  O365:
@@ -1713,6 +1811,7 @@ au_9_origination:
 au_9_implementation: |
  Customer Responsibility:
  Government and non-government customers using ADFS are responsible for auditing account creation, modification, disabling, and deletion events for their Active Directory infrastructure as these events also pertain to Office 365 access. For these events, these customers are responsible for protecting audit information and audit tools from unauthorized access, modification, and deletion. For more information on controlling access in Windows, see the following link: http://technet.microsoft.com/en-us/library/hh831717.aspx
+
  Non-government customers not using ADFS do not have responsibility to produce audit records for Office 365.
 
  O365:
@@ -1726,6 +1825,7 @@ au_9_2_origination:
 au_9_2_implementation: |
  Customer Responsibility:
  Government and non-government customers using ADFS are responsible for auditing account creation, modification, disabling, and deletion events for their Active Directory infrastructure as these events also pertain to Office 365 access. For these events, these customers are responsible for backing up audit records at least weekly onto a different system or media than the system being audited.
+
  Non-government customers not using ADFS do not have responsibility to produce audit records for Office 365.
 
  O365:
@@ -1751,6 +1851,7 @@ au_9_4_origination:
 au_9_4_implementation: |
  Customer Responsibility:
  Government and non-government customers using ADFS are responsible for auditing account creation, modification, disabling, and deletion events for their Active Directory infrastructure as these events also pertain to Office 365 access. For these events, these customers are responsible for restricting access to only appropriate personnel.
+
  Non-government customers not using ADFS do not have responsibility to produce audit records for Office 365.
 
  O365:
@@ -1769,6 +1870,7 @@ au_10_implementation: |
 
  O365:
  As part of the content of audit records captured for Office 365, unique usernames are captured by the servers and net devices across the Infrastructure. Unique identifiers for JIT sessions, required to access production systems, are assigned based on a combination of random characters appended to the individual’s unique corpnet account name. The combination of event logs capturing usernames, and usernames uniquely identified based on an individual’s JIT account, constitute non-repudiation for Office 365.
+
  Segregation of duties protects the information system and prevents individuals from falsely denying having performed a particular action. Service team admins are not granted access to audit collection databases where records of actions performed are stored. User access reviews are done quarterly to ensure that user have the correct levels of access.
 au_10_1_role: |
 au_10_1_parameter: |
@@ -1788,6 +1890,7 @@ au_11_origination:
 au_11_implementation: |
  Customer Responsibility:
  Government and non-government customers using ADFS are responsible for auditing account creation, modification, disabling, and deletion events for their Active Directory infrastructure as these events also pertain to Office 365 access. For these events, these customers are responsible for retaining audit records for at least one year to provide support for after-the-fact investigations of security incidents and to meet regulatory and organizational information retention requirements. For more information on setting audit retention policy in Windows, see the following link: http://technet.microsoft.com/en-us/library/cc721981.aspx
+
  Non-government customers not using ADFS do not have responsibility to produce audit records for Office 365.
 
  O365:
@@ -1804,6 +1907,7 @@ au_12_origination:
 au_12_a_implementation: |
  Customer Responsibility:
  Government and non-government customers using ADFS are responsible for generating audit events for account creation, modification, disabling, and deletion activities for their Active Directory infrastructure as these events also pertain to Office 365 access. For more information on how to configure auditing of account management, see the following link: http://technet.microsoft.com/en-us/library/dd772693(v=WS.10).aspx
+
  Non-government customers not using ADFS do not have responsibility to produce audit records for Office 365.
 
  O365:
@@ -1811,8 +1915,11 @@ au_12_a_implementation: |
 au_12_b_implementation: |
 au_12_c_implementation: |
  Customer Responsibility:
+
  Government and non-government customers using ADFS are responsible for generating audit events for account creation, modification, disabling, and deletion activities for their Active Directory infrastructure as these events also pertain to Office 365 MT access. Customers using Windows servers to support their ADFS infrastructure automatically meet this requirement as Windows captures these event details by default. For more information regarding Windows event logging, see the following link: http://technet.microsoft.com/en-us/library/cc765981.aspx
+
  Non-government customers not using ADFS do not have responsibility to produce audit records for Office 365.
+
  O365:
  Audit records are captured in active monitoring tools and stored in a repository service, which allows for the record generation and reporting capabilities for the auditable events identified in AU-2 with the content defined in AU-3. These capabilities also allow for the review of audit logs, should information contained within warrant a review.
 au_12_1_role: |
@@ -1827,11 +1934,14 @@ au_12_1_origination:
 au_12_1_implementation: |
  Customer Responsibility:
  Government and non-government customers using ADFS are responsible for compiling audit records into a system-wide audit trail for customer-deployed resources.
+
  Non-government customers not using ADFS do not have responsibility to produce audit records for Office 365.
 
  O365:
  Office 365 Security team continuously correlates log files across multiple Office 365 service teams using automated analytics tools. Time stamps are precise at least to the millisecond.
+
  Office 365 implements audit generation through configuring all system network devices and servers to have the capability to generate audit records as defined in AU-2 and AU-3. All events defined in AU-0\2 are being logged by Office 365 systems. Audit logs are uploaded to a repository service from all servers in the Office 365 environment, where they are correlated across service teams. This allows for the record generation capability and convergence of monitoring data for the auditable events in AU-2 and AU-3.
+
  To provide a time correlated audit trail, all Office 365 system devices are time correlated and store time in UTC format. Office 365 uses stratum 1 clock sources in the US. From there, every DCR (pair of redundant core Azure datacenter routers) provides clock to the Office 365 datacenter devices. The overall approach is to use the DCRs as NTP servers. The DCRs synchronize off the authoritative stratum 1 time sources, with Microsoft equipment synchronizing off of the DCRs. The same IP addresses for NTP are configured on the DCRs in each datacenter, with routing tables being used to determine the closest source to any given client (similar to an Anycast style solution). These IP addresses are in management IP space and synchronization is done over the management network. The tolerance for the correlation process is under one second.
 
  Office 365 servers are configured to synchronize time every 5 minutes through Office 365 managed Domain Controllers. The Office 365 time servers sync off of Global Positioning System (GPS) satellites.
@@ -1854,6 +1964,7 @@ au_12_3_origination:
 au_12_3_implementation: |
  Customer Responsibility:
  Government and non-government customers using ADFS are responsible for providing the capability to extend or limit auditing as necessary to meet organizational requirements.
+
  Non-government customers not using ADFS do not have responsibility to produce audit records for Office 365.
 
  O365:
@@ -2021,13 +2132,20 @@ ca_7_e_implementation: |
 ca_7_f_implementation: |
 ca_7_g_implementation: |
 ca_7_r_role: |
+ Program Manager, O365 Trust Program Manager
 ca_7_r_status:
- -
+ - "implemented"
 ca_7_r_origination:
- -
+ - "sys"
 ca_7_r_1_implementation: |
+ O365:
+ Please see RA-5 and RA-5(5).
 ca_7_r_2_implementation: |
+ O365:
+ Please see RA-5 and RA-5(5).
 ca_7_r_3_implementation: |
+ O365:
+ Please see RA-5 and RA-5(5).
 ca_7_1_role: |
 ca_7_1_parameter: |
 ca_7_1_status:
@@ -2220,6 +2338,8 @@ cm_5_3_origination:
 cm_5_3_implementation: |
 cm_5_5_role: |
 cm_5_5_b_parameter: |
+ O365:
+ Service teams review privileged access at least quarterly, consistent with normal account review processes.
 cm_5_5_status:
  -
 cm_5_5_origination:
@@ -2249,9 +2369,11 @@ cm_6_origination:
 cm_6_a_implementation: |
   O365:
   Teams establish and document configuration settings as a part of establishing a baseline configuration and implementing configuration change control. Mandatory configuration settings are applied through the use of GPOs or Desired State Configuration (DSC), setting of registry keys, and use of configuration scripts. Input to these configuration settings and scripts comes from product architecture and security analysis as well as direction from O365 Security.
+
   The following CIS Benchmarks are used in the development of baseline configurations and configuration settings: CIS Microsoft Internet Explorer 10 Benchmark, CIS Microsoft Internet Explorer 11 Benchmark, CIS Microsoft Office 2013 Benchmark, CIS Microsoft Office Access 2013 Benchmark, CIS Microsoft Access 2016 Benchmark, CIS Microsoft Office Excel 2013 Benchmark, CIS Microsoft Office Excel 2016 Benchmark, CIS Microsoft Office Outlook 2013 Benchmark, CIS Microsoft Outlook 2016 Benchmark, CIS Microsoft Office PowerPoint 2013 Benchmark, CIS Microsoft Office PowerPoint 2016 Benchmark, CIS Microsoft Office Word 2013 Benchmark, CIS Microsoft Office Word 2016 Benchmark, CIS Microsoft Windows 10 Enterprise Release 1511 Benchmark, CIS Microsoft Windows 10 Enterprise Release 1607 Benchmark, CIS Microsoft Windows 10 Enterprise RTM (Release 1507) Benchmark, CIS Microsoft Windows Server 2008 (non-R2) Benchmark, CIS Microsoft Windows Server 2008 R2 Benchmark, CIS Microsoft Windows Server 2016 (Release 1607) Benchmark, Windows Server 2008 R2 Domain Controller Security Technical Implementation Guide, Windows Server 2008 R2 Member Server Security Technical Implementation Guide, Windows Server 2012/2012 R2 Domain Controller Security Technical Implementation Guide, Windows Server 2012/2012 R2 Member Server Security Technical Implementation Guide, Windows Server 2016 Security Technical Implementation Guide.
 
   Configuration settings established as part of an IPAK and VM OS images are inherited from Azure . Azure C+AI develops baseline configurations for Server baseline(s) in the Azure environment. For network devices, the Azure Network engineering teams define the approved baseline configurations based on industry best practices and recommendations from the hardware manufacturers. Input to the configuration settings for OS images and scripts used in Microsoft Azure come from product architecture and security analysis as well as direction from Microsoft Azure Security to ensure a secure defense-in-depth deployment of technologies that consider USGCB and CIS benchmarks in development of base images. Azure references several resources in developing and reviewing security baselines for the environment including CIS, NSA, Microsoft Solution Accelerators Security Compliance Manager reference library, and various vulnerability library knowledge bases that are configuration related.
+
   The Office 365 PAVC team uses BeyondTrust to perform scans for configuration settings. BeyondTrust scans against CIS/STIG benchmarks settings on Office 365 servers on a monthly basis. The implementation of reporting for CIS/STIG scan results is being tracked in POA&M ITAR-081.
 cm_6_b_implementation: |
   O365:
@@ -2327,7 +2449,8 @@ cm_7_5_c_implementation: |
   Office 365 service teams review and update baselines and configuration scripts at least monthly or when a change occurs.
 cm_8_role: |
 cm_8_a_4_parameter: |
-  Fields required by Office 365 Trust tools: Server name, data center name, asset tag, location name, asset model name, primary property name, manufacturer name, IP, OS, role
+  Fields required by Office 365 Trust tools
+  Server name, data center name, asset tag, location name, asset model name, primary property name, manufacturer name, IP, OS, role
 cm_8_b_parameter: |
   Monthly
 cm_8_status:
@@ -2346,7 +2469,8 @@ cm_8_2_role: |
 cm_8_2_status:
  -
 cm_8_2_origination:
- -
+ - "sys"
+ - "inherited"
 cm_8_2_implementation: |
   O365:
   Service teams provide their inventory to Office 365 Trust on a monthly basis. Office 365 Trust maintains tools which act as a central repository for aggregating inventories across all service teams.
@@ -2362,9 +2486,13 @@ cm_8_3_origination:
 cm_8_3_a_implementation: |
   O365:
   The detection of unauthorized hardware components is inherited from Azure. As documented in Decision Log “Monitoring and alerting of attached unauthorized devices in the Data Centers (AC-19)”, Azure has concluded that their physical and screening controls prevent a malicious individual from gaining physical access to the Office 365 hardware and connecting unapproved devices. Office 365 systems are housed in physically separate cages with strict physical access control. Additionally, Azure personnel have no logical access to Office 365 systems.
+
   Office 365 near-real time monitoring tools detect the presence of unauthorized software and firmware components. If unauthorized software or firmware is detected, a workflow is initiated to isolate and disable network access by the software or firmware component, and notify Office 365 Security.
+
   Office 365 does not generate an alert when a new machine is brought into the information system boundary; this has been identified as an operational requirement and can be tracked in MT-0167.
+
   Uplifting the amount of alerting and logging every time a machine goes online, will dilute the logging resulting in ignored logs and decreased effectiveness in resolving high-priority issues. This would create undue burden on security operations with little benefit.
+
   To compensate for this, deployments into Office 365 MT are tightly controlled through a series of access controls, change management processes and deployment controls. Each change is tracked, peer reviewed and approved before any change (including hardware and VMs) are pushed into the environment. Also, service team operators must use 2FA and provide a valid justification to log into the environment. PAVC scans are periodically run to detect blacklisted/inappropriate connections.
 cm_8_3_b_implementation: |
 cm_8_4_role: |
@@ -2591,16 +2719,19 @@ cp_7_origination:
 cp_7_a_implementation: |
  O365:
  Each Office 365 service team establishes an alternate processing site, including necessary agreements to permit the resumption of all information system operations for essential missions and business functions within the recovery times documented in each service team’s BIA when the primary processing capabilities are unavailable.
+
  Active alternate sites have been established for each of the service teams. All alternate sites are active sites as detailed in the specific BCP for each service team. Each alternate site is redundant and managed by Azure. The recovery agreements with Azure are in accordance with the recovery time objectives established within the BIA.
 cp_7_b_implementation: |
  O365:
  Office 365 ensures that equipment and supplies, required to resume operations, are available at the alternate site, or contracts are in place to support delivery to the site in time to support the time period for resumption defined in each service team’s BIA.
+
  Because each site is operationally active, both the primary and the alternate site contain identical equipment to support ongoing production of the system due to a disruption at the other location. The recovery agreements with Azure are in accordance with the recovery time objectives established within the BIA.
 cp_7_c_implementation: |
  O365:
  Office 365 alternate processing sites are managed by Azure, which is an accredited federal system under FedRAMP. Alternate storage sites have physical security safeguards equivalent to that of the primary site.
 
  All storage sites have logical safeguards equivalent to that of the primary storage site.
+
  The establishment of physical and network security safeguards equivalent to that of the primary site is inherited from Azure, which has a FedRAMP P-ATO (F1209051525).
 cp_7_1_role: |
 cp_7_1_status:
@@ -2894,9 +3025,11 @@ ia_2_origination:
 ia_2_implementation: |
   Customer Responsibility:
   All customers using ADFS authentication, including government and non-government customers are, responsible for uniquely identifying and authenticating their organizational users via their Active Directory infrastructure. When a user of an organization employing ADFS attempts to access Office 365, the user is redirected to a login page hosted on the customer’s ADFS server. The user provides their credentials to their ADFS server, which attempts to authenticate the credentials using the customer’s existing Active Directory infrastructure. If the credentials are authenticated, the customer’s ADFS server issues a SAML ticket containing information about the user’s identity and group membership. The customer ADFS server signs this ticket using one half of an asymmetric key pair and the user sends the ticket to Azure Active Directory (AAD) via encrypted TLS 1.2. AAD validates the signature using the other half of the asymmetric key pair and grants access based on the ticket. Customers are responsible for enforcing organizationally appropriate identification and authentication requirements at their ADFS server, including the use of unique identifiers.
+
   For more information on Active Directory object naming, see TechNet article 977992: http://Technet.microsoft.com/en-us/library/cc977992.aspx
 
   Non-government customers not using ADFS to manage identification and authentication inherit these controls from AAD. When users enter their username at the Office 365 MT hosted login screen, AAD matches the user’s domain to the appropriate Active Directory Organizational Unit and attempts to establish a secure session with the user’s client. Once the session is established, AAD validates the user’s authenticators and issues the user a SAML ticket containing information about the user’s unique identity and group membership. Customer administrators use the SUE administration portal to set identification and authentication requirements for their organization. AAD enforces unique identifiers for these customers.
+
   For more information on Active Directory object naming, see TechNet article 977992: http://Technet.microsoft.com/en-us/library/cc977992.aspx
 ia_2_1_role: |
 ia_2_1_status:
@@ -2906,10 +3039,13 @@ ia_2_1_origination:
 ia_2_1_implementation: |
   Customer Responsibility:
   Government customers are required to use HSPD-12 compliant multifactor authentication for all access to Office 365. Office 365 requires customers to implement ADFS to leverage organizational multifactor authentication solutions, including HSPD-12, already deployed to meet their internal identification and authentication requirements. Customers configure their ADFS server to enforce identification and authentication requirements; ADFS uses the same multifactor authentication as the customer’s internal Active Directory/Domain infrastructure.
+
   For more information about configuring customer ADFS server(s) to enforce multifactor authentication, see section 6.2 of the following document: http://download.microsoft.com/download/0/7/1/07156662-5B63-404A-8E36-5446FA06A0B0/Office365-Single%20Sign-On-with-AD-FS2.0-v1.0a.docx
 
   Non-government customers may not be required to implement multifactor authentication. Non-government customers may implement multifactor authentication following the same procedures outlined for government customers (above) or they may elect to allow access using single factor authentication. Customers are responsible for determining the access requirements appropriate for the risk tolerances of their system and information.
+
   Guest access to SFB meetings, if enabled, is via single factor authentication. Government and non-government customers are responsible for determining if the use of guest access to SFB sessions should be allowed for their organization. This setting can be configured by government customers. For more information, see the following TechNet article: http://technet.microsoft.com/en-US/library/gg398648.aspx
+
   Guest access to SharePoint Online, if enabled, is via single factor authentication. Government and non-government customers are responsible for determining if the use of guest access to SharePoint Online should be allowed for their organization. This setting can be configured by government customers. For more information, see the following Office 365 help article: http://office.microsoft.com/en-us/office365-sharepoint-online-small-business-help/manage-sharing-with-external-users-HA102849862.aspx
 
   O365:
@@ -2924,8 +3060,11 @@ ia_2_2_implementation: |
   Government customers are required to use HSPD-12 compliant multifactor authentication for all access to Office 365. Office 365 requires customers to implement ADFS to leverage organizational multifactor authentication solutions, including HSPD-12, already deployed to meet their internal identification and authentication requirements. Customers configure their ADFS server to enforce identification and authentication requirements; ADFS uses the same multifactor authentication as the customer’s internal Active Directory/Domain infrastructure.
 
   Non-government customers may not be required to implement multifactor authentication. Non-government customers may implement multifactor authentication following the same procedures outlined for government customers (above) or they may elect to allow access using single factor authentication. Customers are responsible for determining the access requirements appropriate for the risk tolerances of their system and information.
+
   For more information about configuring customer ADFS server(s) to enforce multifactor authentication, see section 6.2 of the following document: http://download.microsoft.com/download/0/7/1/07156662-5B63-404A-8E36-5446FA06A0B0/Office365-Single%20Sign-On-with-AD-FS2.0-v1.0a.docx
+
   Guest access to SFB meetings, if enabled, is via single factor authentication. Government and non-government customers are responsible for determining if the use of guest access to SFB sessions should be allowed for their organization. This setting can be configured by government customers. For more information, see the following TechNet article: http://technet.microsoft.com/en-US/library/gg398648.aspx
+
   Guest access to SharePoint Online, if enabled, is via single factor authentication. Government and non-government customers are responsible for determining if the use of guest access to SharePoint Online should be allowed for their organization. This setting can be configured by government and non-government customers. For more information, see the following Office 365 help article: http://office.microsoft.com/en-us/office365-sharepoint-online-small-business-help/manage-sharing-with-external-users-HA102849862.aspx
 
   O365:
@@ -2968,12 +3107,16 @@ ia_2_8_origination:
 ia_2_8_implementation: |
   Customer Responsibility:
   Government customers are required to use HSPD-12 compliant multifactor authentication for all access to Office 365. Office 365 requires customers to implement ADFS to leverage organizational, multifactor authentication solutions, including HSPD-12, already deployed to meet their internal identification and authentication requirements. Customers configure their ADFS server to enforce identification and authentication requirements; ADFS uses the same multifactor authentication, including replay resistance, as the customer’s internal Active Directory/Domain infrastructure.
+
   For more information about configuring customer ADFS server(s) to enforce multifactor authentication, see section 6.2 of the following document: http://download.microsoft.com/download/0/7/1/07156662-5B63-404A-8E36-5446FA06A0B0/Office365-Single%20Sign-On-with-AD-FS2.0-v1.0a.docx
+
   Non-government customers not using ADFS authenticate directly to Azure Active Directory (AAD). AAD is responsible for implementing replay-resistant authentication mechanisms for these customers.
 
   O365:
   Office 365 uses multifactor authentication for network access to privileged accounts by Office 365 personnel through the use of IAL, AAL, FAL level 3 and FIPS 140-2 validated YubiKeys, or approved IAL, AAL, FAL level 3 and FIPS 140-2 validated TPM modules. All Microsoft users connect to the system via TSGs or Admin consoles as described in AC-17; the ORAS or Azure managed Terminal Services Gateways (TSGs) and Admin consoles require the user to present a certificate bound to the card (something you have) with a PIN (something you know).
+
   Access to the Office 365 production environment using the YubiKey/TPM module solution is protected from replay attacks by the built-in Kerberos functionality of Active Directory (AD). In Kerberos authentication the "authenticator" sent by the client contains additional data, such as an encrypted IP list, the client's timestamp, and the ticket lifetime. During authentication, the timestamp is checked. If the timestamp is earlier than or the same as a previous authenticator, the request is denied.
+
   For more information on Active Directory and Kerberos, see TechNet article 742516: http://technet.microsoft.com/en-us/library/bb742516.aspx
 ia_2_9_role: |
 ia_2_9_status:
@@ -2986,20 +3129,25 @@ ia_2_9_implementation: |
 
   O365:
   All Office 365 service team personnel accounts are considered privileged. Office 365 uses multifactor authentication for network access to privileged accounts by Office 365 personnel through the use of IAL, AAL, FAL level 3 and FIPS 140-2 validated YubiKeys or approved IAL, AAL, FAL level 3 and FIPS 140-2 validated TPM modules. All Microsoft users connect to the system via ORAS or Azure managed Terminal Services Gateways (TSGs) or Admin consoles as described in AC-17; the TSGs and Admin consoles require the user to present a certificate bound to the card (something you have) with a PIN (something you know).
+
   Access to the Office 365 production environment using the YubiKey/TPM module solution is protected from replay attacks by the built-in Kerberos functionality of Active Directory (AD). In Kerberos authentication the "authenticator" sent by the client contains additional data, such as an encrypted IP list, the client's timestamp, and the ticket lifetime. If a packet is replayed, the timestamp is checked. If the timestamp is earlier than or the same as a previous authenticator, the packet is rejected.
+
   For more information on Active Directory and Kerberos, see TechNet article 742516: http://technet.microsoft.com/en-us/library/bb742516.aspx.
 ia_2_11_role: |
 ia_2_11_parameter: |
 ia_2_11_status:
  -
 ia_2_11_origination:
- -
+ - "cust_confugred"
 ia_2_11_implementation: |
   Government customers are required to use HSPD-12 compliant multifactor authentication for all access to Office 365. Office 365 requires customers to implement ADFS to leverage organizational multifactor authentication solutions, including HSPD-12, already deployed to meet their internal identification and authentication requirements. Customers configure their ADFS server to enforce identification and authentication requirements; ADFS uses the same multifactor authentication as the customer’s internal Active Directory/Domain infrastructure.
+
   For more information about configuring customer ADFS server(s) to enforce multifactor authentication, see section 6.2 of the following document: http://download.microsoft.com/download/0/7/1/07156662-5B63-404A-8E36-5446FA06A0B0/Office365-Single%20Sign-On-with-AD-FS2.0-v1.0a.docx
 
   Non-government customers may not be required to implement multifactor authentication. Non-government customers may implement multifactor authentication following the same procedures outlined for government customers (above) or they may elect to allow access using single factor authentication. Customers are responsible for determining the access requirements appropriate for the risk tolerances of their system and information.
+
   Guest access to SFB meetings, if enabled, is via single factor authentication. Government and non-government customers are responsible for determining if the use of guest access to SFB sessions should be allowed for their organization. This setting can be configured by government customers. For more information, see the following TechNet article: http://technet.microsoft.com/en-US/library/gg398648.aspx
+
   Guest access to SharePoint Online, if enabled, is via single factor authentication. Government and non-government customers are responsible for determining if the use of guest access to SharePoint Online should be allowed for their organization. This setting can be configured by government and non-government customers. For more information, see the following article: http://office.microsoft.com/en-us/office365-sharepoint-online-small-business-help/manage-sharing-with-external-users-HA102849862.aspx
 
   O365:
@@ -3026,7 +3174,9 @@ ia_3_implementation: |
 
   O365:
   Office 365 uses Active Directory (AD) to uniquely identify and authenticate all devices within the Office 365 boundary before establishing a network connection. All Office 365 physical servers are joined to an AD domain when deployed. Active Directory Forest members are uniquely identified by Universally Unique Identifiers (UUIDs) with device authentication performed using Kerberos, which is a part of the Windows networking protocols.
+
   Virtual machines are identified by the virtual machine deployment ID assigned by Azure and authenticated via TSL certificates managed as part of the Azure provisioning process. When establishing a Microsoft Azure subscription, a subscription ID is created. The Fabric Controller (FC), which manages all VMs in Microsoft Azure, uses this subscription ID to tie VMs to particular subscriptions. For more information about the Fabric Controller see the Azure SSP.
+
   For teams managed by PilotFish, an identity certificate is distributed to every machine on a PilotFish cluster. Each identity certificate contains a unique identifier (machine name), the environment, and machine function (server role).
 ia_3_1_role: |
   Customer Administrator, O365 Security Manager
@@ -3052,14 +3202,18 @@ ia_4_origination:
 ia_4_a_implementation: |
   Customer Responsibility:
   All customers, including government and non-government customers are responsible for managing identifiers (i.e., individuals, groups, roles, and devices) for customer resources by receiving authorization from customer-defined personnel/roles prior to assigning identifiers.
+
   Customers using ADFS will assign identifiers in their own Active Directory infrastructure. Customers not using ADFS will assign identifiers in AAD via SUE.
 
   O365:
   Microsoft Office 365 implements identifier management control through the effective use of corporate AD-based user access authorization procedures. Unique identifiers are established for each user through unique user IDs, based on HR employee ID numbers, and passwords managed in the Microsoft Office 365 AD domain.
+
   Device identifiers are authorized by service team administrators when adding new devices to the network, consistent with configuration management and inventory management procedures.
+
   For teams using PilotFish, information system identifiers are managed through the PilotFish public key infrastructure.
 
   All Microsoft administrators must receive management authorization before being granted a Microsoft user identifier in any of the Office 365 domains. Authorization for administrator identifiers is managed through Microsoft account management tools. Device identifiers are authorized by service team administrators when adding new devices to the network, consistent with configuration management and inventory management procedures.
+
   For teams using PilotFish, information system identifiers are managed by the PilotFish public key infrastructure.
 ia_4_b_implementation: |
   Customer Responsibility:
@@ -3067,6 +3221,7 @@ ia_4_b_implementation: |
 
   O365:
   Microsoft Office 365 identifies administrators using their Microsoft CorpNet account identifier. Identifiers for groups and roles are assigned by Office 365 service team administrators. Device identifiers are selected by service team administrators when adding new devices to the network, consistent with configuration management and inventory management procedures.
+
   For teams using PilotFish, information system identifiers are managed through the PilotFish public key infrastructure. Each PilotFish cluster has a designated Certificate Authority which distributes an identity certificate to each machine in the cluster. PilotFish identity certificates contain a unique identifier (machine name), the environment, and the machine function (server role).
 ia_4_c_implementation: |
   Customer Responsibility:
@@ -3074,18 +3229,22 @@ ia_4_c_implementation: |
 
   O365:
   User identifiers are distributed to Office 365 MT service team administrators by their manager during the account creation process. Device identifiers are automatically assigned as part of the domain-joining process. Identifiers for groups and roles are assigned by Office 365 service team administrators. Active Directory (AD) enforces unique identifiers for users, groups, roles, and devices. For more information on Active Directory object naming, see TechNet article 977992: http://technet.microsoft.com/en-us/library/cc977992.aspx
+
   For teams using PilotFish, information system identifiers are managed through the PilotFish public key infrastructure. Each PilotFish cluster has a designated Certificate Authority which distributes an identity certificate to each machine in the cluster.
 ia_4_d_implementation: |
   Customer Responsibility:
   All customers using ADFS authentication, including government and non-government customers, are responsible for preventing the reuse of user identifiers via their Active Directory infrastructure.
+
   Customers not using ADFS are responsible for not reusing user identifiers.
 
   O365:
   Unique user, device, role, and group identifiers (UUIDs) are never reused. This is enforced by AD and LDAP.
+
   For teams using PilotFish, each machine on a PilotFish cluster is issued an identity certificate. PilotFish identity certificates are never reused.
 ia_4_e_implementation: |
   Customer Responsibility:
   All customers using ADFS authentication, including government customers and non-government customers, are responsible for disabling inactive user identifiers via their Active Directory infrastructure.
+
   For customers not using ADFS, Azure Active Directory (AAD) does not automatically disable inactive user identifiers.
 
   O365:
@@ -3109,6 +3268,7 @@ ia_4_4_implementation: |
   Microsoft distinguishes between Microsoft employees and contractors in their user identifiers. All contractor accounts are pre-pended by a "v-" to indicate that they are a vendor. No foreign nationals are allowed access to Office 365 MT. Citizenship is verified as a part of the Microsoft Background “Cloud” screening.
 
   Citizenship/contractor status of Microsoft employees is recorded in Microsoft account management tools which act as the authoritative systems for controlling/authorizing account permissions within Office 365 MT. Additionally, contractors and vendors are denoted by a prefix ("a-" or "v-", respectively) in the username.
+
   Microsoft account management tools include citizenship information as part of the user record, but not in the identifier itself.
 ia_5_role: |
 ia_5_g_parameter: |
@@ -3119,19 +3279,26 @@ ia_5_origination:
 ia_5_a_implementation: |
   Customer Responsibility:
   Government customers are responsible for management of user authenticators within their Active Directory infrastructure.
+
   Office 365 MT customers are responsible for distributing authenticators in compliance with their organizational policies and requirements for their organizational users. Government and non-government customers using ADFS will leverage existing user accounts for their internal domain infrastructures and will not need to distribute additional authenticators specific to Office 365 MT.
+
   Customers managing user accounts via the SUE portal will need to distribute unique Office 365 credentials.
+
   For more information on managing passwords in SUE, see the following help article: http://office.microsoft.com/en-us/office365-suite-help/reset-a-user-s-password-HA102816058.aspx
 
   O365:
   YubiKeys are distributed by Office 365 Security and require an enrollment process before they can be utilized for access to the environment.
+
   Initial service team domain passwords are distributed automatically by account management tools, which identifies and authenticates Office 365 service team administrators based on their CorpNet credentials before providing the password. The passwords for domain administrator accounts not tied to account management tools are set by administrators at the time of their creation.
   Devices are identified during the provisioning process based on information provided by Azure; the domain joining process in Active Directory (AD) ensures that the correct identifier is assigned.
 
   SFB:
   Office 365 uses 3 types of authenticators: AD passwords (as part of AD accounts), physical token certificates, and server certificates. Passwords are automatically managed through AD as part of standard account management. Office 365 manages YubiKeys, YubiKey distribution, and the supporting PKI infrastructure. The PKI infrastructure includes a root CA located in the management domain, which is used both as the trust anchor for YubiKey authentication mechanisms and a discreet encryption module that services certificate generation requests made by the root CA. The root CA is also located in the management domain. The certificates used to authenticate session layer communications (RDP, TLS 1.2) are either obtained from a customer specified vendor or by an identified trust anchor within the service offering. External certificates are obtained through the Office 365 SAN Certificate Request Process and moved into the environment using the secure File Relay Tool. Internal certificates are generated within the environment using CertDojo.
+
   Office 365 manages initial authenticator distribution for YubiKeys. Personnel local to the Microsoft campus are required to be issued in person and have their identity verified against either a valid government issued ID or a Microsoft Corporate badge.
+
   For personnel remote to the main Microsoft campus, the YubiKey may be mailed via FedEx.
+
   Devices are identified during the provisioning process based on information provided by Azure; the domain joining process in Active Directory ensures that the correct identifier is assigned.
 ia_5_b_implementation: |
   Customer Responsibility:
@@ -3144,12 +3311,16 @@ ia_5_b_implementation: |
 
   SFB:
   Initial YubiKey certificates are generated at the time of distribution. Recipients of a new YubiKey are required to set a PIN immediately.
+
   Service team domain account passwords are set randomly by IDM during account creation.
+
   Device authenticators are set automatically by Active Directory as part of the domain joining process.
+
   The certificates used to authenticate session layer communications (RDP, TLS 1.2) are either obtained from a customer specified vendor or by an identified trust anchor within the service offering. External certificates are obtained through the Office 365 SAN Certificate Request Process and moved into the environment using the secure File Relay Tool. Internal certificates are generated within the environment during the various provisioning processes.
 ia_5_c_implementation: |
   Customer Responsibility:
   Office 365 MT customers are responsible for ensuring that authenticators have sufficient strength for their intended use consistent with their organizational policies and requirements for their organizational users. Government and non-government customers using ADFS set their authenticator content requirements in their internal domain infrastructure - there are no separate requirements for Office 365 MT.
+
   Customers not using ADFS who manage users via AAD may set password requirements via the SUE portal. For more information on managing passwords via the SUE portal, please see the following instructional video: http://office.microsoft.com/en-us/office365-suite-help/manage-passwords-in-office-365-RZ104046885.aspx?CTT=5&origin=VA104058349
 
   O365:
@@ -3163,14 +3334,18 @@ ia_5_c_implementation: |
 ia_5_d_implementation: |
   Customer Responsibility:
   Office 365 MT customers are responsible for distributing authenticators, managing lost or damaged authenticators, and revoking authenticators in compliance with their organizational policies and requirements for their organizational users. Government and non-government customers using ADFS will leverage existing user accounts for their internal domain infrastructures and will not need to distribute additional authenticators specific to Office 365 MT.
+
   Customers managing user accounts via the SUE portal will need to distribute unique Office 365 credentials. For more information on managing passwords via the SUE portal, see the following instructional video: http://office.microsoft.com/en-us/office365-suite-help/manage-passwords-in-office-365-RZ104046885.aspx?CTT=5&origin=VA104058349
 
   O365:
   Microsoft's Global Security Account Management (GSAM) team has established and implemented procedures for handling YubiKey distribution, for dealing with lost/compromised/damaged YubiKeys, and for revoking YubiKey certificates. These procedures are available at the GSAM SharePoint site.
+
   YubiKey distribution is described in part (a) of this control. If a card is reported lost or damaged, the certificates on the card are immediately revoked and a new YubiKey is issued. In other situations requiring revocation (personnel termination, for example), GSAM follows procedures for immediate certificate revocation and a new card is not issued.
+
   Service team domain account passwords are set by Office 365 service team administrators. This process is followed for initial password distribution and if a password is forgotten. Passwords are not "revoked"; rather, the account is disabled in situations requiring revocation.
 
   When an Office 365 service team administrator forgets their YubiKey PIN, they must submit a reset request. The certificate issued to the YubiKey expires after one year; however, administrators can log onto the renewal server to renew the certificate at any point in the year. The PIN is considered a Pre-Shared Key which AD uses as part of the authenticator validation process. This control is partially inherited from Core Services Engineering (CSE, formerly MSIT).
+
   Device authenticators are automatically managed by Active Directory.
 ia_5_e_implementation: |
 ia_5_f_implementation: |
@@ -3186,6 +3361,7 @@ ia_5_f_implementation: |
 
   The YubiKey expires after one year and can only be renewed or changed by the Office 365 Access Control team.
   This control is partially inherited from CSE CorpNet.
+
   These requirements are enforced by domain level policy for the production environment. Microsoft has documented the decision to set the minimum password age to 0 days: Minimum password age enforces the length of time before resetting passwords. Microsoft resets passwords very frequently (sometimes multiple times per day) as Office 365 allows JIT access to the production environment. Having the minimum password length set to zero has no impact to security based on how Microsoft manages passwords.
 
   EXO:
@@ -3195,6 +3371,7 @@ ia_5_f_implementation: |
   • Minimum password age = 0 days
 
   The YubiKey expires after one year and can only be renewed or changed by the Office 365 Access Control team.
+
   This control is partially inherited from CSE CorpNet
 ia_5_g_implementation: |
   Customer Responsibility:
@@ -3209,11 +3386,14 @@ ia_5_g_implementation: |
 ia_5_h_implementation: |
   Customer Responsibility:
   Office 365 MT customers using ADFS to manage accounts for their organizational users are responsible for securing their internal Active Directory infrastructure as well as their ADFS servers to prevent unauthorized disclosure and modification of authenticators for their users.
+
   Customers using the SUE portal to manage accounts inherit protections specific to this requirement from Azure Active Directory (AAD). AAD stores and transmits passwords as hashes of a one-way function using the same process as the Windows operating system.
+
   For more information on how passwords are stored in Windows environments, see TechNet article 994558: http://technet.microsoft.com/en-us/library/hh994558(v=ws.10).aspx
 
   O365:
   Passwords are encrypted and stored in the AD database. At any point where password entry is required, Windows Security Services requires that the characters typed in are obfuscated from view. This is enforced as a group policy object within the operating system.
+
   For more information on how passwords are stored in Windows environments, see TechNet article 994558: http://technet.microsoft.com/en-us/library/hh994558(v=ws.10).aspx
 ia_5_i_implementation: |
   Customer Responsibility:
@@ -3239,7 +3419,9 @@ ia_5_1_origination:
 ia_5_1_a_implementation: |
   Customer Responsibility:
   Government customers are responsible for enforcing password complexity in compliance with their organizational policies and requirements for their organizational users.
+
   Government and non-government customers using ADFS will leverage existing user accounts for their internal domain infrastructures and will use the same password complexity requirements to access Office 365 MT.
+
   Customers managing user accounts in AAD via the SUE portal will need to configure password complexity requirements in the SUE portal. For more information on managing passwords via the SUE portal, see the following instructional video: http://office.microsoft.com/en-us/office365-suite-help/manage-passwords-in-office-365-RZ104046885.aspx?CTT=5&origin=VA104058349
 
   O365:
@@ -3250,19 +3432,23 @@ ia_5_1_a_implementation: |
   • Special characters
 
   These requirements are enforced by domain level policy for the production environment.
+
   For details of YubiKey authenticator strength, please see IA-5(2). Device authenticators are set automatically by AD as part of the domain joining process.
 ia_5_1_b_implementation: |
   Customer Responsibility:
   Office 365 MT customers are responsible for character changes in compliance with their organizational policies and requirements for their organizational users. Government and non-government customers using ADFS will leverage existing user accounts for their internal domain infrastructures and will use the same password change requirements to access Office 365 MT.
+
   Customers managing user accounts in Azure Active Directory (AAD) via the SUE portal are not able to automatically enforce password changes that exceed a single character; it is not possible for the server to evaluate the number of characters changed in a password absent reversible password storage, which Office 365 MT does not support - reversible password storage significantly decreases the security of passwords. In this instance password change requirements will need to be enforced via policy and training of organizational users.
 
   O365:
   Office 365 accounts are managed by Account Management Tools. For password-based authentication,Office 365 enforces at least a 1-character change when new passwords are created. Office 365 does not enforce a 50% change requirement in every new password. Office 365 implements strong password complexity, password expiration, password history, account lockout, and minimum password length to provide mitigation to the risks of not meeting this requirement. Additionally, the use of two-factor authentication provides strong security controls against credential guessing attacks. Office 365 considers these mitigating factors sufficient to address the incremental risk between Office 365 and FedRAMP defined values for the number of changed characters.
+
   This requirement is enforced by domain level policy for the production environment.
 ia_5_1_c_implementation: |
 ia_5_1_d_implementation: |
   Customer Responsibility:
   Office 365 MT customers are responsible for managing authenticator minimum and maximum lifetimes in compliance with their organizational policies and requirements for their organizational users. Government and non-government customers using ADFS will leverage existing user accounts for their internal domain infrastructures and will not need to manage minimum and maximum lifetimes for authenticators specific to Office 365 MT.
+
   Customers managing user accounts in Azure Active Directory (AAD) via the SUE portal will need to configure password lifetimes via the SUE portal. For more information on managing passwords via the SUE portal, see the following instructional video: http://office.microsoft.com/en-us/office365-suite-help/manage-passwords-in-office-365-RZ104046885.aspx?CTT=5&origin=VA104058349
 
 
@@ -3285,6 +3471,7 @@ ia_5_1_d_implementation: |
 ia_5_1_e_implementation: |
   Customer Responsibility:
   Office 365 MT customers are responsible for managing password reuse generations in compliance with their organizational policies and requirements for their organizational users. Government and non-government customers using ADFS will leverage existing user accounts for their internal domain infrastructures and will not need to manage password reuse generations for authenticators specific to Office 365 MT.
+
   Non-government customers managing user accounts in Azure Active Directory (AAD) via the SUE portal will need to configure password reuse generations via the SUE portal. For more information on managing passwords via the SUE portal, see the following instructional video: http://office.microsoft.com/en-us/office365-suite-help/manage-passwords-in-office-365-RZ104046885.aspx?CTT=5&origin=VA104058349
 
   O365:
@@ -3295,6 +3482,7 @@ ia_5_1_e_implementation: |
 ia_5_1_f_implementation: |
   Customer Responsibility:
   Government and non-government customers using ADFS are responsible for requiring a user to change their password immediately upon login when a temporary password is used.
+
   For non-government customers managing user accounts in Azure Active Directory (AAD) via the SUE portal, AAD will require a temporary password to be changed the first time it is used.
 
   O365:
@@ -3307,22 +3495,27 @@ ia_5_2_origination:
 ia_5_2_a_implementation: |
   Customer Responsibility:
   Government and non-government customers using ADFS to manage accounts for their organizational users, and using PKI in their authentication processes, are responsible for validating certificates by constructing a certification path with status information to an accepted trust anchor. ADFS uses the same certification process as the organization's internal domain authentication processes and is not unique to Office 365.
+
   Non-government customers managing accounts via the SUE portal do not use PKI-based authentication.
 
   AFS, Bing, CIA, CII, Delve, EXO, IP, IS, Loki, MSTeams, ORAS, OSI, SCS,  SFB, SPO, SUE, WAC:
   Microsoft’s corporate PKI has been established to provide a variety of digital certificate services to support operations for Office 365 and for the Microsoft Corporation. The Microsoft Corporate PKI functions as the Certificate Authority (CA) and Registration Authority and provides directory services to manage keys and certificates.
+
   Office 365 uses role-based certificates to manage access to administrative applications. The certificates are signed by an internal Microsoft CA and are validated against that CA's public key. Office 365 also checks certificates against certificate revocation lists.
 ia_5_2_b_implementation: |
   Customer Responsibility:
   Office 365 MT customers, Government and non-government, using ADFS to manage accounts for their organizational users, and using PKI in their authentication processes, are responsible for enforcing access to the corresponding private key. ADFS uses the same certification process as the organization's internal domain authentication processes and is not unique to Office 365 MT.
+
   Non-government customers managing accounts via the SUE portal do not use PKI-based authentication.
 
   O365:
   Microsoft protects its private keys by enforcing appropriate/authorized access restrictions as documented in SC-12. In accordance with the Public Key Infrastructure Operational Security Standard, Office 365 leverages the cryptographic capabilities that are directly a part of the operating system for certificates and authentication mechanisms (e.g. Kerberos). These cryptographic modules have been certified by NIST as being FIPS 140-2 complaint. Any time cryptographic capabilities are employed to protect the confidentiality, integrity, or availability of data within Office 365 MT, the modules and ciphers used are FIPS 140-2 validated. For additional information on how cryptographic modules are employed in Microsoft products, see TechNet article cc750357: http://technet.microsoft.com/en-us/library/cc750357.aspx
+
   YubiKeys used for authentication allow no direct access to the private keys. Private keys for all certificates used within Office 365 are never exposed as the cryptographic mechanisms within Windows and are the only entity capable of accessing the private keys of a Windows device.
 ia_5_2_c_implementation: |
   Customer Responsibility:
   Office 365 MT customers, Government and non-government, using ADFS to manage accounts for their organizational users, and using PKI in their authentication processes, are responsible for mapping the authenticated identity to a user account. ADFS uses the same certification process as the organization's internal domain authentication processes and is not unique to Office 365 MT.
+
   Non-government customers managing accounts via the SUE portal do not use PKI-based authentication.
 
   O365:
@@ -3343,11 +3536,14 @@ ia_5_3_origination:
 ia_5_3_implementation: |
   Customer Responsibility:
   Office 365 government customers are responsible for registering authenticators in compliance with their organizational policies and requirements for their organizational users. Government and non-government customers using ADFS will leverage existing user accounts for their internal domain infrastructures and will not need to register additional authenticators specific to Office 365 MT.
+
   Non-government customers managing user accounts in Azure Active Directory (AAD) via the SUE portal will need to register unique Office 365 authenticators. For more information on managing passwords via the SUE portal, see the following instructional video: http://office.microsoft.com/en-us/office365-suite-help/manage-passwords-in-office-365-RZ104046885.aspx?CTT=5&origin=VA104058349
 
   O365:
   As part of the Office 365 registration process, Microsoft requires Microsoft administrators within Office 365 to obtain their YubiKey in person or via FedEx mail.
+
   Cards and YubiKeys are shipped via FedEx in a deactivated state and cannot be used until they are activated. A note is added to the cardkey account, confirming the shipping number for tracking. Shipments require an adult signature for delivery.
+
   Badges are not activated until MSIT receives a confirmation email from the Microsoft user, user's manager, AAM, or Security.
 ia_5_4_role: |
 ia_5_4_parameter: |
@@ -3358,6 +3554,7 @@ ia_5_4_origination:
 ia_5_4_implementation: |
   Customer Responsibility:
   Office 365 government and non-government customers using ADFS are responsible for utilizing automated mechanisms to determine if password authenticators are sufficiently strong.
+
   Non-government customers managing accounts in Azure Active Directory (AAD) via SUE will inherit default password strength policy enforcement from AAD. Please see the following article for more information:
   http://technet.microsoft.com/en-us/library/jj943764.aspx
 
@@ -3371,12 +3568,16 @@ ia_5_6_origination:
 ia_5_6_implementation: |
   Customer Responsibility:
   Government and non-government customers using ADFS to manage accounts for their organizational users are responsible for securing their internal Active Directory (AD) infrastructure as well as their ADFS servers to prevent unauthorized disclosure and modification of authenticators for their users.
+
   Non-government customers using the SUE portal to manage accounts inherit protections specific to this requirement from Azure Active Directory (AAD). AAD stores and transmits passwords as hashes of a one-way function using the same process as the Windows operating system. For more information on how passwords are stored in Windows environments, see TechNet article 994558: http://technet.microsoft.com/en-us/library/hh994558(v=ws.10).aspx
 
   O365:
   MSIT is responsible for protecting Microsoft corporate network authenticators. According to MSIT’s standard, InfoSec 1 – General Use Standard, all passwords used to access the Microsoft corporate network or business information must be considered and handled as “information as per the InfoSec #2.0 Information Classification and Handling Standard.”
+
   Microsoft security policy requires that AD usernames and passwords are never stored or transmitted in the clear or any unencrypted format natively within Windows or while connecting to the Microsoft corporate network. Passwords must not be shared or revealed to anyone other than the authorized user. Additionally, passwords must be promptly changed if they are suspected of being known by unauthorized individuals.
+
   Office 365 Policy requires passwords to be transmitted and stored in an encrypted form with a password hash and are never transmitted in any unencrypted format natively within the Office 365 environment.
+
   Cryptographic certificates are stored in a secret store (i.e., Azure Key Vault, Torus Secret Store, etc.). Information stored in is encrypted, and access occurs over an encrypted channel.
 ia_5_7_role: |
 ia_5_7_status:
@@ -3440,10 +3641,12 @@ ia_8_origination:
 ia_8_implementation: |
   Customer Responsibility:
   Office 365 government customers are responsible for determining users who have access to their information system. Thus, the responsibility is incumbent upon the customer to uniquely identify and authenticate non-organizational users (or processes acting on behalf of non-organizational users) who should have system access.
+
   The government customer can invite guests and non-organizational users to SPO, SFB and MSTeams, but the guest must be authorized/admitted to the session by the credentialed government customer user for SFB or MSTeams. It is the responsibility of the government customer to follow their own Rules of Behavior and policies around inviting guests to their systems.
 
   O365:
   Office 365 does not allow any non-organizational users to authenticate to production systems. Government customer users are considered organizational and are covered via IA-2.
+
   If government customers decide to allow access to non-organizational users (or processes acting on behalf of a non-organizational user), they must ensure that such users or processes are uniquely identified and authenticated using credentials that meet or exceed the set of minimum federal government-wide technical, security, privacy, and organizational requirements.
 ia_8_1_role: |
 ia_8_1_status:
@@ -3457,6 +3660,7 @@ ia_8_2_status:
 ia_8_2_origination:
  -
 ia_8_2_implementation: |
+ Office 365 MT does not accept or process any government customer credentials.
 ia_8_3_role: |
 ia_8_3_parameter: |
 ia_8_3_status:
@@ -3688,6 +3892,7 @@ ir_5_origination:
 ir_5_implementation: |
  O365:
  Office 365 tracks and documents security incidents using ticketing tools. Service teams notify the Office 365 Security Incident & Response (SIR) team of possible security incidents using ticketing tools. Likewise, if the Office 365 SIR team identifies a possible incident by themselves, they open a ticket. If the incident is categorized as a security incident, the Office 365 SIR team tracks and documents the security incident response process using a ticket.
+
  Various ticketing tools are used by the Office 365 SIR team and Service Team Engineering for reporting and tracking incidents are retained indefinitely. As part of the incident management process, the Office 365 SIR team and Service Team Engineering pull, review and attach system logs to tickets according to their troubleshooting guides. These logs can contain and be used as evidence of a security incident. If it is determined that additional evidence is required, the  Office 365 SIR team will work with the service team and Corporate, External and Legal Affairs (CELA) to identify, collect and retain the evidence.
 ir_5_1_role: |
 ir_5_1_status:
@@ -3778,14 +3983,18 @@ ir_9_origination:
 ir_9_a_implementation: |
  Customer Responsibility:
  Office 365 offers the ability to remediate a data spillage event by using self-service features. These features allow customers to identify, contain, and remediate a data spill, and to perform post spill remediation.  Customers are responsible for ensuring that information not authorized for storage or transmission within Office 365 MT is not stored on or transmitted via Office 365 MT services. If information is spilled, customer administrators with appropriate roles can quickly respond to a data spillage event without needing to contact Microsoft for support by using these self-service features.
+
  Microsoft Support Services can be leveraged to assist a customer with activities, such as development of customer-specific procedures, policy implementation with regards to spillage and legal hold, modification of existing procedures to leverage the Office 365 self-service tools, and providing government "cleared" resources for spillage activities. Microsoft Support Services, by default, does not have any permissions within the Office 365 service.
 
  For further details see: https://docs.microsoft.com/en-us/microsoft-365/compliance/manage-data-spillage-incidents
+
  Government customers are responsible for identifying the specific information involved in an information spillage.
+
  For information about eDiscovery in Office 365, please see: https://support.office.com/en-us/article/eDiscovery-in-Office-365-143b3ab8-8cb0-4036-a5fc-6536d837bfce?ui=en-US&rs=en-US&ad=US
 
  O365:
  Self-service tools provided to customer administrators are available to them for use in an information spillage response.
+
  Microsoft Support Services can be leveraged to assist a customer with activities, such as development of customer-specific procedures, policy implementation with regards to spillage and legal hold, modification of existing procedures to leverage the Office 365 self-service tools, and providing government "cleared" resources for spillage activities. Microsoft Support Services, by default, does not have any permissions within the Office 365 service.
 ir_9_b_implementation: |
 ir_9_c_implementation: |
@@ -3845,7 +4054,9 @@ ma_1_a_implementation: |
  Part 1:
  O365:
  The Office 365 Information Security Policy defines Office 365 MT policies. This document addresses the purpose, scope, roles, responsibilities, compliance requirements, and required coordination among the various Microsoft organizations providing some level of support for the security of Office 365 MT, which is inherited via an ISA from Azure. Policies are distributed to roles providing support for Office 365 MT system maintenance via SharePoint.
+
  Standards and Procedures to facilitate execution of Office 365 MT policies are documented in the Active Framework Controls, Office 365 Standard Operating Procedures (SOPs), and service team-specific SOPs. These standards and procedures act as adjuncts to the security policy and provide implementation level requirements and details to carry out specific operational tasks. Office 365 SOPs are distributed to roles providing support for system maintenance via SharePoint.
+
  Azure has implemented system maintenance policy and procedures in accordance with Microsoft’s Online Services: Physical and Environmental Security Standard. All Microsoft equipment and systems are regularly maintained in order to guarantee operational efficiency. Maintenance of any equipment or system must be performed in accordance with manufacturer’s recommendations, carried out by authorized personnel, and recorded in a maintenance ticket.
 
  Part 2:
@@ -3874,7 +4085,7 @@ ma_2_b_implementation: |
  O365:
  This control is inherited from Azure, which has a FedRAMP IaaS P-ATO (package ID F1209051525). Microsoft Azure has two types of assets that must be maintained: Critical Environment (CE) and Site Services. CE is the team that provides facility management for electrical, mechanical, and physical systems that comprise the operating infrastructure of the facility. The CE team schedules, performs, documents, and reviews all maintenance activities performed on CE components. Microsoft Azure datacenters rely on a computerized maintenance management system to manage maintenance schedules and work order management. Site Services is the team that provides the servicing of Microsoft online service assets located at the Microsoft Datacenter. The DC Site Services team provides a smart hands/break fix service for assets belonging to properties provisioning services from the datacenter. For example, Microsoft Azure assets requiring physical maintenance could request smart hands service from the DC Site Services team. All Site Services work on Microsoft Azure assets are scheduled, performed, documented, and reviewed in work tickets within the workflow ticketing tool, and no work can occur without an approved work ticket.
 ma_2_c_implementation: |
- Part c	O365:
+ O365:
  This control is inherited from Azure, which has a FedRAMP IaaS P-ATO (package ID F1209051525). If CE components are required to be removed from the facility, handling the equipment is approved by DCM. In most instances, CE components receive onsite maintenance and are not removed from the facility. Property assets (e.g. Microsoft Azure network devices or servers) requiring transfer offsite must have explicit asset owner (e.g. Office 365 asset owner) approval.
 ma_2_d_implementation: |
  O365:
@@ -3904,6 +4115,7 @@ ma_3_origination:
 ma_3_implementation: |
  O365:
  iLO is a tool that is used to maintain and troubleshoot machines that have issues. Authorization to iLO accounts is obtained through Central Admin and Secure Credential Access Manager (SCRAM). The credentials required for authorization and authentication of iLO accounts are stored in each service team’s secret store (Central Admin, SCRAM, Grid Secrets, Secret Store or Azure KeyVault), and can only be accessed by approved service team engineers).
+
  This tool is operated through a separate VLAN that requires 2FA for access. Access to these accounts are monitored through tools employed on the Terminal Services Gateway (TSG). Secret retrieval from each team’s secret store is logged.
 
  Tools employed on Azure managed TSGs and other tools that may be used for system maintenance are inherited from Azure, which has a FedRAMP IaaS P-ATO (package ID F1209051525). In Microsoft Azure, all maintenance work must be approved prior to work beginning, including access to system maintenance tools. Microsoft Azure Infrastructure has implemented the maintenance tools control by creating an access level within the Datacenter Access Tool (DCAT). Each facility contains a restricted physical lock box or access-controlled room for the storage of specialized maintenance tools. Access to the lock box or storage room is controlled in the DCAT tool to prohibit unauthorized access to the maintenance tools. This ensures that only personnel with approved access can access the tools. The Site Services team performs routine inventory checks to verify the status of all tools. On a quarterly basis, the datacenter management team and physical security teams perform audits of the DCAT access list to keep the access list of maintenance personnel current. Personnel terminations or transfers are reflected immediately through a manual update of the access list. Access to the lock box or maintenance storage room is tracked in the access badge reader logs, which are available in the event of an investigation.
@@ -4753,6 +4965,7 @@ ps_2_a_implementation: |
 ps_2_b_implementation: |
  Customer Responsibility:
  Government customers are responsible for establishing screening criteria that are consistent with their internal policies and procedures for personnel using Office 365 MT. Microsoft does not establish screening criteria for individuals hired by customers.
+
  Non-government customers should adhere to their respective regulatory and internal policies, but they may not be required to establish personnel screening criteria. Microsoft does not establish screening criteria for individuals hired by customers.
 
  O365:
@@ -4798,6 +5011,7 @@ ps_3_a_implementation: |
 ps_3_b_implementation: |
  Customer Responsibility:
  Government customers are responsible for determining rescreening requirements and implementing those requirements for their own personnel.
+
  Non-government customers should adhere to their respective regulatory and internal policies, but they may not be required to rescreen personnel on any recurring cadence.
 
  O365:
@@ -4813,6 +5027,7 @@ ps_3_3_origination:
 ps_3_3_a_implementation: |
  Customer Responsibility:
  Government customers are responsible for ensuring that their users accessing Office 365 have valid access authorizations that are demonstrated by their assigned official government duties.
+
  O365:
  Office 365 personnel are required to satisfy the “Cloud” or “MT” screening as appropriate.
 
@@ -4828,6 +5043,7 @@ ps_3_3_b_implementation: |
 
  O365:
  Office 365 personnel are required to satisfy the “Cloud” or “MT” screening as appropriate.
+
  The "Cloud" background check includes checking:
  • Social Security Number Search
  • Criminal History Check
@@ -4847,12 +5063,16 @@ ps_4_origination:
 ps_4_a_implementation: |
  Customer Responsibility:
  Office 365 government and non-government customers are responsible for managing information system access terminations for their organizational users consistent with their internal policies and procedures.
+
  Government and non-government customers using ADFS, manage user accounts in their own customer-owned and controlled Active Directory (AD) forests. These customers may disable or delete terminated users in their internal AD infrastructure. When customers disable or delete users in their AD forests, access to Office 365 is immediately revoked for the disabled or terminated user. For additional information regarding how to manage user accounts in Active Directory, see TechNet article #754661: http://technet.microsoft.com/en-us/library/cc754661.aspx
+
  Non-government customers not using ADFS will manage accounts in AAD via the SUE portal. Non-government customers who manage accounts in AAD via SUE should disable/delete the user in the SUE portal; updating permissions in the portal will immediately revoke access for the terminated user. For additional more information on managing user accounts via the SUE portal, see TechNet article “office 365 user account management”: http://technet.microsoft.com/en-us/library/office-365-user-account-management.aspx
 
  O365:
  Microsoft Human Resources is responsible for the personnel termination process. When a person’s employment with Microsoft is terminated the employee is removed from the Human Resources Information System (HRIS) via a Termination Transaction approved by the Human Resources Assistant (HRA) or Business Administrator. Once the transaction has been keyed in and approved, Microsoft Accounts and Security teams are notified and access to Office 365 is revoked.
+
  Service team AD domain accounts are tied to Microsoft account management tools for automated account management. Microsoft account management tools synchronizes with the HRIS. When a service team administrator is marked as terminated in HRIS, this information propagates to IDM, which then automatically removes the service team domain account.
+
  For involuntary terminations, an urgent request for access termination is submitted via email from HR and all access is immediately disabled by service team administrators.
 ps_4_b_implementation: |
  Customer Responsibility:
@@ -4860,6 +5080,7 @@ ps_4_b_implementation: |
 
  O365:
  When a user’s employment is terminated with Microsoft, the employee is removed from the Human Resources Information System (HRIS) via a Termination Transaction approved by the Human Resources Assistant (HRA) or Business Administrator. Microsoft account management tools synchronizes with the HRIS. When a service team administrator is marked as terminated in HRIS, this information propagates to IDM, which then automatically removes the service team domain account.
+
  Human Resources Assistants or the employee's manager collect Microsoft badges at the time of the exit interview or termination.
 ps_4_c_implementation: |
  Customer Responsibility:
@@ -4876,6 +5097,7 @@ ps_4_d_implementation: |
 ps_4_e_implementation: |
  Customer Responsibility:
  Office 365 customers are responsible for retaining access to organizational information and information systems formerly controlled by terminated individual for their terminated organizational users consistent with their internal policies and guidelines.
+
  When an Office 365 account is deleted, it becomes inactive. For approximately 30 days after having deleted it, customers can restore the account. For more information about deleting and restoring accounts, see TechNet article “office 365 user account management”: http://technet.microsoft.com/en-us/library/office-365-user-account-management.aspx
 
  O365:
@@ -4908,10 +5130,12 @@ ps_5_origination:
 ps_5_a_implementation: |
  Customer Responsibility:
  Government customers are responsible for reviewing logical access authorizations to Office 365 for their own personnel prior to reassigning or transferring to another position within their organization and granting access to Office 365.
+
  Non-government customers should adhere to their respective regulatory and internal personnel transfer policies and review of logical and physical access authorizations. Non-government customers not using ADFS may mange accounts via the Suite User Experience (SUE) portal. Customers are responsible for logging into the portal and reviewing the Office 365 MT accounts of their users compliant with their organizational policies. Disabling or removing users in the SUE portal revokes access to Office 365 MT for the affected users. For additional more information on managing user accounts via the SUE portal, see TechNet article “Office 365 user account management”: http://technet.microsoft.com/en-us/library/office-365-user-account-management.aspx
 
  O365:
  When an employee is reassigned or transfers to a position within a different cost center, a Human Resources Information System (HRIS) transfer transaction is keyed into the HRIS system. A change to the employee's manager in the HRIS will result in an immediate change to the expiration dates for an employee's system access eligibilities in IDM. All eligibilities will expire after 5 days unless the eligibilities are approved by the employee's new manager. When an employee's direct manager is changed, IDM sends a notification to the employee that their eligibility is about to expire (in 5 days). To retain the eligibility, the employee must submit a new "Request Access" form for the eligibility in IDM. Once the employee submits a new Request Access form, the employee's new direct manager is notified by IDM and required to approve the eligibility request.
+
  Office 365 personnel do not have physical access to the information system.
 ps_5_b_implementation: |
 ps_5_c_implementation: |
@@ -4932,6 +5156,7 @@ ps_6_origination:
 ps_6_a_implementation: |
  Customer Responsibility:
  Government customers are responsible for developing and documenting access agreements for organizational information systems.
+
  Non-government customers should adhere to their respective regulatory and internal policies, but they may not be required to ensure that they have developed and documented access agreements for organizational information systems.
 
  O365:
@@ -4949,19 +5174,25 @@ ps_6_b_implementation: |
 ps_6_c_implementation: |
  Customer Responsibility:
  Government customers are responsible for ensuring that users with access to Office 365 sign appropriate customer access agreements prior to being granted access, and that employees renew these agreements on an organization-defined frequency.
+
  Non-government customers should adhere to their respective regulatory and internal policies, but they may not be required to ensure that individuals sign access agreements prior to being granted access or that employees renew these agreements.
 
  Part 1:
  O365:
  Office 365 requires that all employees and contingent staff sign confidentiality and non-disclosure agreements at the time of hire. In addition, employees read and sign the Microsoft Employee Handbook at the time of hire. The Office 365 MT Rules of Behavior describes Microsoft user responsibilities and establishes expected behavior when using Office 365 MT.
+
  All users, including employees, vendors, and contractors are required to follow the rules of behavior outlined in the Office 365 Rules of Behavior. Vendors and contractors are required to have a signed Master Supplier Services Agreement (MSSA) to ensure compliance with Microsoft policies on required engagements.
+
  The Non-Disclosure Agreement (NDA), Employee Handbook, and the Office 365 Rules of Behavior include statements regarding information and asset protection responsibilities. They also describe the penalties for the violation of these responsibilities. A signed confirmation from users indicating understanding and agreement of the NDA is required of all users prior to gaining access to the Microsoft network. The NDA is tracked and enforced by HR while the Service Team PMs are responsible for submitting the agreements after they have been signed.
 
  Part 2:
  O365:
  Office 365 administrators are privileged users within their respective environments and their access level does not change for their role. Therefore, it is not necessary to re-sign original access agreements to maintain access, as access levels do not change.
+
  Office 365 administrators and vendors are required to complete annual security awareness training, which includes review of system access agreements. Completion of the training constitutes employee acknowledgement and understanding of these documents, and is used in place of a signature.
+
  Master Supplier Services Agreements (MSSAs) are not annually renewed. Instead statements of work (SOWs) are updated at least annually, and SOWs are attached to the Master Supplier Services Agreement (MSSA) template which contains the NDA. By updating SOWs at least annually, external vendors inherently re-agree to their current NDAs.
+
  Microsoft has documented this decision in the Decision Log “FedRAMP PS-6: Access Agreements Are Not Annually Renewed”.
 ps_6_3_role: |
 ps_6_3_status:
@@ -4979,7 +5210,9 @@ ps_7_origination:
  -
 ps_7_a_implementation: |
  Customer Responsibility:
+
  Government customers are responsible for establishing personnel security requirements, including security roles and responsibilities, for third-party providers with access to Office 365.
+
  Non-government customers should adhere to their respective regulatory and internal policies, but they may not be required to establish personnel screening requirements for third-party providers with access to Office 365 MT.
 
  O365:
@@ -4994,6 +5227,7 @@ ps_7_b_implementation: |
 ps_7_c_implementation: |
  Customer Responsibility:
  Government customers are responsible for documenting third-party personnel security requirements for third-party personnel with access to Office 365.
+
  Non-government customers should adhere to their respective regulatory and internal policies, but they may not be required to perform personnel screening.
 
  O365:
@@ -5001,6 +5235,7 @@ ps_7_c_implementation: |
 ps_7_d_implementation: |
  Customer Responsibility:
  Government customers are responsible for notifying the proper personnel upon transfer or termination of third-party personnel with access to Office 365.
+
  Non-government customers should adhere to their respective regulatory and internal policies, but they may not be required to notify personnel upon transfer or termination actions.
 
  O365:
@@ -5008,10 +5243,12 @@ ps_7_d_implementation: |
 ps_7_e_implementation: |
  Customer Responsibility:
  Government customers are responsible for monitoring provider compliance with third-party personnel security requirements for third-party personnel with access to Office 365.
+
  Non-government customers should adhere to their respective regulatory and internal policies, but they may not be required to monitor provider compliance with third-party personnel security requirements for third-party personnel with access to Office 365.
 
  O365:
  Any third-party personnel with access to Office 365 must pass the same personnel screening process (described in PS-3) for the requirements established for the risk categorization of their role (described in PS-2). Office 365 monitors compliance with screening requirements for third-party personnel by tracking the outcome of screening directly. Microsoft requires approved screening vendors to submit screening outcomes for third-party personnel directly to Microsoft where they are tracked in HRIS.
+
  Office 365 MT personnel who have acces to customer content are rescreend every two years.
 
  As part of the vendor agreements with third party providers enrolled in the Microsoft Supplier Data Protection program, Office 365 Infrastructure requires third-party providers to notify Office 365 managers within 24 hours about transfers or terminations of third party personnel and within 2 hours for involuntary dismissal. This is to allow Office 365 to revoke or modify access of individuals who possess organizational credentials and/or badges or who have information system privileges.
@@ -5027,16 +5264,19 @@ ps_8_origination:
 ps_8_a_implementation: |
  Customer Responsibility:
  Government customers are responsible for determining, based on applicable laws and regulatory policies, appropriate sanctions against personnel who have committed security violations pertaining to Office 365.
+
  Non-government customers should adhere to applicable regulatory and internal policies when imposing sanctions on personnel.
 
  O365:
  Microsoft’s formal sanctions process is defined in the Microsoft Employee Handbook. Corporate Security is responsible for ensuring that the sanctions process is conducted properly. All potential security breaches involving Office 365 employees or third-party personnel will be immediately reported to Human Resources, the Corporate, External and Legal Affairs (CELA) Group, and the transgressing Microsoft employee's manager.
+
  All violations of Microsoft policy prompt an investigation of the incident, and the Microsoft employee will be subject to appropriate disciplinary action, up to and including termination. If the investigation finds that the Microsoft employee committed a breach of security, Human Resources will be informed and take responsibility for coordinating the disciplinary response. Third-party personnel suspected of committing violations of Microsoft policy will be subject to formal investigation and action appropriate to the associated contract, which may include termination of said contract.
 
  In some cases, a violation of Microsoft’s security policies may also violate an international, federal, state, or local law, which may subject the individual to civil and/or criminal liability.
 ps_8_b_implementation: |
  Customer Responsibility:
  Government customers are responsible for notifying the proper personnel once sanctions are taken against personnel who have committed security violations pertaining to Office 365.
+
  Non-government customers should adhere to applicable regulatory and internal policies when imposing sanctions on personnel.
 
  O365:
@@ -5096,14 +5336,17 @@ ra_5_origination:
 ra_5_a_implementation: |
  O365:
  Vulnerability scanning in the Office 365 environment is conducted by Office 365 Security using BeyondTrust and WebScout. These scans include operating system, infrastructure, database and application scans.
+
  Vulnerability scans are configured to run at least monthly and include all Office 365 systems. Scans are also run whenever new vulnerabilities potentially affecting Office 365 are discovered. During the annual 3PAO assessment, the scans will be supervised by the 3PAO but performed by Office 365 personnel.
 
  BeyondTrust uses the vulnerability information from industry sources to scan the Office 365 environment.
+
  WebScout is a Microsoft-wide service utilized to satisfy security and compliance requirements at various points in the product development process for vulnerability scanning of Web Applications and REST API.
 ra_5_b_implementation: |
  Part 1,2,3:
  O365:
  BeyondTrust expresses vulnerabilities in the Common Vulnerabilities and Exposures (CVE) naming convention and uses the Open Vulnerability Assessment Language (OVAL) to facilitate interoperability among tools. Office 365 Security also provides a reporting interface to allow authorized Office 365 personnel to see the details of vulnerabilities associated with the environment. The reporting interface provides high-level / technical reports (covering information such as servers, vulnerabilities, CVE IDs, breakdowns of vulnerable hosts, and remediation steps). The Office 365 service teams utilize the information on the reporting interface to ensure that servers are compliant with Office 365 vulnerability management standards.
+
  WebScout utilizes a third-party scanning engine and equips Office 365 PAVC with a centralized dashboard providing visibility and prioritization to aid in remediating vulnerabilities.
 ra_5_c_implementation: |
 ra_5_d_implementation: |
@@ -5116,6 +5359,7 @@ ra_5_1_origination:
 ra_5_1_implementation: |
  O365:
  Vulnerability scanning in the Office 365 environment is conducted using BeyondTrust and WebScout.
+
  BeyondTrust uses the vulnerability information from industry sources to scan the Office 365 environment. BeyondTrust has the capability to download new vulnerability information. Scanning processes include a check to ensure that this update has occurred before each use. However, the scan executes regardless of update to ensure a daily scan is done.
 
  WebScout’s third-party scanning engine receives version updates as they become available by the vendor. These updates allow it to check for newer vulnerabilities as they are discovered.
@@ -5128,6 +5372,7 @@ ra_5_2_origination:
 ra_5_2_implementation: |
  O365:
  Vulnerability scanning in the Office 365 environment is conducted using BeyondTrust and WebScout.
+
  BeyondTrust uses the vulnerability information from industry sources to scan the Office 365 environment. BeyondTrust has the capability to download new vulnerability information. Scanning processes include a check to ensure that this update has occurred before each use.
 
  WebScout’s third-party scanning engine receives version updates as they become available by the vendor. These updates allow it to check for newer vulnerabilities as they are discovered.
@@ -5219,6 +5464,7 @@ sa_3_a_implementation: |
  Microsoft’s Secure Development Lifecycle (SDL) is followed by all engineering and development projects in Office 365. This is a software development model that includes specific security considerations. A security requirements analysis must be completed for all system development projects. This analysis document acts as a framework and includes the identification of possible risks to the finished development project as well as mitigation strategies which can be implemented and tested during the development phases. Critical security review and approval checkpoints are included during the system development life cycle support.
 
  All members of software development teams receive training to stay informed about security basics and recent trends in security and privacy. Individuals who develop software programs are required to attend at least one security training class each year. Security training helps ensure software is created with security and privacy in mind and also helps development teams stay current on security issues. Project team members are strongly encouraged to seek additional security and privacy education that is appropriate to their needs or products.
+
  The process includes the following phases:
  • Phase 1: Requirements - The requirements phase includes the project inception—when the organization considers security and privacy at a foundational level—and a cost analysis—when determining if development and support costs for improving security and privacy are consistent with business needs. This phase also includes defining security roles and responsibilities and identifying individuals with these roles and responsibilities.
  • Phase 2: Design - The design phase is when the organization builds the plan for how to take the project through the rest of the process—from implementation, to verification, to release. During the Design phase the organization establishes best practices to follow for this phase by way of functional and design specifications, and by performing risk analysis to identify threats and vulnerabilities in the software. TMA (Threat Model Analysis) is required to define all attack surfaces and their associated risks; all security gaps and risks and documented and analyzed. This security impact analysis will result in dataflow documentation in order to identify all intended paths for information and potential attack vectors.
@@ -5231,6 +5477,7 @@ sa_3_a_implementation: |
  Office 365 MT has implemented information validation through checking of data inputs as part of the process. Thorough code reviews and testing are completed during the Verification Phase prior to software being put into a production environment. The code reviews and testing check for cases of SQL injection, format string vulnerabilities, XSS, integer arithmetic, command injection, and buffer overflow vulnerabilities.
 
  This satisfies the life cycle support control through effective management of the risks associated with failing to implement a methodology that lacks information security considerations.
+
  The following is a non-exhaustive list of software is used:
  •	Threat Modeling Tool: This tool helps developers analyze possible security issues.
  •	OACR/Roslyn (Office Auto Code Review): OACR/Roslyn assesses system software for consistency with code rules required. OACR/Roslyn also provides static code security analysis.
@@ -5250,6 +5497,7 @@ sa_4_origination:
 sa_4_a_implementation: |
  Customer Responsibility:
  Government customers must not use credit cards to purchase Office 365 MT. They must purchase Office 365 MT through a Purchasing Order.
+
  O365:
  Office 365 implements the acquisitions control through enforcement of the Office 365 Information Security Policy. Security Policy and Associated standards (documented in the Active Framework Controls) dictates that where a third party is allowed to (i) access, process, host or manage Microsoft’s online services’ information assets or information processing facilities, or (ii) add products or services to Microsoft’s online services’ information processing facilities, arrangements must be made in a formal contract to define responsibility and requirements for the security, confidentiality, integrity and availability of the information assets involved.
 
@@ -5362,12 +5610,18 @@ sa_8_origination:
 sa_8_implementation: |
  O365:
  Office 365 follows a life cycle support process for all engineering and development projects. Office 365 MT follows the process described in SA-03(a) for all phases in the lifecycle of the information system to ensure the application of security engineering principles.
+
  The process is followed for all engineering initiatives associated with Office 365 MT. Additionally, associated standards (documented in the Active Framework Controls) provides details on how security should be built into information systems, software, and the development process.
+
  The process includes the following phases which implement standard security engineering principles across all Microsoft Online Services systems:
  • Phase 1: Requirements - The Requirements phase includes the project inception—when the organization considers security and privacy at a foundational level—and a cost analysis—when determining if development and support costs for improving security and privacy are consistent with business needs.
+
  • Phase 2: Design - The Design phase is when the organization builds the plan for how to take the project through the rest of the process—from implementation, to verification, to release. During the Design phase the organization establishes best practices to follow for this phase by way of functional and design specifications, and by performing risk analysis to identify threats and vulnerabilities in the software.
+
  • Phase 3: Implementation - The Implementation phase is when the organization creates the documentation and tools the customer uses to make informed decisions about how to deploy the software securely. To this end, the Implementation phase is when the organization establishes development best practices to detect and remove security and privacy issues early in the development cycle.
+
  • Phase 4: Verification - During the Verification phase, the organization ensures that the code meets the security and privacy tenets established in the previous phases. This is done through security and privacy testing, and a security push—which is a team-wide focus on threat model updates, code review, testing, and thorough documentation review and edit. A public release privacy review is also completed during the Verification phase.
+
  • Phase 5: Release - The Release phase is when the organization prepares the software for consumption and prepares for what happens once the software is released. One of the core concepts in the Release phase is response planning—mapping out a plan of action, should any security or privacy vulnerabilities be discovered in the release—and this carries over to post-release, as well, in terms of response execution. Response planning is performed in coordination with existing security incident response processes.
 
  The System Owner is responsible for ensuring that the process is followed for all engineering initiatives associated with Office 365 MT.
@@ -5595,6 +5849,7 @@ sc_3_implementation: |
 
  O365:
  All Office 365 servers run modern operating systems. These operating systems maintain separate execution domains for each executing process by assigning a private virtual address space to each process. See the following TechNet article for more information: http://technet.microsoft.com/en-ca/aa366785%28v=vs.90%29
+
  All Office 365 servers use processor types that implement isolation by means of protection rings with various privilege levels; user code runs in ring 3, while kernel code runs in ring 0. The use of these processors is inherited from Azure, which has a FedRAMP IaaS P-ATO (package ID F1209051525).
 
  At the network level, Office 365 restricts access to security functions. In order to access these security functions, administrators have to use multifactor authentication, and access is monitored and audited. Additionally, Azure’s Infrastructure implements network segmentation/isolation with the use of VLANs.
@@ -5609,12 +5864,15 @@ sc_4_origination:
 sc_4_implementation: |
  Customer Responsibility:
  Government customers are responsible for only sharing government customer content with properly authenticated government customer users. There are two mechanisms by which government customers could potentially share government customer content with non-authorized users i.e. guest access to SFB meetings and SharePoint Online Guest access.
+
  Guest access to SFB meetings, if enabled, allows anyone with a meeting invite to access the meeting lobby. The meeting organizer is responsible for establishing the identity of lobby participants before granting them access to the meeting. Government customers are responsible for disabling guest access to SFB meetings to remain compliant with FedRAMP standards as advised in “Office 365 MT Government Compliance Considerations v2 00.
 
  Non-government customers are responsible for determining if the use of guest access to SFB meetings should be allowed for their organization. This setting can be configured by government and non-government customers. For more information, see the following TechNet article: http://technet.microsoft.com/en-US/library/gg398648.aspx
 
  SharePoint Online guest invitations allow external users to access an organization’s SharePoint site(s). Government and non-government customers are responsible for determining if the use of guest access to SharePoint Online, as an account type, should be allowed for their organization. Government customers are responsible for disabling guest access to SharePoint Online to remain compliant with FedRAMP standards as advised in "Office 365 MT Government Compliance Considerations v 2 00".
+
  The setting to allow or disallow guest access to SharePoint Online can be configured by government and non-government customers. For more information, see the following Office 365 MT help article: http://office.microsoft.com/en-us/office365-sharepoint-online-small-business-help/manage-sharing-with-external-users-HA102849862.aspx
+
  Government customers are responsible for ensuring that no information with a security impact level greater than moderate is stored, processed, or transmitted via the services provided to them by Office 365.
 
  O365:
@@ -5801,6 +6059,7 @@ sc_12_origination:
 sc_12_implementation: |
  Customer Responsibility:
  Government customers, by agreeing to policies upon signing on to use the system, will not enable any SharePoint functionality (SharePoint Lite / SharePoint Vanity Domains) that bypasses network-level encryption.
+
  Government customers will ensure that personal computing devices (client systems) are configured to request FIPS 140-2 encryption ciphers and protocols for all network sessions.
 
  O365:
@@ -5848,9 +6107,11 @@ sc_13_implementation: |
 
  O365:
  Encryption mechanisms and techniques used by the service teams follow the requirements and restrictions outlined in the Office 365 Information Security Policy and associated standards (documented in the Active Framework Controls). Service data and information are handled in accordance with the requirements and restrictions specified in the “Enterprise Online Services Data Taxonomy” document when cryptography is used. The “Enterprise Online Services Data Taxonomy” document establishes the mandatory minimum requirements for Office 365 asset ownership, classification, and protection.
+
  Office 365 leverages the cryptographic capabilities that are directly a part of the Windows operating system for certificates and authentication mechanisms such as Kerberos. These cryptographic modules have been certified by NIST as being FIPS 140-2 complaint.
 
  Any time cryptographic capabilities are employed to protect the confidentiality, integrity, or availability of data within Office 365, the modules and ciphers are FIPS 140-2 validated. For additional information on how cryptographic modules are employed in Microsoft products, see TechNet article cc750357: https://technet.microsoft.com/en-us/library/security/cc750357.aspx
+
  POA&M MT-0131 has been opened to track the permitted use of TLS 1.0 for customer connections to Office 365.
 sc_15_role: |
 sc_15_a_parameter: |
@@ -5939,6 +6200,12 @@ sc_19_b_implementation: |
 
  AFS, Bing, CIA, CII, Delve, IP, IS, Loki, ORAS, OSI, SCS, SPO, SUE, WAC:
  VoIP is not authorized in these software components.
+
+ EXO:
+ EXO authorizes UM if the customer specifically requests use of VoIP. All calls are logged to the standard described in the AU control family.
+
+ MSTeams, SFB:
+ MSTeams and SFB enable customers to place VoIP calls using the MSTeams or SFB clients. Customers are responsible for making the decision to authorize this use. SFB monitor and control authorized VoIP use equivalently to all Office 365 customer content.
 sc_20_role: |
 sc_20_status:
  -
@@ -5954,6 +6221,7 @@ sc_21_origination:
 sc_21_implementation: |
  O365:
  Office 365 inherits DNS servers from Azure. Azure System DNS servers act as non-authoritative sources for DNS requests only from clients hosted inside Microsoft Azure. A client makes a DNS query to a system DNS server; the system DNS server in turn queries an authoritative source outside the system. System DNS servers do not support the DNSSEC protocol. This control requires system DNS servers, when requested by clients, to perform origin/integrity verification of the response provided by authoritative sources. The control assumes that the client makes a DNS query of a system DNS server and that the DNS server must then query an authoritative source outside the system. The risk that the external authoritative source has been compromised is mitigated by the origin/integrity verification provided by TLS.
+
  Microsoft Azure DNS's production servers act as authoritative sources for DNS requests from external clients for various Microsoft Azure domains and will not respond to any DNS queries against zones for which they are not the authority
 sc_22_role: |
 sc_22_status:
@@ -6104,6 +6372,7 @@ si_2_a_implementation: |
 
  O365:
  Office 365 identifies, reports, and corrects information system flaws through vulnerability management, incident response management, and patch/configuration management processes. The Office 365 Security Incident Response Program assists with identifying and reporting of information system flaws. Office 365 receives vulnerability-related data from multiple sources of information which include: Microsoft Security Resource Center (MSRC), vendor Web sites, other third-party services (e.g. Internet Security Systems) and internal/external vulnerability scanning of services. Office 365 Security will determine which updates are applicable within the Office 365 environment. Potential changes are tested in advance. Patching schedules are defined by Office 365 Security to install security-relevant software and firmware updates within 30 days for high vulnerabilities, 90 days for moderate vulnerabilities.
+
  Additionally, the Office 365 PAVC team analyzes and tests vendor-supplied software (BeyondTrust). Flaws found during testing are reported to the appropriate vendor, and vendor patches are tested and applied as they are received.
 
  Office 365 inherits firmware changes from Azure, which is responsible for firmware updates to the Office 365 infrastructure. Azure has a FedRAMP IaaS P-ATO (package ID F1209051525).
@@ -6140,6 +6409,7 @@ si_2_2_origination:
 si_2_2_implementation: |
  Customer Responsibility:
  Government customers are required to employ automated mechanisms to determine the state of information system components with regard to flaw remediation on their information systems as required by their organization’s security policy.
+
  Non-Government customers of Office 365 MT inherit automated protection mechanisms from Microsoft within the environment. Non-Government customers are responsible for client-side network scans on all their endpoints in accordance with their security policy.
 
  O365:
@@ -6234,6 +6504,15 @@ si_4_status:
 si_4_origination:
  -
 si_4_a_implementation: |
+ Part 1:
+ O365:
+ Service teams have deployed Near Real Time monitoring solutions that generate all real-time alerts and audit logs from both SCOM and the repository. All the service team-specific monitoring requirements beyond the base set defined in Office 365 Security Auditing SOP for Office 365 are integrated into a SCOM pack. In addition, service teams upload their logs to a repository service, where they are aggregated and processed. The uploader service generates reports using automated security alerting tools. These automated security alerting tools assist in identifying normal usage of the system and deviations from that normal range. Additionally, they examine records to confirm that the system is functioning in an optimal, resilient, and secure state. Unusual activity is flagged and alerted in Near Real Time. The repository also aggregates logs for further review. Any log event that indicates a potential security violation must be immediately brought to the attention of Office 365 Security.
+
+ Teams using PilotFish use K9, a tool that collects security logs and performs real-time analysis, as well as archiving them to a repository service for forensic analysis. Unusual activity will generate alerts and the PilotFish team coordinates with the appropriate service team for any required follow-ups or investigations. Service teams will work with the Office 365 SIR team to address all security incidents.
+
+ Part 2:
+ O365:
+ Local connections are disallowed by policy within Office. No personnel have local access. Azure performs network monitoring and detection of unauthorized connections in accordance with their security policy. Remote authentication failures are logged and stored within a repository service. For further information, please see AC-17 and AC-7.
 si_4_b_implementation: |
  O365:
  Audit logs are uploaded to repository and reports are generated using automated security alerting tools. These automated security alerting tools assist in identifying normal usage of the system and deviations from that normal range. The automated security alerting tools use heuristics to identify unauthorized use of the operating system. Unusual activity is flagged and alerted in Near Real Time, repository also aggregates logs for further review. Any log event that indicates a potential security violation must be immediately brought to the attention of Office 365 Security.
@@ -6307,6 +6586,7 @@ si_4_11_implementation: |
  Office 365 monitors for and protects against mining of system data and customer content. All access to Office 365 occurs through remote access to the ORAS or Azure managed Terminal Services Gateways (TSG). The Office 365 Security team monitors remote access for any large data exfiltration through the TSGs. O365 Security uses a robust security monitoring and alerting tool to ingest logs from hosts and other networking infrastructure in the environment, compare these logs to an extensive ruleset, and alert Security personnel when a match is found between the two. Service teams also employ HostIDS to further monitor for data exfiltration at the host level.
 
  In addition, access to the Office 365 system is limited to a small number of Office 365 cleared service team administrators. Office 365 cleared service team administrators have taken role-based access training, security awareness training and have been background screened.
+
  If Office 365 becomes aware of any unlawful access to any customer content stored in its equipment or in its facilities, or unauthorized access to such equipment or facilities resulting in loss, disclosure, or alteration of customer content (each considered a security incident), Office 365 will: (a) notify the affected customer of the security incident; (b) investigate the security incident and provide the customer with information about the security incident; and (c) take reasonable steps to mitigate the effects and to minimize any damage resulting from the security incident.
 
  In the event of customer data spillage, upon customer request, Office 365 may assist with the incident including accessing customer data according to the Office 365 Incident Response Policies and Procedures.
@@ -6488,6 +6768,7 @@ si_7_2_implementation: |
  Office 365 software updates are thoroughly reviewed for any unauthorized changes before entering the production environments as part of the SDL and Change and Release Management processes. Any code changes have to be reviewed and approved before they are deployed to the environment. Additionally, builds are digitally signed before they are deployed. If the integrity verification fails at deployment, the deployment operation fails, and the process needs to be started over. The deployment engine is configured to notify service engineer personnel upon discovery of discrepancies during integrity verification. Service engineer personnel are notified via email.
 
  The Microsoft Windows Server operating systems provide real-time file integrity validation, protection, and recovery of core system files that are installed as part of Windows or authorized Windows system updates.
+
  Teams inherit firmware integrity verification notification mechanisms from Azure which has a pre-existing FedRAMP Authorization for Azure (F1209051525). Azure uses the Config Policy Verifier tool to notify the Azure Networking team on unauthorized changes to network devices on a continuous basis. Config Policy Verifier is Microsoft software. It automatically sends alerts to IcM regarding deviations of correct operations of security functions. Config Policy Verifier alerting performs alerts upon system startup and/or restart and continuously provide event monitoring and alerting to Azure Networking Config Policy Verifier is a real-time solution that performs scanning on a continuous basis.
  Reference SI-07 for further details.
 si_7_5_role: |
