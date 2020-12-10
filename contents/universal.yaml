@@ -5846,13 +5846,13 @@ sa_9_1_a_implementation: |
 sa_9_1_b_implementation: |
  O365:
  No acquisition or outsourcing of dedicated information security services is planned, but Office 365 will follow the FedRAMP change management process as part of continuous monitoring.
-sa_9_1_req_role: |
+sa_9_1_r_role: |
  {{sa_9_1_req_role}}
-sa_9_1_req_status:
+sa_9_1_r_status:
  -
-sa_9_1_req_origination:
+sa_9_1_r_origination:
  -
-sa_9_1_req_implementation: |
+sa_9_1_r_implementation: |
  {{sa_9_1_req_implementation}}
 sa_9_2_role: |
  O365 Security Manager, Service Engineer Operations
