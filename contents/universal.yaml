@@ -3939,17 +3939,17 @@ ir_4_6_implementation: |
  Additionally, Office 365 Security may engage the Microsoft Network Security team to provide support and guidance on forensic investigations when the scope of investigation includes employees or contingent staff working at Microsoft.
 
  Through the Incident Management process, the Azure C+AI Security Operations Center (SOC) team handles insider threat scenarios, such as, but not limited to:
- •	Malicious network activity
- •	Suspicious behavior
- •	Policy/process violation
- •	Unidentified Network Traffic (UNT)
- •	Malicious attachments
- •	Malicious software
- •	Service abuse
- •	Account investigation internal
- •	Failed login
- •	Possible compromised account
- •	Highly privileged service account monitoring
+ 	• Malicious network activity
+ 	• Suspicious behavior
+ 	• Policy/process violation
+ 	• Unidentified Network Traffic (UNT)
+ 	• Malicious attachments
+ 	• Malicious software
+ 	• Service abuse
+ 	• Account investigation internal
+ 	• Failed login
+ 	• Possible compromised account
+ 	• Highly privileged service account monitoring
 ir_4_7_role: |
  {{ir_4_7_role}}
 ir_4_7_parameter: |
@@ -6064,9 +6064,9 @@ sa_16_implementation: |
  O365:
  As noted in SA-3, all members of software development teams receive appropriate training to stay informed about security basics and recent trends in security and privacy. Individuals who develop software programs are required to attend at least one security training class each year. Security training can help ensure software is created with security and privacy in mind and can also help development teams stay current on security issues. Project team members are strongly encouraged to seek additional security and privacy education that is appropriate to their needs or products.
  Microsoft Office 365 service teams maintain, secure, manage, and store information system documentation, including documentation regarding:
- •	Secure configuration, installation, and operation of the information system;
- •	Effective use and maintenance of security features/functions; and
- •	Known vulnerabilities regarding configuration and use of administrative (i.e. privileged) functions
+ 	• Secure configuration, installation, and operation of the information system;
+ 	• Effective use and maintenance of security features/functions; and
+ 	• Known vulnerabilities regarding configuration and use of administrative (i.e. privileged) functions
 
  This documentation is stored in each service team’s SharePoint site and made available to service team administrators. Review of relevant documentation is part of initial and ongoing training activities held at least annually.
 sa_17_role: |
@@ -6145,9 +6145,9 @@ sc_2_origination:
 sc_2_implementation: |
  O365:
  Office 365 achieves application partitioning by utilizing three distinct groups of roles for accessing system functionality. These groups of roles are segregated using Active Directory (AD). These roles are described as follows:
- •	Administrative Backend – This group is where Office 365 service team administrators manage the Operating System-level functions and systems. No Office 365 customer user or customer administrator has access to these functions, as it is strictly provisioned for those managing the underlying technologies that support the Office 365 infrastructure.
- •	Customer Administration – This group is where administrators from the customer side have the ability to customize the experience and configurations for the customer users of Office 365 for their specific organization. Other limited configuration options are provided as a part of the Office 365 service which is restricted to customer administrators. These interfaces are specifically restricted to customer administrators.
- •	Customer User Level Access – This role is strictly for providing access to the Office 365 service for functions used by the customer users, for example for customer users to access Exchange Online.
+ 	• Administrative Backend – This group is where Office 365 service team administrators manage the Operating System-level functions and systems. No Office 365 customer user or customer administrator has access to these functions, as it is strictly provisioned for those managing the underlying technologies that support the Office 365 infrastructure.
+ 	• Customer Administration – This group is where administrators from the customer side have the ability to customize the experience and configurations for the customer users of Office 365 for their specific organization. Other limited configuration options are provided as a part of the Office 365 service which is restricted to customer administrators. These interfaces are specifically restricted to customer administrators.
+ 	• Customer User Level Access – This role is strictly for providing access to the Office 365 service for functions used by the customer users, for example for customer users to access Exchange Online.
 
  Office 365 employs customer-facing software for use by customers, and administrative OS functions to be carried out by Office 365 service team administrators. AD restrictions are put into place to prevent a customer user from being able to access any customer administration or Office 365 administrative backend functions. Customer users, customer administrators, and Office 365 administrators are completely segregated from each other and are not able to access resources outside of their respective designated roles.
 sc_2_ext_implementation: |
@@ -6390,9 +6390,9 @@ sc_7_20_implementation: |
  Administrative personnel are able to access network, data storage, and computing devices within the system and change their configuration (e.g. update firewall rules, restrict network access, remove users) as required during the incident response process. The C+AI Security Operations Center (SOC) team maintains the capability to dynamically reconfigure information system components, including the ability to disable accounts, change ACLs, and quarantine assets if determined necessary by Office 365 Security in an incident response scenario.
 
  The Office 365 inherits the SOC)network layer isolation capability from Azure, which has a pre-existing FedRAMP Authorization (F1603087869). Microsoft Azure administrators and infrastructure personnel have the capability to isolate or segregate network devices or servers by various means, including but not limited to:
- •	Physical network disconnection
- •	Removal from load balancer rotation
- •	VLAN isolation
+ 	• Physical network disconnection
+ 	• Removal from load balancer rotation
+ 	• VLAN isolation
 
  Any of these actions can be performed in real-time as required.
 sc_7_21_role: |
@@ -7124,8 +7124,8 @@ si_5_c_implementation: |
 si_5_d_implementation: |
  O365:
  When security updates are identified from the above information sources, they are initially reviewed by Office 365 Service Team Engineering personnel. Qualified updates are pushed through monthly/emergency triage meetings to appropriate service groups who are responsible for patching servers appropriately and verify that servers are operational. Security remediation will be implemented as follows:
- •	Remediation for High Risk vulnerabilities will be implemented within 30 days of the vulnerability mitigation being released by the vendor.
- •	Remediation for Medium Risk vulnerabilities will be implemented within 90 days of vulnerability the vulnerability mitigation being released by the vendor.
+ 	• Remediation for High Risk vulnerabilities will be implemented within 30 days of the vulnerability mitigation being released by the vendor.
+ 	• Remediation for Medium Risk vulnerabilities will be implemented within 90 days of vulnerability the vulnerability mitigation being released by the vendor.
 
  In the event where patching during the timeframe is infeasible, service groups may request exceptions, which are very limited and reviewed on a case-by-case basis. Exceptions and risks identified during the course of vulnerability remediation are tracked in Archer for stakeholder and Office 365 Security review. Office 365 Security also verifies degree of compliance using vulnerability scanners deployed in Office 365.
 si_5_1_role: |
@@ -7181,13 +7181,13 @@ si_7_implementation: |
  Additionally, AppLocker detects unauthorized changes to software and information. If an unauthorized change is detected, a Sev 1 alert is raised and sent to Office 365 Security.
 
  Office 365 has determined that solutions to fully meet this control pose unacceptable risks to system availability. However, the following compensating controls are in place to achieve integrity verification control objectives:
- •	Strong configuration management controls and processes ensuring that only reviewed and approved changes are made to the system.
- •	Standardized deployment processes that ensure that server roles are configured reliably and consistently across the service.  There is no manual configuration and thus no risk of accidental deviations.
- •	Office 365 frequently redeploys the service using these standardized deployment processes.  This provides defense-in-depth against change controls being circumvented because manual changes will be quickly overwritten.
- •	Integrity verification of core Windows files is implemented using System File Checker (SFC) and Windows Resource Protection (WRP).
- •	Office 365 has the auditing capability to reliably identify who made a change.
- •	Office 365 performs vulnerability scanning daily, which can detect vulnerable software and provide defense-in-depth if change controls are somehow circumvented.
- •	Office 365 performs a manual reconciliation of its software inventory against software identified by scanning and discrepancies are investigated.
+ 	• Strong configuration management controls and processes ensuring that only reviewed and approved changes are made to the system.
+ 	• Standardized deployment processes that ensure that server roles are configured reliably and consistently across the service.  There is no manual configuration and thus no risk of accidental deviations.
+ 	• Office 365 frequently redeploys the service using these standardized deployment processes.  This provides defense-in-depth against change controls being circumvented because manual changes will be quickly overwritten.
+ 	• Integrity verification of core Windows files is implemented using System File Checker (SFC) and Windows Resource Protection (WRP).
+ 	• Office 365 has the auditing capability to reliably identify who made a change.
+ 	• Office 365 performs vulnerability scanning daily, which can detect vulnerable software and provide defense-in-depth if change controls are somehow circumvented.
+ 	• Office 365 performs a manual reconciliation of its software inventory against software identified by scanning and discrepancies are investigated.
 
  Firmware integrity verification mechanisms are inherited from Azure Government from pre-existing FedRAMP Authorization. Microsoft Azure components have a set of runners, which leverage information captured by Geneva Monitoring to run automated tests for checking the health of the components. Runners are configured to automatically generate alerts if any discrepancies are identified. Azure also utilizes Qualys for integrity scanning along with Azure Security Monitoring (ASM) to reduce the risk of tampering on software components and devices within the Microsoft Azure operating environment. ASM works as an extension of the Microsoft Azure monitoring system which has components that observe, analyze and report on security events in Microsoft Azure operating environment. It complements the Azure security model by examining constraints that should remain valid at all times, including configuration settings. Azure uses the Network Automation tool to notify the Azure Networking team on unauthorized changes to network devices on a continuous basis.
 si_7_1_role: |
@@ -7366,9 +7366,9 @@ si_16_implementation: |
  O365:
  Windows has protections in place for preventing code execution in restricted memory locations: No Execute (NX), Address Space Layout Randomization (ASLR), and Data Execution Prevention (DEP). Additionally, Microsoft requires secure coding practices including explicit consideration for safe memory handling requirements.
  See the following TechNet articles for more information about these protections:
- •	http://technet.microsoft.com/en-us/library/aa366553.aspx
- •	http://technet.microsoft.com/en-us/library/bb457155.aspx
- •	http://technet.microsoft.com/en-us/library/cc771361%28v=WS.10%29.aspx
+ 	• http://technet.microsoft.com/en-us/library/aa366553.aspx
+ 	• http://technet.microsoft.com/en-us/library/bb457155.aspx
+ 	• http://technet.microsoft.com/en-us/library/cc771361%28v=WS.10%29.aspx
 tr_1_role: |
  {{tr_1_role}}
 tr_1_status:

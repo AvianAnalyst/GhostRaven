@@ -576,7 +576,7 @@ ac_6_3_status:
 ac_6_3_origination:
  -
 ac_6_3_implementation: |
- Customer Responsibility
+ Customer Responsibility:
  Government and non-government customers are responsible for enforcing least privilege when authorizing network access to privileged commands.
 
  O365:
