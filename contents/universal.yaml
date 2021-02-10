@@ -78,7 +78,6 @@ ac_2_2_status:
  - "implemented"
 ac_2_2_origination:
  - "sys"
- - "cust_configured"
  - "cust_provided"
 ac_2_2_implementation: |
  {{ac_2_2_implementation}}
@@ -104,7 +103,6 @@ ac_2_4_origination:
  - "sys"
  - "cust_configured"
  - "cust_provided"
- - "inherited"
 ac_2_4_implementation: |
  {{ac_2_4_implementation}}
 ac_2_5_role: |
@@ -164,7 +162,6 @@ ac_2_11_role: |
 ac_2_11_1_parameter: |
  Time-based access control
 ac_2_11_2_parameter: |
- Information system accounts with access to the production environment
 ac_2_11_status:
  - "implemented"
 ac_2_11_origination:
@@ -909,7 +906,7 @@ ar_1_status:
 ar_1_origination:
   -
 ar_1_a_implementation: |
-  {{ar_1_f_parameter}}
+  {{ar_1_a_implementation}}
 ar_1_b_implementation: |
   {{ar_1_b_implementation}}
 ar_1_c_implementation: |
@@ -1105,6 +1102,7 @@ at_3_4_role: |
  Customer Administrator, O365 Trust Program Manager, Program Manager
 at_3_4_parameter: |
  Malicious code indicators and anomalous behavior in production environments
+ {{at_3_4_parameter}}
 at_3_4_status:
  - "implemented"
 at_3_4_origination:
@@ -1208,15 +1206,15 @@ au_3_1_origination:
 au_3_1_implementation: |
  O365:
  Office 365 generates audit records containing sufficient information to establish the type of event that occurred, when the event occurred, where the event occurred, the source of the event, the outcome of the event, and the identity of any user/subject associated with the event. Office 365 Windows servers are configured to utilize the following fields:
-  • Source User ID
-  • Target User ID – as relevant/appropriate for event type
-  • Event timestamp (Date & Time)
-  • Event details
-   o	Type
-   o	Outcome (success/failure)
-   o	Detail information – defined per event type
-  • Source & Target Hostname – as relevant/appropriate for event type
-  • Source & Target network addresses and protocols – as relevant/appropriate for event type
+    • Source User ID
+    • Target User ID – as relevant/appropriate for event type
+    • Event timestamp (Date & Time)
+    • Event details
+      o	Type
+      o	Outcome (success/failure)
+      o	Detail information – defined per event type
+    • Source & Target Hostname – as relevant/appropriate for event type
+    • Source & Target network addresses and protocols – as relevant/appropriate for event type
 au_3_2_role: |
  O365 Security Manager, O365 Trust Program Manager, Service Engineer Operations
 au_3_2_parameter: |
@@ -1915,6 +1913,7 @@ ca_8_role: |
  O365 Trust Program Manager
 ca_8_1_parameter: |
  Annually
+ {{ca_8_1_parameter}}
 ca_8_2_parameter: |
  {{ca_8_2_parameter}}
 ca_8_status:
@@ -1945,7 +1944,7 @@ ca_9_status:
  - "implemented"
 ca_9_origination:
  - "sys"
- - "implemented"
+ - "inherited"
 ca_9_a_implementation: |
  O365:
  All devices within the accreditation boundary are by definition authorized to connect to Office 365. Service team administrators are authorized to connect to systems through the Terminal Services Gateways (TSGs) as described in AC-17. Customer users are authorized to connect through the public-facing components of the Office 365 service.
@@ -2032,7 +2031,8 @@ cm_2_1_b_implementation: |
   O365:
   See CM-02(1)(a)
 cm_2_1_c_implementation: |
-  Office 365 reviews and updates the baseline configuration based on new security configurations or changes to existing security configurations. Any change made to IPAK baseline configurations are reviewed by the Azure Change Advisory Board (CAB), and the service teams for each of their own baseline configurations.
+ O365:
+ Office 365 reviews and updates the baseline configuration based on new security configurations or changes to existing security configurations. Any change made to IPAK baseline configurations are reviewed by the Azure Change Advisory Board (CAB), and the service teams for each of their own baseline configurations.
 cm_2_2_role: |
   Azure, Service Engineer Operations
 cm_2_2_status:
@@ -2106,7 +2106,7 @@ cm_3_f_implementation: |
   O365:
   All ticketing tools or source control retain an audit history, showing what actions were taken and by whom, including approvals. Office 365 reviews the audit history as required by investigations and during annual independent security assessments.
 cm_3_g_implementation: |
-  O365
+  O365:
   The Change Advisory Board (CAB) and its members are chartered to formally "Approve" or "Deny" changes prior to implementation. Configuration and code changes follows a common system development process which includes provisions for oversight and approval. The CAB convenes as needed to support changes to the environment.
 
   If a quorum for the CAB exists, the change process begins with an RFC, which documents:
@@ -2343,6 +2343,7 @@ cm_7_role: |
   O365 Security Manager, Service Engineer Operations
 cm_7_parameter: |
   O365 Ports Protocols and Services Blacklist
+ {{cm_7_parameter}}
 cm_7_status:
   - "implemented"
 cm_7_origination:
@@ -2426,7 +2427,6 @@ cm_8_status:
   - "implemented"
 cm_8_origination:
   - "sys"
-  - "inherited"
 cm_8_a_implementation: |
   O365:
   Parts 1,2,3,4:
@@ -4945,7 +4945,9 @@ pl_1_status:
 pl_1_origination:
   - "sys"
 pl_1_a_implementation: |
-  The Office 365 Information Security Policy provides the overarching security guidance for Office 365. This document addresses the purpose, scope, roles, responsibilities, compliance requirements, and required coordination among the various Microsoft organizations providing some level of support for the security of Office 365. Policies are distributed to roles providing support for security planning via SharePoint.
+ Part 1:
+ O365:
+ The Office 365 Information Security Policy provides the overarching security guidance for Office 365. This document addresses the purpose, scope, roles, responsibilities, compliance requirements, and required coordination among the various Microsoft organizations providing some level of support for the security of Office 365. Policies are distributed to roles providing support for security planning via SharePoint.
 
   Part 2:
   O365:
@@ -6340,10 +6342,7 @@ sc_7_12_status:
 sc_7_12_origination:
  - "sys"
 sc_7_12_implementation: |
- O365:
- All Windows machines within Office 365 implement host-based boundary protection using Windows Firewall. Office 365 Security PAVC scanning mechanisms ensure the Windows Firewall is enabled.
-
- Additionally, for some service teams, host-based boundary protection is implemented through Azure network security group (NSG) rules or by configuring the Iptables command line utility.
+ {{sc_7_12_implementation}}
 sc_7_13_role: |
  Azure, O365 Trust Program Manager
 sc_7_13_parameter: |
@@ -6422,7 +6421,7 @@ sc_8_origination:
 sc_8_implementation: |
  {{sc_8_implementation}}
 sc_8_1_role: |
- Azure, O365 Security Manager, Service Engineer Operations
+ Azure, O365 Security Manager, Service Engineer Operations{{sc_8_1_role}}
 sc_8_1_1_parameter: |
  {{sc_8_1_1_parameter}}
 sc_8_1_2_parameter: |
@@ -6432,6 +6431,7 @@ sc_8_1_status:
 sc_8_1_origination:
  - "sys"
 sc_8_1_implementation: |
+ {{sc_8_1_implementation}}
  O365:
  Office 365 uses encryption to prevent unauthorized disclosure of information and detect changes to information during transmission. Specifically, Office 365 provides FIPS 140-2 validated ciphers that include integrity validation for customer connections, interconnected system connections, and remote access connections to Office 365.
 
@@ -6510,14 +6510,7 @@ sc_12_3_status:
 sc_12_3_origination:
  - "hybrid"
 sc_12_3_implementation: |
- EXO, IP:
- Office 365 produces, controls and distributes asymmetric cryptographic keys using approved PKI Class 3 certificates. Asymmetric key generation is initiated within Central Admin in the capacity forest where the corresponding certificate will be validated. A public-private key pair is generated by Central Admin. The private key is immediately encrypted and stored in the Central Admin secret store; it is never transmitted outside the boundary and the Central Admin secret store will not allow the private key to be viewed or exported. The Central Admin secret store will only allow the private key to be used to sign requests via API. The corresponding public key is placed in a CER file, which is sent to CertDojo via a FIPS 140-2 validated TLS internal network connection. CertDojo then signs the public key with its root certificate and returns the signed public key for distribution.
-
- AFS, Bing, CIA, CII, IS, Loki, MSTeams, ORAS, OSI, SFB, SUE, WAC:
- Office 365 produces, controls and distributes asymmetric cryptographic keys using approved PKI Class 3 certificates. Signed certificates are obtained from CertDojo. Specifically, key generation is initiated on the servers that are to have keys installed. The public key is sent to CertDojo, which then in turn creates the public key CER file. The CER file is then copied to the server over a secured internal network. Once the CER file is received, the PFX (complete key) file is created by combining the private key with the CER file. The PFX file is copied over secure networks to cluster nodes. Once installation is complete the PFX key is then deleted from all servers involved in key creation and stored in an approved secret store.
-
- SCS, SPO:
- Office 365 produces, controls and distributes asymmetric cryptographic keys using approved PKI Class 3 certificates. Signed certificates are obtained from CertDojo. Specifically, key generation is initiated on the SPO Crypto Server in Corpnet. The public key is sent to CertDojo, which then in turn creates the public key CER file. The CER file is then copied to the server over a secured internal network. Once the CER file is received, the PFX (complete key) file is created by combining the private key with the CER file. The PFX file is copied over secure networks to Grid Secrets or Azure KeyVault within the SPO environment, to be installed. Once installation is complete the PFX key is then deleted from all servers involved in key creation.
+ {{sc_12_3_implementation}}
 sc_13_role: |
  Customer Administrator, O365 Security Manager, Service Engineer Operations
 sc_13_parameter: |
@@ -6816,6 +6809,7 @@ si_2_1_implementation: |
 si_2_2_role: |
  O365 Security Manager
 si_2_2_parameter: |
+ {{si_2_2_parameter}}
  At least monthly
 si_2_2_status:
  - "implemented"
@@ -7365,6 +7359,7 @@ si_16_origination:
 si_16_implementation: |
  O365:
  Windows has protections in place for preventing code execution in restricted memory locations: No Execute (NX), Address Space Layout Randomization (ASLR), and Data Execution Prevention (DEP). Additionally, Microsoft requires secure coding practices including explicit consideration for safe memory handling requirements.
+
  See the following TechNet articles for more information about these protections:
  	• http://technet.microsoft.com/en-us/library/aa366553.aspx
  	• http://technet.microsoft.com/en-us/library/bb457155.aspx
