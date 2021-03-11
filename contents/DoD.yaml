@@ -6556,7 +6556,7 @@ ra_3_d_parameter: |
  ISSM, ISSO, AO, and PM
 ra_3_e_parameter: |
   At least annually or whenever a significant change occurs
- At least every three years or when a significant change occurs
+  At least every three years or when a significant change occurs
 ra_3_status:
  -
 ra_3_origination:
@@ -8594,7 +8594,7 @@ ul_1_implementation: |
 
  O365:
  Office 365 does not store or use customer content.
-
+ul_1_ext_implementation: |
  Customer Responsibility (Ext):
  Customers are responsible for ensuring that all PII must be used for an official government purpose only. The officers and employees of the organization must have a need for the PII in the performance of their official duties. These requirements apply to all PII regardless of its coverage by the Privacy Act.
 

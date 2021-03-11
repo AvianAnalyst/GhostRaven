@@ -2343,7 +2343,7 @@ cm_7_role: |
   O365 Security Manager, Service Engineer Operations
 cm_7_parameter: |
   O365 Ports Protocols and Services Blacklist
- {{cm_7_parameter}}
+  {{cm_7_parameter}}
 cm_7_status:
   - "implemented"
 cm_7_origination:
