@@ -604,13 +604,13 @@ ac_6_7_status:
 ac_6_7_origination:
  -
 ac_6_7_a_implementation: |
- Customer Responsibility
+ Customer Responsibility:
  Government and non-government customers are responsible for reviewing user privileges.
 
  O365:
  Office 365 reviews privileged accounts at least annually.
 ac_6_7_b_implementation: |
- Customer Responsibility
+ Customer Responsibility:
  Government and non-government customers are responsible for reassigning or removing privileges for customer-controlled accounts when appropriate.
 
  O365:

@@ -20,13 +20,13 @@ gcch_builder = SSPBuilder('templates/GCCHFinalSSP_Template.docx', gcch_document_
 gcch_builder.build_ssp()
 gcch_builder.save('output/gcch_output.docx')
 
-with open('contents/universal.yaml') as universal_contents, open('templates/dod_checkbox_templates.yaml') as checkboxes:
-    dod_document_contents = ContentBuilder(checkboxes, universal_contents)
-with open('contents/DoD.yaml') as environment_contents:
-    dod_document_contents.add_contents(environment_contents)
-with open('contents/GCCHOnly.yaml') as environment_contents:
-    dod_document_contents.add_contents(environment_contents)
-
-dod_builder = SSPBuilder('templates/DoDFinalSSP_Template.docx', dod_document_contents.contents)
-dod_builder.build_ssp()
-dod_builder.save('output/dod_output.docx')
+# with open('contents/universal.yaml') as universal_contents, open('templates/dod_checkbox_templates.yaml') as checkboxes:
+#     dod_document_contents = ContentBuilder(checkboxes, universal_contents)
+# with open('contents/DoD.yaml') as environment_contents:
+#     dod_document_contents.add_contents(environment_contents)
+# with open('contents/GCCHOnly.yaml') as environment_contents:
+#     dod_document_contents.add_contents(environment_contents)
+#
+# dod_builder = SSPBuilder('templates/DoDFinalSSP_Template.docx', dod_document_contents.contents)
+# dod_builder.build_ssp()
+# dod_builder.save('output/dod_output.docx')
