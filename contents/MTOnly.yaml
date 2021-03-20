@@ -240,7 +240,7 @@ ac_2_4_implementation: |
  Auditing of Azure Portal accounts is inherited from Azure, which has a FedRAMP IaaS/PaaS P-ATO (package ID F1209051525). Azure performs auditing of privileged user accounts through an event forwarding tool, which provides a record of all changes made to accounts and notifies the Security Incident Management (SIM) team for any suspicious activities. The account management tools logs account creation, modification, and disablement actions. Monitoring is in place to record all changes to accounts in the Azure managed domains. Alerts are generated to the workflow ticketing tool if anyone other than the members of the Online Services Security Accounts and Access team or the account management tool service account modifies a user account or security group in the Azure managed domains. Network device access is audited via logs from the Azure managed CISCO ACS system.
 ac_2_5_role: |
 ac_2_5_parameter: |
- Inactivity is anticipated to exceed fifteen (15) minutes
+ Inactivity is anticipated to exceed ten (10) minutes
 ac_2_5_status:
  -
 ac_2_5_origination:
@@ -906,9 +906,9 @@ ac_17_a_implementation: |
  Office 365 personnel do not have physical access to datacenters. Each service team implements remote access through the use of a Terminal Services Gateway (TSG) managed by ORAS or inherited from Azure to gain remote access to Office 365. Some service teams require the use of Secure Access Workstations (SAWs) to establish remote sessions into the Office 365 MT production environment via the TSGs. Government customers do not have access to authenticate to Office 365 MT via the TSGs.
 
  Usage restrictions and connection/configuration requirements for Office 365 personnel are established in the Terminal Services Gateways by Active Directory-managed Group Policy. These policies include the bulleted implementation guidance of configuration/connection requirements listed below and are available for review:
- •	 TSG servers are configured to only use FIPS 140-2 validated encryption
- •	TSG sessions are configured to disconnect after 15 minutes of inactivity
- •	 TSG sessions are configured to automatically log off after 24 hours, terminating the network session
+ • TSG servers are configured to only use FIPS 140-2 validated encryption
+ • TSG sessions are configured to disconnect after 10 minutes of inactivity
+ • TSG sessions are configured to automatically log off after 24 hours, terminating the network session
 ac_17_b_implementation: |
  Customer Responsibility:
  Remote access is how government customers are expected to interact with Office 365. Office 365 expects all government and non-government customers to have remote access. Government customers are responsible for authorizing their users to access Office 365 and in doing so authorize them to use the system remotely. By default, customers do not have remote access to Office 365 until an account is created for them by their customer administrator.

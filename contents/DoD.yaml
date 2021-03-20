@@ -192,7 +192,7 @@ ac_2_4_implementation: |
  Auditing of Azure Portal accounts is inherited from Azure Government, which has a FedRAMP IaaS/PaaS P-ATO (package ID F1603087869). Azure performs auditing of privileged user accounts through an event forwarding tool, which provides a record of all changes made to accounts and notifies the Security Incident Management (SIM) team for any suspicious activities.
 ac_2_5_role: |
 ac_2_5_parameter: |
- Inactivity is anticipated to exceed fifteen (15) minutes
+ Inactivity is anticipated to exceed ten (10) minutes
  At the end of the users standard work period unless otherwise defined in formal organizational policy
 ac_2_5_status:
  -
@@ -998,7 +998,7 @@ ac_17_a_implementation: |
 
  Usage restrictions and connection/configuration requirements for Office 365 personnel are established in the Terminal Services Gateways by Active Directory-managed Group Policy. These policies include the bulleted implementation guidance of configuration/connection requirements listed below and are available for review:
  •	 TSG servers are configured to only use FIPS 140-2 validated encryption
- •	 TSG sessions are configured to disconnect after 15 minutes of inactivity
+ •	 TSG sessions are configured to disconnect after 10 minutes of inactivity
  •	 TSG sessions are configured to automatically log off after 24 hours, terminating the network session
 ac_17_b_implementation: |
  Customer Responsibility:
