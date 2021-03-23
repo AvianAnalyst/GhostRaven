@@ -56,7 +56,7 @@ ac_2_a_implementation: |
  Customer accounts are used by customer users to access the Office 365 product. Customer accounts are managed by the customer, see the "Customer Responsibility" section of this control for more information. Service accounts are used by service team services to authenticate to servers and other services.
 ac_2_b_implementation: |
  O365:
- Office 365 assigns account managers to each role type using account management tools such as IDM, IDWeb, and MyAccess.  These tools include workflows that enforce business rules.
+ Office 365 assigns account managers to each role type using IDM, which include workflows that enforce business rules.
 ac_2_c_implementation: |
  O365:
  Service teams establish conditions for group/role membership by defining and enforcing conditions for each group/role in account management tools. In addition, service teams use JIT Tools to enforce additional, more granular conditions for privilege escalation and approval for interactive sessions.
@@ -64,15 +64,15 @@ ac_2_c_implementation: |
  Office 365 establishes conditions for group and role membership based on least privilege necessary for a user to perform their assigned duties. Predetermined conditions are established when groups are created.
 ac_2_d_implementation: |
  O365:
- RBAC is used to identify and control the access privileges of each service team personnel. Access privileges vary depending on the role that a specified service team personnel will assume within the service team. Access privileges are defined in account management tools and enforced by Active Directory. In addition, service teams use JIT Tools to enforce additional, more granular conditions for privilege escalation and approval for interactive sessions.
+ Role Based Access Control (RBAC) is used to identify and control the access privileges of each service team personnel. Serice Teams define their roles in IDM which contain a list of eligibilities. Eligibilities vary depending on the role that a specified service team personnel will assume within the service team. Privileges are defined in the eligibilities and enforced by Active Directory.
 
- By default, these service team accounts initially belong to a security group that has remote system metadata read access, and no direct access to the production environment. If service team personnel need additional access to the production environment, they request that access and provide business justification using Just-In-Time (JIT) tools. Service team personnel with the access approver role then review and approve or deny the type of access requested. Access is only provided for a finite period of time based on the expected duration of the work to be performed. If access is approved, JIT tools assign the service team personnel to security groups with the minimum permissions required to perform the work and automatically revokes permissions at the end of the specified time period.
+ By default, these service team accounts initially belong to a security group that has remote system metadata read access, and no direct access to the production environment. If service team personnel need additional access to the production environment, they request that access and provide business justification using Just-In-Time (JIT) tools.
 ac_2_e_implementation: |
  O365:
  In order to gain access to the production environment, service team personnel must first request access via the account management tools; access to the production environment is provided via security group membership. Approval to establish the account from the service team’s management is required for a service team administrator to be added to the appropriate security group. These approvals are tracked and enforced by account management tools.
 ac_2_f_implementation: |
  O365:
- Account changes are managed through account management tools in accordance with Office 365 SOP. The Office 365 Information Security Policy and rules have been defined in account management tools which provide an automated workflow that allows service teams to track account requests, approvals, creations, modifications, and deletions. Service team managers are responsible for approving account lifecycle events in account management tools, ensuring that Office 365 establishes, activates, modifies, disables, and removes accounts appropriately.
+ Account changes are managed through IDM in accordance with Office 365 GCC High and DoD Standard Operating Procedures (SOP). The Office 365 Information Security Policy and rules have been defined in account management tools which provide an automated workflow that allows service teams to track account requests, approvals, creations, modifications, and deletions. Service team managers are responsible for approving account lifecycle events in account management tools, ensuring that Office 365 establishes, activates, modifies, disables, and removes accounts appropriately.
 ac_2_g_implementation: |
  Customer Responsibility:
  Government customers using ADFS are responsible for monitoring the use of information system accounts managed by their AD. See AU-2, AU-3, AU-6, and SI-4 for more details about these responsibilities.
@@ -85,10 +85,8 @@ ac_2_h_implementation: |
  Office 365 uses  account management tools that allow service teams to track the account management process through account request, approval, creation, modification, and deletion. As changes occur, the corresponding account manager is notified of the changes that require their approval. Information system usage and need-to-know are mapped to the roles defined by each service team. When an employee is transferred or their employment is terminated, the account management tools will automatically revoke the associated account's access to the privileges mapped to their previous role.
 ac_2_i_implementation: |
  Part 1,2,3:
- O365:
- Office 365 Membership in security groups that give access to the system is given only to those in specific roles that require system access. Service team managers are responsible for approving group membership. The managers validate that the user requires access to the production environment to fulfill their duties and support Office 365. Access is granted based on this valid access authorization and documented intended systems usage consistent with the permission type and conditions for group membership.
-
- In addition, some teams use JIT tools to enforce additional, more granular conditions. If intended system usage requires approval additional approval must be granted to gain access. The On-Call approver is responsible for validating that the requested just in time permissions are required to support the mission/business functions of Office 365.
+ AFS, Bing, CIA, EXO, IP, IS, Loki, MSTeams, ORAS, OSI, SCS, SFB, SPO, SUE, WAC:
+ Office 365 GCC High and DoD Membership in security groups that give access to the system is given only to those in specific roles that require system access. Service team managers are responsible for approving group membership. Service team personnel with the access approver role then review and approve or deny the type of access requested. Access is only provided for a finite period of time (no more than 24 hours) based on the expected duration of the work to be performed. If access is approved, Torus assigns the service team personnel to eligibilities with the minimum permissions required to perform the work and automatically revokes permissions at the end of the specified time period. The managers validate the eligibilities requested and justification provided and grant access once validated.
 ac_2_j_implementation: |
  O365:
  The Office 365 service teams review service team administrator accounts at least monthly.
@@ -143,11 +141,10 @@ ac_2_3_origination:
 ac_2_3_implementation: |
  Customer Responsibility:
  Government customers are responsible for automatically disabling inactive government customer accounts, in compliance with their organizational policies, using their Active Directory (AD) infrastructure (no more than 35 days for DISA SRG compliance). Government users authenticate to government owned ADFS servers which utilize the government AD infrastructure to identify, authenticate, and apply permissions to that user’s session. The government ADFS server then communicates that identification/authentication and the associated permissions to AAD via SAML2.0 ticket.
-
  For information regarding how to manage user accounts in AD, see TechNet article #754661: http://technet.microsoft.com/en-us/library/cc754661.aspx
 
- O365:
- Service team personnel accounts are automatically disabled after no more than 35 days of inactivity.
+ AFS, Bing, CIA, EXO, IP, IS, Loki, MSTeams, ORAS, OSI, SCS, SFB, SPO, SUE, WAC:
+ Service team debug accounts are automatically disabled after their Torus session is completed. Torus sessions last no longer than 24 hours.
 ac_2_4_role: |
 ac_2_4_parameter: |
 ac_2_4_status:
@@ -233,7 +230,7 @@ ac_2_11_2_parameter: |
 ac_2_11_status:
  -
 ac_2_11_origination:
- - "cust_configured"
+ -
 ac_2_11_implementation: |
  Customer Responsibility:
  Government customers using ADFS are responsible for enforcing the appropriate usage and time-based usage restrictions for all customer-controlled accounts.
@@ -256,14 +253,14 @@ ac_2_12_a_implementation: |
  Customer Responsibility:
  Government customers using ADFS are responsible for defining atypical use and monitoring for that use on their ADFS infrastructure. Government customers can additionally review Office 365 application logs and analyze them for atypical use.
 
- O365:
- Office 365 uses Near Real Time (NRT) Monitoring and automated security alerting tools to monitor for atypical use and indications of compromise, as directed by the Office 365 Security team.
+ AFS, Bing, CIA, EXO, IP, IS, Loki, MSTeams, ORAS, OSI, SCS, SFB, SPO, SUE, WAC:
+ Office 365 uses Near Real Time (NRT) Monitoring for security alerting and monitoring, which has two high-level methods of alerting. an alert can be configured to fire on a specific event or when multiple events correlate to show an indication of compromise.
 ac_2_12_b_implementation: |
- O365:
- Office 365 follows normal incident reporting procedures if atypical usage is detected. These procedures require reporting incidents to the Office 365 Security Incident & Response (SIR) team.
+ AFS, Bing, CIA, EXO, IP, IS, Loki, MSTeams, ORAS, OSI, SCS, SFB, SPO, SUE, WAC:
+ Office 365 GCC High follows normal incident reporting procedures if an indication of comrpromise is detected. These procedures require reporting incidents to the Office 365 Security Incident & Response.
 ac_2_13_role: |
 ac_2_13_parameter: |
- One (1) hour
+ Immediately
 ac_2_13_status:
  -
 ac_2_13_origination:
@@ -396,14 +393,11 @@ ac_5_origination:
 ac_5_a_implementation: |
  Customer Responsibility:
  Government customers are responsible for separating duties of their organizational users as necessary, to prevent malevolent activity without collusion in compliance with their organizational policies.
-
  Government customers using ADFS will manage their user accounts in their existing Active Directory infrastructure. For information regarding how to manage user accounts in Active Directory, see TechNet article #754661: http://technet.microsoft.com/en-us/library/cc754661.aspx
 
- O365:
+ AFS, Bing CIA, EXO, IP, IS, Loki, MSTeams, ORAS, OSI, SCS, SFB, SPO,SUE, Wac:
  Service team administrators are assigned to roles, which have a defined list of available permissions (RBAC). The separation of duties is documented through eligibilities (roles) assigned to service team administrators in account management tools. Each service team identifies roles that, if shared by a single person, would allow for malicious activity without collusion. When such role pairs exist, no individual is allowed to belong to both roles. Account permissions and role access are reviewed as part of the monthly account review process.
-
  Additionally, some service team administrators are required to request privileged access to the production environment and provide a business justification using JIT tools. A different service team administrator with the access approver role then reviews and either approves or denies the type of access requested. Access is only provided for a finite period of time based on the expected duration of the work to be performed. If access is approved, the JIT tools assign the service team administrator the minimum permissions required to perform the work and automatically revoke permissions at the end of the specified time period.
-
  Implementing access control using JIT tools effectively prevents malevolent activity without collusion, as an individual has to review and approve the requestor's access request and would deny requests that would violate separation of duties requirements.
 ac_5_b_implementation: |
 ac_5_c_implementation: |

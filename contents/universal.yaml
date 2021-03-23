@@ -34,6 +34,7 @@ ac_2_origination:
  - "sys"
  - "cust_configured"
  - "cust_provided"
+ - "inherited"
 ac_2_a_implementation: |
  {{ac_2_a_implementation}}
 ac_2_b_implementation: |
@@ -96,7 +97,7 @@ ac_2_3_implementation: |
 ac_2_4_role: |
  Customer Administrator, O365 Security Manager, O365 Trust Program Manager, Service Engineer Operations
 ac_2_4_parameter: |
-  System administrator and ISSO
+  Service Provider System Owner
 ac_2_4_status:
  - "implemented"
 ac_2_4_origination:
@@ -162,10 +163,12 @@ ac_2_11_role: |
 ac_2_11_1_parameter: |
  Time-based access control
 ac_2_11_2_parameter: |
+ {{ac_2_11_2_parameter}}
 ac_2_11_status:
  - "implemented"
 ac_2_11_origination:
  - "sys"
+ - "cust_configured"
 ac_2_11_implementation: |
  {{ac_2_11_implementation}}
 ac_2_12_role: |
