@@ -1755,13 +1755,15 @@ ca_3_origination:
  - "sys"
  - "cust_provided"
 ca_3_a_implementation: |
- O365:
- Office 365 authorizes connections from the information system to other information systems outside of the authorization boundary through the use of vendor agreements, MOUs, Interconnection Security Agreements (ISAs), Terms and Conditions (T&C), and/or SLAs.
+ AFS, Bing, CIA, EXO, IP, IS, Loki, MSTeams, ORAS, OSI, SCS, SFB, SPO, SUE, WAC:
+ Office 365 authorizes connections from the information system to other information systems outside of the authorization boundary through the use of vendor agreements, Memoranda of Understanding (MOU), Interconnection Security Agreements (ISA), Terms and Conditions (T&C), and/or Service Level Agreements (SLA). Microsoft has developed the necessary vendor agreements, MOUs, ISAs, SLAs that document connections outside of the Federal authorization boundary. An ISA between Microsoft and customer will be developed if deemed necessary by the customer.
 
- Microsoft has developed the necessary vendor agreements, MOUs, ISAs, T&Cs, and SLAs that document connections outside of the Federal authorization boundary. An ISA between Microsoft and customer will be developed if deemed necessary by the customer. ISAs are not required for interconnections with internal Microsoft services.
+ Microsoft internal connections to other Microsoft services like Azure services are tracked with internal tools. Before an internal connection to an existing Microsoft service can be made, the connection must undergo a security and compliance review and approval process.
 ca_3_b_implementation: |
- O365:
- Office 365 Trust is responsible for developing and maintaining MOUs, ISAs, SLAs, and T&C documents for Office 365. These documents include the interface characteristics, security requirements and the nature of the information being communicated with third parties.
+ AFS, Bing, CIA, EXO, IP, IS, Loki, MSTeams, ORAS, OSI, SCS, SFB, SPO, SUE, WAC:
+ Office 365 Trust is responsible for developing and maintaining Memoranda of Understanding (MOU), Interconnection Security Agreements (ISA), Terms and Conditions (T&C), and/or Service Level Agreements (SLA) documents for Office 365 GCC High and DoD. These documents include the interface characteristics, security requirements and the nature of the information being communicated with third parties.
+
+ Microsoft internal connections to Microsoft services are tracked in the service tree entry for each Office 365 service. Service tree also tracks the characteristics and information processed by each service.
 ca_3_c_implementation: |
  {{ca_3_c_implementation}}
 ca_3_1_role: |
@@ -2297,7 +2299,7 @@ cm_6_role: |
 cm_6_a_1_parameter: |
   {{cm_6_a_1_parameter}}
 cm_6_a_2_parameter: |
-  SCAP compatible configuration setting checklists
+  SCAP compatible configuration settings checklists
 cm_6_c_1_parameter: |
   {{cm_6_c_1_parameter}}
 cm_6_c_2_parameter: |
@@ -3375,7 +3377,7 @@ ia_2_9_implementation: |
 ia_2_11_role: |
   Azure, O365 Security Manager, Service Engineer Operations
 ia_2_11_parameter: |
-  Approved PKI Class 3 Certificates; FIPS 140-2, NIAP* Certification, NSA Approval
+  FIPS 140-2
 ia_2_11_status:
   - "implemented"
 ia_2_11_origination:
@@ -3464,7 +3466,7 @@ ia_4_4_implementation: |
 ia_5_role: |
   Customer Administrator, MSIT, Service Engineer Operations
 ia_5_g_parameter: |
-  Sixty (60) days
+  No more than 60 days
 ia_5_status:
   - "implemented"
 ia_5_origination:
