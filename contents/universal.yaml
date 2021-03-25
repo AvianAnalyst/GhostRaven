@@ -4090,7 +4090,7 @@ ir_7_2_b_implementation: |
 ir_8_role: |
  BCM, Program Manager
 ir_8_a_8_parameter: |
- At a minimum, the ISSM and ISSO
+ Office 365 Security Incident & Response (SIR) Team
 ir_8_b_parameter: |
  All stakeholders identified in the incident response plan
 ir_8_c_parameter: |
@@ -4130,7 +4130,7 @@ ir_8_a_implementation: |
 
  Part 8:
  O365:
- The IR plan is reviewed and approved annually by an Incident Manager.
+ The IR plan is reviewed and approved annually by the Office 365 Security Incident & Response (SIR) team.
 ir_8_b_implementation: |
  O365:
  The IR plan is posted on the internal Office 365 SharePoint. The IR plan is also communicated as a part of the annual security training provided for Office 365 personnel. When updates are made, the personnel filling roles and responsibilities named in the plan are notified via email.
@@ -5049,8 +5049,8 @@ pl_4_1_status:
 pl_4_1_origination:
   - "sys"
 pl_4_1_implementation: |
-  O365:
-  In accordance with the Rules of Behavior, Office 365 personnel are expected to follow Microsoft Corporate, External, and Legal Affairs (CELA) guidelines for the use of social media and networking sites.
+ O365:
+ In accordance with the Rules of Behavior, Office 365 MT personnel are expected to follow Microsoft Corporate, External, and Legal Affairs (CELA) guidelines for the use of social media and networking sites.
 pl_8_role: |
   O365 Trust Program Manager
 pl_8_b_parameter: |
@@ -5319,7 +5319,7 @@ ps_4_f_implementation: |
  Office 365 government customers are responsible for notifying the proper personnel upon termination of their organizational users consistent with their internal policies and guidelines.
 
  O365:
- When a person’s employment with Microsoft is terminated the employee’s manager is notified within 24 hours.
+ When a person’s employment with Microsoft is terminated HR and the employee’s manager is notified within 24 hours.
 ps_4_1_role: |
  {{ps_4_1_role}}
 ps_4_1_status:
@@ -5612,9 +5612,7 @@ ra_5_5_origination:
  - "sys"
 ra_5_5_implementation: |
  O365:
- Office 365 uses vulnerability scanning tools that are configured with privileged access credentials for all system components and for all operating system and database scanning activities.
-
- Vulnerability scans of operating systems, web applications, and databases are conducted using vulnerability scanning tools with applicable web application and database plugins enabled or specialized tools where appropriate.
+ BeyondTrust is configured with privileged access credentials for all system components and for operating systems, databases, and web applications.
 ra_5_6_role: |
  O365 Security Manager, Service Engineer Operations
 ra_5_6_status:
@@ -5623,7 +5621,7 @@ ra_5_6_origination:
  - "sys"
 ra_5_6_implementation: |
  O365:
- Office 365 Security has automated reporting to compare scan results over time. These reports are updated daily and are available to authorized personnel on the Office 365 Patching and Vulnerability Compliance (PAVC) dashboard.
+ Office 365 Security has automated reporting to compare scan results over time. These reports are updated daily the web application scans and are available to authorized personnel on the Office 365 Patching and Vulnerability Compliance (PAVC) dashboard and are automated for trend analysis.
 ra_5_8_role: |
  O365 Security Manager
 ra_5_8_status:
@@ -5641,7 +5639,7 @@ ra_5_10_origination:
  - "sys"
 ra_5_10_implementation: |
  O365:
- Office 365 Security Incident Response (SIR) is responsible for reviewing newly identified high findings and determining if they could have possibly been exploited; this determination includes reviews of audit logs as determined necessary by Office 365 Security Operations. This process involves using scan data for vulnerability exploitation exercises, including vulnerabilities that have multi-hop attack vectors.
+ Office 365 Security Incident Response (SIR) is responsible for reviewing newly identified high findings and determining if they could have possibly been exploited, Vanquish supplements with identifying any indicators of compromise. This determination includes reviews of audit logs to determine any presence of multi-vulnerability/multi-hop attack vectors as determined necessary by Office 365 Security Operations. This process involves using scan data for vulnerability exploitation exercises, including vulnerabilities that have multi-hop attack vectors.
 sa_1_role: |
  O365 Trust Program Manager
 sa_1_a_parameter: |
@@ -5952,7 +5950,7 @@ sa_11_a_implementation: |
  • Phase 4 – Verification
  • Phase 5 – Release
 
- Office 365, as part of its federal operations, will undergo a Security Testing and Evaluation (ST&E) process from an independent assessor. That assessor will perform a detailed evaluation based on NIST SP 800-53A, and as outlined in the Security Assessment Plan which will eventually be developed to support their test plan and procedures.
+ Office 365, as part of its federal operations, will undergo a Security Testing and Evaluation (ST&E) process internally. Microsoft will perform a detailed evaluation based on NIST SP 800-53A, and as outlined in the Security Assessment Plan which will eventually be developed to support their test plan and procedures.
 sa_11_b_implementation: |
  O365:
  Office 365 performs system, integration and regression security testing prior to release and before changes are made to existing features and functionality.
@@ -5963,11 +5961,11 @@ sa_11_c_implementation: |
  Security tests are an essential part of Microsoft’s Secure Development Lifecycle (SDL) process. The results of security tests are documented in tickets opened in ticketing tools. Remediation work and successful retesting is documented in the same ticket. These tickets are provided as evidence of security testing and evaluation during a security assessment.
 sa_11_d_implementation: |
  O365:
- Office 365 takes steps to ensure its flaw remediation process is auditable and its results are verifiable.
+ Office 365 performs system, integration and regression security testing prior to release and before changes are made to existing features and functionality.
 
- A formal review process is implemented to ensure that new or modified source code is developed in a secure fashion, no malicious code has been introduced into the system, and that proper coding practices are followed. The reviewers’ names, review dates, and review results are documented in ticketing tools, and maintained for audit purposes.
+ A formal review process is implemented to ensure that new or modified source code authored by Microsoft’s online services staff is developed in a secure fashion, no malicious code has been introduced into the system, and that proper coding practices are followed. The reviewers’ names, review dates, and review results are documented in ticketing tools, and maintained for audit purposes.
 
- A formal security quality assurance process is implemented to test for vulnerabilities to known security exposures and exploits. The process includes the use of automated security testing tools described in SA-03 part a and requires that all high vulnerabilities get remediated before the system will be released to production. A ticket for each vulnerability is opened in ticketing tools and tracked to resolution.
+ A formal security quality assurance process is implemented to test for vulnerabilities to known security exposures and exploits. The process includes the use of automated security testing tools and requires that all high vulnerabilities get remediated before the system will be released to production
 sa_11_e_implementation: |
  O365:
  Flaws identified during testing are remediated prior to release. The results of the security tests are documented in tickets opened in ticketing tools. Remediation work and successful retesting is documented in the same ticket.
@@ -5982,6 +5980,12 @@ sa_11_1_origination:
 sa_11_1_implementation: |
  O365:
  Code reviews are performed, including use of the automated static code analysis tools. The results of the code analysis and reviews are documented in the ticketing tools.
+
+ Office 365 uses an internal tool named Roslyn which performs system, integration and regression security testing prior to release and before changes are made to existing features and functionality. The results of the security tests are documented in the tool as well as in the development workflow tickets. Remediation work and successful retesting is documented in the same ticket.
+
+ A formal review process is implemented to ensure that new or modified source code authored by Microsoft’s online services staff is developed in a secure fashion, no malicious code has been introduced into the system, and that proper coding practices are followed. The reviewers’ names, review dates, and review results are documented in ticketing tools, and maintained for audit purposes.
+
+ A formal security quality assurance process is implemented to test for vulnerabilities to known security exposures and exploits. The process includes the use of automated security testing tools and requires that all high vulnerabilities get remediated before the system will be released to production.
 sa_11_2_role: |
  Developer, Tester
 sa_11_2_status:
@@ -6150,13 +6154,15 @@ sc_2_status:
 sc_2_origination:
  - "sys"
 sc_2_implementation: |
- O365:
- Office 365 achieves application partitioning by utilizing three distinct groups of roles for accessing system functionality. These groups of roles are segregated using Active Directory (AD). These roles are described as follows:
- 	• Administrative Backend – This group is where Office 365 service team administrators manage the Operating System-level functions and systems. No Office 365 customer user or customer administrator has access to these functions, as it is strictly provisioned for those managing the underlying technologies that support the Office 365 infrastructure.
- 	• Customer Administration – This group is where administrators from the customer side have the ability to customize the experience and configurations for the customer users of Office 365 for their specific organization. Other limited configuration options are provided as a part of the Office 365 service which is restricted to customer administrators. These interfaces are specifically restricted to customer administrators.
- 	• Customer User Level Access – This role is strictly for providing access to the Office 365 service for functions used by the customer users, for example for customer users to access Exchange Online.
+ AFS, Bing, IS, Loki, ORAS, OSI, SCS:
+ Office 365 GCC High and DoD achieves application partitioning by utilizing three distinct groups of roles for accessing system functionality. These groups of roles are segregated using Active Directory (AD). These roles are described as follows:
+ •	Administrative Backend – This group is where Office 365 service team administrators manage the Operating System-level functions and systems. No Office 365 GCC High and DoD customer user or customer administrator has access to these functions, as it is strictly provisioned for those managing the underlying technologies that support the Office 365 GCC High and DoD infrastructure.
 
- Office 365 employs customer-facing software for use by customers, and administrative OS functions to be carried out by Office 365 service team administrators. AD restrictions are put into place to prevent a customer user from being able to access any customer administration or Office 365 administrative backend functions. Customer users, customer administrators, and Office 365 administrators are completely segregated from each other and are not able to access resources outside of their respective designated roles.
+
+ CIA, EXO, IP, MSTeams, SFB, SPO, SUE, WAC:
+ Office 365 GCC High and DoD achieves application partitioning by utilizing three distinct groups of roles for accessing system functionality. These groups of roles are segregated using Active Directory (AD). These roles are described as follows:
+ •	Administrative Backend – This group is where Office 365 service team administrators manage the Operating System-level functions and systems. No Office 365 GCC High and DoD customer user or customer administrator has access to these functions, as it is strictly provisioned for those managing the underlying technologies that support the Office 365 GCC High and DoD infrastructure.
+ •	Customer Administration – This group is where administrators from the customer side have the ability to customize the experience and configurations for the customer users of Office 365 GCC High and DoD for their specific organization. Other limited configuration options are provided as a part of the Office 365 GCC High and DoD service which is restricted to customer administrators. These interfaces are specifically restricted to customer administrators.
 sc_2_ext_implementation: |
  {{sc_2_ext_implementation}}
 sc_3_role: |
@@ -6490,7 +6496,7 @@ sc_12_1_origination:
  - "cust_provided"
 sc_12_1_implementation: |
  Customer Responsibility:
- The customer is responsible for maintaining the availability of information in the event of the loss of cryptographic keys by users.
+ The customer is responsible for maintaining the availability of information in the event of the loss of cryptographic keys by users. Customers have the ability to use availability keys to recover data if a customer key is lot. Details about using customer keys to encrypt data can be found here: https://docs.microsoft.com/en-us/microsoft-365/compliance/customer-key-overview?view=o365-worldwide
 
  O365:
  If an Office 365 administrator loses his or her YubiKey, he or she follows standard corporate processes to obtain a new one. The new YubiKey will be associated with the same account, ensuring that no information is lost. Office 365 service teams store their Storage Account Keys within a secure Secret Store, which tracks and monitors access to secrets. This ensures that the Storage Account Key will never be lost.
@@ -6521,7 +6527,7 @@ sc_13_role: |
 sc_13_parameter: |
  {{sc_13_parameter}}
 sc_13_status:
- - "implemented"
+ - "alt"
 sc_13_origination:
  - "sys"
  - "cust_provided"
@@ -7033,7 +7039,7 @@ si_4_16_implementation: |
 si_4_18_role: |
  O365 Security Manager, Service Engineer Operations
 si_4_18_parameter: |
- Terminal Service Gateways
+ Terminal Service Gateways, Hosts
 si_4_18_status:
  - "implemented"
 si_4_18_origination:
