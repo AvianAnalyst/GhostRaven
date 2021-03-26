@@ -1221,7 +1221,7 @@ at_3_4_status:
 at_3_4_origination:
  -
 at_3_4_implementation: |
- Customer Responsibility
+ Customer Responsibility:
  Customers are responsible for providing role-based training on suspicious communications and anomalous behavior within customer-deployed resources.
 
  O365:
@@ -3085,8 +3085,10 @@ ia_5_1_b_implementation: |
  Office 365 GCC High and DoD authenticators are managed by Torus. Upon a successful escalation request, Torus will generate a random one time use, 14 character long password.
 ia_5_1_c_implementation: |
 ia_5_1_d_implementation: |
+ O365:
  Torus JIT accounts are used to access the environment. Due to the short-lived nature of these accounts, there are no minimum or maximum lifetime restrictions on authenticators. When the life of an authenticator has ended, the service team member must re-request access, gain approval, and generate a new authenticator.
 ia_5_1_e_implementation: |
+ O365:
  Office 365 GCC High and DoD requires that 24 passwords be remembered.
 ia_5_1_f_implementation: |
  O365:
@@ -4560,7 +4562,7 @@ ps_3_3_a_implementation: |
  Customer Responsibility:
  Government customers are responsible for ensuring that their users accessing Office 365 have valid access authorizations that are demonstrated by their assigned official government duties.
 
- 365:
+ O365:
  Office 365 personnel are required to satisfy the “Cloud” or “GCC High” screening as appropriate.
 
  The "Cloud" background check includes checking:

@@ -1344,7 +1344,7 @@ au_6_4_implementation: |
 au_6_5_role: |
  O365 Security Manager, O365 Trust Program Manager, Service Engineer Operations
 au_6_5_parameter: |
- Vulnerability scanning information, performance data, information system monitoring information, penetration test data; no additional organization-defined data
+ Vulnerability scanning information, performance data, information system monitoring information, penetration test data
 au_6_5_status:
  - "implemented"
 au_6_5_origination:
@@ -3597,7 +3597,7 @@ ia_5_8_origination:
   - "cust_provided"
   - "inherited"
 ia_5_8_implementation: |
-  Customer Responsibility
+  Customer Responsibility:
   Government customers using ADFS to manage accounts for their organizational users are responsible for managing the risk imposed by users with multiple accounts on customer-deployed resources (e.g., having different authenticators on all systems, employing some form of single sign-on mechanism, or including some form of one-time passwords on all systems).
 
   O365:

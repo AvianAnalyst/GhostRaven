@@ -2,15 +2,15 @@ from GhostRaven.content_builder import ContentBuilder
 from GhostRaven.ssp_builder import SSPBuilder
 
 
-with open('contents/Universal.yaml') as universal_contents, open('templates/mt_checkbox_templates.yaml') as checkboxes:
-    mt_document_contents = ContentBuilder(checkboxes, universal_contents)
-with open('contents/MTOnly.yaml') as environment_contents:
-    mt_document_contents.add_contents(environment_contents)
-
-mt_builder = SSPBuilder('templates/MTFinalSSP_Template.docx', mt_document_contents.contents)
-mt_builder.build_ssp()
-mt_builder.save('output/mt_output.docx')
-
+# with open('contents/Universal.yaml') as universal_contents, open('templates/mt_checkbox_templates.yaml') as checkboxes:
+#     mt_document_contents = ContentBuilder(checkboxes, universal_contents)
+# with open('contents/MTOnly.yaml') as environment_contents:
+#     mt_document_contents.add_contents(environment_contents)
+#
+# mt_builder = SSPBuilder('templates/MTFinalSSP_Template.docx', mt_document_contents.contents)
+# mt_builder.build_ssp()
+# mt_builder.save('output/mt_output.docx')
+#
 with open('contents/Universal.yaml') as universal_contents, open('templates/gcch_checkbox_templates.yaml') as checkboxes:
     gcch_document_contents = ContentBuilder(checkboxes, universal_contents)
 with open('contents/GCCHOnly.yaml') as environment_contents:
