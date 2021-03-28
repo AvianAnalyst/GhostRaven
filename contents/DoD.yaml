@@ -493,7 +493,7 @@ ac_4_15_implementation: |
  Customer Responsibility (Privacy):
  Customers are responsible for enabling malware detection and analysis tools in any system prior to connection with the Office 365 environment.
 
- Office 365 (Privacy)
+ Office 365 (Privacy):
  Office 365 does not release information outside of the established system boundary with the exception of log data that is scrubbed and hashed before uploading to a repository service. The repository service that stores and reports log data. Office 365 scrubs logs of customer content before sending them to the repository service.
 
  All Office 365 Services use Microsoft Forefront Endpoint Protection (FEP) for detecting and eliminating malicious code.
