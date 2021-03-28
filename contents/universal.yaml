@@ -163,7 +163,7 @@ ac_2_11_role: |
 ac_2_11_1_parameter: |
  Time-based access control
 ac_2_11_2_parameter: |
- {{ac_2_11_2_parameter}}
+ Information system accounts with access to the production environment
 ac_2_11_status:
  - "implemented"
 ac_2_11_origination:
@@ -189,7 +189,7 @@ ac_2_12_b_implementation: |
 ac_2_13_role: |
  O365 Security Manager, O365 Trust Program Manager
 ac_2_13_parameter: |
- {{ac_2_13_parameter}}
+ Immediately
 ac_2_13_status:
  - "implemented"
 ac_2_13_origination:
@@ -2829,7 +2829,7 @@ cp_7_role: |
 cp_7_a_1_parameter: |
  {{cp_7_a_1_parameter}}
 cp_7_a_2_parameter: |
- {{cp_7_a_2_parameter}}
+ Service Provider Defined
 cp_7_status:
  - "implemented"
 cp_7_origination:
@@ -2994,8 +2994,10 @@ cp_9_1_status:
  - "implemented"
 cp_9_1_origination:
  - "sys"
+ - "inherited"
 cp_9_1_implementation: |
- {{cp_9_1_implementation}}
+ O365:
+ These service teams do not use any media backups. These service teams utilize data center replication solutions which tests for integrity after replication. Each service team's Business Continuity Plan indicates the procedures in place for the replication of Office 365 GCC High and DoD data. Near Real Time monitoring is used to alert on failures of service reliability and integrity that may necessitate a failover.
 cp_9_2_role: |
  Azure, Service Engineer Operations
 cp_9_2_status:
@@ -5603,7 +5605,7 @@ ra_5_4_implementation: |
 ra_5_5_role: |
  O365 Security Manager
 ra_5_5_1_parameter: |
- {{ra_5_5_1_parameter}}
+ operating systems, databases, web applications
 ra_5_5_2_parameter: |
  All scans
 ra_5_5_status:
@@ -7151,7 +7153,7 @@ si_6_b_parameter: |
 si_6_c_parameter: |
  O365 Security Manager
 si_6_d_parameter: |
- {{si_6_d_parameter}}
+ N/A
 si_6_status:
  - "implemented"
 si_6_origination:
