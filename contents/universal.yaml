@@ -160,7 +160,7 @@ ac_2_10_origination:
 ac_2_10_implementation: |
  {{ac_2_10_implementation}}
 ac_2_11_role: |
- Customer Administrator, O365 Security Manager, O365 Trust Program Manager
+ Customer Administrator, O365 Security Manager, O365 Trust Program Managerses
 ac_2_11_1_parameter: |
  Time-based access control
 ac_2_11_2_parameter: |
