@@ -83,7 +83,7 @@ ac_2_2_origination:
 ac_2_2_implementation: |
  {{ac_2_2_implementation}}
 ac_2_3_role: |
- Customer Administrator, O365 Security Manager, O365 Trust Program Manager, Service Engineer Operations
+ Customer Administrator, O365 Security Manager, O365 Trust Program Manager, Service Engineer Operation
 ac_2_3_parameter: |
   Thirty-five (35) days for user accounts
 ac_2_3_status:
