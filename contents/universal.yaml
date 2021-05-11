@@ -456,9 +456,9 @@ ac_7_origination:
  - "sys"
  - "cust_configured"
 ac_7_a_implementation: |
- {{ac_7_a_implementation}}
+ Office 365 has implemented an integrated defense against brute force attacks on privileged accounts rather than enforcing the FedRAMP recommendation of locking an account after 3 failed attempts in 15 minutes using AD Group Policy. GPO settings cover password authentication to endpoints. Access to endpoints first requires two-factor authentication. Office 365 leverages the PIN lockout feature on the YubiKeys to enforce a lockout after 6 consecutive failed attempts regardless of time. All Office 365 remote administration requires multi-factor authentication. Ofice 365 has adopted this alternative implementation as an operational requirement in order to ensure that customres have the ability to implement an organizationally specified policy for these same account settings. In addition, engineer accounts in the Office 365 domains (including the just in time (JIT) account created when an engineer needs elevated privileges) have machine generated random 15 character passwords which significantly increases the potential cost of a brute force attempt.
 ac_7_b_implementation: |
- {{ac_7_b_implementation}}
+ Office 365 leverages the PIN lockout feature on the YubiKey to enforce a lockout after 6 consecutive failed attempts regardless of time. Once PIN lockout is triggered, the YubiKey is dactivated and the engineer must perform a full re-enrollment, which requires multi-factor authentication and an approval from the engineer's manager.
 ac_7_2_role: |
  Customer Administrator, O365 Security Manager, O365 Trust Program Manager
 ac_7_2_1_parameter: |

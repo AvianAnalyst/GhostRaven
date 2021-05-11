@@ -538,16 +538,7 @@ ac_7_status:
 ac_7_origination:
  -
 ac_7_a_implementation: |
- Customer Responsibility:
- Government customers using ADFS are responsible for enforcing a limited number of consecutive invalid login attempts by a user during a defined time period in compliance with their organizational policies (not more than three attempts in 15 minutes for FedRAMP compliance). These customers will manage their account lockout policies in their existing Active Directory infrastructure. For information regarding account lockout policies, see the following link: http://technet.microsoft.com/en-us/library/hh994563%28v=ws.10%29.aspx
-
- AFS, Bing, CIA, EXO, IP, IS, Loki, MSTeams, ORAS, OSI, SCS, SFB, SPO, SUE, WAC:
- Office 365 has implemented an integrated defense against brute force attacks on privileged accounts rather than enforcing the FedRAMP recommendation of locking an account after 3 failed attempts in 15 minutes using AD Group Policy. Access to endpoints first requires two-factor authentication. Office 365 GCC High and DoD leverages the PIN lockout feature on YubiKeys to enforce a lockout after 6 consecutive failed attempts, regardless of time. All Office 365 GCC High and DoD remote administration requires multi-factor authentication.
-
- Office 365 GCC High and DoD has adopted this alternative implementation as an operational requirement in order to ensure that customers have the ability to implement an organizationally specified policy for these same account settings. In addition, engineer accounts in the Office 365 GCC High and DoD domains (including the just in time (JIT) account created when an engineer needs elevated privileges) have machine generated random 15-character passwords which significantly increases the potential cost of a brute force attempt. This alternative implementation is being tracked in POA&Ms ITAR-057 and ITAR-066.
 ac_7_b_implementation: |
- AFS, Bing, CIA, EXO, IP, IS, Loki, MSTeams, ORAS, OSI, SCS, SFB, SPO, SUE, WAC:
- Office 365 GCC High and DoD leverages the PIN lockout feature on YubiKeys. YubiKeys to enforce a lockout after 6 consecutive failed attempts regardless of time. Once PIN lockout is triggered, the YubiKey is deactivated and the engineer must perform a full re-enrollment, which requires multi-factor authentication and an approval from the engineer’s manager.
 ac_7_2_role: |
 ac_7_2_1_parameter: |
 ac_7_2_2_parameter: |
