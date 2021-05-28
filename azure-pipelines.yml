@@ -1,0 +1,33 @@
+# Starter pipeline
+# Start with a minimal pipeline that you can customize to build and deploy your code.
+# Add steps that build, run tests, deploy, and more:
+# https://aka.ms/yaml
+
+trigger:
+  tags:
+    include:
+      - '*'
+
+pool:
+  vmImage: ubuntu-latest
+
+steps:
+- script: python main.py
+
+- task: PublishBuildArtifacts@1
+  inputs:
+    PathtoPublish: 'mt_output.docx'
+    ArtifactName: 'SSP_MT_Living_Document.docx'
+    publishLocation: 'Container'
+
+- task: PublishBuildArtifacts@1
+  inputs:
+    PathtoPublish: 'output/gcch_output.docx'
+    ArtifactName: 'SSP_GCC_High_Living_Document.docx'
+    publishLocation: Container
+
+- task: PublishBuildArtifacts@1
+  inputs:
+    PathtoPublish: 'output/dod_output.docx'
+    ArtifactName: 'SSP_DoD_Living_Document.docx'
+    publishLocation: Container
