@@ -1,5 +1,5 @@
-from GhostRaven.content_builder import ContentBuilder
-from GhostRaven.ssp_builder import SSPBuilder
+from lib.GhostRaven.content_builder import ContentBuilder
+from lib.GhostRaven.ssp_builder import SSPBuilder
 
 
 with open('contents/Universal.yaml') as universal_contents, open('templates/mt_checkbox_templates.yaml') as checkboxes:
